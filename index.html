@@ -103,6 +103,7 @@
   .score-label { font-size: 13px; color: var(--muted); }
   .score-big { font-size: 15px; font-weight: 700; color: var(--ink); letter-spacing: -.01em; }
   .score-meta { display: block; font-size: 12px; color: var(--muted); margin-top: 1px; }
+  .meta-mobile { display: none; }
   .score-none { font-size: 13px; color: var(--muted); font-style: italic; }
   .rail-actions { display: flex; align-items: center; gap: 4px; }
   .history-line { font-size: 11.5px; color: var(--muted); margin-top: 8px; line-height: 1.5; }
@@ -229,6 +230,10 @@
   @media (max-width: 420px) {
     .score-label { display: block; }
     .score-big { font-size: 12px; }
+  }
+  @media (max-width: 599px) {
+    .meta-full { display: none; }
+    .meta-mobile { display: inline; }
   }
 </style>
 </head>
@@ -415,17 +420,23 @@ function renderMenu() {
         if (past.length) {
           const l = past[0];
           const pct = Math.round(l.score / l.total * 100);
+          const metaFull = escapeHtml(l.date || '') + (l.timeOfDay ? ' ' + escapeHtml(l.timeOfDay) : '') +
+            (l.time ? ' · ' + formatDuration(l.time) : '');
+          const metaMobile = escapeHtml(shortDate(l.date)) + (l.timeOfDay ? ' ' + escapeHtml(l.timeOfDay) : '') +
+            (l.time ? ' · ' + formatDuration(l.time) : '');
           scoreBlock = '<div class="scoreblock">' +
             '<span class="score-label">Latest Score:</span> ' +
             '<span class="score-big">' + l.score + '/' + l.total + ' (' + pct + '%)</span>' +
-            '<span class="score-meta">' + escapeHtml(l.date || '') + (l.timeOfDay ? ' ' + escapeHtml(l.timeOfDay) : '') +
-            (l.time ? ' · took ' + escapeHtml(l.time) : '') + '</span></div>';
-          const recent = past.slice(0, 2).map(a => {
+            '<span class="score-meta"><span class="meta-full">' + metaFull + '</span>' +
+            '<span class="meta-mobile">' + metaMobile + '</span></span></div>';
+          const buildRecent = (dateFn) => past.slice(0, 2).map(a => {
             const p = Math.round(a.score / a.total * 100);
-            return a.score + '/' + a.total + ' (' + p + '%) · ' + escapeHtml(a.date || '') +
+            return a.score + '/' + a.total + ' (' + p + '%) · ' + escapeHtml(dateFn(a.date) || '') +
               (a.timeOfDay ? ' ' + escapeHtml(a.timeOfDay) : '');
           }).join('  ·  ');
-          historyLine = '<div class="history-line">History: ' + recent +
+          historyLine = '<div class="history-line">History: ' +
+            '<span class="meta-full">' + buildRecent(d => d) + '</span>' +
+            '<span class="meta-mobile">' + buildRecent(shortDate) + '</span>' +
             '<span class="attempt-count">Attempts:&nbsp;' + past.length + '</span></div>';
         } else {
           scoreBlock = '<div class="scoreblock"><span class="score-none">No attempts yet</span></div>';
@@ -557,6 +568,18 @@ async function startSet(examCode, setId) {
 }
 
 // ---- session upload (A: run now, not persisted to menu) ----
+function formatDuration(t) {
+  if (!t) return "";
+  const parts = String(t).split(":").map(n => parseInt(n, 10) || 0);
+  let h = 0, m = 0, s = 0;
+  if (parts.length === 3) { [h, m, s] = parts; }
+  else if (parts.length === 2) { [m, s] = parts; }
+  else return escapeHtml(t);
+  return (h * 60 + m) + "m " + s + "s";
+}
+function shortDate(d) {
+  return String(d || "").replace(/\/\d{4}$/, "");
+}
 function escapeHtml(s) {
   return String(s == null ? "" : s).replace(/[&<>"']/g, c => (
     { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]
