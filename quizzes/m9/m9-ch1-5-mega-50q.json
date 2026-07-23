@@ -1,0 +1,652 @@
+[
+  {
+    "question": "A risk that has three possible outcomes — loss, gain, or no change — is a:",
+    "options": [
+      "Fundamental risk",
+      "Speculative risk",
+      "Particular risk",
+      "Pure risk"
+    ],
+    "correctIndex": 1,
+    "explanation": "Para 1.2: speculative risk involves three possible outcomes: loss, gain, or no change (e.g. buying shares). Insurers will not insure speculative risks. Pure risk has no possibility of gain.",
+    "reference": "M9 e-textbook Ch 1, para 1.2",
+    "chapter": "Chapter 1"
+  },
+  {
+    "question": "Which type of risk is the ONLY kind that can be insured?",
+    "options": [
+      "Any risk with a monetary value",
+      "Financial and speculative risk",
+      "Speculative risk",
+      "Pure risk"
+    ],
+    "correctIndex": 3,
+    "explanation": "Para 1.3: pure risk (loss or no loss, no possibility of gain) is the only kind that can be insured, because insurance compensates for loss, not to provide an opportunity for gain.",
+    "reference": "M9 e-textbook Ch 1, para 1.3",
+    "chapter": "Chapter 1"
+  },
+  {
+    "question": "Which is NOT one of the requirements of an insurable risk?",
+    "options": [
+      "The loss must be catastrophic to the insurer",
+      "The loss must be calculable",
+      "The loss must be definite",
+      "The loss must occur by chance"
+    ],
+    "correctIndex": 0,
+    "explanation": "Para 2.1: the loss must NOT be catastrophic to the insurer. A catastrophic loss (e.g. nuclear risk) is uninsurable. Watch the word NOT — three options are real requirements; the catastrophic one is reversed.",
+    "reference": "M9 e-textbook Ch 1, paras 2.1, 2.8",
+    "chapter": "Chapter 1"
+  },
+  {
+    "question": "Suicide within a certain period of policy inception is excluded mainly because it fails which requirement of an insurable risk?",
+    "options": [
+      "The loss must occur by chance",
+      "The loss must be calculable",
+      "The loss must be significant",
+      "The loss must be based on large numbers"
+    ],
+    "correctIndex": 0,
+    "explanation": "Para 2.5: the loss must occur by chance (be accidental, not intentional). Suicide is not accidental, so it is excluded within a set period of inception.",
+    "reference": "M9 e-textbook Ch 1, para 2.5",
+    "chapter": "Chapter 1"
+  },
+  {
+    "question": "An employer sets aside its own money to pay staff medical expenses instead of buying insurance. This method of dealing with risk is:",
+    "options": [
+      "Retaining the risk",
+      "Transferring the risk",
+      "Controlling the risk",
+      "Avoiding the risk"
+    ],
+    "correctIndex": 0,
+    "explanation": "Para 3.5: retaining the risk means assuming full financial responsibility (self-insuring). Transferring the risk is buying insurance; avoiding is not undertaking the activity; controlling is loss prevention.",
+    "reference": "M9 e-textbook Ch 1, para 3.5",
+    "chapter": "Chapter 1"
+  },
+  {
+    "question": "Careful smoking aside — a person who is overweight or has a history of heart attacks presents which kind of hazard?",
+    "options": [
+      "A physical hazard",
+      "A speculative risk",
+      "An anti-selection event",
+      "A moral hazard"
+    ],
+    "correctIndex": 0,
+    "explanation": "Para 7.2: a physical hazard is a physical characteristic that increases the likelihood of loss (e.g. heart-attack history, being overweight). Moral hazard is dishonesty (para 7.3). Note: the M9 syllabus recognises only physical and moral hazards.",
+    "reference": "M9 e-textbook Ch 1, para 7.2",
+    "chapter": "Chapter 1"
+  },
+  {
+    "question": "A person applies for a sum assured far in excess of what others in the same financial situation would buy, possibly for a dishonest reason. This is an example of:",
+    "options": [
+      "Anti-selection",
+      "Moral hazard",
+      "Physical hazard",
+      "Pooling of risk"
+    ],
+    "correctIndex": 1,
+    "explanation": "Para 7.3: moral hazard is the likelihood that a person acts dishonestly in the insurance transaction (e.g. seeking excessive cover, giving false information).",
+    "reference": "M9 e-textbook Ch 1, para 7.3",
+    "chapter": "Chapter 1"
+  },
+  {
+    "question": "Under Section 146 of the Insurance Act, insurable interest for a LIFE insurance policy must exist:",
+    "options": [
+      "At the inception of the contract only",
+      "Continuously throughout the policy term",
+      "At both inception and the time of the life insured's death",
+      "At the time of death only"
+    ],
+    "correctIndex": 0,
+    "explanation": "Para 14.13: for life insurance, insurable interest must be present at inception, but need NOT be present at the time of the life insured's death. A beneficiary need not prove insurable interest to claim.",
+    "reference": "M9 e-textbook Ch 1, para 14.13",
+    "chapter": "Chapter 1"
+  },
+  {
+    "question": "For most GENERAL insurance policies, insurable interest must exist:",
+    "options": [
+      "At inception only",
+      "At the time of loss only",
+      "At both inception and the time of loss",
+      "It is not required for general insurance"
+    ],
+    "correctIndex": 2,
+    "explanation": "Para 14.12: in most general insurance policies, insurable interest must be present at both inception and the time of loss. (Marine cargo is the exception: time of loss only.)",
+    "reference": "M9 e-textbook Ch 1, para 14.12",
+    "chapter": "Chapter 1"
+  },
+  {
+    "question": "Which type of insurance requires insurable interest at the TIME OF LOSS ONLY?",
+    "options": [
+      "Motor insurance",
+      "Fire insurance",
+      "Life insurance",
+      "Marine cargo insurance"
+    ],
+    "correctIndex": 3,
+    "explanation": "Para 14.12: marine cargo insurance is the exception — insurable interest need not exist at inception, only at the time of loss. Life is inception only; other general insurances are both.",
+    "reference": "M9 e-textbook Ch 1, para 14.12",
+    "chapter": "Chapter 1"
+  },
+  {
+    "question": "Under Section 146, a person may effect insurance on their child's or ward's life if the child or ward, at the time the policy is effected, is:",
+    "options": [
+      "Under 16 years",
+      "Under 18 years",
+      "Any age, without restriction",
+      "Under 21 years"
+    ],
+    "correctIndex": 1,
+    "explanation": "Para 14.17 (s.146(1)(b)(iii)): a person may insure a child or ward under the age of 18 at the time the policy is effected.",
+    "reference": "M9 e-textbook Ch 1, para 14.17",
+    "chapter": "Chapter 1"
+  },
+  {
+    "question": "Which of the following need NOT be disclosed by a proposer under the duty of utmost good faith?",
+    "options": [
+      "Occupational exposure to hazards",
+      "The proposer's insurance and claims history",
+      "Facts which lessen the risk",
+      "The proposer's previous criminal convictions"
+    ],
+    "correctIndex": 2,
+    "explanation": "Para 13.7: facts which lessen the risk need not be disclosed (e.g. avoiding hazardous activities). Criminal convictions, insurance/claims history and occupational hazards ARE material facts. Watch the word NOT.",
+    "reference": "M9 e-textbook Ch 1, paras 13.6-13.7",
+    "chapter": "Chapter 1"
+  },
+  {
+    "question": "The duty of disclosure for a LIFE insurance policy is revived:",
+    "options": [
+      "Only when a claim is made",
+      "On alteration, such as increasing the sum assured",
+      "On annual renewal, like general insurance",
+      "Never, once the policy is issued"
+    ],
+    "correctIndex": 1,
+    "explanation": "Para 13.12: on alteration (e.g. increasing sum assured), the duty is revived as a new contract is formed. Para 13.11: there is no revival on 'renewal' for life policies, as no new contract is formed.",
+    "reference": "M9 e-textbook Ch 1, paras 13.11-13.12",
+    "chapter": "Chapter 1"
+  },
+  {
+    "question": "The Law of Large Numbers allows an insurer to:",
+    "options": [
+      "Guarantee a profit each year",
+      "Avoid the need for premiums",
+      "Predict the final cost of claims fairly confidently as the insured group grows",
+      "Eliminate all risk of catastrophic loss"
+    ],
+    "correctIndex": 2,
+    "explanation": "Paras 12.2, 12.5: the greater the number of insured persons, the more the actual loss experience tends toward the expected, letting the insurer predict claims and charge a fixed premium.",
+    "reference": "M9 e-textbook Ch 1, paras 12.2, 12.5",
+    "chapter": "Chapter 1"
+  },
+  {
+    "question": "A key difference between insurance and gambling is that:",
+    "options": [
+      "Insurance offers the buyer a chance of financial gain",
+      "Gambling creates a new speculative risk, while insurance handles an existing pure risk",
+      "Insurance is socially unproductive",
+      "Gambling requires insurable interest"
+    ],
+    "correctIndex": 1,
+    "explanation": "Para 6.1: gambling creates a new speculative risk, whereas insurance is a technique for handling an existing pure risk. No new risk is created by insurance.",
+    "reference": "M9 e-textbook Ch 1, para 6.1",
+    "chapter": "Chapter 1"
+  },
+  {
+    "question": "When an insurer's actuary calculates premiums to cover only the expected cost of claims, this is the:",
+    "options": [
+      "Office premium",
+      "Gross premium",
+      "Loading",
+      "Net premium"
+    ],
+    "correctIndex": 3,
+    "explanation": "Para 1.12-1.13: the net premium covers the cost of claims; the loading (for expenses and profit margin) is then added to give the gross premium.",
+    "reference": "M9 e-textbook Ch 2, paras 1.12-1.13",
+    "chapter": "Chapter 2"
+  },
+  {
+    "question": "The amount added to the net premium to cover the insurer's expenses and profit margin is called the:",
+    "options": [
+      "Loading",
+      "Rebate",
+      "Reserve",
+      "Net premium"
+    ],
+    "correctIndex": 0,
+    "explanation": "Para 1.13: the total added to the net premium to cover expenses and provide a profit margin is the loading; net premium + loading = gross premium.",
+    "reference": "M9 e-textbook Ch 2, para 1.13",
+    "chapter": "Chapter 2"
+  },
+  {
+    "question": "All else being equal, a single premium is likely to be LOWER than the sum of all future regular premiums because:",
+    "options": [
+      "The insurer has the full amount upfront to invest, earning higher returns",
+      "Regular premiums include a penalty",
+      "The insurer charges less commission",
+      "Single premium policies carry no expenses"
+    ],
+    "correctIndex": 0,
+    "explanation": "Para (b) Single Premiums: the insurer has the full premium upfront for investment, earning higher returns, so the single premium tends to be lower than the sum of future regular premiums.",
+    "reference": "M9 e-textbook Ch 2, s1G(b)",
+    "chapter": "Chapter 2"
+  },
+  {
+    "question": "A policy where the owner makes single premium payments on a regular basis but can stop future payments anytime, with the policy treated as fully paid-up, is a:",
+    "options": [
+      "Yearly renewable premium policy",
+      "Regular premium policy",
+      "Recurrent single premium policy",
+      "Single premium policy"
+    ],
+    "correctIndex": 2,
+    "explanation": "Para (c) Recurrent Single Premiums: like regular premiums, payments are made on a regular basis, but the owner can discontinue future payments without affecting the policy (treated as fully paid-up). One payment done forever = single; a stoppable series = recurrent single.",
+    "reference": "M9 e-textbook Ch 2, s1G(c)",
+    "chapter": "Chapter 2"
+  },
+  {
+    "question": "Under current CPF rules, which premium types MAY be used to buy a policy with CPF monies?",
+    "options": [
+      "Regular premium only",
+      "Single premium or recurrent single premium",
+      "Yearly renewable premium only",
+      "Any premium type"
+    ],
+    "correctIndex": 1,
+    "explanation": "Para (c): under current CPF rules, only Single Premium or Recurrent Single Premium policies may be purchased using CPF monies (other restrictions apply).",
+    "reference": "M9 e-textbook Ch 2, s1G(c)",
+    "chapter": "Chapter 2"
+  },
+  {
+    "question": "A limited premium whole life policy, compared with an ordinary (regular premium) whole life policy of the same sum assured, has:",
+    "options": [
+      "Lower premiums over a longer period",
+      "Identical premiums for life",
+      "No premiums at all",
+      "Higher premiums over a shorter period"
+    ],
+    "correctIndex": 3,
+    "explanation": "Para (e) Limited Premium: premiums are paid for a specified period only, and are higher than a normal regular premium policy because the same cost is spread over a shorter period.",
+    "reference": "M9 e-textbook Ch 2, s1G(e)",
+    "chapter": "Chapter 2"
+  },
+  {
+    "question": "Paying premiums monthly instead of annually usually costs more in total because the insurer:",
+    "options": [
+      "Adds a government levy",
+      "Reduces the sum assured",
+      "Must pay higher commission",
+      "Loses interest it could have earned and incurs extra processing expenses"
+    ],
+    "correctIndex": 3,
+    "explanation": "Para (a) Regular Premiums: frequent payments cost the insurer lost interest and extra processing, so these are costed in — e.g. some insurers charge an extra 2% of annual premium for monthly payment.",
+    "reference": "M9 e-textbook Ch 2, s1G(a)",
+    "chapter": "Chapter 2"
+  },
+  {
+    "question": "Participating (with-profits) policies are life insurance products that:",
+    "options": [
+      "Share in the profits or surplus of the life insurance fund via bonuses/dividends",
+      "Pay no death benefit",
+      "Track the performance of investment units",
+      "Guarantee a fixed return with no bonuses"
+    ],
+    "correctIndex": 0,
+    "explanation": "Para 2.4: participating policies share in the profits or surplus of the fund; owners receive bonuses and/or dividends as declared. Non-par policies do not share in surplus.",
+    "reference": "M9 e-textbook Ch 3, para 2.4",
+    "chapter": "Chapter 3"
+  },
+  {
+    "question": "Which of the following can ONLY be a non-participating policy?",
+    "options": [
+      "Endowment insurance",
+      "None — all can be participating",
+      "Whole life insurance",
+      "Term insurance"
+    ],
+    "correctIndex": 3,
+    "explanation": "Para 2.5: non-participating examples are Universal Life and Term Insurance. Note after 2.5: Whole Life and Endowment are offered in BOTH par and non-par forms. So Term is non-par only.",
+    "reference": "M9 e-textbook Ch 3, para 2.5",
+    "chapter": "Chapter 3"
+  },
+  {
+    "question": "Which policy types are offered in BOTH participating and non-participating forms?",
+    "options": [
+      "Universal Life and Endowment",
+      "Term and Universal Life",
+      "Whole Life and Endowment",
+      "Term and Whole Life only"
+    ],
+    "correctIndex": 2,
+    "explanation": "Note after para 2.5: Whole Life and Endowment Insurance policies are offered in both participating and non-participating forms. Term and Universal Life are non-par only.",
+    "reference": "M9 e-textbook Ch 3, para 2.5 (note)",
+    "chapter": "Chapter 3"
+  },
+  {
+    "question": "Investment-linked policies differ from traditional products because they:",
+    "options": [
+      "Combine insurance protection with investment in funds, with values tracking the units",
+      "Are pure protection with no investment",
+      "Guarantee both death benefit and cash value",
+      "Pay bonuses from the participating fund"
+    ],
+    "correctIndex": 0,
+    "explanation": "Paras 2.6-2.7: ILPs combine insurance protection with investment in funds managed by insurers or third parties; assets and liabilities of the funds are kept separate.",
+    "reference": "M9 e-textbook Ch 3, paras 2.6-2.7",
+    "chapter": "Chapter 3"
+  },
+  {
+    "question": "A First-to-die life insurance policy pays the death benefit:",
+    "options": [
+      "In equal shares to both lives",
+      "To the estate regardless of who dies",
+      "On the death of the first of the lives insured, then cover ends",
+      "Only when both lives insured have died"
+    ],
+    "correctIndex": 2,
+    "explanation": "Table 3.1: a first-to-die policy pays on the death of one of the lives insured, to the surviving life insured, and the cover then ends. Last survivor (second-to-die) pays only on the second death.",
+    "reference": "M9 e-textbook Ch 3, Table 3.1",
+    "chapter": "Chapter 3"
+  },
+  {
+    "question": "In a contractual (non-contributory) group insurance plan:",
+    "options": [
+      "All eligible employees are covered and the employer pays the premiums",
+      "Each member is individually underwritten",
+      "Employees pay part of the premiums",
+      "A minimum number of employees must opt in"
+    ],
+    "correctIndex": 0,
+    "explanation": "Table: in a contractual (non-contributory) plan, all eligible employees are contractually covered and premiums are paid by the employer. A voluntary (contributory) plan requires employees to pay part.",
+    "reference": "M9 e-textbook Ch 3, s6",
+    "chapter": "Chapter 3"
+  },
+  {
+    "question": "Which is a characteristic of GROUP insurance compared with individual insurance?",
+    "options": [
+      "Premium rates are guaranteed for life",
+      "Cover is issued under a single master contract kept by the policy owner",
+      "Each member owns and controls their own policy",
+      "Every member is fully individually underwritten"
+    ],
+    "correctIndex": 1,
+    "explanation": "Para 6.2(a): group insurance is issued under a single master contract kept by the policy owner (e.g. employer). When a member leaves or dies, only that member's cover ends; the plan continues.",
+    "reference": "M9 e-textbook Ch 3, para 6.2(a)",
+    "chapter": "Chapter 3"
+  },
+  {
+    "question": "Which is NOT one of the ways of classifying life insurance products in the M9 syllabus?",
+    "options": [
+      "By statutory insurance fund",
+      "By distribution channel",
+      "By product type",
+      "By ownership"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ch 3 classifications are by statutory insurance fund, product type, premium type, and ownership. Distribution channel is not one of them. Watch the word NOT.",
+    "reference": "M9 e-textbook Ch 3, s1",
+    "chapter": "Chapter 3"
+  },
+  {
+    "question": "Term insurance is best described as:",
+    "options": [
+      "A policy that always builds cash value",
+      "A savings policy with a maturity value",
+      "A whole-of-life policy",
+      "Pure protection that pays only on death (or TPD if included) within the term, with no cash value"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ch 4 s2: term insurance is pure protection — it pays only if the insured event occurs within the term. It has no maturity benefit and no cash value.",
+    "reference": "M9 e-textbook Ch 4, s2",
+    "chapter": "Chapter 4"
+  },
+  {
+    "question": "A decreasing term policy used to cover a housing loan has a sum assured that:",
+    "options": [
+      "Stays level while premiums fall",
+      "Tracks the CPF Ordinary Account",
+      "Rises with the property value",
+      "Falls broadly in line with the outstanding loan balance"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ch 4 s2 / Ch 2 s1.22: mortgage reducing term cover falls broadly in step with the reducing loan balance.",
+    "reference": "M9 e-textbook Ch 4, s2",
+    "chapter": "Chapter 4"
+  },
+  {
+    "question": "A renewable term policy lets the owner:",
+    "options": [
+      "Convert to whole life at any time",
+      "Extend cover for a further term at expiry without fresh evidence of health",
+      "Withdraw cash value at renewal",
+      "Reduce premiums by proving good health"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ch 4 s2(D): renewability guarantees a further term at expiry without new health evidence, though at the premium for the attained (older) age. Convertibility is a separate option.",
+    "reference": "M9 e-textbook Ch 4, s2D",
+    "chapter": "Chapter 4"
+  },
+  {
+    "question": "The non-forfeiture option that gives a REDUCED amount of paid-up whole life cover, lasting until death with no further premiums, is:",
+    "options": [
+      "Reduced paid-up insurance",
+      "Automatic premium loan",
+      "Extended term insurance",
+      "Surrender for cash"
+    ],
+    "correctIndex": 0,
+    "explanation": "Para 3.14: reduced paid-up insurance gives a reduced amount of whole life cover, payable on the same conditions, lasting until death with no further premiums. 'Lifelong / until death' = reduced paid-up.",
+    "reference": "M9 e-textbook Ch 4, para 3.14",
+    "chapter": "Chapter 4"
+  },
+  {
+    "question": "The non-forfeiture option that keeps the FULL original sum assured but only for a fixed period is:",
+    "options": [
+      "Extended term insurance",
+      "Surrender for cash",
+      "Reduced paid-up insurance",
+      "Paid-up additions"
+    ],
+    "correctIndex": 0,
+    "explanation": "Para 3.15: extended term insurance provides paid-up term cover equal to the original face value (plus bonuses, minus indebtedness) for a fixed length of term. 'Extended TERM' = fixed period, never lifelong.",
+    "reference": "M9 e-textbook Ch 4, para 3.15",
+    "chapter": "Chapter 4"
+  },
+  {
+    "question": "If a policy owner defaults on premiums and does not elect a non-forfeiture option within the specified period, which option usually takes effect automatically?",
+    "options": [
+      "Extended term insurance",
+      "Surrender for cash",
+      "The policy simply lapses with no value",
+      "Reduced paid-up insurance"
+    ],
+    "correctIndex": 0,
+    "explanation": "Para 3.16: if the insured fails to elect an option within a specified period after default, the extended term insurance option automatically goes into effect.",
+    "reference": "M9 e-textbook Ch 4, para 3.16",
+    "chapter": "Chapter 4"
+  },
+  {
+    "question": "Extended term insurance is MOST appropriate when:",
+    "options": [
+      "The need for protection will end in the future and the owner prefers to stop paying premiums",
+      "The owner wants lifelong cover",
+      "The owner wants to keep paying premiums",
+      "The owner needs to increase cover"
+    ],
+    "correctIndex": 0,
+    "explanation": "Para 3.15: extended term is most appropriate where the need for protection will end in future but the owner prefers not to pay any more premiums.",
+    "reference": "M9 e-textbook Ch 4, para 3.15",
+    "chapter": "Chapter 4"
+  },
+  {
+    "question": "An endowment policy pays the sum assured:",
+    "options": [
+      "Only on death during the term",
+      "Only on survival to maturity",
+      "On death during the term OR survival to maturity",
+      "On diagnosis of critical illness"
+    ],
+    "correctIndex": 2,
+    "explanation": "Ch 4 s4: endowment combines protection and savings — it pays on death within the term or on survival to maturity, which is why it costs more than term.",
+    "reference": "M9 e-textbook Ch 4, s4",
+    "chapter": "Chapter 4"
+  },
+  {
+    "question": "For pure protection at the lowest initial premium, the most suitable basic policy is:",
+    "options": [
+      "Term insurance",
+      "Whole life insurance",
+      "Anticipated endowment",
+      "Endowment insurance"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ch 4: term insurance has no savings element, so its premium per dollar of cover is the lowest — ideal for temporary protection on a tight budget.",
+    "reference": "M9 e-textbook Ch 4, s2",
+    "chapter": "Chapter 4"
+  },
+  {
+    "question": "Which documents must be given to a client at the point of sale of a life policy under MAS requirements?",
+    "options": [
+      "The signed contract only",
+      "Product Summary and Policy Illustration",
+      "Annual bonus statement only",
+      "Master policy and certificate"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ch 4 s5: at point of sale the adviser provides the Product Summary and Policy Illustration (plus Your Guide to Life Insurance). The contract is issued later.",
+    "reference": "M9 e-textbook Ch 4, s5",
+    "chapter": "Chapter 4"
+  },
+  {
+    "question": "A rider (supplementary benefit) has a term that:",
+    "options": [
+      "Is set independently of the basic policy",
+      "Must not extend beyond the basic policy's term",
+      "May extend beyond the basic policy's term",
+      "Is always equal to the basic policy's term"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ch 5: a rider cannot outlast the basic policy — its term can be shorter than, but never longer than, the basic policy's term.",
+    "reference": "M9 e-textbook Ch 5, s1",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "The Waiver of Premium (TPD) rider usually has a waiting period of:",
+    "options": [
+      "90 days",
+      "Six months",
+      "30 days",
+      "One year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Para 1.18: there is usually a six-month waiting period before premiums are waived; the owner keeps paying during it to confirm the disability meets the TPD definition. (CI riders use 30-90 days — don't blur them.)",
+    "reference": "M9 e-textbook Ch 5, para 1.18",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "The Waiver of Premium rider available for separate purchase is NOT applicable to which policy type?",
+    "options": [
+      "Investment-linked policies",
+      "Single premium policies",
+      "Endowment policies",
+      "Whole life policies"
+    ],
+    "correctIndex": 1,
+    "explanation": "Para 1.11: the separately-purchased rider is not applicable to single premium policies — there are no recurring premiums to waive. Watch the word NOT.",
+    "reference": "M9 e-textbook Ch 5, para 1.11",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "A person has a S$200,000 whole life policy with a 50% Acceleration Benefit CI rider. On a covered CI diagnosis, the insurer pays:",
+    "options": [
+      "Nothing until death",
+      "S$200,000 and the policy continues",
+      "S$300,000 immediately",
+      "S$100,000, then the rider ends and the balance is paid on death/TPD"
+    ],
+    "correctIndex": 3,
+    "explanation": "Para 1.38: 50% x S$200,000 = S$100,000 paid on CI (plus 50% of bonuses); the rider terminates and the balance is paid on death or TPD. Total ever paid stays at the basic sum assured.",
+    "reference": "M9 e-textbook Ch 5, para 1.38",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "A person buys a S$100,000 whole life policy with a S$200,000 Additional Benefit CI rider. He contracts a covered CI and later dies. The total paid is:",
+    "options": [
+      "S$300,000",
+      "S$100,000",
+      "S$400,000",
+      "S$200,000"
+    ],
+    "correctIndex": 0,
+    "explanation": "Paras 1.45-1.46: S$200,000 is paid on CI, and the S$100,000 basic sum assured is paid on death. Total = S$300,000 (two separate pots).",
+    "reference": "M9 e-textbook Ch 5, paras 1.45-1.46",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "The survival period (usually 30 days) under a Critical Illness rider applies to:",
+    "options": [
+      "Both types",
+      "The Acceleration Benefit type only",
+      "Neither type",
+      "The Additional Benefit type only"
+    ],
+    "correctIndex": 3,
+    "explanation": "Para 1.87: the survival period is applicable only to the Additional Benefit type of Critical Illness rider. Acceleration has none.",
+    "reference": "M9 e-textbook Ch 5, para 1.87",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "The critical illness definitions on the industry standard list, across all insurers in Singapore, cover how many illnesses?",
+    "options": [
+      "150",
+      "37",
+      "45",
+      "30"
+    ],
+    "correctIndex": 1,
+    "explanation": "Paras 1.56-1.57: since 2003 the industry standardised definitions for a list of 37 severe critical illnesses. The figure 30 was the old per-plan cap, abolished in 2014.",
+    "reference": "M9 e-textbook Ch 5, paras 1.56-1.57",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "Which is NOT a typical exclusion under a Critical Illness rider?",
+    "options": [
+      "A first diagnosis of a covered illness meeting the policy definition",
+      "Self-inflicted injury or illness",
+      "Pre-existing illness",
+      "Infection by HIV"
+    ],
+    "correctIndex": 0,
+    "explanation": "Para 1.51: a first-incidence covered illness meeting the definition is exactly what the rider pays for, not an exclusion. Pre-existing, self-inflicted and HIV are all exclusions. Watch the word NOT.",
+    "reference": "M9 e-textbook Ch 5, para 1.51",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "When the first annual instalment of a TPD rider benefit begins, all other riders terminate EXCEPT the:",
+    "options": [
+      "Hospital Cash rider",
+      "Critical Illness rider",
+      "Extended TPD (ETPD) rider",
+      "Waiver of Premium rider"
+    ],
+    "correctIndex": 2,
+    "explanation": "Para 1.32: the moment the first TPD instalment starts, all riders terminate, with the sole exception of the Extended TPD (ETPD) rider.",
+    "reference": "M9 e-textbook Ch 5, para 1.32",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "An Accidental Death Benefit rider paying an extra amount equal to the basic sum assured on accidental death is known as providing:",
+    "options": [
+      "Double indemnity",
+      "Reduced paid-up cover",
+      "Waiver of premium",
+      "Guaranteed insurability"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ch 5 (ADB): because the extra equals the basic sum assured, total payout on accidental death doubles — 'double indemnity'. The accident must be by external, violent and visible means.",
+    "reference": "M9 e-textbook Ch 5, s1G",
+    "chapter": "Chapter 5"
+  }
+]

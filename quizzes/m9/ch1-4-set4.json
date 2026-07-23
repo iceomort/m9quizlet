@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "chapter": "Chapter 1",
+    "question": "Which situation involves a PURE risk?",
+    "options": [
+      "Placing a bet on a football match",
+      "A driver colliding with another car",
+      "Launching a new product line",
+      "Trading foreign currency"
+    ],
+    "correctIndex": 1,
+    "explanation": "A car collision has only loss or no loss, no chance of gain: pure risk, insurable. Betting, product launches and currency trading all carry a possibility of gain, so they are speculative.",
+    "reference": "M9 e-textbook Ch 1, pure vs speculative risk"
+  },
+  {
+    "id": 2,
+    "chapter": "Chapter 1",
+    "question": "Which is NOT one of the ways insurers combat anti-selection?",
+    "options": [
+      "Underwriting and selection of risks",
+      "Offering policies with different excesses",
+      "Applying pre-existing condition exclusions",
+      "Guaranteeing acceptance with no health questions"
+    ],
+    "correctIndex": 3,
+    "explanation": "Guaranteed acceptance INVITES anti-selection, it doesn't combat it. Underwriting, excesses and pre-existing exclusions are the three defences.",
+    "reference": "M9 e-textbook Ch 1, anti-selection"
+  },
+  {
+    "id": 3,
+    "chapter": "Chapter 1",
+    "question": "A key difference between insurance and gambling is that:",
+    "options": [
+      "Insurance creates a new risk; gambling transfers an existing one",
+      "Insurance transfers an existing pure risk; gambling creates a new speculative one",
+      "Both restore the loser financially",
+      "Both are socially unproductive"
+    ],
+    "correctIndex": 1,
+    "explanation": "Insurance handles a pre-existing pure risk and restores the insured; gambling manufactures a new speculative risk and is socially unproductive.",
+    "reference": "M9 e-textbook Ch 1, insurance vs gambling"
+  },
+  {
+    "id": 4,
+    "chapter": "Chapter 1",
+    "question": "Under utmost good faith, which fact must a proposer disclose?",
+    "options": [
+      "A fact of law",
+      "A fact that reduces the risk",
+      "A previous serious illness that increases the risk",
+      "A fact the insurer already knows"
+    ],
+    "correctIndex": 2,
+    "explanation": "Material facts that increase the risk must be disclosed. Facts of law, risk-reducing facts, and facts the insurer already knows are exempt from disclosure.",
+    "reference": "M9 e-textbook Ch 1, utmost good faith"
+  },
+  {
+    "id": 5,
+    "chapter": "Chapter 1",
+    "question": "Being significantly overweight, which raises the chance of a health claim, is an example of:",
+    "options": [
+      "Moral hazard",
+      "Physical hazard",
+      "Anti-selection",
+      "A speculative risk"
+    ],
+    "correctIndex": 1,
+    "explanation": "A bodily condition raising the chance of loss is a physical hazard. Moral hazard is about dishonesty; anti-selection is about who chooses to buy.",
+    "reference": "M9 e-textbook Ch 1, physical hazard"
+  },
+  {
+    "id": 6,
+    "chapter": "Chapter 1",
+    "question": "A consumer is unhappy with how a claim was handled and mediation has failed. The next step within FIDReC is:",
+    "options": [
+      "Adjudication by FIDReC",
+      "A civil court suit only",
+      "Referral to MAS for a ruling",
+      "An SDIC payout"
+    ],
+    "correctIndex": 0,
+    "explanation": "FIDReC's process is mediation first, then adjudication if unresolved. MAS regulates but does not adjudicate individual disputes; SDIC handles insurer insolvency.",
+    "reference": "M9 e-textbook Ch 1, FIDReC"
+  },
+  {
+    "id": 7,
+    "chapter": "Chapter 1",
+    "question": "The principle of indemnity means an insured:",
+    "options": [
+      "Can profit from a covered loss",
+      "Is restored to their financial position before the loss, no more",
+      "Must always accept a cash settlement",
+      "Loses the right to sue a negligent third party"
+    ],
+    "correctIndex": 1,
+    "explanation": "Indemnity restores the insured to their pre-loss position without profit. (Life policies are benefit policies, an exception to strict indemnity.)",
+    "reference": "M9 e-textbook Ch 1, indemnity"
+  },
+  {
+    "id": 8,
+    "chapter": "Chapter 2",
+    "question": "An insurer expects claims of S$800 per policy, S$70 of investment income, and needs S$140 of expenses and profit. The net premium is:",
+    "options": [
+      "S$730",
+      "S$870",
+      "S$660",
+      "S$940"
+    ],
+    "correctIndex": 0,
+    "explanation": "Net = claims minus investment income = 800 - 70 = S$730. (Gross would then be 730 + 140 = S$870, the tempting wrong answer.)",
+    "reference": "M9 e-textbook Ch 2, paras 1.10-1.13"
+  },
+  {
+    "id": 9,
+    "chapter": "Chapter 2",
+    "question": "CPF savings may be used to buy which premium type(s)?",
+    "options": [
+      "Regular premium only",
+      "Single premium and recurrent single premium",
+      "Any premium type",
+      "Yearly renewable premium only"
+    ],
+    "correctIndex": 1,
+    "explanation": "CPF monies can buy only single premium or recurrent single premium policies.",
+    "reference": "M9 e-textbook Ch 2, para 1.20(c)"
+  },
+  {
+    "id": 10,
+    "chapter": "Chapter 2",
+    "question": "Which statement about a SINGLE premium policy is correct?",
+    "options": [
+      "It is paid in yearly instalments and can lapse",
+      "The entire premium is paid once, and it is cheaper than the sum of equivalent regular premiums",
+      "Payments recur but never lapse",
+      "It is only available for term insurance"
+    ],
+    "correctIndex": 1,
+    "explanation": "Single premium: one payment, cheaper overall because the insurer invests it all upfront. Recurring-but-never-lapsing describes recurrent single premium, a different mode.",
+    "reference": "M9 e-textbook Ch 2, Table 2.1"
+  },
+  {
+    "id": 11,
+    "chapter": "Chapter 2",
+    "question": "All of the following usually reduce the premium rate EXCEPT:",
+    "options": [
+      "Being a non-smoker",
+      "A larger sum assured",
+      "Paying monthly rather than annually",
+      "Being female (for life cover)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Monthly payment costs about 2% MORE than annual, so it raises, not reduces, the effective premium. Non-smoker status, larger sum assured and being female all reduce the rate.",
+    "reference": "M9 e-textbook Ch 2, paras 1.14-1.19, Table 2.1"
+  },
+  {
+    "id": 12,
+    "chapter": "Chapter 2",
+    "question": "For HEALTH insurance, which statement about gender is correct?",
+    "options": [
+      "Women always pay less than men",
+      "Women above 65 tend to pay more, reflecting higher hospitalisation",
+      "Gender is never used in health pricing",
+      "Men above 65 pay the most"
+    ],
+    "correctIndex": 1,
+    "explanation": "The health flip: women above 65 tend to pay more due to higher hospitalisation rates, the reverse of the life-insurance pattern.",
+    "reference": "M9 e-textbook Ch 2, para 1.15"
+  },
+  {
+    "id": 13,
+    "chapter": "Chapter 2",
+    "question": "Why do larger policies often get a discount on the premium rate per S$1,000 of cover?",
+    "options": [
+      "Larger policyholders are healthier",
+      "Fixed administration costs are spread over more cover",
+      "Larger policies carry lower mortality",
+      "MAS requires volume discounts"
+    ],
+    "correctIndex": 1,
+    "explanation": "Admin costs are largely fixed regardless of size, so spreading them over a bigger sum lowers the per-S$1,000 cost. Nothing to do with mortality or health.",
+    "reference": "M9 e-textbook Ch 2, para 1.19"
+  },
+  {
+    "id": 14,
+    "chapter": "Chapter 3",
+    "question": "Which policy type is NOT a statutory insurance fund category under the Insurance Act?",
+    "options": [
+      "Participating",
+      "Non-participating",
+      "Investment-linked",
+      "Group"
+    ],
+    "correctIndex": 3,
+    "explanation": "The three statutory fund categories are participating, non-participating and investment-linked. 'Group' is an ownership arrangement, not a fund category.",
+    "reference": "M9 e-textbook Ch 3, para 2.3"
+  },
+  {
+    "id": 15,
+    "chapter": "Chapter 3",
+    "question": "A Universal Life policy is:",
+    "options": [
+      "A participating whole life paying guaranteed bonuses",
+      "A non-par, interest-sensitive plan with a declared crediting rate and flexible premiums",
+      "A term policy with a savings rider",
+      "Always sold on a group basis"
+    ],
+    "correctIndex": 1,
+    "explanation": "Universal Life is non-par, interest-sensitive, with a declared crediting rate (guaranteed minimum) and flexible premiums in amount, method and timing.",
+    "reference": "M9 e-textbook Ch 3, para 2.5"
+  },
+  {
+    "id": 16,
+    "chapter": "Chapter 3",
+    "question": "A wealthy couple wants a policy paying out only on the death of the second spouse, to fund estate duties. This is:",
+    "options": [
+      "First-to-die joint life",
+      "Last survivor (second-to-die)",
+      "Third-party",
+      "Two single life policies"
+    ],
+    "correctIndex": 1,
+    "explanation": "Payment on the second death, for estate planning, is a last survivor / second-to-die policy. First-to-die pays on the first death.",
+    "reference": "M9 e-textbook Ch 3, para 5.4"
+  },
+  {
+    "id": 17,
+    "chapter": "Chapter 3",
+    "question": "Which is an advantage of a voluntary (contributory) group plan over a contractual one?",
+    "options": [
+      "Lower administration cost",
+      "Automatic cover for all eligible employees",
+      "Employees share the cost, reducing the employer's outlay",
+      "No need for minimum participation"
+    ],
+    "correctIndex": 2,
+    "explanation": "In a voluntary plan employees pay part of the cost. Low admin, auto-cover and no minimum-participation requirement are features of the contractual plan.",
+    "reference": "M9 e-textbook Ch 3, para 6.5"
+  },
+  {
+    "id": 18,
+    "chapter": "Chapter 3",
+    "question": "Which of the following is NOT true of a third-party policy?",
+    "options": [
+      "The policy owner and life insured are different people",
+      "The roles of owner and life insured are unequal",
+      "A payor benefit rider may waive premiums if the owner dies",
+      "The owner and life insured are always spouses insured jointly"
+    ],
+    "correctIndex": 3,
+    "explanation": "Two spouses insured jointly describes joint life, not third-party. Third-party = different owner and life insured with unequal roles, often with a payor benefit rider.",
+    "reference": "M9 e-textbook Ch 3, para 5.6"
+  },
+  {
+    "id": 19,
+    "chapter": "Chapter 3",
+    "question": "Group insurance premiums are generally cheaper than individual cover mainly because:",
+    "options": [
+      "The government subsidises group schemes",
+      "Group underwriting and one master contract lower administration and selection costs",
+      "Group members are always younger",
+      "Bonuses are never paid"
+    ],
+    "correctIndex": 1,
+    "explanation": "One master contract plus group underwriting/experience rating cuts admin and selection costs, making group cover cheaper. Not a subsidy or an age effect.",
+    "reference": "M9 e-textbook Ch 3, Table 3.2"
+  },
+  {
+    "id": 20,
+    "chapter": "Chapter 3",
+    "question": "Whole Life and Endowment policies share which characteristic that Term does not?",
+    "options": [
+      "They can be issued as participating policies",
+      "They must be kept in a separate fund",
+      "They are non-par only",
+      "They pay only on death"
+    ],
+    "correctIndex": 0,
+    "explanation": "Whole Life and Endowment can be participating; Term is non-par only. Separate funds apply to ILPs, and endowments also pay on survival.",
+    "reference": "M9 e-textbook Ch 3, para 2.5"
+  },
+  {
+    "id": 21,
+    "chapter": "Chapter 4",
+    "question": "A homeowner wants cover that falls in step with a 20-year housing loan. The suitable term shape is:",
+    "options": [
+      "Level term",
+      "Decreasing term",
+      "Increasing term",
+      "Renewable term"
+    ],
+    "correctIndex": 1,
+    "explanation": "A shrinking loan needs shrinking cover: decreasing term (mortgage reducing term). Draw the need as a falling line, match the falling shape.",
+    "reference": "M9 e-textbook Ch 4, paras 2.9-2.13"
+  },
+  {
+    "id": 22,
+    "chapter": "Chapter 4",
+    "question": "Which statement about a mortgage decreasing term policy is correct?",
+    "options": [
+      "The sum assured always equals the exact outstanding loan",
+      "The sum assured follows a schedule fixed at outset using an assumed interest rate",
+      "The premium rises each year with the loan",
+      "It pays a maturity value if the borrower survives"
+    ],
+    "correctIndex": 1,
+    "explanation": "The reducing schedule is fixed at outset on assumptions, so the payout tracks but need not exactly equal the actual loan. It is pure protection with no maturity value.",
+    "reference": "M9 e-textbook Ch 4, paras 2.12-2.13"
+  },
+  {
+    "id": 23,
+    "chapter": "Chapter 4",
+    "question": "Which non-forfeiture choice provides the FULL original sum assured, but only for a limited period, with no further premiums?",
+    "options": [
+      "Reduced paid-up whole life",
+      "Extended term insurance",
+      "Cash surrender",
+      "Automatic premium loan"
+    ],
+    "correctIndex": 1,
+    "explanation": "Full sum, fixed period = extended term (tall-and-short). 'Extended TERM' contains term = fixed period. Reduced paid-up keeps lifetime cover but a smaller sum.",
+    "reference": "M9 e-textbook Ch 4, para 3.15"
+  },
+  {
+    "id": 24,
+    "chapter": "Chapter 4",
+    "question": "A policyholder stops paying but makes no election. Under the automatic premium loan provision, the insurer will:",
+    "options": [
+      "Immediately surrender the policy for cash",
+      "Advance the cash value as a loan (with interest) to pay the premiums due",
+      "Convert the policy to extended term at once",
+      "Cancel the policy after 30 days"
+    ],
+    "correctIndex": 1,
+    "explanation": "APL lends against the cash value, with interest, to keep premiums paid until the value is exhausted. Extended term is the later fallback if nothing is elected and the value runs out.",
+    "reference": "M9 e-textbook Ch 14, paras 8.42-8.44"
+  },
+  {
+    "id": 25,
+    "chapter": "Chapter 4",
+    "question": "'Whole Life' in the product name refers to:",
+    "options": [
+      "The period over which premiums are paid",
+      "The duration of the insurance protection",
+      "The length of the free-look period",
+      "The time until the policy matures at 65"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Whole Life' describes lifelong PROTECTION, not the premium-paying period. Ordinary vs limited-payment whole life differ only in how long you pay.",
+    "reference": "M9 e-textbook Ch 4, para 3.1"
+  },
+  {
+    "id": 26,
+    "chapter": "Chapter 4",
+    "question": "A Limited Premium Payment Whole Life policy 'paid-up at 65' means:",
+    "options": [
+      "Cover stops at age 65",
+      "Premiums stop at 65 but cover continues for life",
+      "The maturity value is paid at 65",
+      "The policy converts to term at 65"
+    ],
+    "correctIndex": 1,
+    "explanation": "Paid-up at 65 = premiums cease at 65; lifelong cover continues. Don't confuse premium term with coverage term.",
+    "reference": "M9 e-textbook Ch 4, paras 3.19-3.24"
+  },
+  {
+    "id": 27,
+    "chapter": "Chapter 4",
+    "question": "Which need is best matched to an endowment policy?",
+    "options": [
+      "Clearing a decreasing home loan",
+      "Providing a lump sum for a child's university fees in 15 years",
+      "Cheapest possible protection for a fixed term",
+      "Lifelong cover for funeral costs"
+    ],
+    "correctIndex": 1,
+    "explanation": "A dated savings goal with protection meanwhile = endowment. Decreasing loan = decreasing term; cheapest fixed-term = term; lifelong = whole life.",
+    "reference": "M9 e-textbook Ch 4, paras 4.11-4.15"
+  },
+  {
+    "id": 28,
+    "chapter": "Chapter 4",
+    "question": "Among term, whole life and endowment, which typically has the HIGHEST premium for the same sum assured, and why?",
+    "options": [
+      "Term, because it renews yearly",
+      "Whole life, because it lasts a lifetime",
+      "Endowment, because a payout is almost certain (death or maturity)",
+      "They all cost the same"
+    ],
+    "correctIndex": 2,
+    "explanation": "Endowment is dearest because someone is paid in every outcome, so the insurer will almost certainly pay. Term is cheapest (may pay nothing); whole life sits between.",
+    "reference": "M9 e-textbook Ch 4, para 4.7"
+  },
+  {
+    "id": 29,
+    "chapter": "Chapter 4",
+    "question": "Which document originates from the LIA rather than a MAS notice?",
+    "options": [
+      "Product Summary",
+      "Policy Illustration",
+      "Your Guide To Life Insurance",
+      "Product Highlights Sheet"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Your Guide To Life Insurance' comes from the LIA. The Product Summary, Policy Illustration and Product Highlights Sheet are tied to MAS notices (FAA-N16 / Notice 307).",
+    "reference": "M9 e-textbook Ch 4, paras 5.1-5.3"
+  },
+  {
+    "id": 30,
+    "chapter": "Chapter 4",
+    "question": "On an online no-advice platform, before purchase the client must acknowledge a self-assessment (Annex A) covering:",
+    "options": [
+      "The insurer's solvency ratio",
+      "Affordability, DPI comparison and suitability",
+      "The agent's commission rate",
+      "The fund's past performance"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Annex A self-check covers affordability (via the MoneySense budget calculator), whether a Direct Purchase Insurance product would suit, and general suitability.",
+    "reference": "M9 e-textbook Ch 4, Guideline ID01/17"
+  }
+]

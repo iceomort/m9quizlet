@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "chapter": "Chapter 1",
+    "question": "Which of the following is a PURE risk that an insurer would be willing to cover?",
+    "options": [
+      "Investing S$10,000 in a friend's start-up",
+      "The family home being destroyed by fire",
+      "Buying a 4D lottery ticket",
+      "Opening a hawker stall hoping to profit"
+    ],
+    "correctIndex": 1,
+    "explanation": "Fire destroying a home has only two outcomes, loss or no loss, so it is a pure risk and insurable. The other three carry a possibility of gain, making them speculative and uninsurable.",
+    "reference": "M9 e-textbook Ch 1, pure vs speculative risk"
+  },
+  {
+    "id": 2,
+    "chapter": "Chapter 1",
+    "question": "A 45-year-old applicant has a history of two heart attacks. In underwriting terms, this is:",
+    "options": [
+      "A moral hazard",
+      "A physical hazard",
+      "Anti-selection",
+      "A speculative risk"
+    ],
+    "correctIndex": 1,
+    "explanation": "A health or body characteristic that raises the chance of loss is a physical hazard. Moral hazard concerns dishonesty or suspicious motive, not medical history.",
+    "reference": "M9 e-textbook Ch 1, physical vs moral hazard"
+  },
+  {
+    "id": 3,
+    "chapter": "Chapter 1",
+    "question": "For a life insurance policy, insurable interest must exist:",
+    "options": [
+      "At inception and at the time of the claim",
+      "At inception only",
+      "At the time of the claim only",
+      "At neither point"
+    ],
+    "correctIndex": 1,
+    "explanation": "Life needs insurable interest at inception only. It is general (property) insurance that needs it at both inception and the time of loss. Keep the two rules side by side.",
+    "reference": "M9 e-textbook Ch 1, insurable interest timing"
+  },
+  {
+    "id": 4,
+    "chapter": "Chapter 1",
+    "question": "Which of the following is NOT a recognised exemption from the duty of disclosure under utmost good faith?",
+    "options": [
+      "Facts of law",
+      "Facts the insurer could reasonably be expected to know",
+      "Facts that worsen the risk",
+      "Facts that reduce the risk"
+    ],
+    "correctIndex": 2,
+    "explanation": "Facts that worsen the risk are exactly what must be disclosed, so they are not an exemption. Facts of law, facts the insurer is presumed to know, and facts that reduce the risk are among the recognised exemptions.",
+    "reference": "M9 e-textbook Ch 1, disclosure exemptions"
+  },
+  {
+    "id": 5,
+    "chapter": "Chapter 1",
+    "question": "The principle that a person may not recover more than their actual financial loss is:",
+    "options": [
+      "Utmost good faith",
+      "Insurable interest",
+      "Indemnity",
+      "Subrogation"
+    ],
+    "correctIndex": 2,
+    "explanation": "Indemnity restores the insured to their pre-loss financial position, with no profit from a claim. Life policies are technically benefit policies rather than strict indemnity.",
+    "reference": "M9 e-textbook Ch 1, indemnity"
+  },
+  {
+    "id": 6,
+    "chapter": "Chapter 1",
+    "question": "Which statement about insurance versus gambling is correct?",
+    "options": [
+      "Both create a new speculative risk",
+      "Insurance handles an existing pure risk; gambling creates a new speculative risk",
+      "Both are socially unproductive",
+      "Gambling handles an existing pure risk; insurance creates a new speculative risk"
+    ],
+    "correctIndex": 1,
+    "explanation": "Insurance handles an existing pure risk and is socially productive; gambling manufactures a new speculative risk and is socially unproductive. Mock Exam 2 Q15 swaps these words.",
+    "reference": "M9 e-textbook Ch 1, insurance vs gambling"
+  },
+  {
+    "id": 7,
+    "chapter": "Chapter 1",
+    "question": "Which body handles disputes between consumers and financial institutions in Singapore, offering adjudication after mediation?",
+    "options": [
+      "MAS",
+      "FIDReC",
+      "SDIC",
+      "LIA"
+    ],
+    "correctIndex": 1,
+    "explanation": "FIDReC resolves consumer disputes through mediation then adjudication. MAS is the regulator, SDIC runs deposit and policy protection, and LIA is the industry association.",
+    "reference": "M9 e-textbook Ch 1, Singapore market / FIDReC"
+  },
+  {
+    "id": 8,
+    "chapter": "Chapter 2",
+    "question": "An insurer expects claims of S$600 per policyholder, expects S$50 of investment income per policy, and needs S$120 for expenses and profit. The GROSS premium is:",
+    "options": [
+      "S$670",
+      "S$550",
+      "S$720",
+      "S$630"
+    ],
+    "correctIndex": 0,
+    "explanation": "Net = 600 - 50 = S$550. Gross = net + loading = 550 + 120 = S$670. S$720 forgets the investment-income discount; S$550 stops at the net premium.",
+    "reference": "M9 e-textbook Ch 2, paras 1.10-1.13"
+  },
+  {
+    "id": 9,
+    "chapter": "Chapter 2",
+    "question": "Which of the following is NOT one of the seven factors used in pricing a life premium?",
+    "options": [
+      "Smoking status",
+      "Frequency of premium payment",
+      "The applicant's nationality",
+      "Sum assured"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nationality is not a pricing factor, a common distractor like occupation. Smoking, frequency of payment and sum assured are all on the list of seven.",
+    "reference": "M9 e-textbook Ch 2, para 1.2"
+  },
+  {
+    "id": 10,
+    "chapter": "Chapter 2",
+    "question": "Paying premiums monthly rather than annually usually:",
+    "options": [
+      "Costs slightly more overall",
+      "Costs slightly less overall",
+      "Costs exactly the same",
+      "Is not permitted by MAS"
+    ],
+    "correctIndex": 0,
+    "explanation": "Monthly payment costs roughly 2% more than annual, because the insurer loses some investment income and incurs more admin from spreading collection.",
+    "reference": "M9 e-textbook Ch 2, Table 2.1"
+  },
+  {
+    "id": 11,
+    "chapter": "Chapter 2",
+    "question": "A 24-year-old female is charged the same rate as a 21-year-old male. This pricing method is called:",
+    "options": [
+      "Experience rating",
+      "Reduction in age",
+      "Attained-age loading",
+      "Unisex rating"
+    ],
+    "correctIndex": 1,
+    "explanation": "Reduction in age reflects that females live longer, so a female is priced as a younger male for life cover.",
+    "reference": "M9 e-textbook Ch 2, para 1.14"
+  },
+  {
+    "id": 12,
+    "chapter": "Chapter 2",
+    "question": "Which premium mode requires the whole premium to be paid once, and is cheaper than the sum of equivalent regular premiums?",
+    "options": [
+      "Limited premium",
+      "Single premium",
+      "Recurrent single premium",
+      "Yearly renewable premium"
+    ],
+    "correctIndex": 1,
+    "explanation": "Single premium is one lump sum at the outset, cheaper overall because the insurer gets all the money upfront to invest.",
+    "reference": "M9 e-textbook Ch 2, Table 2.1"
+  },
+  {
+    "id": 13,
+    "chapter": "Chapter 2",
+    "question": "Larger sum assured policies often attract a discount on the rate per S$1,000 because:",
+    "options": [
+      "Larger policies have lower mortality",
+      "Administration costs are largely fixed regardless of policy size",
+      "Larger policies must be single premium",
+      "Wealthier clients are healthier"
+    ],
+    "correctIndex": 1,
+    "explanation": "Fixed admin cost spread over a bigger policy means a lower cost per S$1,000. It has nothing to do with mortality.",
+    "reference": "M9 e-textbook Ch 2, para 1.19"
+  },
+  {
+    "id": 14,
+    "chapter": "Chapter 3",
+    "question": "Under the Insurance Act 1966, which type of policy MUST be maintained in its own separate insurance fund?",
+    "options": [
+      "Participating policies",
+      "Non-participating policies",
+      "Investment-linked policies",
+      "Group term policies"
+    ],
+    "correctIndex": 2,
+    "explanation": "Investment-linked policies must be kept in a separate fund. Par and non-par may share one. The must-versus-may distinction is the classic trap (Set B Q66).",
+    "reference": "M9 e-textbook Ch 3, para 2.3"
+  },
+  {
+    "id": 15,
+    "chapter": "Chapter 3",
+    "question": "Which product is offered ONLY on a non-participating basis?",
+    "options": [
+      "Whole Life",
+      "Endowment",
+      "Universal Life",
+      "Anticipated Endowment"
+    ],
+    "correctIndex": 2,
+    "explanation": "Universal Life, along with Term, is non-par only. Whole Life, Endowment and the anticipated endowment variant can be participating.",
+    "reference": "M9 e-textbook Ch 3, para 2.5"
+  },
+  {
+    "id": 16,
+    "chapter": "Chapter 3",
+    "question": "A Universal Life policy is best described as:",
+    "options": [
+      "A participating whole life with guaranteed bonuses",
+      "An interest-sensitive non-par plan with flexible premiums and a declared crediting rate",
+      "A term policy with a maturity value",
+      "A group plan for high-net-worth clients"
+    ],
+    "correctIndex": 1,
+    "explanation": "Universal Life is non-par, interest sensitive, with a declared crediting rate (subject to a guaranteed minimum) and premiums flexible in amount, method and timing.",
+    "reference": "M9 e-textbook Ch 3, para 2.5"
+  },
+  {
+    "id": 17,
+    "chapter": "Chapter 3",
+    "question": "An estate-planning couple wants a policy that pays out only when the SECOND of them dies. This is a:",
+    "options": [
+      "First-to-die joint life policy",
+      "Last survivor (second-to-die) policy",
+      "Third-party policy",
+      "Single life policy"
+    ],
+    "correctIndex": 1,
+    "explanation": "Paying on the second death is a last survivor or second-to-die policy, typically used for estate planning and uncommon in Singapore. First-to-die pays on the first death.",
+    "reference": "M9 e-textbook Ch 3, para 5.4"
+  },
+  {
+    "id": 18,
+    "chapter": "Chapter 3",
+    "question": "Under a voluntary (contributory) group plan, the insurer typically requires:",
+    "options": [
+      "The employer to pay all premiums",
+      "A minimum level of employee participation",
+      "Every eligible employee to be automatically covered",
+      "No underwriting of any kind"
+    ],
+    "correctIndex": 1,
+    "explanation": "Because employees opt in and pay part of the cost, the insurer demands minimum participation to defend against anti-selection.",
+    "reference": "M9 e-textbook Ch 3, para 6.5"
+  },
+  {
+    "id": 19,
+    "chapter": "Chapter 3",
+    "question": "Which of the following is an advantage of a CONTRACTUAL (non-contributory) group plan?",
+    "options": [
+      "Employees choose their own level of cover",
+      "Employees share part of the premium cost",
+      "Ease of administration, lower cost, and employer control over the benefit structure",
+      "Employees may opt in or out at any time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Easy admin, lower cost and employer control are the contractual advantages. The other three describe the voluntary plan.",
+    "reference": "M9 e-textbook Ch 3, para 6.5"
+  },
+  {
+    "id": 20,
+    "chapter": "Chapter 3",
+    "question": "Compared with individual insurance, group insurance is generally characterised by:",
+    "options": [
+      "Individual underwriting of each member",
+      "A separate contract for each employee",
+      "One master contract with group underwriting or experience rating",
+      "Cover that continues after the member leaves the group"
+    ],
+    "correctIndex": 2,
+    "explanation": "Group insurance uses one master contract, group underwriting or experience rating, is cheaper, and cover ends when you leave. The other options describe individual insurance.",
+    "reference": "M9 e-textbook Ch 3, Table 3.2"
+  },
+  {
+    "id": 21,
+    "chapter": "Chapter 3",
+    "question": "A third-party policy is one where:",
+    "options": [
+      "The policy owner and the life insured are the same person",
+      "The policy owner and the life insured are different people, with unequal roles",
+      "Two lives are insured under one contract",
+      "One master contract covers many lives"
+    ],
+    "correctIndex": 1,
+    "explanation": "Third-party means owner and life insured are different people with unequal roles, for example a father owning a policy on his child. Owner equalling life insured is a single life policy.",
+    "reference": "M9 e-textbook Ch 3, para 5.6"
+  },
+  {
+    "id": 22,
+    "chapter": "Chapter 4",
+    "question": "A borrower wants cover on a S$250,000 renovation loan being repaid over 6 years. The most suitable term shape is:",
+    "options": [
+      "Level term",
+      "Decreasing term",
+      "Increasing term",
+      "Renewable term"
+    ],
+    "correctIndex": 1,
+    "explanation": "A loan balance shrinks over time, so the cover should shrink too: decreasing term, in the Credit Life family. Sketch the need as a line: falling need, falling cover.",
+    "reference": "M9 e-textbook Ch 4, paras 2.9-2.10"
+  },
+  {
+    "id": 23,
+    "chapter": "Chapter 4",
+    "question": "Converting a term policy to whole life requires the client to:",
+    "options": [
+      "Prove they are still in good health",
+      "Provide evidence of insurability",
+      "Do neither of the above; conversion needs no health evidence",
+      "Undergo a fresh medical examination"
+    ],
+    "correctIndex": 2,
+    "explanation": "Conversion is done without evidence of insurability, so no health proof is needed. That guarantee is the whole value of the convertible option (Mock 1 Q63).",
+    "reference": "M9 e-textbook Ch 4, para 2.36"
+  },
+  {
+    "id": 24,
+    "chapter": "Chapter 4",
+    "question": "Whole life insurance builds a cash value because:",
+    "options": [
+      "The insurer adds a savings bonus each year",
+      "Level premiums overcharge in early years relative to rising mortality, and the excess is banked",
+      "Policyholders pay a separate savings premium on top",
+      "The government subsidises whole life policies"
+    ],
+    "correctIndex": 1,
+    "explanation": "A level premium on a rising risk means you overpay when young; that banked excess, invested, is the cash value. It is a structural by-product, not an add-on.",
+    "reference": "M9 e-textbook Ch 4, paras 3.6-3.9"
+  },
+  {
+    "id": 25,
+    "chapter": "Chapter 4",
+    "question": "A policyholder stops paying and elects nothing. The insurer advances the cash value as a loan to keep paying the premiums. This is the:",
+    "options": [
+      "Extended term option",
+      "Reduced paid-up option",
+      "Automatic Premium Loan",
+      "Surrender option"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Automatic Premium Loan lends against the cash value, with interest, to pay premiums until the value runs out.",
+    "reference": "M9 e-textbook Ch 14, paras 8.42-8.44"
+  },
+  {
+    "id": 26,
+    "chapter": "Chapter 4",
+    "question": "Which non-forfeiture option keeps the policy providing lifelong protection at a reduced sum assured, with no further premiums?",
+    "options": [
+      "Extended term insurance",
+      "Reduced paid-up whole life",
+      "Surrender for cash",
+      "Convertible term"
+    ],
+    "correctIndex": 1,
+    "explanation": "Reduced paid-up whole life keeps lifetime cover at a smaller sum with no further premiums. Extended term keeps the full sum but only for a fixed period; surrender ends cover.",
+    "reference": "M9 e-textbook Ch 4, paras 3.10-3.18"
+  },
+  {
+    "id": 27,
+    "chapter": "Chapter 4",
+    "question": "A Limited Premium Payment Whole Life policy is paid-up at age 65. This means:",
+    "options": [
+      "Cover ends at age 65",
+      "Premiums stop at 65 but cover continues for the whole of life",
+      "The policy converts to term at 65",
+      "The sum assured is paid out at 65"
+    ],
+    "correctIndex": 1,
+    "explanation": "Paid-up at 65 means premiums stop at 65; cover continues for the whole of life. Do not confuse premium term with coverage term.",
+    "reference": "M9 e-textbook Ch 4, paras 3.19-3.24"
+  },
+  {
+    "id": 28,
+    "chapter": "Chapter 4",
+    "question": "An endowment policy differs from whole life mainly because it:",
+    "options": [
+      "Never builds a cash value",
+      "Pays a maturity value if the insured survives the term",
+      "Can only be bought on a non-par basis",
+      "Has no death benefit"
+    ],
+    "correctIndex": 1,
+    "explanation": "Endowment adds a survival payout: the sum assured on death during the term, or the maturity value if alive at the end. That survival certainty is why it is the priciest of the three.",
+    "reference": "M9 e-textbook Ch 4, para 4.2"
+  },
+  {
+    "id": 29,
+    "chapter": "Chapter 4",
+    "question": "Mr Goh's anticipated endowment has a sum assured of S$60,000. He has received S$18,000 in cashbacks and then dies before maturity. His beneficiaries receive:",
+    "options": [
+      "S$42,000",
+      "S$60,000",
+      "S$78,000",
+      "S$18,000"
+    ],
+    "correctIndex": 1,
+    "explanation": "The full S$60,000 sum assured is paid. Cashback slices already received are not deducted from the death benefit.",
+    "reference": "M9 e-textbook Ch 4, para 4.10"
+  },
+  {
+    "id": 30,
+    "chapter": "Chapter 4",
+    "question": "Which document must a representative furnish ONLY when recommending an Investment-Linked Policy?",
+    "options": [
+      "Product Summary",
+      "Policy Illustration",
+      "Product Highlights Sheet",
+      "Cover Page"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Product Highlights Sheet is required specifically for ILPs. The Product Summary, Policy Illustration and Cover Page apply across life policies generally.",
+    "reference": "M9 e-textbook Ch 4, paras 5.1-5.3"
+  }
+]

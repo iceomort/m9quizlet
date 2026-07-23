@@ -1,0 +1,106 @@
+[
+  {
+    "question": "A client wants extra death cover that decreases each year to match his shrinking home loan. Which rider fits?",
+    "options": [
+      "Decreasing Term Rider",
+      "Level Term Rider",
+      "Family Income Benefit Rider",
+      "Guaranteed Insurability Option Rider"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cover falls, need falls, loan falls. A Decreasing Term Rider tracks a shrinking mortgage and is cheaper than a standalone decreasing term policy. 'Decreasing' is the keyword pointing to mortgage.",
+    "reference": "M9 e-textbook Ch 5, para 1.141",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "Which CI rider type can be sized at a multiple (e.g. 5x) of the basic policy's sum assured?",
+    "options": [
+      "Acceleration Benefit",
+      "Additional Benefit",
+      "Both types",
+      "Neither type"
+    ],
+    "correctIndex": 1,
+    "explanation": "Additional is a separate pot on top of the basic, so it can be a multiple of the basic SA. Acceleration is pre-paid out of the basic pot, so it cannot exceed it.",
+    "reference": "M9 e-textbook Ch 5, Table 5.1",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "A person has a S$100,000 whole life policy. Which rider arrangement is POSSIBLE?",
+    "options": [
+      "A S$250,000 Acceleration Benefit CI rider",
+      "Both are possible",
+      "A S$250,000 Additional Benefit CI rider",
+      "Neither is possible"
+    ],
+    "correctIndex": 2,
+    "explanation": "Additional is a separate pot and can be a multiple of the basic (here 2.5x), so S$250,000 is fine. Acceleration is pre-paid from the S$100,000 basic pot, so it cannot exceed S$100,000. A S$250k figure on a small policy flags Additional, not Acceleration.",
+    "reference": "M9 e-textbook Ch 5, Table 5.1",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "The rider sum assured of an Acceleration Benefit CI rider:",
+    "options": [
+      "Can be up to five times the basic sum assured",
+      "Is unlimited",
+      "Must always equal exactly half the basic sum assured",
+      "Must not exceed the basic policy's sum assured"
+    ],
+    "correctIndex": 3,
+    "explanation": "Because acceleration is pre-paid out of the basic sum assured, it cannot exceed it. Only the Additional Benefit type can be a multiple.",
+    "reference": "M9 e-textbook Ch 5, Table 5.1",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "A survival period (usually 30 days after diagnosis) applies to which CI rider type?",
+    "options": [
+      "Additional Benefit only",
+      "Acceleration Benefit only",
+      "Both types",
+      "Neither type"
+    ],
+    "correctIndex": 0,
+    "explanation": "Only the Additional Benefit type carries a survival period, because it pays a separate sum on top and the insurer wants proof of genuine survival. Acceleration just pre-pays the death benefit, so no survival test.",
+    "reference": "M9 e-textbook Ch 5, para 1.87",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "A client with an Acceleration Benefit CI rider is diagnosed with a covered illness. Regarding a survival period:",
+    "options": [
+      "He must survive 30 days before the claim pays",
+      "There is no survival period for this rider type",
+      "He must survive 90 days before the claim pays",
+      "He must survive six months before the claim pays"
+    ],
+    "correctIndex": 1,
+    "explanation": "Acceleration has no survival period, the money is the death benefit paid early, so there is nothing to prove. Survival periods apply to Additional Benefit only.",
+    "reference": "M9 e-textbook Ch 5, para 1.87",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "Which body standardises the definitions of critical illnesses for insurers in Singapore?",
+    "options": [
+      "The Singapore College of Insurance (SCI)",
+      "The Monetary Authority of Singapore (MAS)",
+      "The Life Insurance Association (LIA)",
+      "Each insurer sets its own"
+    ],
+    "correctIndex": 2,
+    "explanation": "The LIA standardises the definitions across all insurers. Not MAS, not SCI, not the individual insurer. It is the definitions that are standardised, not the number of conditions.",
+    "reference": "M9 e-textbook Ch 5, para 1.56",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "A client needs a dated lump sum for his child's university fees in 15 years. Which is the WRONG tool for this need?",
+    "options": [
+      "An endowment policy",
+      "A savings plan with a fixed maturity date",
+      "A term rider timed to end at university entry",
+      "A Decreasing Term Rider"
+    ],
+    "correctIndex": 3,
+    "explanation": "A dated lump sum need points to endowment or a maturity-dated plan. A Decreasing Term Rider is for a shrinking need like a mortgage, its falling cover is the opposite of a fixed future lump sum. Match the shape: dated lump sum = endowment; decreasing = mortgage.",
+    "reference": "M9 e-textbook Ch 5, para 1.141",
+    "chapter": "Chapter 5"
+  }
+]

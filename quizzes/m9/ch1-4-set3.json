@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "chapter": "Chapter 1",
+    "question": "A factory owner insures his warehouse against fire. Six months later he sells the warehouse but keeps the policy running. It burns down the next week. Why is his claim likely to fail?",
+    "options": [
+      "He no longer has insurable interest at the time of loss",
+      "Fire is a speculative risk",
+      "He never had insurable interest",
+      "The policy lapsed automatically on sale"
+    ],
+    "correctIndex": 0,
+    "explanation": "General insurance requires insurable interest at BOTH inception and the time of loss. He had it at inception but lost it when he sold, so at the moment of the fire he had none.",
+    "reference": "M9 e-textbook Ch 1, insurable interest timing (general)"
+  },
+  {
+    "id": 2,
+    "chapter": "Chapter 1",
+    "question": "Which of the following is NOT a requirement of an insurable risk?",
+    "options": [
+      "The loss must be measurable in money",
+      "There must be a large number of similar exposure units",
+      "The loss must offer the chance of financial gain",
+      "The loss must be fortuitous (accidental)"
+    ],
+    "correctIndex": 2,
+    "explanation": "A chance of gain makes a risk speculative and UNinsurable. Insurable risks are pure risks: measurable, numerous, fortuitous, not catastrophic to the insurer. Read 'NOT' carefully.",
+    "reference": "M9 e-textbook Ch 1, requirements of insurable risk"
+  },
+  {
+    "id": 3,
+    "chapter": "Chapter 1",
+    "question": "An agent tells a client a minor detail is unimportant and not to bother disclosing it. The client relies on this. The doctrine that may stop the insurer denying the claim later is:",
+    "options": [
+      "Indemnity",
+      "Subrogation",
+      "Waiver",
+      "Contribution"
+    ],
+    "correctIndex": 2,
+    "explanation": "Waiver: the insurer, through its agent, gave up the right to that information, so it cannot later rely on non-disclosure of it. Indemnity/subrogation/contribution are unrelated claim-settlement principles.",
+    "reference": "M9 e-textbook Ch 1, waiver"
+  },
+  {
+    "id": 4,
+    "chapter": "Chapter 1",
+    "question": "SDIC's policy owners' protection scheme is designed to:",
+    "options": [
+      "Guarantee investment returns on ILPs",
+      "Protect policy owners if an insurer fails, within scheme limits",
+      "Reimburse mis-selling losses",
+      "Replace the need for FIDReC"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Policy Owners' Protection Scheme (run by SDIC) protects policyholders if an insurer becomes insolvent, subject to caps. It doesn't guarantee returns or cover mis-selling.",
+    "reference": "M9 e-textbook Ch 1, SDIC / PPF"
+  },
+  {
+    "id": 5,
+    "chapter": "Chapter 1",
+    "question": "The likelihood that a policyholder will act dishonestly, such as staging a loss, is called:",
+    "options": [
+      "Physical hazard",
+      "Moral hazard",
+      "Anti-selection",
+      "Fundamental risk"
+    ],
+    "correctIndex": 1,
+    "explanation": "Moral hazard concerns dishonest conduct or intent. Physical hazard is a bodily/property characteristic; anti-selection is worse-than-average risks being keener to buy.",
+    "reference": "M9 e-textbook Ch 1, moral hazard"
+  },
+  {
+    "id": 6,
+    "chapter": "Chapter 1",
+    "question": "Which pair correctly matches the market body to its role?",
+    "options": [
+      "LIA regulates insurers; MAS is an industry association",
+      "MAS is the regulator; LIA is the life insurers' industry association",
+      "FIDReC sets premium rates; SDIC mediates disputes",
+      "GIA regulates life insurance; LIA regulates general insurance"
+    ],
+    "correctIndex": 1,
+    "explanation": "MAS is the statutory regulator; LIA is the Life Insurance Association (industry body). FIDReC resolves disputes, SDIC runs protection schemes, GIA is the general insurance association.",
+    "reference": "M9 e-textbook Ch 1, market structure"
+  },
+  {
+    "id": 7,
+    "chapter": "Chapter 1",
+    "question": "A man buys a life policy on his business partner, on whom the business depends financially. At what point must insurable interest exist?",
+    "options": [
+      "At inception only",
+      "At the time of the partner's death only",
+      "At both inception and death",
+      "Insurable interest is not required between business partners"
+    ],
+    "correctIndex": 0,
+    "explanation": "Life insurance requires insurable interest at inception only. A business partner with financial dependency is a recognised insurable-interest relationship.",
+    "reference": "M9 e-textbook Ch 1, insurable interest (life)"
+  },
+  {
+    "id": 8,
+    "chapter": "Chapter 2",
+    "question": "The loading added to a net premium covers all EXCEPT:",
+    "options": [
+      "Management expenses and commission",
+      "An allowance for policies that lapse early",
+      "The mortality cost of the risk",
+      "The insurer's profit margin"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mortality cost is part of the NET premium, not the loading. Loading covers expenses, commission, lapse allowance and profit. This is your net-vs-gross distinction as a NOT-question.",
+    "reference": "M9 e-textbook Ch 2, paras 1.10-1.13"
+  },
+  {
+    "id": 9,
+    "chapter": "Chapter 2",
+    "question": "A policy owner wants to pay for his whole life plan over just 15 years instead of for life, then stop. Compared with paying for life, each premium will be:",
+    "options": [
+      "Lower, because fewer years of cover",
+      "Higher, because the same cost is compressed into fewer payments",
+      "The same, because cover is identical",
+      "Zero after year 15 with no effect on cost"
+    ],
+    "correctIndex": 1,
+    "explanation": "Limited payment compresses the same lifetime cost into fewer instalments, so each premium is higher. Cover still runs for life.",
+    "reference": "M9 e-textbook Ch 2, payment modes / Ch 4 limited payment"
+  },
+  {
+    "id": 10,
+    "chapter": "Chapter 2",
+    "question": "Which premium mode consists of a series of stand-alone single premiums, where stopping at any time leaves the policy fully paid-up rather than lapsed?",
+    "options": [
+      "Single premium",
+      "Recurrent single premium",
+      "Regular premium",
+      "Limited premium"
+    ],
+    "correctIndex": 1,
+    "explanation": "Recurrent single premium: each payment is its own single premium buying a paid-up chunk, so stopping never causes a lapse. A single premium is ONE payment only; regular premium lapses if unpaid.",
+    "reference": "M9 e-textbook Ch 2, Table 2.1"
+  },
+  {
+    "id": 11,
+    "chapter": "Chapter 2",
+    "question": "Which factor would NOT normally affect the premium an insurer charges for a life policy?",
+    "options": [
+      "Whether the applicant smokes",
+      "The sum assured",
+      "The applicant's occupation as a librarian versus an accountant, both low-risk",
+      "The frequency of premium payment"
+    ],
+    "correctIndex": 2,
+    "explanation": "Between two equally low-risk desk occupations, occupation makes no rating difference. Smoking, sum assured and payment frequency are all listed pricing factors.",
+    "reference": "M9 e-textbook Ch 2, para 1.2"
+  },
+  {
+    "id": 12,
+    "chapter": "Chapter 2",
+    "question": "An insurer assumes a 4% investment return when pricing. Actual returns come in at 2%. Who bears the shortfall on a guaranteed non-par policy?",
+    "options": [
+      "The policyholder, via a higher premium next year",
+      "The insurer",
+      "The shortfall is split equally",
+      "The policyholder's bonus is cut"
+    ],
+    "correctIndex": 1,
+    "explanation": "Premiums are priced on the assumed rate; the insurer carries the gap if actual returns fall short on guaranteed non-par business. Non-par has no bonus to cut.",
+    "reference": "M9 e-textbook Ch 2, para 1.9"
+  },
+  {
+    "id": 13,
+    "chapter": "Chapter 2",
+    "question": "For a whole life policy, a woman aged 30 is typically charged a premium based on the mortality of:",
+    "options": [
+      "A man aged 30",
+      "A younger man (reduction in age)",
+      "An older man",
+      "A woman aged 65"
+    ],
+    "correctIndex": 1,
+    "explanation": "Women live longer, so 'reduction in age' prices a woman as a younger man for life cover. (Health insurance flips this above 65.)",
+    "reference": "M9 e-textbook Ch 2, para 1.14"
+  },
+  {
+    "id": 14,
+    "chapter": "Chapter 3",
+    "question": "Which statement about statutory insurance funds is correct?",
+    "options": [
+      "All three fund types must be kept separate from each other",
+      "Participating and non-participating may share a fund; investment-linked must be separate",
+      "Investment-linked may share with participating; non-par must be separate",
+      "Funds may be freely combined at the insurer's discretion"
+    ],
+    "correctIndex": 1,
+    "explanation": "Par and non-par MAY share a fund; ILP MUST be separate. The must-versus-may line is the trap.",
+    "reference": "M9 e-textbook Ch 3, para 2.3"
+  },
+  {
+    "id": 15,
+    "chapter": "Chapter 3",
+    "question": "Which of the following can NOT be issued as a participating policy?",
+    "options": [
+      "Whole Life",
+      "Endowment",
+      "Term",
+      "Anticipated Endowment"
+    ],
+    "correctIndex": 2,
+    "explanation": "Term (and Universal Life) are non-par only, with no bonus-sharing surplus. Whole Life, Endowment and anticipated endowment can be participating.",
+    "reference": "M9 e-textbook Ch 3, para 2.5"
+  },
+  {
+    "id": 16,
+    "chapter": "Chapter 3",
+    "question": "A married couple wants one policy that pays on the FIRST death, to clear their joint housing loan. This is a:",
+    "options": [
+      "Last survivor policy",
+      "First-to-die joint life policy",
+      "Two separate single life policies",
+      "Third-party policy"
+    ],
+    "correctIndex": 1,
+    "explanation": "Two lives, pays on the first death, cover then ends: first-to-die joint life, the classic joint-mortgage structure. Last survivor pays on the second death.",
+    "reference": "M9 e-textbook Ch 3, para 5.4"
+  },
+  {
+    "id": 17,
+    "chapter": "Chapter 3",
+    "question": "Under a non-contributory (contractual) group scheme:",
+    "options": [
+      "Employees pay part of the premium and may opt out",
+      "The employer pays all premiums and all eligible employees are automatically covered",
+      "The insurer requires a minimum participation rate",
+      "Each employee is individually underwritten"
+    ],
+    "correctIndex": 1,
+    "explanation": "Non-contributory = employer pays everything, everyone eligible is auto-covered. Cost-sharing, opting out and minimum-participation belong to the voluntary/contributory plan.",
+    "reference": "M9 e-textbook Ch 3, para 6.5"
+  },
+  {
+    "id": 18,
+    "chapter": "Chapter 3",
+    "question": "Which is NOT a typical feature of group insurance compared with individual insurance?",
+    "options": [
+      "One master contract covers many lives",
+      "Cover generally ceases when a member leaves the group",
+      "Each member selects their own sum assured and is individually underwritten",
+      "It is usually cheaper than equivalent individual cover"
+    ],
+    "correctIndex": 2,
+    "explanation": "Group insurance uses group underwriting and employer-set cover, not individual selection and underwriting. The other three are genuine group features.",
+    "reference": "M9 e-textbook Ch 3, Table 3.2"
+  },
+  {
+    "id": 19,
+    "chapter": "Chapter 3",
+    "question": "A grandmother takes out and owns an education endowment on her grandchild's life. This ownership type is:",
+    "options": [
+      "Joint life",
+      "Single life",
+      "Third-party",
+      "Group"
+    ],
+    "correctIndex": 2,
+    "explanation": "Owner (grandmother) differs from the life insured (grandchild) with unequal roles: third-party. Single life would need owner and life insured to be the same person.",
+    "reference": "M9 e-textbook Ch 3, para 5.6"
+  },
+  {
+    "id": 20,
+    "chapter": "Chapter 3",
+    "question": "Since 1 October 2001, when selling group insurance products, a representative must:",
+    "options": [
+      "Obtain MAS pre-approval for each policy",
+      "Conduct a fact-find",
+      "Offer a free-look period of 60 days",
+      "Provide a Product Highlights Sheet"
+    ],
+    "correctIndex": 1,
+    "explanation": "Since 1 Oct 2001 reps must complete a fact-find when selling group products. The other options are unrelated requirements.",
+    "reference": "M9 e-textbook Ch 3, para 6.4"
+  },
+  {
+    "id": 21,
+    "chapter": "Chapter 4",
+    "question": "A company insures a key executive whose value to the firm is expected to stay level for 10 years. Best policy and beneficiary:",
+    "options": [
+      "Decreasing term; the executive's family",
+      "Level term; the company",
+      "Increasing term; the company",
+      "Whole life; the executive"
+    ],
+    "correctIndex": 1,
+    "explanation": "Level need = level term; the company suffers the financial loss so it is the beneficiary. Key-person insurance is level term with the company as beneficiary.",
+    "reference": "M9 e-textbook Ch 4, para 2.8"
+  },
+  {
+    "id": 22,
+    "chapter": "Chapter 4",
+    "question": "Which statement about the renewable option on a term policy is FALSE?",
+    "options": [
+      "Renewal requires no evidence of insurability",
+      "The premium rises to reflect attained age",
+      "The sum assured is reduced at each renewal",
+      "Renewals are usually allowed only up to about age 60"
+    ],
+    "correctIndex": 2,
+    "explanation": "The sum assured is NOT reduced; renewal keeps the same benefit and term, only the premium rises. The other three are true. This is a NOT/FALSE question, mark each one.",
+    "reference": "M9 e-textbook Ch 4, paras 2.19-2.29"
+  },
+  {
+    "id": 23,
+    "chapter": "Chapter 4",
+    "question": "Mdm Lee, 60, stops paying her whole life premiums. She wants cover to continue for the rest of her life with no further payments, accepting a smaller sum. The right non-forfeiture option is:",
+    "options": [
+      "Extended term insurance",
+      "Reduced paid-up whole life",
+      "Surrender for cash",
+      "Automatic premium loan"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lifelong cover, no further premiums, reduced amount = reduced paid-up (long-and-low). 'Lifelong' rules out extended term, which is a fixed period.",
+    "reference": "M9 e-textbook Ch 4, paras 3.10-3.18"
+  },
+  {
+    "id": 24,
+    "chapter": "Chapter 4",
+    "question": "A policyholder wants to keep his FULL sum assured after stopping premiums, and doesn't mind that cover will run only for a fixed number of years. He should choose:",
+    "options": [
+      "Reduced paid-up whole life",
+      "Extended term insurance",
+      "Surrender for cash",
+      "Convertible term"
+    ],
+    "correctIndex": 1,
+    "explanation": "Full sum for a fixed period = extended term (tall-and-short). Reduced paid-up keeps lifetime cover but shrinks the sum. This is the mirror image of the reduced paid-up question.",
+    "reference": "M9 e-textbook Ch 4, para 3.15"
+  },
+  {
+    "id": 25,
+    "chapter": "Chapter 4",
+    "question": "Which is NOT a condition of converting a term policy to a permanent one?",
+    "options": [
+      "A written request with the premium",
+      "New sum assured not exceeding the original",
+      "Satisfactory evidence of insurability",
+      "Original policy exclusions continue to apply"
+    ],
+    "correctIndex": 2,
+    "explanation": "Evidence of insurability is NOT required, that waiver is the point of the option. The other three are genuine conditions.",
+    "reference": "M9 e-textbook Ch 4, para 2.36"
+  },
+  {
+    "id": 26,
+    "chapter": "Chapter 4",
+    "question": "A whole life policy accumulates a cash value primarily because:",
+    "options": [
+      "The insurer adds an annual savings bonus",
+      "Level premiums exceed the true cost of risk in the early years, and the excess is invested",
+      "Policyholders pay a separate investment premium",
+      "MAS mandates a minimum cash value"
+    ],
+    "correctIndex": 1,
+    "explanation": "Level premium on a rising risk means early overpayment, which is banked and invested: that is the cash value. It's structural, not an added feature.",
+    "reference": "M9 e-textbook Ch 4, paras 3.6-3.9"
+  },
+  {
+    "id": 27,
+    "chapter": "Chapter 4",
+    "question": "An endowment policy is best suited to a client who wants:",
+    "options": [
+      "The cheapest possible death-only cover",
+      "A lump sum at a specific future date, plus protection until then",
+      "Lifelong cover with no savings element",
+      "Cover that decreases with a loan"
+    ],
+    "correctIndex": 1,
+    "explanation": "Endowment matches a dated goal (education, retirement target) with protection meanwhile: maturity value on survival, sum assured on earlier death. Cheapest death-only = term; lifelong = whole life; loan-linked = decreasing term.",
+    "reference": "M9 e-textbook Ch 4, paras 4.11-4.15"
+  },
+  {
+    "id": 28,
+    "chapter": "Chapter 4",
+    "question": "Mr Tan's anticipated endowment (sum assured S$40,000) has paid him S$12,000 in cashbacks. He dies before maturity. His beneficiaries receive:",
+    "options": [
+      "S$28,000",
+      "S$40,000",
+      "S$52,000",
+      "S$12,000"
+    ],
+    "correctIndex": 1,
+    "explanation": "Full S$40,000 sum assured. Cashbacks already received are not deducted from the death benefit.",
+    "reference": "M9 e-textbook Ch 4, para 4.10"
+  },
+  {
+    "id": 29,
+    "chapter": "Chapter 4",
+    "question": "When recommending a plain participating whole life policy (not bundled, not an ILP), which document is NOT required?",
+    "options": [
+      "Cover Page",
+      "Product Summary",
+      "Product Highlights Sheet",
+      "Policy Illustration"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Product Highlights Sheet is required only for ILPs. A plain par whole life needs the Cover Page, Product Summary and Policy Illustration (plus the LIA Guide).",
+    "reference": "M9 e-textbook Ch 4, paras 5.1-5.3"
+  },
+  {
+    "id": 30,
+    "chapter": "Chapter 4",
+    "question": "On an online no-advice platform, a term policy is issued with a pre-existing-condition exclusion added at underwriting. Before the client can buy, the platform must:",
+    "options": [
+      "Automatically remove the exclusion",
+      "Highlight the conditional acceptance and obtain the client's acknowledgement",
+      "Refer the client to a human adviser",
+      "Offer a 30% premium discount"
+    ],
+    "correctIndex": 1,
+    "explanation": "Conditional acceptance (exclusions or loadings from underwriting) must be highlighted and acknowledged before purchase on a no-advice platform.",
+    "reference": "M9 e-textbook Ch 4, Guideline ID01/17"
+  }
+]

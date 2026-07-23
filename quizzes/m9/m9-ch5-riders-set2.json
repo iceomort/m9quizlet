@@ -1,0 +1,392 @@
+[
+  {
+    "question": "Which of the following is TRUE of all riders?",
+    "options": [
+      "A rider's term cannot exceed that of the basic policy",
+      "A rider's term may extend beyond the term of the basic policy",
+      "A rider can be kept even after the basic policy is cancelled",
+      "An insurer may cancel a rider at will while premiums are paid"
+    ],
+    "correctIndex": 0,
+    "explanation": "A rider's term can be shorter than, but never longer than, the basic policy. It cannot exist without a basic policy, and the insurer cannot drop it while premiums are paid.",
+    "reference": "M9 e-textbook Ch 5, para 1.4",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "A policy lapsed and is now being reinstated. Regarding the rider that was attached, the insurer:",
+    "options": [
+      "Must automatically reinstate the rider with the basic policy",
+      "May reinstate the basic policy but refuse to reinstate the rider",
+      "Must pay out the rider benefit on reinstatement",
+      "Cannot reinstate the basic policy unless the rider is also reinstated"
+    ],
+    "correctIndex": 1,
+    "explanation": "On reinstatement, the insurer may bring back the basic policy yet decline the rider. Reinstating the basic does not drag the rider back automatically.",
+    "reference": "M9 e-textbook Ch 5, para 1.4",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "The usual waiting period under a Waiver of Premium Rider (for TPD) is:",
+    "options": [
+      "30 days",
+      "90 days",
+      "Six months",
+      "Two years"
+    ],
+    "correctIndex": 2,
+    "explanation": "Six months, during which the owner keeps paying to confirm the disability meets the TPD definition. Do not confuse this with the 30–90 day Critical Illness waiting period.",
+    "reference": "M9 e-textbook Ch 5, para 1.18",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "The TPD benefit under a rider is often paid over five years. A common payment pattern is:",
+    "options": [
+      "20% each year for five years",
+      "60% in the first year, then 10% for four years",
+      "50% in year one and 50% in year five",
+      "10% for each of the first four years, then 60% in the fifth"
+    ],
+    "correctIndex": 3,
+    "explanation": "The textbook example is 10% + 10% + 10% + 10% + 60%. Four small instalments then a large final one.",
+    "reference": "M9 e-textbook Ch 5, para 1.31",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "Most insurers cap the aggregate TPD benefit across all of an insured's policies with them at about:",
+    "options": [
+      "S$2,000,000",
+      "S$1,000,000",
+      "S$3,000,000",
+      "There is no cap"
+    ],
+    "correctIndex": 0,
+    "explanation": "The usual aggregate cap is S$2,000,000 per insured across all policies with that insurer. This is the same figure as the CI sum assured cap.",
+    "reference": "M9 e-textbook Ch 5, para 1.34",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "A Waiver of Premium upon Critical Illness rider is generally pointless when the policy already has:",
+    "options": [
+      "A 50% acceleration critical illness benefit",
+      "A 100% acceleration of the death benefit on critical illness",
+      "An accidental death benefit rider",
+      "A hospital cash rider"
+    ],
+    "correctIndex": 1,
+    "explanation": "100% acceleration pays the full sum assured on CI and terminates the policy, leaving no future premiums to waive.",
+    "reference": "M9 e-textbook Ch 5, para 1.24",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "A person has a S$300,000 whole life policy with a 100% Acceleration Benefit CI Rider. He is diagnosed with a covered critical illness and claims. He dies two years later. Total paid by the insurer across both events:",
+    "options": [
+      "S$600,000",
+      "S$150,000",
+      "S$300,000",
+      "S$900,000"
+    ],
+    "correctIndex": 2,
+    "explanation": "100% acceleration pays the full S$300,000 on CI and terminates the policy. Nothing is left for death. Total = S$300,000, one pot paid early.",
+    "reference": "M9 e-textbook Ch 5, para 1.40",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "A person has a S$120,000 whole life policy with a 50% Acceleration Benefit CI Rider. He is diagnosed with a covered critical illness. How much is paid now, and how much remains for death?",
+    "options": [
+      "S$120,000 now; nothing on death",
+      "S$60,000 now; S$120,000 on death",
+      "S$120,000 now; S$120,000 on death",
+      "S$60,000 now; S$60,000 on death"
+    ],
+    "correctIndex": 3,
+    "explanation": "50% of S$120,000 = S$60,000 pulled forward on CI, rider ends, and the remaining S$60,000 pays on death. One pot, split.",
+    "reference": "M9 e-textbook Ch 5, para 1.38",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "A person has a S$100,000 whole life policy with a S$250,000 Additional Benefit CI Rider. He contracts a covered CI, then later dies. Total paid:",
+    "options": [
+      "S$350,000",
+      "S$100,000",
+      "S$250,000",
+      "S$500,000"
+    ],
+    "correctIndex": 0,
+    "explanation": "Additional benefit is on top. S$250,000 pays on CI, the S$100,000 basic stays intact and pays on death. Total = S$350,000.",
+    "reference": "M9 e-textbook Ch 5, paras 1.45–1.46",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "The KEY difference between an Acceleration and an Additional Benefit critical illness rider is that:",
+    "options": [
+      "Acceleration pays on top of the sum assured; Additional pre-pays part of it",
+      "Acceleration pre-pays part of the sum assured; Additional pays on top of it",
+      "Only Additional can be attached to a whole life policy",
+      "Only Acceleration covers cancer"
+    ],
+    "correctIndex": 1,
+    "explanation": "Acceleration pre-pays out of the basic sum assured (one pot). Additional pays a separate amount on top (two pots). The hinge phrase in a question tells you which.",
+    "reference": "M9 e-textbook Ch 5, Table 5.1",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "The rider sum assured of an Acceleration Benefit CI rider:",
+    "options": [
+      "Can be up to five times the basic sum assured",
+      "Is unlimited",
+      "Must not exceed the basic policy's sum assured",
+      "Must equal the basic sum assured exactly"
+    ],
+    "correctIndex": 2,
+    "explanation": "Because acceleration is pre-paid out of the basic sum assured, it cannot exceed it. Only the Additional Benefit type can be a multiple of the basic.",
+    "reference": "M9 e-textbook Ch 5, Table 5.1",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "Which body standardises critical illness definitions for insurers in Singapore?",
+    "options": [
+      "The Monetary Authority of Singapore (MAS)",
+      "The Singapore College of Insurance (SCI)",
+      "Each insurer individually",
+      "The Life Insurance Association (LIA)"
+    ],
+    "correctIndex": 3,
+    "explanation": "The LIA sets the standard definitions so that a listed illness means the same thing at every insurer. It is the definitions, not the number of conditions, that are standardised.",
+    "reference": "M9 e-textbook Ch 5, para 1.56",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "Two clients at different insurers find that 'major cancer' is defined identically in both their policies. This is because:",
+    "options": [
+      "The LIA standardises the definitions across all insurers",
+      "MAS mandates identical policy wording",
+      "The two insurers merged",
+      "It is a coincidence; definitions vary by insurer"
+    ],
+    "correctIndex": 0,
+    "explanation": "The LIA standardises the definitions of the listed critical illnesses, giving consistency across insurers. Same fact as 'who standardises', reworded.",
+    "reference": "M9 e-textbook Ch 5, para 1.56",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "How many critical illnesses are on the industry standard list?",
+    "options": [
+      "30",
+      "37",
+      "45",
+      "150"
+    ],
+    "correctIndex": 1,
+    "explanation": "37. The figure 30 was the old maximum-conditions-per-plan cap, abolished in the 2014 review.",
+    "reference": "M9 e-textbook Ch 5, para 1.56",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "The survival period (usually 30 days) under a Critical Illness Rider applies to:",
+    "options": [
+      "The Acceleration Benefit type only",
+      "Both types",
+      "The Additional Benefit type only",
+      "Neither type"
+    ],
+    "correctIndex": 2,
+    "explanation": "Only the Additional Benefit type carries a survival period. The Acceleration type has none.",
+    "reference": "M9 e-textbook Ch 5, para 1.87",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "A client survives a heart attack and claims. Years later he develops an unrelated major cancer and wants to claim again. Which plan allows this?",
+    "options": [
+      "Severity-based (Early Pay) CI",
+      "A standard single-claim CI rider",
+      "An acceleration benefit CI rider",
+      "Multiple Pay CI"
+    ],
+    "correctIndex": 3,
+    "explanation": "Two different, unrelated illnesses needing separate claims = Multiple Pay. Severity-based is about one illness worsening through stages.",
+    "reference": "M9 e-textbook Ch 5, para 1.101",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "A Severity-based (Early Pay) CI plan differs from a standard CI plan because it:",
+    "options": [
+      "Pays in stages as one illness progresses from early to severe",
+      "Pays only at the end stage of an illness",
+      "Never pays more than once",
+      "Covers only accidents"
+    ],
+    "correctIndex": 0,
+    "explanation": "Severity-based pays partial amounts at earlier stages of the same illness, rather than all-or-nothing at the severe stage.",
+    "reference": "M9 e-textbook Ch 5, paras 1.91–1.96",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "Which of the following is NOT a common exclusion under a Critical Illness Rider?",
+    "options": [
+      "Pre-existing illness",
+      "A first diagnosis of a covered illness that meets the policy definition",
+      "Self-inflicted injury or illness",
+      "HIV/AIDS or AIDS-Related Complex"
+    ],
+    "correctIndex": 1,
+    "explanation": "A first-incidence covered illness meeting the definition is precisely what the rider pays for, not an exclusion. The other three are all exclusions. Watch the word NOT.",
+    "reference": "M9 e-textbook Ch 5, para 1.51",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "Which of these is NOT among the five illnesses covered by almost every CI policy?",
+    "options": [
+      "Major cancer",
+      "Heart attack of specified severity",
+      "Broken hip from a fall",
+      "End stage kidney failure"
+    ],
+    "correctIndex": 2,
+    "explanation": "The five near-universal CIs are major cancer, heart attack of specified severity, coronary artery bypass surgery, stroke with permanent neurological deficit, and end stage kidney failure. A broken hip is not a critical illness. Watch the word NOT.",
+    "reference": "M9 e-textbook Ch 5, para 1.56",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "The waiting period on a Critical Illness Rider is imposed mainly to:",
+    "options": [
+      "Reduce the premium",
+      "Comply with CPF rules",
+      "Extend the cover to age 100",
+      "Prevent anti-selection by those who buy after suspecting illness"
+    ],
+    "correctIndex": 3,
+    "explanation": "The waiting period (usually 90 days) stops someone buying the rider only when they already suspect something is wrong. Diagnosis during it voids the policy with premiums refunded.",
+    "reference": "M9 e-textbook Ch 5, para 1.85",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "A Payor Benefit Rider on a juvenile policy waives premiums when:",
+    "options": [
+      "The parent (payer) dies or becomes disabled before the child reaches a set age",
+      "The child (life insured) is diagnosed with a critical illness",
+      "The child reaches age 18",
+      "The policy acquires a cash value"
+    ],
+    "correctIndex": 0,
+    "explanation": "Payor Benefit triggers on the PAYER's death or disability, waiving premiums until the child reaches a set age (usually 21 or 25). Waiver of Premium, by contrast, triggers on the life insured's condition.",
+    "reference": "M9 e-textbook Ch 5, para 1.142",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "A Term Rider can be attached to all of the following EXCEPT:",
+    "options": [
+      "A whole life policy",
+      "A term insurance policy",
+      "An endowment policy",
+      "An investment-linked policy"
+    ],
+    "correctIndex": 1,
+    "explanation": "A term rider attaches to a permanent policy. It cannot go on a term policy, because the buyer would simply raise that term policy's sum assured instead. Watch the word EXCEPT.",
+    "reference": "M9 e-textbook Ch 5, para 1.128",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "A client with a whole life policy needs extra death cover only for the 12 years until his children finish school. The best solution is:",
+    "options": [
+      "Raise the whole life sum assured permanently",
+      "Buy a second whole life policy",
+      "Attach a level term rider for that period",
+      "Attach a hospital cash rider"
+    ],
+    "correctIndex": 2,
+    "explanation": "A temporary need on a permanent base calls for a term rider, cheap and time-limited. Raising the whole life sum assured would give permanent, permanently-priced cover for a temporary need.",
+    "reference": "M9 e-textbook Ch 5, paras 1.130–1.132",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "Under a Family Income Benefit Rider, the total income the beneficiary receives is:",
+    "options": [
+      "Larger the later the insured dies during the term",
+      "The same regardless of when death occurs",
+      "Paid as a single lump sum on death",
+      "Larger the earlier the insured dies during the term"
+    ],
+    "correctIndex": 3,
+    "explanation": "Income runs from death to a fixed end date, so dying earlier leaves more years of payments and a larger total. It is a decreasing rider.",
+    "reference": "M9 e-textbook Ch 5, paras 1.133–1.135",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "A Decreasing Term Rider is most commonly used to:",
+    "options": [
+      "Cover a reducing mortgage balance",
+      "Provide a lump sum for a child's education",
+      "Pay a daily hospital benefit",
+      "Guarantee future insurability"
+    ],
+    "correctIndex": 0,
+    "explanation": "Its falling sum assured tracks a shrinking mortgage, and it is cheaper than a standalone decreasing term policy.",
+    "reference": "M9 e-textbook Ch 5, para 1.141",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "The Guaranteed Insurability Option (GIO) Rider gives the policyholder the right to:",
+    "options": [
+      "Receive a lump sum on critical illness",
+      "Buy additional insurance at set dates without evidence of insurability",
+      "Waive premiums on disability",
+      "Receive a daily benefit while hospitalised"
+    ],
+    "correctIndex": 1,
+    "explanation": "GIO is a right to purchase more cover at set dates or life events without a medical, priced at the age of exercise. It has a purchase trigger, not a payout trigger.",
+    "reference": "M9 e-textbook Ch 5, paras 1.144–1.146",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "A client with a GIO rider is diagnosed with cancer. What does the GIO rider pay him?",
+    "options": [
+      "The full sum assured",
+      "A daily hospital benefit",
+      "Nothing — GIO is a right to buy cover, not a benefit",
+      "50% of the sum assured"
+    ],
+    "correctIndex": 2,
+    "explanation": "GIO never pays out on illness. It only lets you buy more cover at set dates without a medical, which is why it is valuable while still healthy.",
+    "reference": "M9 e-textbook Ch 5, para 1.144",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "An Accidental Death Benefit rider paying an extra amount equal to the basic sum assured on accidental death is called:",
+    "options": [
+      "Guaranteed insurability",
+      "Reduced paid-up",
+      "Waiver of premium",
+      "Double indemnity"
+    ],
+    "correctIndex": 3,
+    "explanation": "Because the extra equals the basic sum assured, total payout doubles on accidental death, hence 'double indemnity'. The accident must be by external, violent and visible means.",
+    "reference": "M9 e-textbook Ch 5, paras 1.150–1.152",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "Which rider covers both accidental death AND the loss of limbs, sight, speech or hearing from an accident?",
+    "options": [
+      "Accidental Death & Dismemberment / Disablement (AD&D) rider",
+      "Accidental Death Benefit (ADB) rider",
+      "Hospital Cash Benefit rider",
+      "Waiver of Premium rider"
+    ],
+    "correctIndex": 0,
+    "explanation": "AD&D extends ADB to pay a percentage of the rider sum assured for dismemberment or disablement, even if the insured survives. ADB alone pays only on accidental death.",
+    "reference": "M9 e-textbook Ch 5, para 1.156",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "A Hospital Cash (Income) Benefit Rider pays:",
+    "options": [
+      "The exact hospital bill incurred",
+      "A fixed daily amount for each day of hospital confinement, regardless of actual charges",
+      "A lump sum on diagnosis of a critical illness",
+      "Premiums on the insured's behalf during disability"
+    ],
+    "correctIndex": 1,
+    "explanation": "It pays a fixed sum per day of confinement (e.g. S$150/day) regardless of the actual bill, useful to cover the deductible or co-payment on a medical plan.",
+    "reference": "M9 e-textbook Ch 5, para 1.158",
+    "chapter": "Chapter 5"
+  }
+]

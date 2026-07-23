@@ -1,0 +1,1294 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Interactive Quizlet 1.2 (by ice)</title>
+<style>
+  :root {
+    --bg: #f4f5f7;
+    --card: #ffffff;
+    --ink: #1a1d21;
+    --muted: #5c6470;
+    --line: #e2e5ea;
+    --accent: #2f6fed;
+    --correct: #1f9d55;
+    --correct-bg: #e6f6ec;
+    --wrong: #d64545;
+    --wrong-bg: #fbeaea;
+    --shadow: 0 1px 3px rgba(0,0,0,.08), 0 6px 20px rgba(0,0,0,.05);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg); color: var(--ink); line-height: 1.5;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 24px 20px 64px; }
+  h1 { font-size: 20px; margin: 0; }
+  h1 .byline { font-size: 12px; font-weight: 400; font-style: italic; color: var(--muted); }
+  .bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 20px; }
+  .stopwatch {
+    font-variant-numeric: tabular-nums; font-size: 15px; color: var(--muted);
+    background: var(--card); border: 1px solid var(--line); padding: 6px 12px; border-radius: 8px;
+  }
+  .stopwatch.hidden { visibility: hidden; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 24px; box-shadow: var(--shadow); }
+  .progress { font-size: 13px; color: var(--muted); margin-bottom: 4px; }
+  .chapter { font-size: 12px; color: var(--accent); font-weight: 600; text-transform: uppercase; letter-spacing: .04em; margin-bottom: 12px; }
+  .question { font-size: 17px; font-weight: 600; margin-bottom: 20px; }
+  .options { display: flex; flex-direction: column; gap: 10px; }
+  .option {
+    text-align: left; padding: 13px 16px; border-radius: 9px; border: 1px solid var(--line);
+    background: #fbfcfd; color: var(--ink); font-size: 15px; cursor: pointer; transition: border-color .12s, background .12s;
+  }
+  .option:hover:not(:disabled) { border-color: var(--accent); }
+  .option:disabled { cursor: default; }
+  .option.correct { background: var(--correct-bg); border-color: var(--correct); color: var(--correct); font-weight: 600; }
+  .option.wrong { background: var(--wrong-bg); border-color: var(--wrong); color: var(--wrong); font-weight: 600; }
+  .option .keyhint {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 20px; height: 20px; margin-right: 10px; border-radius: 5px;
+    background: var(--line); color: var(--muted); font-size: 12px; font-weight: 700;
+    font-variant-numeric: tabular-nums; vertical-align: middle;
+  }
+  .option.correct .keyhint { background: var(--correct); color: #fff; }
+  .option.wrong .keyhint { background: var(--wrong); color: #fff; }
+  .kbnote { font-size: 12px; color: var(--muted); margin-top: 14px; }
+  .kbnote kbd {
+    font-family: inherit; font-size: 11px; background: var(--line); color: var(--ink);
+    border-radius: 4px; padding: 1px 6px; font-weight: 600;
+  }
+  .reveal { margin-top: 18px; padding: 16px; border-radius: 9px; background: #f7f9fc; border: 1px solid var(--line); }
+  .reveal h3 { margin: 0 0 6px; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+  .reveal p { margin: 0 0 12px; font-size: 15px; }
+  .reveal .ref { font-size: 13px; color: var(--muted); margin: 0; }
+  .navrow { display: flex; gap: 6px; margin-top: 16px; justify-content: flex-end; }
+  .navbtn { font-size: 12px; font-weight: 600; padding: 6px 12px; border-radius: 7px;
+    border: 1px solid var(--line); background: #fff; color: var(--ink); cursor: pointer; }
+  .navbtn:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+  .navbtn:disabled { opacity: .45; cursor: default; }
+  .navbtn.skip { color: var(--muted); }
+  .navbtn.solid { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .navbtn.solid:hover { opacity: .92; color: #fff; }
+  .btn {
+    display: inline-block; margin-top: 18px; padding: 11px 22px; background: var(--accent);
+    color: #fff; border: none; border-radius: 9px; font-size: 15px; font-weight: 600; cursor: pointer;
+  }
+  .btn.secondary { background: #fff; color: var(--ink); border: 1px solid var(--line); }
+  .btn:disabled { opacity: .4; cursor: default; }
+  .row { display: flex; gap: 10px; flex-wrap: wrap; }
+  .score { font-size: 34px; font-weight: 700; }
+  .score small { font-size: 16px; color: var(--muted); font-weight: 400; }
+  .empty { color: var(--muted); font-size: 14px; }
+  .err { background: var(--wrong-bg); border: 1px solid var(--wrong); color: var(--wrong); padding: 16px; border-radius: 9px; }
+
+  /* menu */
+  .exam { margin-bottom: 14px; }
+  .exam h2 { font-size: 15px; margin: 0 0 4px; }
+  .exam .examname { font-size: 12px; color: var(--muted); margin: 0 0 12px; }
+  .setrow {
+    display: flex; align-items: flex-start; justify-content: space-between; gap: 16px;
+    padding: 12px 16px; border: 1px solid var(--line); border-radius: 9px; margin-bottom: 8px; background: #fbfcfd;
+  }
+  .setrow .stitle { font-size: 14px; font-weight: 600; }
+  .setrow .smeta { font-size: 12px; color: var(--muted); }
+  .setrow.none { color: var(--muted); font-size: 13px; font-style: italic; background: #fff; }
+  .setrow-body { flex: 1 1 auto; min-width: 0; }
+  .setrow-rail { flex: 0 0 auto; display: flex; flex-direction: column; align-items: flex-end; gap: 10px; }
+  .anssheet-link { font-size: 11.5px; font-weight: 600; color: var(--accent);
+    cursor: pointer; text-decoration: underline; margin-left: 8px; white-space: nowrap; }
+  .anssheet-link:hover { opacity: .8; }
+  .scoreblock { text-align: right; line-height: 1.35; }
+  .score-label { font-size: 13px; color: var(--muted); }
+  .score-big { font-size: 15px; font-weight: 700; color: var(--ink); letter-spacing: -.01em; }
+  .score-meta { display: block; font-size: 12px; color: var(--muted); margin-top: 1px; }
+  .score-none { font-size: 13px; color: var(--muted); font-style: italic; }
+  .rail-actions { display: flex; align-items: center; gap: 4px; }
+  .history-line { font-size: 11.5px; color: var(--muted); margin-top: 8px; line-height: 1.5; }
+  .attempt-count { margin-left: 10px; font-weight: 600; color: var(--ink); white-space: nowrap; }
+  .datatools { margin-top: 14px; font-size: 12px; }
+  .datalink { color: var(--accent); text-decoration: underline; cursor: pointer; margin-right: 16px; }
+  .datalink:hover { opacity: .8; }
+  .profbar { display: inline-flex; gap: 2px; flex: 0 0 auto; margin-right: 10px; align-items: center; }
+  .profbar .pip { width: 14px; height: 12px; background: #d7dae0; }
+  .profbar .pip:first-child { border-top-left-radius: 6px; border-bottom-left-radius: 6px; }
+  .profbar .pip:last-child { border-top-right-radius: 6px; border-bottom-right-radius: 6px; }
+  .profbar.red .pip.on { background: var(--wrong); }
+  .profbar.orange .pip.on { background: #f0902b; }
+  .profbar.green .pip.on { background: var(--correct); }
+  .apphead { font-size: 13px; color: var(--muted); }
+  .examtitle { font-size: 20px; margin: 2px 0 3px; }
+  .subline { font-size: 13.5px; color: var(--muted); margin: 0; }
+  .chaptermap-link { color: var(--accent); font-weight: 600; cursor: pointer; }
+  .chaptermap-link:hover { text-decoration: underline; }
+  /* modals */
+  .overlay { position: fixed; inset: 0; background: rgba(0,0,0,.45); display: none;
+    align-items: flex-start; justify-content: center; padding: 40px 16px; z-index: 60; overflow-y: auto; }
+  .overlay.on { display: flex; }
+  .modal { background: #fff; border-radius: 14px; max-width: 640px; width: 100%;
+    padding: 22px 24px 26px; box-shadow: 0 10px 40px rgba(0,0,0,.25); position: relative; }
+  .modal-x { position: absolute; top: 12px; right: 14px; border: none; background: none;
+    font-size: 24px; line-height: 1; color: var(--muted); cursor: pointer; }
+  .modal h2 { margin: 0 0 14px; font-size: 18px; padding-right: 24px; }
+  .cmap-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  .cmap-table th, .cmap-table td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+  .cmap-table th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: .03em; }
+  .as-q { border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; margin-bottom: 10px; background: #fbfcfd; }
+  .as-qhead { font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+  .as-qtext { font-size: 14px; font-weight: 600; margin-bottom: 8px; }
+  .as-opt { font-size: 13.5px; padding: 4px 8px; border-radius: 6px; margin-bottom: 3px; }
+  .as-opt.correct { background: var(--correct-bg); color: var(--correct); font-weight: 600; }
+  .as-ex { font-size: 12.5px; color: var(--muted); margin-top: 7px; }
+  .as-ref { font-size: 12.5px; color: var(--muted); margin-top: 3px; }
+  .as-q.weak-high { border-color: var(--wrong); background: var(--wrong-bg); }
+  .as-q.weak-mid { border-color: #e6b800; background: #fdf7e3; }
+  .as-flag { font-size: 11px; font-weight: 600; padding: 2px 7px; border-radius: 5px; margin-left: 8px; }
+  .as-flag.high { background: var(--wrong); color: #fff; }
+  .as-flag.mid { background: #e6b800; color: #4a3b00; }
+  .as-legend { font-size: 12px; color: var(--muted); margin: 0 0 14px; }
+  .as-dot { display: inline-block; width: 10px; height: 10px; border-radius: 3px; vertical-align: middle; margin: 0 2px; }
+  .as-dot.high { background: var(--wrong); }
+  .as-dot.mid { background: #e6b800; }
+  .checkline { display: flex; align-items: center; gap: 10px; }
+  .modehead { font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 26px 0 12px; }
+  .simtoggle { color: var(--accent); cursor: pointer; text-decoration: underline; font-weight: 600; }
+  .simbox { border: 1px dashed var(--line); border-radius: 9px; padding: 14px 16px; }
+  .simrow { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; font-size: 14px; }
+  .opt-row { display: flex; align-items: center; gap: 10px; margin-top: 12px; font-size: 14px; color: var(--muted); }
+  .opt-row label { cursor: pointer; user-select: none; }
+
+  /* results / review */
+  .pass-pill { display:inline-block; margin: 10px 0 4px; padding: 5px 12px; border-radius: 999px; font-size: 13px; font-weight: 600; }
+  .pass-pill.pass { background: var(--correct-bg); color: var(--correct); }
+  .pass-pill.fail { background: var(--wrong-bg); color: var(--wrong); }
+  .cbreak { margin: 20px 0 4px; border-top: 1px solid var(--line); padding-top: 16px; }
+  .cbreak h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 0 0 12px; }
+  .crow { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; font-size: 14px; }
+  .crow .cname { width: 90px; flex: none; font-weight: 600; }
+  .crow .cnum { width: 54px; flex: none; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .track { flex: 1; height: 8px; background: var(--line); border-radius: 4px; overflow: hidden; }
+  .track > span { display: block; height: 100%; background: var(--accent); }
+  .track > span.low { background: var(--wrong); }
+  .track > span.mid { background: #e0a92e; }
+  .review { margin-top: 24px; }
+  .review h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 0 0 12px; }
+  .missed { padding: 14px 16px; border: 1px solid var(--line); border-left: 3px solid var(--wrong); border-radius: 9px; margin-bottom: 10px; background: #fff; }
+  .missed.ok { border-left-color: var(--correct); }
+  .missed .mq { font-size: 14px; font-weight: 600; margin: 0 0 8px; }
+  .missed .ma { font-size: 13px; margin: 2px 0; }
+  .missed .ma.you { color: var(--wrong); }
+  .missed .ma.right { color: var(--correct); }
+  .missed .mex { font-size: 13px; color: var(--muted); margin: 8px 0 0; }
+  .allright { color: var(--correct); font-size: 14px; font-weight: 600; }
+
+  /* history */
+  .history { margin-top: 32px; }
+  .history h2 { font-size: 15px; margin: 0 0 12px; }
+  .attempt {
+    display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start;
+    padding: 12px 16px; background: var(--card); border: 1px solid var(--line); border-radius: 9px; margin-bottom: 8px; font-size: 14px;
+  }
+  .attempt .meta { color: var(--muted); font-size: 13px; }
+  .attempt .tag { display: inline-block; font-size: 11px; font-weight: 600; color: var(--accent); background: #eef3ff; border-radius: 5px; padding: 1px 7px; margin-bottom: 4px; }
+  .attempt .cmeta { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .attempt .actions { display: flex; gap: 8px; margin-top: 10px; width: 100%; }
+  .mini { font-size: 12px; font-weight: 600; padding: 6px 12px; border-radius: 7px; border: 1px solid var(--line); background: #fff; color: var(--accent); cursor: pointer; }
+  .mini:disabled { color: var(--muted); cursor: default; opacity: .55; }
+  .mini.solid { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .mini.danger { color: var(--wrong); border-color: var(--wrong); }
+  .link { color: var(--accent); cursor: pointer; text-decoration: underline; font-size: 13px; background: none; border: none; padding: 0; }
+  .backlink { margin-bottom: 16px; }
+  .autosave-note { font-size: 12.5px; color: #0f6e56; background: #e6f6ec; border: 1px solid #b7e0cb;
+    border-radius: 8px; padding: 9px 12px; margin: 4px 0 12px; }
+  .autosave-note code { background: rgba(15,110,86,.12); padding: 1px 5px; border-radius: 4px; }
+  @media (max-width: 560px) {
+    .setrow { gap: 10px; padding: 12px 13px; }
+    .setrow-rail { gap: 8px; }
+    .score-big { font-size: 13px; }
+    .score-label { font-size: 12px; }
+    .score-meta { font-size: 11px; }
+    .scoreblock { line-height: 1.3; }
+    .history-line { font-size: 11px; }
+    .mini { padding: 6px 10px; }
+    .profbar .pip { width: 11px; height: 11px; }
+  }
+  @media (max-width: 420px) {
+    .score-label { display: block; }
+    .score-big { font-size: 12px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="bar">
+    <div>
+      <div class="apphead">Interactive Quizlet 1.2 <span class="byline">(by ice)</span></div>
+      <h1 class="examtitle">M9 - Life Insurance &amp; Investment-Linked Policies</h1>
+      <p class="subline">Passing Rate 75% - <span class="chaptermap-link" onclick="openChapterMap('M9')">[Chapter Map]</span></p>
+    </div>
+    <div class="stopwatch hidden" id="stopwatch">00:00</div>
+  </div>
+  <div id="app"></div>
+
+  <!-- Chapter Map modal -->
+  <div class="overlay" id="chapterMapOverlay" onclick="if(event.target===this)closeModal('chapterMapOverlay')">
+    <div class="modal">
+      <button class="modal-x" onclick="closeModal('chapterMapOverlay')">&times;</button>
+      <div id="chapterMapBody"></div>
+    </div>
+  </div>
+
+  <!-- Answer Sheet modal -->
+  <div class="overlay" id="answerSheetOverlay" onclick="if(event.target===this)closeModal('answerSheetOverlay')">
+    <div class="modal">
+      <button class="modal-x" onclick="closeModal('answerSheetOverlay')">&times;</button>
+      <div id="answerSheetBody"><p class="empty">Loading…</p></div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+const STORAGE_KEY = "cmfas-quiz-history";
+let manifest = null;
+let questions = [];      // active quiz order
+let current = 0;
+let answers = [];
+let activeMeta = null;   // {label, passMark, tag}
+let shuffle = false;
+let simOpen = false;
+let uploadedSets = [];   // session-only quizzes loaded via Upload quiz (cleared on refresh)
+let inQuiz = false;      // true while a question is on screen
+let questionAnswered = false;
+let swInterval = null, swSeconds = 0, swRunning = false;
+
+const app = document.getElementById("app");
+const swEl = document.getElementById("stopwatch");
+
+function fmt(s) {
+  const m = Math.floor(s / 60).toString().padStart(2, "0");
+  const sec = (s % 60).toString().padStart(2, "0");
+  return m + ":" + sec;
+}
+function startStopwatch() { if (swRunning) return; swRunning = true; swEl.classList.remove("hidden"); swInterval = setInterval(() => { swSeconds++; swEl.textContent = fmt(swSeconds); }, 1000); }
+function stopStopwatch() { swRunning = false; clearInterval(swInterval); }
+function resetStopwatch() { stopStopwatch(); swSeconds = 0; swEl.textContent = fmt(0); swEl.classList.add("hidden"); }
+
+function detectDevice() {
+  const ua = navigator.userAgent || "";
+  let os = "";
+  if (/iPhone/i.test(ua)) os = "iPhone";
+  else if (/iPad/i.test(ua)) os = "iPad";
+  else if (/Android/i.test(ua)) os = "Android";
+  else if (/Macintosh|Mac OS X/i.test(ua)) os = "Mac";
+  else if (/Windows/i.test(ua)) os = "Windows";
+  else if (/Linux/i.test(ua)) os = "Linux";
+  let browser = "";
+  if (/Edg\//i.test(ua)) browser = "Edge";
+  else if (/CriOS|Chrome/i.test(ua)) browser = "Chrome";
+  else if (/Firefox|FxiOS/i.test(ua)) browser = "Firefox";
+  else if (/Safari/i.test(ua)) browser = "Safari";
+  return [os, browser].filter(Boolean).join(" · ") || "Unknown device";
+}
+
+function loadHistory() { try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || []; } catch { return []; } }
+function saveAttempt(a) { const h = loadHistory(); h.unshift(a); localStorage.setItem(STORAGE_KEY, JSON.stringify(h.slice(0, 100))); }
+
+function shuffled(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+  return a;
+}
+function tallyByChapter(ans) {
+  const by = {};
+  ans.forEach(a => { const ch = a.chapter || "Unlabelled"; if (!by[ch]) by[ch] = { c: 0, t: 0 }; by[ch].t++; if (a.correct) by[ch].c++; });
+  return by;
+}
+
+async function init() {
+  try {
+    const res = await fetch("manifest.json");
+    if (!res.ok) throw new Error("Could not load manifest.json (status " + res.status + ")");
+    manifest = await res.json();
+  } catch (e) {
+    app.innerHTML = '<div class="err"><strong>Problem loading manifest.json.</strong><br>' + e.message +
+      '<br><br>Run through a local server: <code>python3 -m http.server 8000</code> then open <code>http://localhost:8000</code>.</div>';
+    return;
+  }
+  oneTimeSeedReset();
+  await seedResults();
+  renderMenu();
+  tryAutoLoadFolder();
+}
+
+// One-time cleanup: on this deploy, drop previously-seeded attempts from
+// localStorage so the current seed-results.json is the single source of truth.
+// Bump SEED_RESET_VERSION whenever the seed is edited to re-run this.
+const SEED_RESET_VERSION = "2026-07-22d";
+function oneTimeSeedReset() {
+  try {
+    if (localStorage.getItem("cmfas-seed-reset") === SEED_RESET_VERSION) return;
+    const h = loadHistory().filter(a => !a.seeded);   // keep only real local attempts
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(h));
+    localStorage.setItem("cmfas-seed-reset", SEED_RESET_VERSION);
+  } catch (e) { /* ignore */ }
+}
+
+// Merge bundled seed-results.json into history so shared attempts appear
+// automatically on any device, no import needed. Deduped by attemptKey.
+async function seedResults() {
+  try {
+    const res = await fetch("seed-results.json");
+    if (!res.ok) return;                       // no seed file bundled; skip silently
+    const seed = await res.json();
+    if (!Array.isArray(seed) || seed.length === 0) return;
+    // Build the set of keys the current seed defines.
+    const seedKeys = new Set(seed
+      .filter(a => a && typeof a.score === "number" && typeof a.total === "number")
+      .map(a => attemptKey({ tag: a.tag || "Shared", source: a.source || null,
+        score: a.score, total: a.total, time: a.time || "—", date: a.date || "",
+        timeOfDay: a.timeOfDay || null })));
+    // Drop previously-seeded attempts that are no longer in the seed file,
+    // so edits/removals in seed-results.json actually take effect.
+    const history = loadHistory().filter(a => !a.seeded || seedKeys.has(attemptKey(a)));
+    const seen = new Set(history.map(attemptKey));
+    let added = 0;
+    seed.forEach(a => {
+      if (!a || typeof a.score !== "number" || typeof a.total !== "number") return;
+      const norm = {
+        tag: a.tag || "Shared", source: a.source || null, passMark: a.passMark || 75,
+        score: a.score, total: a.total, time: a.time || "—",
+        date: a.date || "", timeOfDay: a.timeOfDay || null, device: a.device || null,
+        byChapter: a.byChapter || {}, detail: Array.isArray(a.detail) ? a.detail : [],
+        seeded: true
+      };
+      const k = attemptKey(norm);
+      if (seen.has(k)) return;
+      seen.add(k);
+      history.push(norm);
+      added++;
+    });
+    if (added > 0) localStorage.setItem(STORAGE_KEY, JSON.stringify(history.slice(0, 200)));
+  } catch (e) { /* seed is best-effort; ignore failures */ }
+}
+
+function totalSets() { return manifest.exams.reduce((n, ex) => n + ex.sets.length, 0); }
+
+function renderMenu() {
+  resetStopwatch();
+  let html = '<div class="card">';
+  html += '<div class="question">Choose a quiz or <span class="simtoggle" onclick="toggleSim()">simulate an exam</span></div>';
+
+  if (totalSets() === 0 && uploadedSets.length === 0) {
+    html += '<p class="empty">No question sets found yet. Add a JSON file under <code>quizzes/</code> and list it in <code>manifest.json</code>, or use <strong>Upload quiz</strong> below to run one now.</p>';
+    html += '<div class="opt-row" style="margin-top:4px">' +
+      '<button class="mini" onclick="triggerUpload()">Upload quiz</button>' +
+      '<span class="smeta" style="margin-left:8px">Run a JSON quiz now (not saved to the menu)</span>' +
+      '<input type="file" id="uploadInput" accept="application/json,.json" multiple style="display:none" onchange="uploadQuizFiles(this.files)"></div>';
+  } else {
+    // single-set picker, grouped by exam
+    manifest.exams.forEach(ex => {
+      if (ex.sets.length === 0) return;
+      html += '<div class="exam">';
+      // Display follows manifest order. Convention: newest sets at the top of the
+      // manifest, so adding a set = prepend its entry there.
+      ex.sets.forEach(s => {
+        let sub = ex.code;
+        if (s.group) sub += ' - ' + s.group;
+        if (s.detail) sub += ' - ' + s.detail;
+        const past = attemptsForSet(ex.code, s.id, s.title);
+        let scoreBlock = '', historyLine = '';
+        if (past.length) {
+          const l = past[0];
+          const pct = Math.round(l.score / l.total * 100);
+          scoreBlock = '<div class="scoreblock">' +
+            '<span class="score-label">Latest Score:</span> ' +
+            '<span class="score-big">' + l.score + '/' + l.total + ' (' + pct + '%)</span>' +
+            '<span class="score-meta">' + escapeHtml(l.date || '') + (l.timeOfDay ? ' ' + escapeHtml(l.timeOfDay) : '') +
+            (l.time ? ' · took ' + escapeHtml(l.time) : '') + '</span></div>';
+          const recent = past.slice(0, 2).map(a => {
+            const p = Math.round(a.score / a.total * 100);
+            return a.score + '/' + a.total + ' (' + p + '%) · ' + escapeHtml(a.date || '') +
+              (a.timeOfDay ? ' ' + escapeHtml(a.timeOfDay) : '');
+          }).join('  ·  ');
+          historyLine = '<div class="history-line">History: ' + recent +
+            '<span class="attempt-count">Attempts:&nbsp;' + past.length + '</span></div>';
+        } else {
+          scoreBlock = '<div class="scoreblock"><span class="score-none">No attempts yet</span></div>';
+        }
+        html += '<div class="setrow">' +
+          '<div class="setrow-body"><div class="stitle">' + s.title + '</div>' +
+          '<div class="smeta">' + sub +
+          ' <a class="anssheet-link" onclick="openAnswerSheet(\'' + ex.code + '\',\'' + s.id + '\')">Answer Sheet</a>' +
+          '</div>' + historyLine +
+          '</div>' +
+          '<div class="setrow-rail">' + scoreBlock +
+          '<div class="rail-actions">' + proficiencyBar(past) +
+          '<button class="mini solid" onclick="startSet(\'' + ex.code + '\',\'' + s.id + '\')">Start</button></div>' +
+          '</div></div>';
+      });
+      html += '</div>';
+    });
+
+    // session-uploaded quizzes
+    if (uploadedSets.length) {
+      html += '<div class="exam"><h2>Uploaded</h2><p class="examname">Session only — cleared on refresh</p>';
+      uploadedSets.forEach((u, i) => {
+        html += '<div class="setrow"><div><div class="stitle">' + escapeHtml(u.title) + ' <span class="tag">uploaded</span></div>' +
+          '<div class="smeta">' + u.questions.length + ' questions · pass ' + u.passMark + '%</div></div>' +
+          '<div style="display:flex;gap:6px"><button class="mini solid" onclick="startUploadedSet(' + i + ')">Start</button>' +
+          '<button class="mini danger" onclick="removeUploadedSet(' + i + ')">✕</button></div></div>';
+      });
+      html += '</div>';
+    }
+
+    // upload a quiz (session only)
+    html += '<div class="opt-row" style="margin-top:4px">' +
+      '<button class="mini" onclick="triggerUpload()">Upload quiz</button>' +
+      '<span class="smeta" style="margin-left:8px">Run a JSON quiz now (not saved to the menu)</span>' +
+      '<input type="file" id="uploadInput" accept="application/json,.json" multiple style="display:none" onchange="uploadQuizFiles(this.files)"></div>';
+
+    // data tools: export/import results (small text links)
+    const histCount = loadHistory().length;
+    html += '<div class="datatools">' +
+      (histCount ? '<span class="datalink" onclick="exportAll()">Export all results</span>' : '') +
+      '<span class="datalink" onclick="triggerImport()">Import results</span>' +
+      '<input type="file" id="importInput" accept="application/json,.json" multiple style="display:none" onchange="importResultsFiles(this.files)">' +
+      '</div>';
+
+    // exam simulation (collapsed by default)
+    html += '<div id="simSection" style="display:' + (simOpen ? 'block' : 'none') + '">';
+    html += '<div class="modehead">Exam simulation</div>';
+    html += '<div class="simbox"><p class="empty" style="margin-top:0">Tick sets to merge and shuffle into one paper.</p>';
+    manifest.exams.forEach(ex => {
+      ex.sets.forEach(s => {
+        html += '<div class="simrow"><input type="checkbox" class="simcheck" value="' + ex.code + '::' + s.id + '" id="sim-' + s.id + '">' +
+          '<label for="sim-' + s.id + '">' + ex.code + ' · ' + s.title + '</label></div>';
+      });
+    });
+    html += '<div class="opt-row"><input type="checkbox" id="shuffleToggle"' + (shuffle ? ' checked' : '') + ' onchange="shuffle=this.checked"><label for="shuffleToggle">Shuffle order (recommended for simulation)</label></div>';
+    html += '<button class="btn" onclick="startSimulation()">Start simulation</button></div>';
+    html += '</div>';
+  }
+  html += '</div>';
+
+  app.innerHTML = html;
+}
+
+function renderHistory() {
+  const history = loadHistory();
+  let h = '<div class="history"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;gap:8px;flex-wrap:wrap">' +
+    '<h2 style="margin:0;flex:1">Past attempts</h2>' +
+    (window.showDirectoryPicker ? '<button class="mini" id="linkFolderBtn" onclick="linkResultsFolder()">' + (folderHandle ? 'Folder ✓' : 'Link folder') + '</button>' : '') +
+    '<button class="mini"' + (history.length ? ' onclick="exportAll()"' : ' disabled') + '>Export all</button>' +
+    '<button class="mini" onclick="triggerImport()">Import results</button>' +
+    (history.length ? '<button class="mini danger" onclick="clearLocalHistory()">Clear local history</button>' : '') +
+    '<input type="file" id="importInput" accept="application/json,.json" multiple style="display:none" onchange="importResultsFiles(this.files)">' +
+    '</div>';
+  if (history.length === 0) {
+    h += '<p class="empty">No past attempts yet. Finish a quiz and it shows up here.</p>';
+  } else {
+    history.forEach((a, i) => {
+      let chapterMeta = "";
+      if (a.byChapter) {
+        chapterMeta = '<div class="cmeta">' +
+          Object.keys(a.byChapter).map(ch => ch.replace(/^Chapter\s*/i, "Ch ") + " " + a.byChapter[ch].c + "/" + a.byChapter[ch].t).join(" · ") + '</div>';
+      }
+      const canReview = Array.isArray(a.detail) && a.detail.length > 0;
+      const canRetake = !!a.source || !!findSetByTag(a.tag);   // source, or tag matches a known set
+      const tag = a.tag ? '<span class="tag">' + a.tag + (a.imported ? ' · imported' : '') + (a.seeded ? ' · shared' : '') + '</span><br>' : '';
+      h += '<div class="attempt">' +
+        '<div>' + tag + '<strong>' + a.score + '/' + a.total + '</strong>' +
+        ' <span class="meta">(' + Math.round(a.score / a.total * 100) + '%)</span>' + chapterMeta + '</div>' +
+        '<div class="meta">' + a.date + (a.timeOfDay ? ' ' + a.timeOfDay : '') + ' &middot; took ' + a.time + (a.device ? '<br>' + a.device : '') + '</div>' +
+        '<div class="actions">' +
+        '<button class="mini"' + (canReview ? ' onclick="reviewAttempt(' + i + ')"' : ' disabled title="Saved before review existed"') + '>Review</button>' +
+        '<button class="mini solid"' + (canRetake ? ' onclick="retakeAttempt(' + i + ')"' : ' disabled') + '>Retake</button>' +
+        '<button class="mini" onclick="downloadAttempt(' + i + ')">Export</button>' +
+        '</div></div>';
+    });
+  }
+  h += '</div>';
+  return h;
+}
+
+// ---- loading question files ----
+async function fetchSet(file) {
+  const res = await fetch(file);
+  if (!res.ok) throw new Error("Could not load " + file + " (status " + res.status + ")");
+  const data = await res.json();
+  if (!Array.isArray(data) || data.length === 0) throw new Error(file + " is empty or not a list");
+  return data;
+}
+function findSet(examCode, setId) {
+  const ex = manifest.exams.find(e => e.code === examCode);
+  if (!ex) return null;
+  const s = ex.sets.find(x => x.id === setId);
+  return s ? { ex, s } : null;
+}
+
+async function startSet(examCode, setId) {
+  const found = findSet(examCode, setId);
+  if (!found) { renderMenu(); return; }
+  try {
+    const qs = await fetchSet(found.s.file);
+    activeMeta = {
+      label: examCode + " · " + found.s.title,
+      tag: examCode + " · " + found.s.title,
+      passMark: found.ex.passMark || 75,
+      source: { mode: "set", exam: examCode, setId: setId }
+    };
+    beginQuiz(qs);
+  } catch (e) { app.innerHTML = '<div class="err">' + e.message + '</div>'; }
+}
+
+// ---- session upload (A: run now, not persisted to menu) ----
+function escapeHtml(s) {
+  return String(s == null ? "" : s).replace(/[&<>"']/g, c => (
+    { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]
+  ));
+}
+
+// ---- modals: chapter map + answer sheet ----
+function closeModal(id) { const el = document.getElementById(id); if (el) el.classList.remove("on"); }
+
+// ---- per-set attempt helpers ----
+// Parse "dd/mm/yyyy" + "HH:MM" into a sortable number.
+function attemptTime(a) {
+  const d = (a.date || "").split("/");           // [dd, mm, yyyy]
+  const t = (a.timeOfDay || "00:00").split(":");  // [HH, MM]
+  if (d.length !== 3) return 0;
+  return new Date(+d[2], +d[1] - 1, +d[0], +(t[0] || 0), +(t[1] || 0)).getTime();
+}
+
+// All history attempts for a given set, newest first.
+function attemptsForSet(examCode, setId, setTitle) {
+  const wantTag = examCode + " · " + setTitle;
+  const baseTitle = setTitle.replace(/\s*\(\d+Q\)\s*$/i, "").trim();  // drop trailing "(15Q)"
+  return loadHistory().filter(a => {
+    if (a.source && a.source.mode === "set" && a.source.setId === setId) return true;
+    if (!a.tag) return false;
+    if (a.tag === wantTag || a.tag.indexOf(setTitle) !== -1) return true;
+    if (a.tag.indexOf(setId) !== -1) return true;            // uploaded/legacy tagged by id
+    if (baseTitle && a.tag.indexOf(baseTitle) !== -1) return true;  // title minus (NQ)
+    return false;
+  }).sort((x, y) => attemptTime(y) - attemptTime(x));
+}
+
+// Proficiency pip bar (3 segments). Score-only, based on latest attempt %:
+//   grey (0 filled) = never attempted
+//   red (1)  = latest < 50%
+//   orange (2) = latest 50–74%
+//   green (3)  = latest >= 75%
+function proficiencyBar(attempts) {
+  let level = 0, cls = "none", label = "Not attempted";
+  if (attempts.length) {
+    const l = attempts[0];
+    const pct = Math.round(l.score / l.total * 100);
+    if (pct >= 75) { level = 3; cls = "green"; label = "Proficient (" + pct + "%)"; }
+    else if (pct >= 50) { level = 2; cls = "orange"; label = "Fair (" + pct + "%)"; }
+    else { level = 1; cls = "red"; label = "Weak (" + pct + "%)"; }
+  }
+  let pips = "";
+  for (let i = 0; i < 3; i++) pips += '<span class="pip' + (i < level ? " on" : "") + '"></span>';
+  return '<div class="profbar ' + cls + '" title="' + label + '" aria-label="' + label + '">' + pips + '</div>';
+}
+
+// Returns a map: questionText -> { score 0..1, wrong, seen } ; higher score = struggles more.
+function weakQuestionMap(attempts) {
+  const map = {};
+  attempts.forEach((a, idx) => {
+    const w = Math.pow(0.6, idx);   // idx 0 = newest = weight 1
+    (a.detail || []).forEach(d => {
+      if (!d || !d.question) return;
+      const k = d.question;
+      if (!map[k]) map[k] = { wTotal: 0, wWrong: 0, wrong: 0, seen: 0 };
+      map[k].wTotal += w;
+      map[k].seen += 1;
+      if (!d.correct) { map[k].wWrong += w; map[k].wrong += 1; }
+    });
+  });
+  Object.keys(map).forEach(k => {
+    const m = map[k];
+    m.score = m.wTotal > 0 ? m.wWrong / m.wTotal : 0;
+  });
+  return map;
+}
+
+function openChapterMap(examCode) {
+  const ex = manifest.exams.find(e => e.code === examCode);
+  const map = ex && ex.chapterMap ? ex.chapterMap : [];
+  let html = '<h2>' + escapeHtml(examCode) + ' — Chapter map</h2>';
+  if (!map.length) {
+    html += '<p class="empty">No chapter map defined for this exam yet.</p>';
+  } else {
+    html += '<table class="cmap-table"><tr><th>Chapters</th><th>Group</th></tr>';
+    map.forEach(r => {
+      html += '<tr><td>' + escapeHtml(r.chapters) + '</td><td>' + escapeHtml(r.group) + '</td></tr>';
+    });
+    html += '</table>';
+  }
+  document.getElementById("chapterMapBody").innerHTML = html;
+  document.getElementById("chapterMapOverlay").classList.add("on");
+}
+
+async function openAnswerSheet(examCode, setId) {
+  const found = findSet(examCode, setId);
+  const body = document.getElementById("answerSheetBody");
+  const overlay = document.getElementById("answerSheetOverlay");
+  if (!found) { body.innerHTML = '<p class="empty">Set not found.</p>'; overlay.classList.add("on"); return; }
+  body.innerHTML = '<h2>Answer sheet</h2><p class="empty">Loading…</p>';
+  overlay.classList.add("on");
+  try {
+    const qs = await fetchSet(found.s.file);
+    const attempts = attemptsForSet(examCode, setId, found.s.title);
+    const weak = weakQuestionMap(attempts);
+    let html = '<h2>Answer sheet — ' + escapeHtml(found.s.title) + '</h2>';
+    if (attempts.length) {
+      html += '<p class="as-legend">Highlighted = questions you struggle with (recent attempts weighted more). ' +
+        '<span class="as-dot high"></span> often wrong &nbsp; <span class="as-dot mid"></span> sometimes wrong</p>';
+    }
+    qs.forEach((q, i) => {
+      const m = weak[q.question];
+      let cls = "as-q", flag = "";
+      if (m && m.score >= 0.6) { cls += " weak-high"; flag = '<span class="as-flag high">Struggles · missed ' + m.wrong + '/' + m.seen + '</span>'; }
+      else if (m && m.score >= 0.3) { cls += " weak-mid"; flag = '<span class="as-flag mid">Watch · missed ' + m.wrong + '/' + m.seen + '</span>'; }
+      html += '<div class="' + cls + '"><div class="as-qhead">Q' + (i + 1) +
+        (q.chapter ? ' · ' + escapeHtml(q.chapter) : '') + flag + '</div>' +
+        '<div class="as-qtext">' + escapeHtml(q.question) + '</div>';
+      q.options.forEach((opt, oi) => {
+        const isC = oi === q.correctIndex;
+        html += '<div class="as-opt' + (isC ? ' correct' : '') + '">' +
+          String.fromCharCode(65 + oi) + '. ' + escapeHtml(opt) + (isC ? ' ✓' : '') + '</div>';
+      });
+      if (q.explanation) html += '<div class="as-ex">' + escapeHtml(q.explanation) + '</div>';
+      if (q.reference) html += '<div class="as-ref"><strong>Ref:</strong> ' + escapeHtml(q.reference) + '</div>';
+      html += '</div>';
+    });
+    body.innerHTML = html;
+  } catch (e) {
+    body.innerHTML = '<h2>Answer sheet</h2><p class="empty">Could not load: ' + escapeHtml(e.message) + '</p>';
+  }
+}
+
+function triggerUpload() {
+  const el = document.getElementById("uploadInput");
+  if (el) { el.value = ""; el.click(); }
+}
+
+// Accepts either a bare array of questions, or an object { title?, passMark?, questions:[...] }.
+// Returns { title, passMark, questions } or throws with a plain, specific message.
+function normaliseQuiz(raw, fallbackTitle) {
+  let list, title = fallbackTitle, passMark = 75;
+  if (Array.isArray(raw)) {
+    list = raw;
+  } else if (raw && typeof raw === "object" && Array.isArray(raw.questions)) {
+    list = raw.questions;
+    if (raw.title) title = String(raw.title);
+    if (typeof raw.passMark === "number") passMark = raw.passMark;
+  } else {
+    throw new Error("expected a list of questions, or an object with a \"questions\" list");
+  }
+  if (list.length === 0) throw new Error("the quiz has no questions");
+  list.forEach((q, i) => {
+    const n = i + 1;
+    if (!q || typeof q !== "object") throw new Error("question " + n + " is not an object");
+    if (typeof q.question !== "string" || !q.question.trim()) throw new Error("question " + n + " has no question text");
+    if (!Array.isArray(q.options) || q.options.length < 2) throw new Error("question " + n + " needs at least 2 options");
+    if (typeof q.correctIndex !== "number" || q.correctIndex < 0 || q.correctIndex >= q.options.length || !Number.isInteger(q.correctIndex))
+      throw new Error("question " + n + " has an invalid correctIndex (must be 0–" + (q.options.length - 1) + ")");
+  });
+  return { title, passMark, questions: list };
+}
+
+async function uploadQuizFiles(fileList) {
+  const files = Array.from(fileList || []);
+  if (!files.length) return;
+  const errors = [];
+  let added = 0;
+  for (const f of files) {
+    try {
+      const text = await f.text();
+      let raw;
+      try { raw = JSON.parse(text); }
+      catch { throw new Error("not valid JSON"); }
+      const fallback = f.name.replace(/\.json$/i, "");
+      const quiz = normaliseQuiz(raw, fallback);
+      uploadedSets.push(quiz);
+      added++;
+    } catch (e) {
+      errors.push(f.name + ": " + e.message);
+    }
+  }
+  renderMenu();
+  if (errors.length) {
+    alert("Couldn't load " + errors.length + " file" + (errors.length > 1 ? "s" : "") + ":\n\n" + errors.join("\n") +
+      (added ? "\n\n" + added + " loaded successfully." : ""));
+  }
+}
+
+function removeUploadedSet(i) {
+  uploadedSets.splice(i, 1);
+  renderMenu();
+}
+
+function startUploadedSet(i) {
+  const u = uploadedSets[i];
+  if (!u) { renderMenu(); return; }
+  activeMeta = {
+    label: "Uploaded · " + u.title,
+    tag: "Uploaded · " + u.title,
+    passMark: u.passMark || 75,
+    source: null   // session-only: no retake from history
+  };
+  beginQuiz(shuffle ? shuffled(u.questions) : u.questions.slice());
+}
+
+async function startSimulation() {
+  const checks = Array.from(document.querySelectorAll(".simcheck:checked")).map(c => c.value);
+  if (checks.length === 0) { alert("Tick at least one set to simulate."); return; }
+  try {
+    let merged = [];
+    const examCodes = new Set();
+    for (const val of checks) {
+      const [examCode, setId] = val.split("::");
+      examCodes.add(examCode);
+      const found = findSet(examCode, setId);
+      if (found) merged = merged.concat(await fetchSet(found.s.file));
+    }
+    const passMark = 75;
+    activeMeta = {
+      label: "Simulation · " + merged.length + " questions",
+      tag: (examCodes.size === 1 ? [...examCodes][0] : "Mixed") + " simulation",
+      passMark: passMark,
+      source: { mode: "sim", sets: checks }
+    };
+    beginQuiz(shuffle ? shuffled(merged) : merged);
+  } catch (e) { app.innerHTML = '<div class="err">' + e.message + '</div>'; }
+}
+
+function findSetByTag(tag) {
+  if (!tag || !manifest) return null;
+  // tag looks like "M9 · Chapters 1–4 · Set 3" (possibly with " · imported")
+  const clean = tag.replace(/\s*·\s*imported$/i, "").trim();
+  for (const ex of manifest.exams) {
+    for (const s of ex.sets) {
+      if (clean === ex.code + " · " + s.title || clean.endsWith(s.title)) {
+        return { exam: ex.code, setId: s.id };
+      }
+    }
+  }
+  return null;
+}
+
+function retakeAttempt(index) {
+  const a = loadHistory()[index];
+  if (!a) { renderMenu(); return; }
+  // 1) explicit source
+  if (a.source) {
+    if (a.source.mode === "set") { startSet(a.source.exam, a.source.setId); return; }
+    if (a.source.mode === "sim") { retakeSimulation(a.source); return; }
+  }
+  // 2) fall back to matching the tag to a known set
+  const match = findSetByTag(a.tag);
+  if (match) { startSet(match.exam, match.setId); return; }
+  alert("Can't retake this attempt automatically — the original set isn't in the menu.");
+}
+
+function retakeSimulation(source) {
+  shuffle = true;
+  (async () => {
+    try {
+      let merged = []; const examCodes = new Set();
+      for (const val of source.sets) {
+        const [examCode, setId] = val.split("::"); examCodes.add(examCode);
+        const found = findSet(examCode, setId);
+        if (found) merged = merged.concat(await fetchSet(found.s.file));
+      }
+      activeMeta = { label: "Simulation · " + merged.length + " questions",
+        tag: (examCodes.size === 1 ? [...examCodes][0] : "Mixed") + " simulation",
+        passMark: 75, source: source };
+      beginQuiz(shuffled(merged));
+    } catch (e) { app.innerHTML = '<div class="err">' + e.message + '</div>'; }
+  })();
+}
+
+function beginQuiz(qs) {
+  questions = qs; current = 0; answers = new Array(qs.length).fill(null);
+  resetStopwatch(); startStopwatch(); renderQuestion();
+}
+
+function renderQuestion() {
+  inQuiz = true;
+  const q = questions[current];
+  const prior = answers[current];               // null = unanswered, or a stored answer object
+  questionAnswered = !!prior;
+  const isLast = current === questions.length - 1;
+  const isFirst = current === 0;
+
+  let html = '<div class="card">' +
+    '<div class="progress">Question ' + (current + 1) + ' of ' + questions.length + (activeMeta ? ' &middot; ' + activeMeta.label : '') + '</div>' +
+    (q.chapter ? '<div class="chapter">' + q.chapter + '</div>' : '') +
+    '<div class="question">' + q.question + '</div><div class="options">';
+  q.options.forEach((opt, i) => {
+    let cls = "option";
+    if (prior) {
+      if (i === q.correctIndex) cls += " correct";
+      else if (i === prior.chosenIndex) cls += " wrong";
+    }
+    html += '<button class="' + cls + '" data-idx="' + i + '"' + (prior ? ' disabled' : '') +
+      ' onclick="choose(' + i + ')"><span class="keyhint">' + (i + 1) + '</span>' + opt + '</button>';
+  });
+  html += '</div><p class="kbnote">Tip: press <kbd>1</kbd>–<kbd>' + q.options.length + '</kbd> to answer, <kbd>Enter</kbd> next, <kbd>&larr;</kbd>/<kbd>&rarr;</kbd> to move.</p>' +
+    '<div id="revealArea"></div>' +
+    '<div class="navrow">' +
+      '<button class="navbtn" onclick="back()"' + (isFirst ? ' disabled' : '') + '>&lsaquo; Back</button>' +
+      '<button class="navbtn skip" onclick="skip()">Skip</button>' +
+      '<button class="navbtn solid" onclick="next()">' + (isLast ? 'Finish' : 'Next &rsaquo;') + '</button>' +
+    '</div></div>';
+  app.innerHTML = html;
+  if (prior) showReveal(q);
+}
+
+function showReveal(q) {
+  const el = document.getElementById("revealArea");
+  if (!el) return;
+  el.innerHTML = '<div class="reveal"><h3>Explanation</h3><p>' + (q.explanation || "No explanation provided.") + '</p>' +
+    '<p class="ref"><strong>Reference:</strong> ' + (q.reference || "None") + '</p></div>';
+}
+
+function choose(chosenIndex) {
+  if (questionAnswered) return;
+  const q = questions[current];
+  if (chosenIndex < 0 || chosenIndex >= q.options.length) return;
+  questionAnswered = true;
+  const correct = chosenIndex === q.correctIndex;
+  answers[current] = {
+    chapter: q.chapter || "Unlabelled", question: q.question, options: q.options,
+    explanation: q.explanation, reference: q.reference,
+    chosenIndex: chosenIndex, correctIndex: q.correctIndex, correct: correct
+  };
+  app.querySelectorAll(".option").forEach((btn, i) => {
+    btn.disabled = true;
+    if (i === q.correctIndex) btn.classList.add("correct");
+    else if (i === chosenIndex) btn.classList.add("wrong");
+  });
+  showReveal(q);
+}
+
+function back() { if (current > 0) { current--; renderQuestion(); } }
+
+function skip() {
+  // move forward without answering; leaves answers[current] as-is (null if never answered)
+  if (current === questions.length - 1) finish();
+  else { current++; renderQuestion(); }
+}
+
+function next() {
+  if (current === questions.length - 1) finish();
+  else { current++; renderQuestion(); }
+}
+
+function finish() {
+  inQuiz = false;
+  stopStopwatch();
+  const answered = answers.filter(a => a);
+  const skipped = answers.filter(a => !a).length;
+  if (skipped > 0) {
+    if (!confirm(skipped + " question" + (skipped > 1 ? "s are" : " is") + " unanswered and will be marked wrong. Finish anyway?")) {
+      // jump to first unanswered
+      const idx = answers.findIndex(a => !a);
+      if (idx >= 0) { current = idx; inQuiz = true; startStopwatch(); renderQuestion(); }
+      return;
+    }
+  }
+  // materialise skipped questions as wrong (chosenIndex null) so scoring + review stay consistent
+  const detail = answers.map((a, i) => {
+    if (a) return a;
+    const q = questions[i];
+    return {
+      chapter: q.chapter || "Unlabelled", question: q.question, options: q.options,
+      explanation: q.explanation, reference: q.reference,
+      chosenIndex: null, correctIndex: q.correctIndex, correct: false
+    };
+  });
+  const score = detail.filter(a => a.correct).length;
+  const total = questions.length;
+  const pct = Math.round(score / total * 100);
+  const passMark = activeMeta ? activeMeta.passMark : 75;
+  const pass = pct >= passMark;
+  const by = tallyByChapter(detail);
+  const now = new Date();
+  const byChapterStore = {}; Object.keys(by).forEach(ch => { byChapterStore[ch] = { c: by[ch].c, t: by[ch].t }; });
+
+  saveAttempt({
+    tag: activeMeta ? activeMeta.tag : null,
+    source: activeMeta ? activeMeta.source : null,
+    passMark: passMark,
+    score, total, time: fmt(swSeconds),
+    date: now.toLocaleDateString("en-GB"),
+    timeOfDay: now.toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" }),
+    device: detectDevice(),
+    byChapter: byChapterStore,
+    detail: detail.map(a => ({ chapter: a.chapter, question: a.question, options: a.options, chosenIndex: a.chosenIndex, correctIndex: a.correctIndex, correct: a.correct, explanation: a.explanation, reference: a.reference }))
+  });
+
+  app.innerHTML = '<div class="card">' +
+    '<div class="progress">Quiz complete' + (activeMeta ? ' &middot; ' + activeMeta.label : '') + '</div>' +
+    '<div class="score">' + score + '/' + total + ' <small>(' + pct + '%)</small></div>' +
+    '<span class="pass-pill ' + (pass ? 'pass' : 'fail') + '">' + (pass ? 'Above' : 'Below') + ' the ' + passMark + '% pass mark</span>' +
+    '<p class="empty">Time taken: ' + fmt(swSeconds) + (skipped ? ' &middot; ' + skipped + ' skipped' : '') + '</p>' +
+    chapterBarsHtml(by) + reviewListHtml(detail, false) +
+    '<div class="row"><button class="btn" onclick="renderMenu()">Back to menu</button></div></div>';
+}
+
+function chapterBarsHtml(by) {
+  let html = '<div class="cbreak"><h3>By chapter</h3>';
+  Object.keys(by).sort().forEach(ch => {
+    const b = by[ch]; const p = Math.round(b.c / b.t * 100);
+    const cls = p < 50 ? "low" : (p < 75 ? "mid" : "");
+    html += '<div class="crow"><span class="cname">' + ch.replace(/^Chapter\s*/i, "Ch ") + '</span>' +
+      '<span class="cnum">' + b.c + '/' + b.t + '</span>' +
+      '<span class="track"><span class="' + cls + '" style="width:' + p + '%"></span></span></div>';
+  });
+  return html + '</div>';
+}
+
+function reviewListHtml(detail, showAll) {
+  const items = showAll ? detail : detail.filter(d => !d.correct);
+  let html = '<div class="review"><h3>' + (showAll ? 'All questions' : 'Review') + '</h3>';
+  if (items.length === 0) { html += '<p class="allright">Every question correct. Nothing to review.</p>'; }
+  else items.forEach(d => {
+    const wrong = !d.correct;
+    html += '<div class="missed ' + (wrong ? '' : 'ok') + '">' +
+      '<p class="mq">' + d.chapter.replace(/^Chapter\s*/i, "Ch ") + ' &middot; ' + d.question + '</p>' +
+      (wrong ? '<p class="ma you">Your answer: ' + (d.chosenIndex == null ? '<em>skipped</em>' : d.options[d.chosenIndex]) + '</p>' : '') +
+      '<p class="ma right">Correct: ' + d.options[d.correctIndex] + '</p>' +
+      (d.explanation ? '<p class="mex">' + d.explanation + '</p>' : '') +
+      (d.reference ? '<p class="mex"><strong>Ref:</strong> ' + d.reference + '</p>' : '') +
+      '</div>';
+  });
+  return html + '</div>';
+}
+
+function reviewAttempt(index) {
+  const a = loadHistory()[index];
+  if (!a || !Array.isArray(a.detail)) { renderMenu(); return; }
+  resetStopwatch();
+  const pct = Math.round(a.score / a.total * 100);
+  const pass = pct >= (a.passMark || 75);
+  const by = {}; a.detail.forEach(d => { const ch = d.chapter || "Unlabelled"; if (!by[ch]) by[ch] = { c: 0, t: 0 }; by[ch].t++; if (d.correct) by[ch].c++; });
+  app.innerHTML = '<div class="card">' +
+    '<button class="link backlink" onclick="renderMenu()">&lsaquo; Back to menu</button>' +
+    (a.tag ? '<div class="chapter">' + a.tag + '</div>' : '') +
+    '<div class="progress">Reviewing attempt &middot; ' + a.date + '</div>' +
+    '<div class="score">' + a.score + '/' + a.total + ' <small>(' + pct + '%)</small></div>' +
+    '<span class="pass-pill ' + (pass ? 'pass' : 'fail') + '">' + (pass ? 'Above' : 'Below') + ' the ' + (a.passMark || 75) + '% pass mark</span>' +
+    chapterBarsHtml(by) + reviewListHtml(a.detail, true) +
+    '<div class="row"><button class="btn"' + ((a.source || findSetByTag(a.tag)) ? ' onclick="retakeAttempt(' + index + ')"' : ' disabled') + '>Retake</button>' +
+    '<button class="btn secondary" onclick="downloadAttempt(' + index + ')">Export results</button>' +
+    '<button class="btn secondary" onclick="renderMenu()">Back to menu</button></div></div>';
+}
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") {
+    document.querySelectorAll(".overlay.on").forEach(o => o.classList.remove("on"));
+  }
+});
+
+document.addEventListener("keydown", (e) => {
+  if (!inQuiz) return;
+  // ignore if focus is in a text field (none here, but safe)
+  const tag = (e.target && e.target.tagName) || "";
+  if (tag === "INPUT" || tag === "TEXTAREA") return;
+
+  const q = questions[current];
+  if (!q) return;
+
+  // number keys 1..n select an option (only before answering)
+  if (!questionAnswered && /^[1-9]$/.test(e.key)) {
+    const idx = parseInt(e.key, 10) - 1;
+    if (idx >= 0 && idx < q.options.length) { e.preventDefault(); choose(idx); }
+    return;
+  }
+  // arrows: move between questions
+  if (e.key === "ArrowLeft") { e.preventDefault(); back(); return; }
+  if (e.key === "ArrowRight") { e.preventDefault(); next(); return; }
+  // Enter or Space advances (skips if unanswered)
+  if (e.key === "Enter" || e.key === " ") {
+    e.preventDefault();
+    next();
+  }
+});
+
+function fileStamp() {
+  // YYYY-MM-DD_HHMM in local time, filename-safe
+  const d = new Date();
+  const p = n => String(n).padStart(2, "0");
+  return d.getFullYear() + "-" + p(d.getMonth() + 1) + "-" + p(d.getDate()) + "_" + p(d.getHours()) + p(d.getMinutes());
+}
+
+function downloadResults(attempt) {
+  const out = {
+    _type: "cmfas-quiz-attempt",
+    _version: 2,
+    tag: attempt.tag || null,
+    source: attempt.source || null,
+    passMark: attempt.passMark || 75,
+    date: attempt.date,
+    time: attempt.time,
+    timeOfDay: attempt.timeOfDay || null,
+    device: attempt.device || null,
+    score: attempt.score,
+    total: attempt.total,
+    percent: Math.round(attempt.score / attempt.total * 100),
+    byChapter: attempt.byChapter || {},
+    detail: attempt.detail || [],
+    missed: (attempt.detail || []).filter(d => !d.correct).map(d => ({
+      chapter: d.chapter,
+      question: d.question,
+      yourAnswer: d.options[d.chosenIndex],
+      correctAnswer: d.options[d.correctIndex],
+      reference: d.reference || null
+    }))
+  };
+  const blob = new Blob([JSON.stringify(out, null, 2)], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  const stamp = (attempt.tag ? attempt.tag.replace(/[^a-z0-9]+/gi, "-").toLowerCase() : "quiz");
+  a.href = url;
+  a.download = "results-" + stamp + "-" + (attempt.score) + "of" + (attempt.total) + "-" + fileStamp() + ".json";
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+// download the most recent attempt (used from results screen)
+function downloadLatest() {
+  const h = loadHistory();
+  if (h.length) downloadResults(h[0]);
+}
+function downloadAttempt(index) {
+  const h = loadHistory();
+  if (h[index]) downloadResults(h[index]);
+}
+
+function exportAll() {
+  const h = loadHistory();
+  if (!h.length) return;
+  const out = h.map(a => ({
+    _type: "cmfas-quiz-attempt",
+    _version: 2,
+    tag: a.tag || null,
+    source: a.source || null,
+    passMark: a.passMark || 75,
+    date: a.date,
+    time: a.time,
+    timeOfDay: a.timeOfDay || null,
+    device: a.device || null,
+    score: a.score,
+    total: a.total,
+    percent: Math.round(a.score / a.total * 100),
+    byChapter: a.byChapter || {},
+    detail: a.detail || []
+  }));
+  const blob = new Blob([JSON.stringify(out, null, 2)], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  const stamp = fileStamp();
+  link.href = url;
+  link.download = "all-results-" + stamp + ".json";
+  document.body.appendChild(link); link.click(); document.body.removeChild(link);
+  URL.revokeObjectURL(url);
+}
+
+function attemptKey(a) {
+  // dedup identity: tag + date + time-of-day + duration + score
+  return [a.tag || "", a.date || "", a.timeOfDay || "", a.time || "", a.score, a.total].join("|");
+}
+
+function importResultsFiles(fileList) {
+  const files = Array.from(fileList || []);
+  if (files.length === 0) return;
+  let pending = files.length;
+  let imported = 0, skipped = 0, failed = 0;
+
+  files.forEach(file => {
+    const reader = new FileReader();
+    reader.onload = () => {
+      try {
+        const data = JSON.parse(reader.result);
+        const attempts = Array.isArray(data) ? data : [data];
+        const history = loadHistory();
+        const seen = new Set(history.map(attemptKey));
+        attempts.forEach(a => {
+          if (!a || typeof a.score !== "number" || typeof a.total !== "number") { failed++; return; }
+          const normalised = {
+            tag: a.tag || "Imported",
+            source: a.source || null,
+            passMark: a.passMark || 75,
+            score: a.score,
+            total: a.total,
+            time: a.time || "—",
+            date: a.date || new Date().toLocaleDateString("en-GB"),
+            timeOfDay: a.timeOfDay || null,
+            device: a.device || null,
+            byChapter: a.byChapter || {},
+            detail: Array.isArray(a.detail) ? a.detail : [],
+            imported: true
+          };
+          const key = attemptKey(normalised);
+          if (seen.has(key)) { skipped++; return; }
+          seen.add(key);
+          history.push(normalised);
+          imported++;
+        });
+        // keep newest first by not assuming order: sort isn't reliable on dd/mm; just unshift-style re-store
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(history.slice(0, 200)));
+      } catch (e) {
+        failed++;
+      }
+      pending--;
+      if (pending === 0) {
+        renderMenu();
+        alert("Import complete.\nAdded: " + imported + "\nAlready present (skipped): " + skipped + (failed ? "\nCouldn't read: " + failed : ""));
+      }
+    };
+    reader.onerror = () => { failed++; pending--; if (pending === 0) { renderMenu(); alert("Import finished with errors."); } };
+    reader.readAsText(file);
+  });
+}
+
+// ---- Results folder (File System Access API; Chrome/Edge desktop only) ----
+let folderHandle = null;
+
+// tiny IndexedDB helpers to persist the folder handle between visits
+function idbGet(key) {
+  return new Promise((resolve) => {
+    const open = indexedDB.open("quizlet-fs", 1);
+    open.onupgradeneeded = () => open.result.createObjectStore("handles");
+    open.onsuccess = () => {
+      const tx = open.result.transaction("handles", "readonly");
+      const req = tx.objectStore("handles").get(key);
+      req.onsuccess = () => resolve(req.result || null);
+      req.onerror = () => resolve(null);
+    };
+    open.onerror = () => resolve(null);
+  });
+}
+function idbSet(key, val) {
+  return new Promise((resolve) => {
+    const open = indexedDB.open("quizlet-fs", 1);
+    open.onupgradeneeded = () => open.result.createObjectStore("handles");
+    open.onsuccess = () => {
+      const tx = open.result.transaction("handles", "readwrite");
+      tx.objectStore("handles").put(val, key);
+      tx.oncomplete = () => resolve(true);
+      tx.onerror = () => resolve(false);
+    };
+    open.onerror = () => resolve(false);
+  });
+}
+
+async function verifyPermission(handle) {
+  const opts = { mode: "read" };
+  if ((await handle.queryPermission(opts)) === "granted") return true;
+  if ((await handle.requestPermission(opts)) === "granted") return true;
+  return false;
+}
+
+// merge an array of attempt objects into history, deduped
+function mergeAttempts(attempts) {
+  const history = loadHistory();
+  const seen = new Set(history.map(attemptKey));
+  let added = 0;
+  attempts.forEach(a => {
+    if (!a || typeof a.score !== "number" || typeof a.total !== "number") return;
+    const normalised = {
+      tag: a.tag || "Imported", source: a.source || null, passMark: a.passMark || 75,
+      score: a.score, total: a.total, time: a.time || "—",
+      date: a.date || new Date().toLocaleDateString("en-GB"),
+      timeOfDay: a.timeOfDay || null, device: a.device || null,
+      byChapter: a.byChapter || {}, detail: Array.isArray(a.detail) ? a.detail : [],
+      imported: true
+    };
+    const key = attemptKey(normalised);
+    if (seen.has(key)) return;
+    seen.add(key); history.push(normalised); added++;
+  });
+  if (added) localStorage.setItem(STORAGE_KEY, JSON.stringify(history.slice(0, 500)));
+  return added;
+}
+
+async function readFolder(handle) {
+  let all = [];
+  for await (const entry of handle.values()) {
+    if (entry.kind === "file" && entry.name.toLowerCase().endsWith(".json")) {
+      try {
+        const file = await entry.getFile();
+        const data = JSON.parse(await file.text());
+        all = all.concat(Array.isArray(data) ? data : [data]);
+      } catch (e) { /* skip unreadable/non-attempt json */ }
+    }
+  }
+  return mergeAttempts(all);
+}
+
+async function linkResultsFolder() {
+  if (!window.showDirectoryPicker) {
+    alert("Folder linking needs Chrome or Edge on desktop. On Safari or mobile, use Import results instead.");
+    return;
+  }
+  try {
+    const handle = await window.showDirectoryPicker({ id: "quizlet-results", mode: "read" });
+    folderHandle = handle;
+    await idbSet("resultsFolder", handle);
+    const added = await readFolder(handle);
+    renderMenu();
+    alert("Folder linked. " + (added ? added + " new attempt(s) loaded." : "No new attempts found.") + "\nThe app will read this folder automatically each visit.");
+  } catch (e) {
+    // user cancelled the picker, or permission denied
+  }
+}
+
+// on startup, try to reconnect a previously linked folder and load from it
+async function tryAutoLoadFolder() {
+  if (!window.showDirectoryPicker) return;
+  const handle = await idbGet("resultsFolder");
+  if (!handle) return;
+  if (await verifyPermission(handle)) {
+    folderHandle = handle;
+    const added = await readFolder(handle);
+    if (added) renderMenu();
+  }
+}
+
+function clearLocalHistory() {
+  const n = loadHistory().length;
+  const msg = "Clear local history?\n\n" +
+    "This deletes all " + n + " attempt(s) stored in THIS browser.\n\n" +
+    "Your exported result files are NOT touched. If a linked folder is set, those attempts will reload automatically next time.\n\n" +
+    "Attempts that were never exported to a file will be lost permanently.\n\nContinue?";
+  if (!confirm(msg)) return;
+  if (!confirm("Are you sure? This cannot be undone.")) return;
+  localStorage.removeItem(STORAGE_KEY);
+  renderMenu();
+  // if a folder is linked, re-read it so folder-backed attempts return
+  if (folderHandle) { readFolder(folderHandle).then(added => { if (added) renderMenu(); }); }
+}
+
+function triggerImport() {
+  const input = document.getElementById("importInput");
+  if (input) input.click();
+}
+
+function toggleSim() {
+  simOpen = !simOpen;
+  const el = document.getElementById("simSection");
+  if (el) el.style.display = simOpen ? "block" : "none";
+}
+
+init();
+</script>
+</body>
+</html>

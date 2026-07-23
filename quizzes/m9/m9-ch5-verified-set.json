@@ -1,0 +1,249 @@
+[
+  {
+    "question": "The Waiver of Premium Rider keeps a policy in force by waiving premiums when the life insured is:",
+    "options": [
+      "Totally and permanently disabled, or suffering a covered critical illness",
+      "Unemployed for more than six months",
+      "Travelling overseas for an extended period",
+      "Over the age of 65"
+    ],
+    "correctIndex": 0,
+    "explanation": "Para 1.7: the rider keeps a policy in force when the life insured is unable to pay premiums because he is totally and permanently disabled or is suffering from one of the critical illnesses covered. Para 1.8 gives the two covered-event groups: TPD and Critical Illnesses.",
+    "reference": "M9 e-textbook Ch 5, paras 1.7-1.8",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "When a Waiver of Premium Rider is 'folded in' to a policy as an integral part:",
+    "options": [
+      "The policy owner pays a separate rider premium each year",
+      "No additional premium is required, as it is costed into the gross premium",
+      "It applies only to single premium policies",
+      "It can be removed at the policy owner's request"
+    ],
+    "correctIndex": 1,
+    "explanation": "Paras 1.9-1.10: some insurers issue the rider folded in, in which case no additional premium is required as it has already been costed into the gross premium for the basic policy.",
+    "reference": "M9 e-textbook Ch 5, paras 1.9-1.10",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "The Waiver of Premium Rider available for separate purchase is NOT applicable to which policy type?",
+    "options": [
+      "Whole life policies",
+      "Endowment policies",
+      "Single premium policies",
+      "Investment-linked policies"
+    ],
+    "correctIndex": 2,
+    "explanation": "Para 1.11: the rider is available as one to be purchased separately by the proposer, but this is not applicable to single premium policies (there are no recurring premiums to waive).",
+    "reference": "M9 e-textbook Ch 5, para 1.11",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "The Waiver of Premium Rider expires when the life insured reaches:",
+    "options": [
+      "Age 55 in all cases",
+      "The end of the premium payment term only",
+      "Age 70 for every insurer",
+      "A specified age, usually 60 or 65 years"
+    ],
+    "correctIndex": 3,
+    "explanation": "Para 1.14: the rider expires when the life insured reaches a specified age (usually 60 or 65). Disability after the expiry age is not waived.",
+    "reference": "M9 e-textbook Ch 5, para 1.14",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "Under the common TPD definition in the Waiver of Premium Rider, total and permanent disability means the life insured:",
+    "options": [
+      "Cannot do any work, occupation or profession to earn wages, at the time disability commences or any time thereafter",
+      "Cannot perform his own previous occupation",
+      "Is hospitalised for more than 30 days",
+      "Has been unemployed for at least a year"
+    ],
+    "correctIndex": 0,
+    "explanation": "Para 1.16: TPD is disability such that there is, neither at the time disability commences nor at any time thereafter, any work, occupation or profession the life insured can ever do to earn any wages, compensation or profit. It is any work, ever, not just his own job.",
+    "reference": "M9 e-textbook Ch 5, para 1.16",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "The usual waiting period before premiums are waived under the Waiver of Premium (TPD) rider is:",
+    "options": [
+      "30 days",
+      "Six months",
+      "90 days",
+      "One year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Para 1.18: there is usually a waiting period of six months before the insurer waives premiums. The policy owner keeps paying during it, to make sure the disability meets the TPD definition.",
+    "reference": "M9 e-textbook Ch 5, para 1.18",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "Regarding premiums paid during the Waiver of Premium waiting period, the textbook states that:",
+    "options": [
+      "All insurers always refund them in full",
+      "They are never affected because no premium is due during the wait",
+      "Practice varies by insurer, and usually there is no refund of premiums already paid",
+      "They are converted into bonus units"
+    ],
+    "correctIndex": 2,
+    "explanation": "Para 1.19: some insurers refund monthly premiums paid during the waiting period once disability is confirmed, others waive only from the following policy anniversary; practices differ, and there is usually no refund of premiums already paid. Confirm the specific insurer's practice.",
+    "reference": "M9 e-textbook Ch 5, para 1.19",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "Which is a commonly excluded cause under the Waiver of Premium Rider?",
+    "options": [
+      "Disability from a covered illness contracted at work",
+      "Disability arising after age 40",
+      "Disability requiring hospitalisation abroad",
+      "Intentionally self-inflicted injuries, whether sane or insane"
+    ],
+    "correctIndex": 3,
+    "explanation": "Para 1.21: excluded causes include intentionally self-inflicted injuries (sane or insane); aircraft travel except as a fare-paying passenger on a scheduled commercial flight; injury in military/naval/air-force service during war; and injury while committing a crime.",
+    "reference": "M9 e-textbook Ch 5, para 1.21",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "A Waiver of Premium upon Critical Illness rider should NOT be recommended when the coverage already provides:",
+    "options": [
+      "100% acceleration of the death benefit on critical illness",
+      "A 50% acceleration benefit on critical illness",
+      "An additional benefit critical illness rider",
+      "A hospital cash benefit"
+    ],
+    "correctIndex": 0,
+    "explanation": "Para 1.24: with 100% acceleration of the death benefit on CI, the sum assured is paid out and the policy terminates on a CI claim, so there would be no premiums left to waive.",
+    "reference": "M9 e-textbook Ch 5, para 1.24",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "When the first annual instalment of a TPD Rider benefit begins, what happens to the other riders on the policy?",
+    "options": [
+      "They all continue unchanged",
+      "All are terminated, except the Extended TPD (ETPD) Rider",
+      "Only the critical illness rider continues",
+      "All including the ETPD rider are terminated"
+    ],
+    "correctIndex": 1,
+    "explanation": "Para 1.32: the moment the first annual instalment payment starts, all riders under the policy are terminated, with the exception of the Extended Total and Permanent Disability (ETPD) Rider.",
+    "reference": "M9 e-textbook Ch 5, para 1.32",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "Most insurers place an aggregate limit on the total TPD benefit payable on all of an insured's policies with them, usually of:",
+    "options": [
+      "S$500,000",
+      "S$1,000,000",
+      "S$2,000,000",
+      "S$5,000,000"
+    ],
+    "correctIndex": 2,
+    "explanation": "Para 1.34: most insurers place a limit (usually S$2,000,000) on the aggregate TPD benefit across all policies an insured holds with the insurer, and will not pay if disability is from intentional self-inflicted injury.",
+    "reference": "M9 e-textbook Ch 5, para 1.34",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "An Acceleration Benefit Critical Illness Rider provides for:",
+    "options": [
+      "A payment on top of the basic sum assured",
+      "A daily hospital cash benefit",
+      "A refund of premiums on diagnosis",
+      "The pre-payment of a portion or the full sum assured of the basic policy"
+    ],
+    "correctIndex": 3,
+    "explanation": "Para 1.38: the acceleration (accelerator/enhancer) rider provides for the pre-payment of a portion (e.g. 50%) or the full sum assured (100%) of the basic policy to which it is attached.",
+    "reference": "M9 e-textbook Ch 5, para 1.38",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "A person has a S$200,000 whole life policy with a 50% Acceleration Benefit CI Rider. On diagnosis of a covered critical illness, the insurer pays:",
+    "options": [
+      "S$100,000 (plus 50% of any bonuses); the rider then terminates and the balance is paid on death or TPD",
+      "S$200,000 and the policy continues",
+      "S$300,000 in total immediately",
+      "Nothing until death"
+    ],
+    "correctIndex": 0,
+    "explanation": "Para 1.38: the insurer pays S$100,000 (50% x S$200,000) plus 50% of bonuses if any; the CI rider then terminates, and the balance of the sum assured plus bonuses is paid on death or TPD.",
+    "reference": "M9 e-textbook Ch 5, para 1.38",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "If a person chooses a 100% Acceleration Benefit and makes a valid critical illness claim:",
+    "options": [
+      "The basic sum assured remains intact for death",
+      "The full sum assured is paid and the whole policy terminates",
+      "Half the sum assured is paid and half remains",
+      "The rider converts to an additional benefit type"
+    ],
+    "correctIndex": 1,
+    "explanation": "Para 1.40: with a 100% Acceleration Benefit, the full sum assured (plus bonuses if any) is paid and the whole policy is terminated. A CI claim can be made only once (para 1.39).",
+    "reference": "M9 e-textbook Ch 5, paras 1.39-1.40",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "Under an Additional Benefit Critical Illness Rider, on diagnosis of a covered critical illness:",
+    "options": [
+      "Part of the basic sum assured is advanced",
+      "The policy terminates immediately",
+      "Only the rider sum assured is paid; the basic sum assured remains intact for a later insured event",
+      "Both the basic and rider sums are paid at once"
+    ],
+    "correctIndex": 2,
+    "explanation": "Paras 1.43-1.44: the rider pays in addition to the basic plan; on diagnosis only the rider sum assured is paid, and the basic sum assured remains intact, paid only when an insured event such as death occurs.",
+    "reference": "M9 e-textbook Ch 5, paras 1.43-1.44",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "A person buys a S$100,000 whole life policy with a S$200,000 Additional Benefit CI Rider. He contracts a covered critical illness and later dies. The total the insurer pays is:",
+    "options": [
+      "S$100,000",
+      "S$200,000",
+      "S$400,000",
+      "S$300,000"
+    ],
+    "correctIndex": 3,
+    "explanation": "Paras 1.45-1.46: S$200,000 is paid on the critical illness and the S$100,000 basic sum assured is paid on death, so the total is S$300,000.",
+    "reference": "M9 e-textbook Ch 5, paras 1.45-1.46",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "Regarding the sum assured limit, an Acceleration Benefit CI rider's sum assured:",
+    "options": [
+      "Must not exceed that of the basic policy",
+      "Can be up to five times the basic sum assured",
+      "Is unlimited",
+      "Must equal the basic sum assured exactly"
+    ],
+    "correctIndex": 0,
+    "explanation": "Table 5.1 (para 1.48): the acceleration CI rider sum assured must not exceed that of the basic policy, whereas the additional benefit rider can be up to a certain multiple of the basic sum assured.",
+    "reference": "M9 e-textbook Ch 5, Table 5.1",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "The critical illness definitions for the standard list are, across all insurers in Singapore:",
+    "options": [
+      "Set individually by each insurer",
+      "Fixed and standardised, covering a list of 37 critical illnesses",
+      "Set by MAS for 50 conditions",
+      "Different in every policy"
+    ],
+    "correctIndex": 1,
+    "explanation": "Paras 1.56-1.57: definitions of the listed diseases are fixed across all insurers in Singapore; since 2003 the industry standardised definitions for a list of 37 severe critical illnesses (reviewed 2014 and 2019).",
+    "reference": "M9 e-textbook Ch 5, paras 1.56-1.57",
+    "chapter": "Chapter 5"
+  },
+  {
+    "question": "The survival period requirement (usually 30 days from the covered event) applies to which type of Critical Illness Rider?",
+    "options": [
+      "The Acceleration Benefit type only",
+      "Both types",
+      "The Additional Benefit type only",
+      "Neither type"
+    ],
+    "correctIndex": 2,
+    "explanation": "Para 1.87: the life insured must survive the survival period (usually 30 days from the date of occurrence). This survival period is applicable only to the Additional Benefit type of Critical Illness Rider.",
+    "reference": "M9 e-textbook Ch 5, para 1.87",
+    "chapter": "Chapter 5"
+  }
+]

@@ -1,0 +1,120 @@
+{
+  "exams": [
+    {
+      "code": "M9",
+      "name": "M9 — Life Insurance & Investment-Linked Policies",
+      "passMark": 75,
+      "chapterMap": [
+        {
+          "chapters": "1–3",
+          "group": "Foundations"
+        },
+        {
+          "chapters": "4–7",
+          "group": "Traditional products"
+        },
+        {
+          "chapters": "8–9",
+          "group": "ILPs"
+        },
+        {
+          "chapters": "10",
+          "group": "Annuities and CPF"
+        },
+        {
+          "chapters": "11–14",
+          "group": "Policy lifecycles"
+        }
+      ],
+      "sets": [
+        {
+          "id": "m9-ch1-5-mega",
+          "title": "Chapters 1–5 · Mega Set (50Q)",
+          "file": "quizzes/m9/m9-ch1-5-mega-50q.json",
+          "group": "Foundations + Traditional products",
+          "detail": "Mega",
+          "maxChapter": 5
+        },
+        {
+          "id": "m9-ch5-verified-set",
+          "title": "Chapter 5 · Riders · Verified (19Q, source-checked)",
+          "file": "quizzes/m9/m9-ch5-verified-set.json"
+        },
+        {
+          "id": "m9-ch5-riders-hard",
+          "title": "Chapter 5 · Riders · Set 4 (30Q)",
+          "file": "quizzes/m9/m9-ch5-riders-hard.json",
+          "group": "Traditional products",
+          "detail": "Hard",
+          "maxChapter": 5
+        },
+        {
+          "id": "m9-ch5-riders-drill",
+          "title": "Chapter 5 · Riders · Set 3 (8Q)",
+          "file": "quizzes/m9/m9-ch5-riders-drill.json",
+          "group": "Traditional products",
+          "detail": "Drill",
+          "maxChapter": 5
+        },
+        {
+          "id": "m9-ch5-riders-set2",
+          "title": "Chapter 5 · Riders · Set 2 (30Q)",
+          "file": "quizzes/m9/m9-ch5-riders-set2.json",
+          "group": "Traditional products",
+          "detail": "",
+          "maxChapter": 5
+        },
+        {
+          "id": "m9-ch5-riders-set1",
+          "title": "Chapter 5 · Riders · Set 1 (15Q)",
+          "file": "quizzes/m9/m9-ch5-riders-set1.json",
+          "group": "Traditional products",
+          "detail": "",
+          "maxChapter": 5
+        },
+        {
+          "id": "m9-ch1-4-set4",
+          "title": "Chapters 1–4 · Set 4",
+          "file": "quizzes/m9/ch1-4-set4.json",
+          "group": "Foundations",
+          "detail": "",
+          "maxChapter": 4
+        },
+        {
+          "id": "m9-ch1-4-set3",
+          "title": "Chapters 1–4 · Set 3",
+          "file": "quizzes/m9/ch1-4-set3.json",
+          "group": "Foundations",
+          "detail": "",
+          "maxChapter": 4
+        },
+        {
+          "id": "m9-ch1-4-set2",
+          "title": "Chapters 1–4 · Set 2",
+          "file": "quizzes/m9/ch1-4-set2.json",
+          "group": "Foundations",
+          "detail": "",
+          "maxChapter": 4
+        }
+      ]
+    },
+    {
+      "code": "M5",
+      "name": "M5 — Rules & Regulations for Financial Advisory Services",
+      "passMark": 75,
+      "sets": []
+    },
+    {
+      "code": "M9A",
+      "name": "M9A — Life Insurance & Investment-Linked Policies II",
+      "passMark": 75,
+      "sets": []
+    },
+    {
+      "code": "HI",
+      "name": "HI — Health Insurance",
+      "passMark": 75,
+      "sets": []
+    }
+  ]
+}
