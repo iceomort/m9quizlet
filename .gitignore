@@ -5,4 +5,5 @@ seed-results copy.json
 seed-results *.json
 .vscode/
 *.swp
-.claude/
+.claude/*
+!.claude/commands/
