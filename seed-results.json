@@ -2,6 +2,958 @@
   {
     "_type": "cmfas-quiz-attempt",
     "_version": 2,
+    "tag": "M9 · Chapter 6 · Participating Policies · Hard Set 2 (30Q)",
+    "source": {
+      "mode": "set",
+      "exam": "M9",
+      "setId": "m9-ch6-par-hard-2"
+    },
+    "passMark": 75,
+    "date": "23/07/2026",
+    "time": "05:10",
+    "timeOfDay": "11:30",
+    "device": "Mac · Chrome",
+    "score": 27,
+    "total": 30,
+    "percent": 90,
+    "byChapter": {
+      "Chapter 6": {
+        "c": 27,
+        "t": 30
+      }
+    },
+    "detail": [
+      {
+        "chapter": "Chapter 6",
+        "question": "A par policy owner asks where exactly her money is held. Assets in the participating fund are:",
+        "options": [
+          "Divided equally among all owners annually",
+          "Pooled together, not maintained per owner",
+          "Held as identifiable units in her own name",
+          "Ring-fenced in a segregated policy account"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Par-fund assets are pooled, not separately maintained per owner [1.11]. Identifiable units describe an ILP; there is no per-policy segregation or equal splitting.",
+        "reference": "M9 e-textbook Ch 6, para 1.11"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "The participating fund cannot meet its guaranteed benefits. The insurer must:",
+        "options": [
+          "Reclassify the gap as a non-guaranteed bonus",
+          "Defer the benefits to the next financial year",
+          "Inject its own capital to cover the gap",
+          "Scale the guaranteed benefits down pro rata"
+        ],
+        "chosenIndex": 2,
+        "correctIndex": 2,
+        "correct": true,
+        "explanation": "Guarantees are absolute; the insurer tops up any shortfall on guaranteed benefits from its own capital [1.4]. The rest breach the guarantee.",
+        "reference": "M9 e-textbook Ch 6, para 1.4"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Which feature most sharply separates a reversionary bonus from a terminal bonus?",
+        "options": [
+          "It is handed to the owner as cash",
+          "Once vested, it can never be removed",
+          "It is only ever paid out at maturity",
+          "It is always the larger of the two"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "A vested RB is guaranteed and cannot be taken back [2.5]. 'Only at maturity' describes TB; RB isn't necessarily larger and isn't paid as cash.",
+        "reference": "M9 e-textbook Ch 6, para 2.5"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "A policy has a sum assured of S$120,000 and a simple reversionary bonus of S$10 per S$1,000. After three years the sum assured is:",
+        "options": [
+          "S$120,360",
+          "S$123,600",
+          "S$126,000",
+          "S$121,200"
+        ],
+        "chosenIndex": 2,
+        "correctIndex": 1,
+        "correct": false,
+        "explanation": "S$10 x 120 = S$1,200 per year; over 3 years = S$3,600; 120,000 + 3,600 = S$123,600. Wrong options apply the rate once, ten-fold, or per S$10,000.",
+        "reference": "M9 e-textbook Ch 6, Example 6.1"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Compound reversionary bonus, unlike simple, is calculated on the:",
+        "options": [
+          "Terminal bonus most recently set",
+          "Sum assured figure on its own",
+          "Sum assured plus attached bonuses",
+          "Total premiums paid up to date"
+        ],
+        "chosenIndex": 2,
+        "correctIndex": 2,
+        "correct": true,
+        "explanation": "Compound RB applies to SA plus bonuses already attached, so it snowballs [2.14]. 'Sum assured on its own' is simple RB.",
+        "reference": "M9 e-textbook Ch 6, para 2.14"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "A terminal bonus is best described as one that is:",
+        "options": [
+          "Guaranteed after two years in force",
+          "Payable solely in the event of surrender",
+          "Added only when the policy ends",
+          "Vested on every policy anniversary"
+        ],
+        "chosenIndex": 2,
+        "correctIndex": 2,
+        "correct": true,
+        "explanation": "TB is added only at termination (maturity, death, sometimes surrender), usually after a minimum in-force period [2.17-2.20]. It doesn't vest annually, has no two-year guarantee, and isn't surrender-only.",
+        "reference": "M9 e-textbook Ch 6, paras 2.17-2.20"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "A policy ends in July but the year's bonus is not declared until April. The part-year is covered by the:",
+        "options": [
+          "Interim bonus",
+          "Reversionary bonus",
+          "Cash dividend",
+          "Terminal bonus"
+        ],
+        "chosenIndex": 0,
+        "correctIndex": 0,
+        "correct": true,
+        "explanation": "The interim bonus bridges policies terminating before the annual declaration is finalised [2.25].",
+        "reference": "M9 e-textbook Ch 6, para 2.25"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "In Singapore, bonus declarations are usually finalised in:",
+        "options": [
+          "Each policy's own anniversary month",
+          "January, right at the start of the year",
+          "December, just before accounts close",
+          "March or April, once accounts are audited"
+        ],
+        "chosenIndex": 3,
+        "correctIndex": 3,
+        "correct": true,
+        "explanation": "Declarations follow audited financial statements and Board approval, usually March/April [2.23].",
+        "reference": "M9 e-textbook Ch 6, para 2.23"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Which bonus gives the owner money while leaving the guaranteed sum assured untouched?",
+        "options": [
+          "Reversionary bonus",
+          "Terminal bonus",
+          "Cash dividend",
+          "Interim bonus"
+        ],
+        "chosenIndex": 2,
+        "correctIndex": 2,
+        "correct": true,
+        "explanation": "A cash dividend is paid as cash, separate from the SA, so taking it leaves the guaranteed SA intact [2.22]. RB is added to the SA and can't be routinely withdrawn.",
+        "reference": "M9 e-textbook Ch 6, para 2.22"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Surrendering the compound reversionary bonuses on an in-force policy mainly costs the owner:",
+        "options": [
+          "The entire terminal bonus due",
+          "The policy's free-look period",
+          "Compounding on the past bonuses",
+          "The full guaranteed sum assured"
+        ],
+        "chosenIndex": 2,
+        "correctIndex": 2,
+        "correct": true,
+        "explanation": "Giving up CRB forfeits the compounding on bonuses already attached [2.16]. It doesn't zero the SA, remove free-look, or forfeit all TB.",
+        "reference": "M9 e-textbook Ch 6, para 2.16"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "When bonuses are determined, the Appointed Actuary's task is to:",
+        "options": [
+          "Recommend the bonus and the reserves",
+          "Guarantee the terminal bonus rate",
+          "Decide the fund's asset allocation",
+          "Approve the bonus for declaration"
+        ],
+        "chosenIndex": 0,
+        "correctIndex": 0,
+        "correct": true,
+        "explanation": "The actuary recommends bonus and reserves; the Board approves [3.2-3.3]. Approval is the Board's job.",
+        "reference": "M9 e-textbook Ch 6, paras 3.2-3.3"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Final approval of the bonus to be declared lies with the:",
+        "options": [
+          "Appointed Actuary",
+          "Monetary Authority",
+          "Chief Executive",
+          "Board of Directors"
+        ],
+        "chosenIndex": 3,
+        "correctIndex": 3,
+        "correct": true,
+        "explanation": "The Board approves the bonus, taking the actuary's written recommendation into account [3.3].",
+        "reference": "M9 e-textbook Ch 6, para 3.3"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "The duty to appoint an Appointed Actuary comes from the:",
+        "options": [
+          "Financial Advisers Act",
+          "Securities and Futures Act",
+          "Insurance Act 1966",
+          "MAS Notice FAA-N16"
+        ],
+        "chosenIndex": 2,
+        "correctIndex": 2,
+        "correct": true,
+        "explanation": "The Appointed Actuary is required under the Insurance Act 1966 [3.2].",
+        "reference": "M9 e-textbook Ch 6, para 3.2"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Which is NOT among the three factors balanced when setting bonuses?",
+        "options": [
+          "Fairness across policy generations",
+          "Solvency of the participating fund",
+          "Maximising shareholder profit each year",
+          "Stability of long-run returns"
+        ],
+        "chosenIndex": 2,
+        "correctIndex": 2,
+        "correct": true,
+        "explanation": "The three are fairness, solvency and stability [3.4]. Maximising shareholder profit is the opposite of what 90:10 constrains.",
+        "reference": "M9 e-textbook Ch 6, para 3.4"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "'Smoothing' of bonuses refers to:",
+        "options": [
+          "Guaranteeing the bonus rises every year",
+          "Holding back in good years to aid weak ones",
+          "Tracking market returns closely each year",
+          "Fixing the bonus level at policy inception"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Smoothing withholds in good years and props up in poor years so bonuses don't follow market swings [2.6].",
+        "reference": "M9 e-textbook Ch 6, para 2.6"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Under the 90:10 rule, the insurer's yearly par-fund profit is limited to:",
+        "options": [
+          "One-tenth of the premiums received",
+          "One-ninth of the policyholders' bonus",
+          "One-ninth of the total sum assured",
+          "Ten per cent of the fund's assets"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Insurer profit is capped at 1/9 of the amount allocated to policyholders as bonus (its 10 against their 90) [3.28].",
+        "reference": "M9 e-textbook Ch 6, para 3.28"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "The 90:10 rule itself is set out in the:",
+        "options": [
+          "MAS Notice 320",
+          "Insurance Act",
+          "LIA Disclosure Guidelines",
+          "Financial Advisers Act"
+        ],
+        "chosenIndex": 0,
+        "correctIndex": 1,
+        "correct": false,
+        "explanation": "The 90:10 rule is in the Insurance Act [3.28]. Notice 320 governs management and disclosure but isn't where the rule sits.",
+        "reference": "M9 e-textbook Ch 6, para 3.28"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Policyholders receive S$720,000 in bonus this year. The insurer's maximum profit is:",
+        "options": [
+          "S$80,000",
+          "S$8,000",
+          "S$800,000",
+          "S$72,000"
+        ],
+        "chosenIndex": 0,
+        "correctIndex": 0,
+        "correct": true,
+        "explanation": "720,000 / 9 = S$80,000. Check: 720k + 80k = 800k surplus, 720/800 = 90%. S$72,000 wrongly takes 10% of the bonus.",
+        "reference": "M9 e-textbook Ch 6, para 3.28"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Interests are aligned under 90:10 because the insurer lifts its own share only by:",
+        "options": [
+          "Cutting the reserves it has to hold",
+          "Lifting the bonus paid to policyholders",
+          "Charging more on new-business premiums",
+          "Trimming its own management expenses"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "The insurer's 10 is a fixed fraction of the policyholders' 90, so it grows its share only by growing theirs [3.29].",
+        "reference": "M9 e-textbook Ch 6, para 3.29"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Good-year assets not paid out as that year's annual bonus are:",
+        "options": [
+          "Returned to shareholders as profit",
+          "Refunded to policyholders in cash",
+          "Kept as reserves for future bonuses",
+          "Applied to cut next year's premiums"
+        ],
+        "chosenIndex": 2,
+        "correctIndex": 2,
+        "correct": true,
+        "explanation": "Unused good-year assets become reserves for future annual and/or terminal bonuses, so under-declaring isn't short-changing [3.22].",
+        "reference": "M9 e-textbook Ch 6, para 3.22"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Annual bonuses reach all in-force par policies except, in some cases, those:",
+        "options": [
+          "That carry an attached rider",
+          "Written on a single-premium basis",
+          "Owned by anyone aged over 55",
+          "In force for less than two years"
+        ],
+        "chosenIndex": 3,
+        "correctIndex": 3,
+        "correct": true,
+        "explanation": "A common exclusion is policies in force for less than two years [3.19].",
+        "reference": "M9 e-textbook Ch 6, para 3.19"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "A common way to set the maturity terminal bonus is to make total benefits roughly match the:",
+        "options": [
+          "Fund's investment return this same year",
+          "Long-term share of assets backing them",
+          "Total reversionary bonuses so far given",
+          "Sum of every premium the owner paid"
+        ],
+        "chosenIndex": 2,
+        "correctIndex": 1,
+        "correct": false,
+        "explanation": "TB is commonly set so total benefits approximate the long-run share of fund assets backing those policies [3.25].",
+        "reference": "M9 e-textbook Ch 6, para 3.25"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Which risk is called often the largest affecting the par fund, though not the only one?",
+        "options": [
+          "Investment risk",
+          "Expense risk",
+          "Lapse risk",
+          "Mortality risk"
+        ],
+        "chosenIndex": 0,
+        "correctIndex": 0,
+        "correct": true,
+        "explanation": "Investment risk is often the largest, alongside expense, mortality and other risks [3.9].",
+        "reference": "M9 e-textbook Ch 6, para 3.9"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "A par product weighted more towards guaranteed benefits is usually backed by a:",
+        "options": [
+          "Higher-volatility alternative asset base",
+          "An aggressive, equity-dominated portfolio",
+          "Portfolio holding no fixed-income at all",
+          "Conservative mix with more government bonds"
+        ],
+        "chosenIndex": 3,
+        "correctIndex": 3,
+        "correct": true,
+        "explanation": "More guaranteed benefits call for a conservative mandate with more government bonds, where low risk is key [2.8].",
+        "reference": "M9 e-textbook Ch 6, para 2.8"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "The clause permitting reduced surrender values in a sharp market fall exists to:",
+        "options": [
+          "Cancel the policy's free-look right",
+          "Push profit past the 90:10 ceiling",
+          "Switch it to non-participating status",
+          "Protect owners who stay in the fund"
+        ],
+        "chosenIndex": 3,
+        "correctIndex": 3,
+        "correct": true,
+        "explanation": "It stops those who surrender from taking an unfair share of assets at the expense of remaining owners [2.33].",
+        "reference": "M9 e-textbook Ch 6, para 2.33"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Which document is company-specific and compulsory at sale, showing how the insurer invests and smooths?",
+        "options": [
+          "Internal Governance Policy",
+          "Your Guide to Participating Policies",
+          "Annual Bonus Update",
+          "Product Summary"
+        ],
+        "chosenIndex": 3,
+        "correctIndex": 3,
+        "correct": true,
+        "explanation": "The Product Summary is company-specific and compulsory at sale [4.6]. 'Your Guide' is generic and on request; the Annual Bonus Update is post-sale.",
+        "reference": "M9 e-textbook Ch 6, para 4.6"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "On the Policy Illustration, the required signatures are:",
+        "options": [
+          "The Appointed Actuary's signature",
+          "Both client and rep, on every page",
+          "The representative's signature only",
+          "The client's, on the last page only"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Both client and representative sign every page of the policy illustration [4.10].",
+        "reference": "M9 e-textbook Ch 6, para 4.10"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "'Your Guide to Participating Policies' is correctly described as a:",
+        "options": [
+          "Company-specific document under Notice 320",
+          "Form both client and rep have to sign",
+          "Compulsory point-of-sale disclosure form",
+          "Generic LIA MoneySENSE guide, on request"
+        ],
+        "chosenIndex": 3,
+        "correctIndex": 3,
+        "correct": true,
+        "explanation": "It is a generic LIA consumer guide under MoneySENSE, not compulsory, provided on request [5.2].",
+        "reference": "M9 e-textbook Ch 6, para 5.2"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "On the Internal Governance Policy, which statement is correct?",
+        "options": [
+          "It must be shown to every customer",
+          "It removes the need for a Product Summary",
+          "The actuary reviews it every three years",
+          "The Board approves and reviews it yearly"
+        ],
+        "chosenIndex": 3,
+        "correctIndex": 3,
+        "correct": true,
+        "explanation": "The Board approves and annually reviews it; it need not be disclosed to customers [6.4-6.5].",
+        "reference": "M9 e-textbook Ch 6, paras 6.4-6.5"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Under the RBC framework (from 1 January 2005), the actuary reserves for all EXCEPT:",
+        "options": [
+          "Future non-guaranteed bonuses",
+          "A provision for adverse deviation",
+          "Shareholders' guaranteed dividends",
+          "The policy's guaranteed benefits"
+        ],
+        "chosenIndex": 2,
+        "correctIndex": 2,
+        "correct": true,
+        "explanation": "The three real categories are guaranteed benefits, future non-guaranteed bonuses, and provision for adverse deviation [3.32]. 'Shareholders' guaranteed dividends' is invented.",
+        "reference": "M9 e-textbook Ch 6, para 3.32"
+      }
+    ]
+  },
+  {
+    "_type": "cmfas-quiz-attempt",
+    "_version": 2,
+    "tag": "M9 · Chapter 6 · Participating Policies · Hard Set 1 (30Q)",
+    "source": {
+      "mode": "set",
+      "exam": "M9",
+      "setId": "m9-ch6-par-hard"
+    },
+    "passMark": 75,
+    "date": "23/07/2026",
+    "time": "07:22",
+    "timeOfDay": "11:24",
+    "device": "Mac · Chrome",
+    "score": 18,
+    "total": 30,
+    "percent": 60,
+    "byChapter": {
+      "Chapter 6": {
+        "c": 18,
+        "t": 30
+      }
+    },
+    "detail": [
+      {
+        "chapter": "Chapter 6",
+        "question": "A participating policy differs from an investment-linked policy primarily because in a participating policy:",
+        "options": [
+          "Assets are held in identifiable units for each policy owner",
+          "Assets are not separately maintained for each policy owner",
+          "The policy owner directly selects the underlying funds",
+          "There are no guaranteed benefits"
+        ],
+        "chosenIndex": 0,
+        "correctIndex": 1,
+        "correct": false,
+        "explanation": "In an ILP, each owner's assets are identifiable as units held. In a par policy, assets are pooled and not separately maintained per owner. Options A and C describe ILPs; D is wrong because par policies do carry guaranteed benefits.",
+        "reference": "M9 e-textbook Ch 6, para 1.11"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "In the extreme event that the participating fund has insufficient assets to meet guaranteed benefits, the insurer must:",
+        "options": [
+          "Reduce the guaranteed benefits proportionally",
+          "Convert guaranteed benefits into non-guaranteed bonuses",
+          "Inject additional capital into the participating fund",
+          "Cease writing new participating business"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 2,
+        "correct": false,
+        "explanation": "The insurer is obliged to make good any shortfall on guaranteed benefits by injecting additional capital. A and B would breach the guarantee; D is not the prescribed mechanism.",
+        "reference": "M9 e-textbook Ch 6, para 1.4"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Which statement about reversionary bonuses is correct?",
+        "options": [
+          "They are added only on termination of the policy",
+          "Once declared and vested, they cannot later be reduced or removed",
+          "They fluctuate more than terminal bonuses",
+          "They are always paid as immediate cash"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Once a reversionary bonus is declared and vested it becomes guaranteed and cannot be taken away. A describes the terminal bonus; C is reversed (TB fluctuates more than RB); D describes cash dividends.",
+        "reference": "M9 e-textbook Ch 6, paras 2.5, 2.11"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Mr Lim has a S$80,000 whole life policy paying a simple reversionary bonus of S$10 per S$1,000 sum assured. What is his total sum assured at the end of year 4?",
+        "options": [
+          "S$83,200",
+          "S$82,400",
+          "S$83,000",
+          "S$84,000"
+        ],
+        "chosenIndex": 0,
+        "correctIndex": 0,
+        "correct": true,
+        "explanation": "SRB per year = S$10 x 80 = S$800. Over 4 years = S$3,200. 80,000 + 3,200 = S$83,200. The other options use the wrong multiplier or miscount the years.",
+        "reference": "M9 e-textbook Ch 6, Example 6.1"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "The key difference between simple and compound reversionary bonus is that CRB is calculated on:",
+        "options": [
+          "The sum assured only",
+          "The sum assured plus any existing attached bonuses",
+          "The terminal bonus only",
+          "The total premiums paid to date"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Compound reversionary bonus is allocated on the sum assured plus existing attached bonuses, producing a compounding effect. Option A describes the simple reversionary bonus.",
+        "reference": "M9 e-textbook Ch 6, para 2.14"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Terminal bonus is best described as:",
+        "options": [
+          "Added to the sum assured every anniversary",
+          "Guaranteed once the policy is two years in force",
+          "Added only on termination, usually after a minimum in-force period",
+          "Paid only on surrender, never on death"
+        ],
+        "chosenIndex": 2,
+        "correctIndex": 2,
+        "correct": true,
+        "explanation": "Terminal bonus is added only on termination (maturity, death or sometimes surrender), typically after a minimum in-force period. A describes the reversionary bonus; B is false; D is false because TB can be paid on maturity or death.",
+        "reference": "M9 e-textbook Ch 6, paras 2.17-2.20"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Which bonus is given to a participating policy that terminates early in the year, before the annual bonus declaration is finalised?",
+        "options": [
+          "Terminal bonus",
+          "Interim bonus",
+          "Compound reversionary bonus",
+          "Cash dividend"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Interim bonuses bridge policies that terminate before the annual bonus declaration is finalised, based on prevailing or reserve bonus rates.",
+        "reference": "M9 e-textbook Ch 6, para 2.25"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "In Singapore, the actual bonus declaration typically takes place:",
+        "options": [
+          "On each policy's anniversary date",
+          "In January of each calendar year",
+          "In March/April following the end of the financial year, after audited statements are complete",
+          "Immediately after each Board meeting, regardless of audit status"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 2,
+        "correct": false,
+        "explanation": "Declaration typically occurs in March/April after the audited financial statements of the participating fund are complete and the Board has approved the bonuses.",
+        "reference": "M9 e-textbook Ch 6, para 2.23"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Under the 90:10 rule, the profit the insurer may take from the participating fund in any year is limited to:",
+        "options": [
+          "10% of total premiums received",
+          "1/9 of the amount allocated to policy owners as bonus",
+          "10% of the participating fund's total assets",
+          "1/10 of the sum assured"
+        ],
+        "chosenIndex": 0,
+        "correctIndex": 1,
+        "correct": false,
+        "explanation": "The insurer's profit is limited to 1/9 of the amount allocated to policy owners as bonus, meaning 90% of distributable surplus goes to policy owners and 10% to the insurer. The other options use the wrong base.",
+        "reference": "M9 e-textbook Ch 6, para 3.28"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "The 90:10 rule is set out in which piece of legislation?",
+        "options": [
+          "Financial Advisers Act",
+          "MAS Notice 320",
+          "Insurance Act",
+          "LIA Disclosure Guidelines"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 2,
+        "correct": false,
+        "explanation": "The 90:10 rule is set out in the Insurance Act. MAS Notice 320 governs the management and disclosure of participating business but is not where the 90:10 rule is stated.",
+        "reference": "M9 e-textbook Ch 6, para 3.28"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Which of the following is NOT one of the three considerations the insurer must balance when determining bonuses?",
+        "options": [
+          "Maintaining fairness and equity between policy generations",
+          "Maintaining solvency of the participating fund",
+          "Maximising shareholder profit each year",
+          "Ensuring stable medium-to-long-term returns"
+        ],
+        "chosenIndex": 0,
+        "correctIndex": 2,
+        "correct": false,
+        "explanation": "The three considerations are fairness/equity, solvency, and stability of returns. Maximising shareholder profit is the opposite of what the 90:10 rule constrains.",
+        "reference": "M9 e-textbook Ch 6, para 3.4"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "At year-end, the Appointed Actuary's role is to:",
+        "options": [
+          "Approve the bonuses to be declared",
+          "Recommend the bonus amount and reserves for future bonuses",
+          "Guarantee the terminal bonus rate",
+          "Set the investment mix of the fund"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "The Appointed Actuary recommends the bonus amount and the reserves to be set aside; the Board of Directors approves. Option A is the Board's role, not the actuary's.",
+        "reference": "M9 e-textbook Ch 6, paras 3.2-3.3"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "The requirement for an Appointed Actuary arises under the:",
+        "options": [
+          "Insurance Act 1966",
+          "MAS Notice FAA-N16",
+          "Companies Act",
+          "Financial Advisers Act"
+        ],
+        "chosenIndex": 0,
+        "correctIndex": 0,
+        "correct": true,
+        "explanation": "The Appointed Actuary is required under the Insurance Act 1966.",
+        "reference": "M9 e-textbook Ch 6, para 3.2"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "\"Smoothing\" of bonuses means that:",
+        "options": [
+          "Bonuses always rise each year regardless of performance",
+          "Bonuses closely track investment market movements",
+          "Bonuses may be held back in good years to maintain them in poor years",
+          "Bonuses are fixed at policy inception"
+        ],
+        "chosenIndex": 2,
+        "correctIndex": 2,
+        "correct": true,
+        "explanation": "Smoothing holds back bonuses in strong years so they can be maintained in weaker years, so bonuses do not necessarily follow market rises and falls. A, B and D all contradict smoothing.",
+        "reference": "M9 e-textbook Ch 6, para 2.6"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Which document is company-specific and describes how a particular insurer actually carries out risk sharing, investment and smoothing?",
+        "options": [
+          "Your Guide to Participating Policies",
+          "Product Summary",
+          "Annual Bonus Update",
+          "Internal Governance Policy"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "The Product Summary provides company-specific information about how the insurer carries out risk sharing, investment and smoothing. Option A is the generic, non-company-specific consumer guide.",
+        "reference": "M9 e-textbook Ch 6, paras 4.6, 5.4"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "\"Your Guide to Participating Policies\" is:",
+        "options": [
+          "A compulsory point-of-sale document",
+          "A company-specific disclosure under MAS Notice 320",
+          "An LIA consumer guide under the MoneySENSE banner, provided on request",
+          "A document both client and representative must sign"
+        ],
+        "chosenIndex": 2,
+        "correctIndex": 2,
+        "correct": true,
+        "explanation": "It is an LIA consumer guide issued under the MoneySENSE banner, non-company-specific, not compulsory at point of sale but provided on request. B and D describe the Product Summary and Policy Illustration.",
+        "reference": "M9 e-textbook Ch 6, paras 5.1-5.3"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Under the LIA Disclosure Guidelines, the Policy Illustration must be:",
+        "options": [
+          "Signed by the representative only",
+          "Signed by the client only",
+          "Signed by both client and representative on every page",
+          "Signed by the Appointed Actuary"
+        ],
+        "chosenIndex": 2,
+        "correctIndex": 2,
+        "correct": true,
+        "explanation": "Both the client and the representative are required to sign on every page of the policy illustration.",
+        "reference": "M9 e-textbook Ch 6, para 4.10"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Disclosure requirements for participating policies at point-of-sale and post-sales are set out primarily under:",
+        "options": [
+          "MAS Notice FAA-N16",
+          "MAS Notice 320",
+          "The Insurance Act",
+          "Your Guide to Life Insurance"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "MAS Notice 320 on Management of Participating Life Insurance Business sets out point-of-sale (Product Summary) and post-sales (Annual Bonus Update) disclosure. FAA-N16 relates specifically to furnishing the Policy Illustration.",
+        "reference": "M9 e-textbook Ch 6, para 4.5"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Which is a valid statement about terminal bonuses versus reversionary bonuses?",
+        "options": [
+          "Terminal bonuses are added to the in-force sum assured; reversionary bonuses are not",
+          "Reversionary bonuses fluctuate more than terminal bonuses",
+          "A product with higher terminal bonuses tends to have greater deferment in bonus allocation",
+          "Terminal bonuses vest on each policy anniversary"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 2,
+        "correct": false,
+        "explanation": "Products with higher terminal bonuses defer more of the bonus allocation to later years, allowing support by longer-duration, more volatile assets. A is reversed, B is reversed, and D is false because TB does not vest annually.",
+        "reference": "M9 e-textbook Ch 6, paras 2.20, 2.28"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Death benefit under a participating policy equals:",
+        "options": [
+          "Guaranteed death benefit only",
+          "Guaranteed death benefit + bonuses credited",
+          "Surrender value of bonuses only",
+          "Total premiums paid + terminal bonus"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Death benefit = guaranteed death benefit + bonuses credited to the policy.",
+        "reference": "M9 e-textbook Ch 6, para 2.30"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Annual bonuses are typically allocated to all in-force participating policies EXCEPT in some cases such as:",
+        "options": [
+          "Policies in force for less than two years",
+          "Policies with attached riders",
+          "Policies owned by males over 55",
+          "Policies written in the non-participating fund"
+        ],
+        "chosenIndex": 3,
+        "correctIndex": 0,
+        "correct": false,
+        "explanation": "Annual bonuses go to all in-force participating policies except in some cases, such as policies in force for less than two years.",
+        "reference": "M9 e-textbook Ch 6, para 3.19"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Why does not allocating higher annual bonuses in a good year NOT mean policy owners are short-changed?",
+        "options": [
+          "Because guaranteed benefits are increased instead",
+          "Because unused assets are set aside as reserves for future annual and/or terminal bonuses",
+          "Because the insurer refunds the difference in cash",
+          "Because the premium is reduced the following year"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Assets built up in a good year but not used for that year's annual bonus are set aside as reserves for future annual and/or terminal bonuses.",
+        "reference": "M9 e-textbook Ch 6, para 3.22"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Which of the following is a common approach to determining terminal bonuses upon maturity?",
+        "options": [
+          "Set them so total benefits approximately equal the share of fund assets backing those policies over the long run",
+          "Set them equal to the total reversionary bonuses declared",
+          "Fix them at 10% of premiums paid",
+          "Match them exactly to the current year's investment return"
+        ],
+        "chosenIndex": 0,
+        "correctIndex": 0,
+        "correct": true,
+        "explanation": "A common approach sets terminal bonuses so that total guaranteed plus non-guaranteed benefits approximately equal the share of participating fund assets backing those policies over the long run.",
+        "reference": "M9 e-textbook Ch 6, para 3.25"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Under the Risk-Based Capital framework (effective 1 January 2005), the Appointed Actuary must reserve for all of the following EXCEPT:",
+        "options": [
+          "Guaranteed benefits",
+          "Future non-guaranteed bonuses",
+          "Provision for adverse deviation",
+          "Shareholders' guaranteed dividends"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 3,
+        "correct": false,
+        "explanation": "The RBC framework requires reserving for guaranteed benefits, future non-guaranteed bonuses, and provision for adverse deviation. \"Shareholders' guaranteed dividends\" is not a reserving category.",
+        "reference": "M9 e-textbook Ch 6, para 3.32"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Regarding the Internal Governance Policy under MAS Notice 320, which is correct?",
+        "options": [
+          "It must be disclosed to all prospective customers",
+          "It must be approved by the Board and reviewed annually by the Board",
+          "It is reviewed by the Appointed Actuary every three years",
+          "It replaces the need for a Product Summary"
+        ],
+        "chosenIndex": 2,
+        "correctIndex": 1,
+        "correct": false,
+        "explanation": "The Internal Governance Policy must be approved by the Board and reviewed annually by the Board. It is not required to be disclosed to customers, though insurers may do so voluntarily.",
+        "reference": "M9 e-textbook Ch 6, paras 6.4-6.5"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "A policy owner surrenders their compound reversionary bonuses while keeping the policy in force. What is the main disadvantage?",
+        "options": [
+          "The policy immediately lapses",
+          "The value of compounding on past bonuses is lost",
+          "The guaranteed sum assured is reduced to zero",
+          "The terminal bonus doubles"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Surrendering compound reversionary bonuses loses the compounding value on past bonuses, reducing future benefits.",
+        "reference": "M9 e-textbook Ch 6, para 2.16"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Which risk is described as \"often the largest, but by no means the only\" risk affecting participating fund performance?",
+        "options": [
+          "Expense risk",
+          "Mortality risk",
+          "Investment risk",
+          "Lapse/surrender risk"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 2,
+        "correct": false,
+        "explanation": "Investment risk is often the largest risk, but expense, mortality and other risks also affect fund performance.",
+        "reference": "M9 e-textbook Ch 6, para 3.9"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "A participating policy with a higher proportion of guaranteed benefits will typically have:",
+        "options": [
+          "A more aggressive, equity-heavy investment mandate",
+          "A more conservative investment mandate with more government bonds",
+          "No terminal bonus at all",
+          "Higher volatility of returns"
+        ],
+        "chosenIndex": 3,
+        "correctIndex": 1,
+        "correct": false,
+        "explanation": "A higher proportion of guaranteed benefits calls for a more conservative investment mandate, such as more government bonds, where low risk is the key characteristic.",
+        "reference": "M9 e-textbook Ch 6, para 2.8"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Which clause allows insurers to reduce surrender values when markets fall sharply, and why does it exist?",
+        "options": [
+          "To increase shareholder profit beyond the 90:10 limit",
+          "To ensure those who surrender don't take an unfair share of assets at the expense of remaining policy owners",
+          "To eliminate the free-look period",
+          "To convert the policy to non-participating"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Some policies allow surrender values to be reduced when markets fall sharply, so that those surrendering do not take an unfair share of assets at the expense of remaining policy owners.",
+        "reference": "M9 e-textbook Ch 6, para 2.33"
+      },
+      {
+        "chapter": "Chapter 6",
+        "question": "Which set of documents must a representative furnish when recommending a participating life policy (per MAS/LIA guidelines)?",
+        "options": [
+          "Only the Policy Illustration",
+          "Cover Page, Product Summary, Policy Illustration, Bundled Product Disclosure Document, Product Highlights Sheet, and \"Your Guide to Life Insurance\"",
+          "Only the Annual Bonus Update",
+          "Internal Governance Policy and Your Guide to Participating Policies"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "When recommending a life policy, the representative must furnish the Cover Page, Product Summary, Policy Illustration, Bundled Product Disclosure Document and Product Highlights Sheet, plus \"Your Guide to Life Insurance\".",
+        "reference": "M9 e-textbook Ch 6, para 4.2"
+      }
+    ]
+  },
+  {
+    "_type": "cmfas-quiz-attempt",
+    "_version": 2,
     "tag": "M9 · Chapters 1–5 · Mega Set (50Q)",
     "source": {
       "mode": "set",
@@ -1101,1015 +2053,6 @@
         "reference": "M9 e-textbook Ch 5, para 1.87"
       }
     ]
-  },
-  {
-    "_type": "cmfas-quiz-attempt",
-    "_version": 2,
-    "tag": "M9 · Chapters 1–4 · Set 4",
-    "source": {
-      "mode": "set",
-      "exam": "M9",
-      "setId": "m9-ch1-4-set4"
-    },
-    "passMark": 75,
-    "date": "21/07/2026",
-    "time": "04:49",
-    "timeOfDay": "14:39",
-    "device": "Mac · Chrome",
-    "score": 29,
-    "total": 30,
-    "percent": 97,
-    "byChapter": {
-      "Chapter 1": {
-        "c": 7,
-        "t": 7
-      },
-      "Chapter 2": {
-        "c": 6,
-        "t": 6
-      },
-      "Chapter 3": {
-        "c": 6,
-        "t": 7
-      },
-      "Chapter 4": {
-        "c": 10,
-        "t": 10
-      }
-    },
-    "detail": [
-      {
-        "chapter": "Chapter 1",
-        "question": "Which situation involves a PURE risk?",
-        "options": [
-          "Placing a bet on a football match",
-          "A driver colliding with another car",
-          "Launching a new product line",
-          "Trading foreign currency"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "A car collision has only loss or no loss, no chance of gain: pure risk, insurable. Betting, product launches and currency trading all carry a possibility of gain, so they are speculative.",
-        "reference": "M9 e-textbook Ch 1, pure vs speculative risk"
-      },
-      {
-        "chapter": "Chapter 1",
-        "question": "Which is NOT one of the ways insurers combat anti-selection?",
-        "options": [
-          "Underwriting and selection of risks",
-          "Offering policies with different excesses",
-          "Applying pre-existing condition exclusions",
-          "Guaranteeing acceptance with no health questions"
-        ],
-        "chosenIndex": 3,
-        "correctIndex": 3,
-        "correct": true,
-        "explanation": "Guaranteed acceptance INVITES anti-selection, it doesn't combat it. Underwriting, excesses and pre-existing exclusions are the three defences.",
-        "reference": "M9 e-textbook Ch 1, anti-selection"
-      },
-      {
-        "chapter": "Chapter 1",
-        "question": "A key difference between insurance and gambling is that:",
-        "options": [
-          "Insurance creates a new risk; gambling transfers an existing one",
-          "Insurance transfers an existing pure risk; gambling creates a new speculative one",
-          "Both restore the loser financially",
-          "Both are socially unproductive"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "Insurance handles a pre-existing pure risk and restores the insured; gambling manufactures a new speculative risk and is socially unproductive.",
-        "reference": "M9 e-textbook Ch 1, insurance vs gambling"
-      },
-      {
-        "chapter": "Chapter 1",
-        "question": "Under utmost good faith, which fact must a proposer disclose?",
-        "options": [
-          "A fact of law",
-          "A fact that reduces the risk",
-          "A previous serious illness that increases the risk",
-          "A fact the insurer already knows"
-        ],
-        "chosenIndex": 2,
-        "correctIndex": 2,
-        "correct": true,
-        "explanation": "Material facts that increase the risk must be disclosed. Facts of law, risk-reducing facts, and facts the insurer already knows are exempt from disclosure.",
-        "reference": "M9 e-textbook Ch 1, utmost good faith"
-      },
-      {
-        "chapter": "Chapter 1",
-        "question": "Being significantly overweight, which raises the chance of a health claim, is an example of:",
-        "options": [
-          "Moral hazard",
-          "Physical hazard",
-          "Anti-selection",
-          "A speculative risk"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "A bodily condition raising the chance of loss is a physical hazard. Moral hazard is about dishonesty; anti-selection is about who chooses to buy.",
-        "reference": "M9 e-textbook Ch 1, physical hazard"
-      },
-      {
-        "chapter": "Chapter 1",
-        "question": "A consumer is unhappy with how a claim was handled and mediation has failed. The next step within FIDReC is:",
-        "options": [
-          "Adjudication by FIDReC",
-          "A civil court suit only",
-          "Referral to MAS for a ruling",
-          "An SDIC payout"
-        ],
-        "chosenIndex": 0,
-        "correctIndex": 0,
-        "correct": true,
-        "explanation": "FIDReC's process is mediation first, then adjudication if unresolved. MAS regulates but does not adjudicate individual disputes; SDIC handles insurer insolvency.",
-        "reference": "M9 e-textbook Ch 1, FIDReC"
-      },
-      {
-        "chapter": "Chapter 1",
-        "question": "The principle of indemnity means an insured:",
-        "options": [
-          "Can profit from a covered loss",
-          "Is restored to their financial position before the loss, no more",
-          "Must always accept a cash settlement",
-          "Loses the right to sue a negligent third party"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "Indemnity restores the insured to their pre-loss position without profit. (Life policies are benefit policies, an exception to strict indemnity.)",
-        "reference": "M9 e-textbook Ch 1, indemnity"
-      },
-      {
-        "chapter": "Chapter 2",
-        "question": "An insurer expects claims of S$800 per policy, S$70 of investment income, and needs S$140 of expenses and profit. The net premium is:",
-        "options": [
-          "S$730",
-          "S$870",
-          "S$660",
-          "S$940"
-        ],
-        "chosenIndex": 0,
-        "correctIndex": 0,
-        "correct": true,
-        "explanation": "Net = claims minus investment income = 800 - 70 = S$730. (Gross would then be 730 + 140 = S$870, the tempting wrong answer.)",
-        "reference": "M9 e-textbook Ch 2, paras 1.10-1.13"
-      },
-      {
-        "chapter": "Chapter 2",
-        "question": "CPF savings may be used to buy which premium type(s)?",
-        "options": [
-          "Regular premium only",
-          "Single premium and recurrent single premium",
-          "Any premium type",
-          "Yearly renewable premium only"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "CPF monies can buy only single premium or recurrent single premium policies.",
-        "reference": "M9 e-textbook Ch 2, para 1.20(c)"
-      },
-      {
-        "chapter": "Chapter 2",
-        "question": "Which statement about a SINGLE premium policy is correct?",
-        "options": [
-          "It is paid in yearly instalments and can lapse",
-          "The entire premium is paid once, and it is cheaper than the sum of equivalent regular premiums",
-          "Payments recur but never lapse",
-          "It is only available for term insurance"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "Single premium: one payment, cheaper overall because the insurer invests it all upfront. Recurring-but-never-lapsing describes recurrent single premium, a different mode.",
-        "reference": "M9 e-textbook Ch 2, Table 2.1"
-      },
-      {
-        "chapter": "Chapter 2",
-        "question": "All of the following usually reduce the premium rate EXCEPT:",
-        "options": [
-          "Being a non-smoker",
-          "A larger sum assured",
-          "Paying monthly rather than annually",
-          "Being female (for life cover)"
-        ],
-        "chosenIndex": 2,
-        "correctIndex": 2,
-        "correct": true,
-        "explanation": "Monthly payment costs about 2% MORE than annual, so it raises, not reduces, the effective premium. Non-smoker status, larger sum assured and being female all reduce the rate.",
-        "reference": "M9 e-textbook Ch 2, paras 1.14-1.19, Table 2.1"
-      },
-      {
-        "chapter": "Chapter 2",
-        "question": "For HEALTH insurance, which statement about gender is correct?",
-        "options": [
-          "Women always pay less than men",
-          "Women above 65 tend to pay more, reflecting higher hospitalisation",
-          "Gender is never used in health pricing",
-          "Men above 65 pay the most"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "The health flip: women above 65 tend to pay more due to higher hospitalisation rates, the reverse of the life-insurance pattern.",
-        "reference": "M9 e-textbook Ch 2, para 1.15"
-      },
-      {
-        "chapter": "Chapter 2",
-        "question": "Why do larger policies often get a discount on the premium rate per S$1,000 of cover?",
-        "options": [
-          "Larger policyholders are healthier",
-          "Fixed administration costs are spread over more cover",
-          "Larger policies carry lower mortality",
-          "MAS requires volume discounts"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "Admin costs are largely fixed regardless of size, so spreading them over a bigger sum lowers the per-S$1,000 cost. Nothing to do with mortality or health.",
-        "reference": "M9 e-textbook Ch 2, para 1.19"
-      },
-      {
-        "chapter": "Chapter 3",
-        "question": "Which policy type is NOT a statutory insurance fund category under the Insurance Act?",
-        "options": [
-          "Participating",
-          "Non-participating",
-          "Investment-linked",
-          "Group"
-        ],
-        "chosenIndex": 3,
-        "correctIndex": 3,
-        "correct": true,
-        "explanation": "The three statutory fund categories are participating, non-participating and investment-linked. 'Group' is an ownership arrangement, not a fund category.",
-        "reference": "M9 e-textbook Ch 3, para 2.3"
-      },
-      {
-        "chapter": "Chapter 3",
-        "question": "A Universal Life policy is:",
-        "options": [
-          "A participating whole life paying guaranteed bonuses",
-          "A non-par, interest-sensitive plan with a declared crediting rate and flexible premiums",
-          "A term policy with a savings rider",
-          "Always sold on a group basis"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "Universal Life is non-par, interest-sensitive, with a declared crediting rate (guaranteed minimum) and flexible premiums in amount, method and timing.",
-        "reference": "M9 e-textbook Ch 3, para 2.5"
-      },
-      {
-        "chapter": "Chapter 3",
-        "question": "A wealthy couple wants a policy paying out only on the death of the second spouse, to fund estate duties. This is:",
-        "options": [
-          "First-to-die joint life",
-          "Last survivor (second-to-die)",
-          "Third-party",
-          "Two single life policies"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "Payment on the second death, for estate planning, is a last survivor / second-to-die policy. First-to-die pays on the first death.",
-        "reference": "M9 e-textbook Ch 3, para 5.4"
-      },
-      {
-        "chapter": "Chapter 3",
-        "question": "Which is an advantage of a voluntary (contributory) group plan over a contractual one?",
-        "options": [
-          "Lower administration cost",
-          "Automatic cover for all eligible employees",
-          "Employees share the cost, reducing the employer's outlay",
-          "No need for minimum participation"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 2,
-        "correct": false,
-        "explanation": "In a voluntary plan employees pay part of the cost. Low admin, auto-cover and no minimum-participation requirement are features of the contractual plan.",
-        "reference": "M9 e-textbook Ch 3, para 6.5"
-      },
-      {
-        "chapter": "Chapter 3",
-        "question": "Which of the following is NOT true of a third-party policy?",
-        "options": [
-          "The policy owner and life insured are different people",
-          "The roles of owner and life insured are unequal",
-          "A payor benefit rider may waive premiums if the owner dies",
-          "The owner and life insured are always spouses insured jointly"
-        ],
-        "chosenIndex": 3,
-        "correctIndex": 3,
-        "correct": true,
-        "explanation": "Two spouses insured jointly describes joint life, not third-party. Third-party = different owner and life insured with unequal roles, often with a payor benefit rider.",
-        "reference": "M9 e-textbook Ch 3, para 5.6"
-      },
-      {
-        "chapter": "Chapter 3",
-        "question": "Group insurance premiums are generally cheaper than individual cover mainly because:",
-        "options": [
-          "The government subsidises group schemes",
-          "Group underwriting and one master contract lower administration and selection costs",
-          "Group members are always younger",
-          "Bonuses are never paid"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "One master contract plus group underwriting/experience rating cuts admin and selection costs, making group cover cheaper. Not a subsidy or an age effect.",
-        "reference": "M9 e-textbook Ch 3, Table 3.2"
-      },
-      {
-        "chapter": "Chapter 3",
-        "question": "Whole Life and Endowment policies share which characteristic that Term does not?",
-        "options": [
-          "They can be issued as participating policies",
-          "They must be kept in a separate fund",
-          "They are non-par only",
-          "They pay only on death"
-        ],
-        "chosenIndex": 0,
-        "correctIndex": 0,
-        "correct": true,
-        "explanation": "Whole Life and Endowment can be participating; Term is non-par only. Separate funds apply to ILPs, and endowments also pay on survival.",
-        "reference": "M9 e-textbook Ch 3, para 2.5"
-      },
-      {
-        "chapter": "Chapter 4",
-        "question": "A homeowner wants cover that falls in step with a 20-year housing loan. The suitable term shape is:",
-        "options": [
-          "Level term",
-          "Decreasing term",
-          "Increasing term",
-          "Renewable term"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "A shrinking loan needs shrinking cover: decreasing term (mortgage reducing term). Draw the need as a falling line, match the falling shape.",
-        "reference": "M9 e-textbook Ch 4, paras 2.9-2.13"
-      },
-      {
-        "chapter": "Chapter 4",
-        "question": "Which statement about a mortgage decreasing term policy is correct?",
-        "options": [
-          "The sum assured always equals the exact outstanding loan",
-          "The sum assured follows a schedule fixed at outset using an assumed interest rate",
-          "The premium rises each year with the loan",
-          "It pays a maturity value if the borrower survives"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "The reducing schedule is fixed at outset on assumptions, so the payout tracks but need not exactly equal the actual loan. It is pure protection with no maturity value.",
-        "reference": "M9 e-textbook Ch 4, paras 2.12-2.13"
-      },
-      {
-        "chapter": "Chapter 4",
-        "question": "Which non-forfeiture choice provides the FULL original sum assured, but only for a limited period, with no further premiums?",
-        "options": [
-          "Reduced paid-up whole life",
-          "Extended term insurance",
-          "Cash surrender",
-          "Automatic premium loan"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "Full sum, fixed period = extended term (tall-and-short). 'Extended TERM' contains term = fixed period. Reduced paid-up keeps lifetime cover but a smaller sum.",
-        "reference": "M9 e-textbook Ch 4, para 3.15"
-      },
-      {
-        "chapter": "Chapter 4",
-        "question": "A policyholder stops paying but makes no election. Under the automatic premium loan provision, the insurer will:",
-        "options": [
-          "Immediately surrender the policy for cash",
-          "Advance the cash value as a loan (with interest) to pay the premiums due",
-          "Convert the policy to extended term at once",
-          "Cancel the policy after 30 days"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "APL lends against the cash value, with interest, to keep premiums paid until the value is exhausted. Extended term is the later fallback if nothing is elected and the value runs out.",
-        "reference": "M9 e-textbook Ch 14, paras 8.42-8.44"
-      },
-      {
-        "chapter": "Chapter 4",
-        "question": "'Whole Life' in the product name refers to:",
-        "options": [
-          "The period over which premiums are paid",
-          "The duration of the insurance protection",
-          "The length of the free-look period",
-          "The time until the policy matures at 65"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "'Whole Life' describes lifelong PROTECTION, not the premium-paying period. Ordinary vs limited-payment whole life differ only in how long you pay.",
-        "reference": "M9 e-textbook Ch 4, para 3.1"
-      },
-      {
-        "chapter": "Chapter 4",
-        "question": "A Limited Premium Payment Whole Life policy 'paid-up at 65' means:",
-        "options": [
-          "Cover stops at age 65",
-          "Premiums stop at 65 but cover continues for life",
-          "The maturity value is paid at 65",
-          "The policy converts to term at 65"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "Paid-up at 65 = premiums cease at 65; lifelong cover continues. Don't confuse premium term with coverage term.",
-        "reference": "M9 e-textbook Ch 4, paras 3.19-3.24"
-      },
-      {
-        "chapter": "Chapter 4",
-        "question": "Which need is best matched to an endowment policy?",
-        "options": [
-          "Clearing a decreasing home loan",
-          "Providing a lump sum for a child's university fees in 15 years",
-          "Cheapest possible protection for a fixed term",
-          "Lifelong cover for funeral costs"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "A dated savings goal with protection meanwhile = endowment. Decreasing loan = decreasing term; cheapest fixed-term = term; lifelong = whole life.",
-        "reference": "M9 e-textbook Ch 4, paras 4.11-4.15"
-      },
-      {
-        "chapter": "Chapter 4",
-        "question": "Among term, whole life and endowment, which typically has the HIGHEST premium for the same sum assured, and why?",
-        "options": [
-          "Term, because it renews yearly",
-          "Whole life, because it lasts a lifetime",
-          "Endowment, because a payout is almost certain (death or maturity)",
-          "They all cost the same"
-        ],
-        "chosenIndex": 2,
-        "correctIndex": 2,
-        "correct": true,
-        "explanation": "Endowment is dearest because someone is paid in every outcome, so the insurer will almost certainly pay. Term is cheapest (may pay nothing); whole life sits between.",
-        "reference": "M9 e-textbook Ch 4, para 4.7"
-      },
-      {
-        "chapter": "Chapter 4",
-        "question": "Which document originates from the LIA rather than a MAS notice?",
-        "options": [
-          "Product Summary",
-          "Policy Illustration",
-          "Your Guide To Life Insurance",
-          "Product Highlights Sheet"
-        ],
-        "chosenIndex": 2,
-        "correctIndex": 2,
-        "correct": true,
-        "explanation": "'Your Guide To Life Insurance' comes from the LIA. The Product Summary, Policy Illustration and Product Highlights Sheet are tied to MAS notices (FAA-N16 / Notice 307).",
-        "reference": "M9 e-textbook Ch 4, paras 5.1-5.3"
-      },
-      {
-        "chapter": "Chapter 4",
-        "question": "On an online no-advice platform, before purchase the client must acknowledge a self-assessment (Annex A) covering:",
-        "options": [
-          "The insurer's solvency ratio",
-          "Affordability, DPI comparison and suitability",
-          "The agent's commission rate",
-          "The fund's past performance"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "The Annex A self-check covers affordability (via the MoneySense budget calculator), whether a Direct Purchase Insurance product would suit, and general suitability.",
-        "reference": "M9 e-textbook Ch 4, Guideline ID01/17"
-      }
-    ]
-  },
-  {
-    "_type": "cmfas-quiz-attempt",
-    "_version": 2,
-    "tag": "M9 · Chapters 1–4 · Set 3",
-    "source": {
-      "mode": "set",
-      "exam": "M9",
-      "setId": "m9-ch1-4-set3"
-    },
-    "passMark": 75,
-    "date": "21/07/2026",
-    "time": "04:41",
-    "timeOfDay": null,
-    "device": null,
-    "score": 26,
-    "total": 30,
-    "percent": 87,
-    "byChapter": {
-      "Chapter 1": {
-        "c": 7,
-        "t": 7
-      },
-      "Chapter 2": {
-        "c": 4,
-        "t": 6
-      },
-      "Chapter 3": {
-        "c": 6,
-        "t": 7
-      },
-      "Chapter 4": {
-        "c": 9,
-        "t": 10
-      }
-    },
-    "detail": [
-      {
-        "chapter": "Chapter 1",
-        "question": "A factory owner insures his warehouse against fire. Six months later he sells the warehouse but keeps the policy running. It burns down the next week. Why is his claim likely to fail?",
-        "options": [
-          "He no longer has insurable interest at the time of loss",
-          "Fire is a speculative risk",
-          "He never had insurable interest",
-          "The policy lapsed automatically on sale"
-        ],
-        "chosenIndex": 0,
-        "correctIndex": 0,
-        "correct": true,
-        "explanation": "General insurance requires insurable interest at BOTH inception and the time of loss. He had it at inception but lost it when he sold, so at the moment of the fire he had none.",
-        "reference": "M9 e-textbook Ch 1, insurable interest timing (general)"
-      },
-      {
-        "chapter": "Chapter 1",
-        "question": "Which of the following is NOT a requirement of an insurable risk?",
-        "options": [
-          "The loss must be measurable in money",
-          "There must be a large number of similar exposure units",
-          "The loss must offer the chance of financial gain",
-          "The loss must be fortuitous (accidental)"
-        ],
-        "chosenIndex": 2,
-        "correctIndex": 2,
-        "correct": true,
-        "explanation": "A chance of gain makes a risk speculative and UNinsurable. Insurable risks are pure risks: measurable, numerous, fortuitous, not catastrophic to the insurer. Read 'NOT' carefully.",
-        "reference": "M9 e-textbook Ch 1, requirements of insurable risk"
-      },
-      {
-        "chapter": "Chapter 1",
-        "question": "An agent tells a client a minor detail is unimportant and not to bother disclosing it. The client relies on this. The doctrine that may stop the insurer denying the claim later is:",
-        "options": [
-          "Indemnity",
-          "Subrogation",
-          "Waiver",
-          "Contribution"
-        ],
-        "chosenIndex": 2,
-        "correctIndex": 2,
-        "correct": true,
-        "explanation": "Waiver: the insurer, through its agent, gave up the right to that information, so it cannot later rely on non-disclosure of it. Indemnity/subrogation/contribution are unrelated claim-settlement principles.",
-        "reference": "M9 e-textbook Ch 1, waiver"
-      },
-      {
-        "chapter": "Chapter 1",
-        "question": "SDIC's policy owners' protection scheme is designed to:",
-        "options": [
-          "Guarantee investment returns on ILPs",
-          "Protect policy owners if an insurer fails, within scheme limits",
-          "Reimburse mis-selling losses",
-          "Replace the need for FIDReC"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "The Policy Owners' Protection Scheme (run by SDIC) protects policyholders if an insurer becomes insolvent, subject to caps. It doesn't guarantee returns or cover mis-selling.",
-        "reference": "M9 e-textbook Ch 1, SDIC / PPF"
-      },
-      {
-        "chapter": "Chapter 1",
-        "question": "The likelihood that a policyholder will act dishonestly, such as staging a loss, is called:",
-        "options": [
-          "Physical hazard",
-          "Moral hazard",
-          "Anti-selection",
-          "Fundamental risk"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "Moral hazard concerns dishonest conduct or intent. Physical hazard is a bodily/property characteristic; anti-selection is worse-than-average risks being keener to buy.",
-        "reference": "M9 e-textbook Ch 1, moral hazard"
-      },
-      {
-        "chapter": "Chapter 1",
-        "question": "Which pair correctly matches the market body to its role?",
-        "options": [
-          "LIA regulates insurers; MAS is an industry association",
-          "MAS is the regulator; LIA is the life insurers' industry association",
-          "FIDReC sets premium rates; SDIC mediates disputes",
-          "GIA regulates life insurance; LIA regulates general insurance"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "MAS is the statutory regulator; LIA is the Life Insurance Association (industry body). FIDReC resolves disputes, SDIC runs protection schemes, GIA is the general insurance association.",
-        "reference": "M9 e-textbook Ch 1, market structure"
-      },
-      {
-        "chapter": "Chapter 1",
-        "question": "A man buys a life policy on his business partner, on whom the business depends financially. At what point must insurable interest exist?",
-        "options": [
-          "At inception only",
-          "At the time of the partner's death only",
-          "At both inception and death",
-          "Insurable interest is not required between business partners"
-        ],
-        "chosenIndex": 0,
-        "correctIndex": 0,
-        "correct": true,
-        "explanation": "Life insurance requires insurable interest at inception only. A business partner with financial dependency is a recognised insurable-interest relationship.",
-        "reference": "M9 e-textbook Ch 1, insurable interest (life)"
-      },
-      {
-        "chapter": "Chapter 2",
-        "question": "The loading added to a net premium covers all EXCEPT:",
-        "options": [
-          "Management expenses and commission",
-          "An allowance for policies that lapse early",
-          "The mortality cost of the risk",
-          "The insurer's profit margin"
-        ],
-        "chosenIndex": 3,
-        "correctIndex": 2,
-        "correct": false,
-        "explanation": "Mortality cost is part of the NET premium, not the loading. Loading covers expenses, commission, lapse allowance and profit. This is your net-vs-gross distinction as a NOT-question.",
-        "reference": "M9 e-textbook Ch 2, paras 1.10-1.13"
-      },
-      {
-        "chapter": "Chapter 2",
-        "question": "A policy owner wants to pay for his whole life plan over just 15 years instead of for life, then stop. Compared with paying for life, each premium will be:",
-        "options": [
-          "Lower, because fewer years of cover",
-          "Higher, because the same cost is compressed into fewer payments",
-          "The same, because cover is identical",
-          "Zero after year 15 with no effect on cost"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "Limited payment compresses the same lifetime cost into fewer instalments, so each premium is higher. Cover still runs for life.",
-        "reference": "M9 e-textbook Ch 2, payment modes / Ch 4 limited payment"
-      },
-      {
-        "chapter": "Chapter 2",
-        "question": "Which premium mode consists of a series of stand-alone single premiums, where stopping at any time leaves the policy fully paid-up rather than lapsed?",
-        "options": [
-          "Single premium",
-          "Recurrent single premium",
-          "Regular premium",
-          "Limited premium"
-        ],
-        "chosenIndex": 0,
-        "correctIndex": 1,
-        "correct": false,
-        "explanation": "Recurrent single premium: each payment is its own single premium buying a paid-up chunk, so stopping never causes a lapse. A single premium is ONE payment only; regular premium lapses if unpaid.",
-        "reference": "M9 e-textbook Ch 2, Table 2.1"
-      },
-      {
-        "chapter": "Chapter 2",
-        "question": "Which factor would NOT normally affect the premium an insurer charges for a life policy?",
-        "options": [
-          "Whether the applicant smokes",
-          "The sum assured",
-          "The applicant's occupation as a librarian versus an accountant, both low-risk",
-          "The frequency of premium payment"
-        ],
-        "chosenIndex": 2,
-        "correctIndex": 2,
-        "correct": true,
-        "explanation": "Between two equally low-risk desk occupations, occupation makes no rating difference. Smoking, sum assured and payment frequency are all listed pricing factors.",
-        "reference": "M9 e-textbook Ch 2, para 1.2"
-      },
-      {
-        "chapter": "Chapter 2",
-        "question": "An insurer assumes a 4% investment return when pricing. Actual returns come in at 2%. Who bears the shortfall on a guaranteed non-par policy?",
-        "options": [
-          "The policyholder, via a higher premium next year",
-          "The insurer",
-          "The shortfall is split equally",
-          "The policyholder's bonus is cut"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "Premiums are priced on the assumed rate; the insurer carries the gap if actual returns fall short on guaranteed non-par business. Non-par has no bonus to cut.",
-        "reference": "M9 e-textbook Ch 2, para 1.9"
-      },
-      {
-        "chapter": "Chapter 2",
-        "question": "For a whole life policy, a woman aged 30 is typically charged a premium based on the mortality of:",
-        "options": [
-          "A man aged 30",
-          "A younger man (reduction in age)",
-          "An older man",
-          "A woman aged 65"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "Women live longer, so 'reduction in age' prices a woman as a younger man for life cover. (Health insurance flips this above 65.)",
-        "reference": "M9 e-textbook Ch 2, para 1.14"
-      },
-      {
-        "chapter": "Chapter 3",
-        "question": "Which statement about statutory insurance funds is correct?",
-        "options": [
-          "All three fund types must be kept separate from each other",
-          "Participating and non-participating may share a fund; investment-linked must be separate",
-          "Investment-linked may share with participating; non-par must be separate",
-          "Funds may be freely combined at the insurer's discretion"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "Par and non-par MAY share a fund; ILP MUST be separate. The must-versus-may line is the trap.",
-        "reference": "M9 e-textbook Ch 3, para 2.3"
-      },
-      {
-        "chapter": "Chapter 3",
-        "question": "Which of the following can NOT be issued as a participating policy?",
-        "options": [
-          "Whole Life",
-          "Endowment",
-          "Term",
-          "Anticipated Endowment"
-        ],
-        "chosenIndex": 0,
-        "correctIndex": 2,
-        "correct": false,
-        "explanation": "Term (and Universal Life) are non-par only, with no bonus-sharing surplus. Whole Life, Endowment and anticipated endowment can be participating.",
-        "reference": "M9 e-textbook Ch 3, para 2.5"
-      },
-      {
-        "chapter": "Chapter 3",
-        "question": "A married couple wants one policy that pays on the FIRST death, to clear their joint housing loan. This is a:",
-        "options": [
-          "Last survivor policy",
-          "First-to-die joint life policy",
-          "Two separate single life policies",
-          "Third-party policy"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "Two lives, pays on the first death, cover then ends: first-to-die joint life, the classic joint-mortgage structure. Last survivor pays on the second death.",
-        "reference": "M9 e-textbook Ch 3, para 5.4"
-      },
-      {
-        "chapter": "Chapter 3",
-        "question": "Under a non-contributory (contractual) group scheme:",
-        "options": [
-          "Employees pay part of the premium and may opt out",
-          "The employer pays all premiums and all eligible employees are automatically covered",
-          "The insurer requires a minimum participation rate",
-          "Each employee is individually underwritten"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "Non-contributory = employer pays everything, everyone eligible is auto-covered. Cost-sharing, opting out and minimum-participation belong to the voluntary/contributory plan.",
-        "reference": "M9 e-textbook Ch 3, para 6.5"
-      },
-      {
-        "chapter": "Chapter 3",
-        "question": "Which is NOT a typical feature of group insurance compared with individual insurance?",
-        "options": [
-          "One master contract covers many lives",
-          "Cover generally ceases when a member leaves the group",
-          "Each member selects their own sum assured and is individually underwritten",
-          "It is usually cheaper than equivalent individual cover"
-        ],
-        "chosenIndex": 2,
-        "correctIndex": 2,
-        "correct": true,
-        "explanation": "Group insurance uses group underwriting and employer-set cover, not individual selection and underwriting. The other three are genuine group features.",
-        "reference": "M9 e-textbook Ch 3, Table 3.2"
-      },
-      {
-        "chapter": "Chapter 3",
-        "question": "A grandmother takes out and owns an education endowment on her grandchild's life. This ownership type is:",
-        "options": [
-          "Joint life",
-          "Single life",
-          "Third-party",
-          "Group"
-        ],
-        "chosenIndex": 2,
-        "correctIndex": 2,
-        "correct": true,
-        "explanation": "Owner (grandmother) differs from the life insured (grandchild) with unequal roles: third-party. Single life would need owner and life insured to be the same person.",
-        "reference": "M9 e-textbook Ch 3, para 5.6"
-      },
-      {
-        "chapter": "Chapter 3",
-        "question": "Since 1 October 2001, when selling group insurance products, a representative must:",
-        "options": [
-          "Obtain MAS pre-approval for each policy",
-          "Conduct a fact-find",
-          "Offer a free-look period of 60 days",
-          "Provide a Product Highlights Sheet"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "Since 1 Oct 2001 reps must complete a fact-find when selling group products. The other options are unrelated requirements.",
-        "reference": "M9 e-textbook Ch 3, para 6.4"
-      },
-      {
-        "chapter": "Chapter 4",
-        "question": "A company insures a key executive whose value to the firm is expected to stay level for 10 years. Best policy and beneficiary:",
-        "options": [
-          "Decreasing term; the executive's family",
-          "Level term; the company",
-          "Increasing term; the company",
-          "Whole life; the executive"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "Level need = level term; the company suffers the financial loss so it is the beneficiary. Key-person insurance is level term with the company as beneficiary.",
-        "reference": "M9 e-textbook Ch 4, para 2.8"
-      },
-      {
-        "chapter": "Chapter 4",
-        "question": "Which statement about the renewable option on a term policy is FALSE?",
-        "options": [
-          "Renewal requires no evidence of insurability",
-          "The premium rises to reflect attained age",
-          "The sum assured is reduced at each renewal",
-          "Renewals are usually allowed only up to about age 60"
-        ],
-        "chosenIndex": 2,
-        "correctIndex": 2,
-        "correct": true,
-        "explanation": "The sum assured is NOT reduced; renewal keeps the same benefit and term, only the premium rises. The other three are true. This is a NOT/FALSE question, mark each one.",
-        "reference": "M9 e-textbook Ch 4, paras 2.19-2.29"
-      },
-      {
-        "chapter": "Chapter 4",
-        "question": "Mdm Lee, 60, stops paying her whole life premiums. She wants cover to continue for the rest of her life with no further payments, accepting a smaller sum. The right non-forfeiture option is:",
-        "options": [
-          "Extended term insurance",
-          "Reduced paid-up whole life",
-          "Surrender for cash",
-          "Automatic premium loan"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "Lifelong cover, no further premiums, reduced amount = reduced paid-up (long-and-low). 'Lifelong' rules out extended term, which is a fixed period.",
-        "reference": "M9 e-textbook Ch 4, paras 3.10-3.18"
-      },
-      {
-        "chapter": "Chapter 4",
-        "question": "A policyholder wants to keep his FULL sum assured after stopping premiums, and doesn't mind that cover will run only for a fixed number of years. He should choose:",
-        "options": [
-          "Reduced paid-up whole life",
-          "Extended term insurance",
-          "Surrender for cash",
-          "Convertible term"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "Full sum for a fixed period = extended term (tall-and-short). Reduced paid-up keeps lifetime cover but shrinks the sum. This is the mirror image of the reduced paid-up question.",
-        "reference": "M9 e-textbook Ch 4, para 3.15"
-      },
-      {
-        "chapter": "Chapter 4",
-        "question": "Which is NOT a condition of converting a term policy to a permanent one?",
-        "options": [
-          "A written request with the premium",
-          "New sum assured not exceeding the original",
-          "Satisfactory evidence of insurability",
-          "Original policy exclusions continue to apply"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 2,
-        "correct": false,
-        "explanation": "Evidence of insurability is NOT required, that waiver is the point of the option. The other three are genuine conditions.",
-        "reference": "M9 e-textbook Ch 4, para 2.36"
-      },
-      {
-        "chapter": "Chapter 4",
-        "question": "A whole life policy accumulates a cash value primarily because:",
-        "options": [
-          "The insurer adds an annual savings bonus",
-          "Level premiums exceed the true cost of risk in the early years, and the excess is invested",
-          "Policyholders pay a separate investment premium",
-          "MAS mandates a minimum cash value"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "Level premium on a rising risk means early overpayment, which is banked and invested: that is the cash value. It's structural, not an added feature.",
-        "reference": "M9 e-textbook Ch 4, paras 3.6-3.9"
-      },
-      {
-        "chapter": "Chapter 4",
-        "question": "An endowment policy is best suited to a client who wants:",
-        "options": [
-          "The cheapest possible death-only cover",
-          "A lump sum at a specific future date, plus protection until then",
-          "Lifelong cover with no savings element",
-          "Cover that decreases with a loan"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "Endowment matches a dated goal (education, retirement target) with protection meanwhile: maturity value on survival, sum assured on earlier death. Cheapest death-only = term; lifelong = whole life; loan-linked = decreasing term.",
-        "reference": "M9 e-textbook Ch 4, paras 4.11-4.15"
-      },
-      {
-        "chapter": "Chapter 4",
-        "question": "Mr Tan's anticipated endowment (sum assured S$40,000) has paid him S$12,000 in cashbacks. He dies before maturity. His beneficiaries receive:",
-        "options": [
-          "S$28,000",
-          "S$40,000",
-          "S$52,000",
-          "S$12,000"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "Full S$40,000 sum assured. Cashbacks already received are not deducted from the death benefit.",
-        "reference": "M9 e-textbook Ch 4, para 4.10"
-      },
-      {
-        "chapter": "Chapter 4",
-        "question": "When recommending a plain participating whole life policy (not bundled, not an ILP), which document is NOT required?",
-        "options": [
-          "Cover Page",
-          "Product Summary",
-          "Product Highlights Sheet",
-          "Policy Illustration"
-        ],
-        "chosenIndex": 2,
-        "correctIndex": 2,
-        "correct": true,
-        "explanation": "The Product Highlights Sheet is required only for ILPs. A plain par whole life needs the Cover Page, Product Summary and Policy Illustration (plus the LIA Guide).",
-        "reference": "M9 e-textbook Ch 4, paras 5.1-5.3"
-      },
-      {
-        "chapter": "Chapter 4",
-        "question": "On an online no-advice platform, a term policy is issued with a pre-existing-condition exclusion added at underwriting. Before the client can buy, the platform must:",
-        "options": [
-          "Automatically remove the exclusion",
-          "Highlight the conditional acceptance and obtain the client's acknowledgement",
-          "Refer the client to a human adviser",
-          "Offer a 30% premium discount"
-        ],
-        "chosenIndex": 1,
-        "correctIndex": 1,
-        "correct": true,
-        "explanation": "Conditional acceptance (exclusions or loadings from underwriting) must be highlighted and acknowledged before purchase on a no-advice platform.",
-        "reference": "M9 e-textbook Ch 4, Guideline ID01/17"
-      }
-    ]
-  },
-  {
-    "_type": "cmfas-quiz-attempt",
-    "_version": 2,
-    "tag": "M9 · Chapters 1–4 · Set 2",
-    "source": null,
-    "passMark": 75,
-    "date": "21/07/2026",
-    "time": "02:42",
-    "timeOfDay": null,
-    "device": null,
-    "score": 28,
-    "total": 30,
-    "percent": 93,
-    "byChapter": {
-      "Chapter 1": {
-        "c": 7,
-        "t": 7
-      },
-      "Chapter 2": {
-        "c": 5,
-        "t": 6
-      },
-      "Chapter 3": {
-        "c": 8,
-        "t": 8
-      },
-      "Chapter 4": {
-        "c": 8,
-        "t": 9
-      }
-    },
-    "detail": []
   },
   {
     "_type": "cmfas-quiz-attempt",
@@ -5788,5 +5731,1014 @@
         "reference": "M9 e-textbook Ch 4, paras 5.1-5.3"
       }
     ]
+  },
+  {
+    "_type": "cmfas-quiz-attempt",
+    "_version": 2,
+    "tag": "M9 · Chapters 1–4 · Set 4",
+    "source": {
+      "mode": "set",
+      "exam": "M9",
+      "setId": "m9-ch1-4-set4"
+    },
+    "passMark": 75,
+    "date": "21/07/2026",
+    "time": "04:49",
+    "timeOfDay": "14:39",
+    "device": "Mac · Chrome",
+    "score": 29,
+    "total": 30,
+    "percent": 97,
+    "byChapter": {
+      "Chapter 1": {
+        "c": 7,
+        "t": 7
+      },
+      "Chapter 2": {
+        "c": 6,
+        "t": 6
+      },
+      "Chapter 3": {
+        "c": 6,
+        "t": 7
+      },
+      "Chapter 4": {
+        "c": 10,
+        "t": 10
+      }
+    },
+    "detail": [
+      {
+        "chapter": "Chapter 1",
+        "question": "Which situation involves a PURE risk?",
+        "options": [
+          "Placing a bet on a football match",
+          "A driver colliding with another car",
+          "Launching a new product line",
+          "Trading foreign currency"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "A car collision has only loss or no loss, no chance of gain: pure risk, insurable. Betting, product launches and currency trading all carry a possibility of gain, so they are speculative.",
+        "reference": "M9 e-textbook Ch 1, pure vs speculative risk"
+      },
+      {
+        "chapter": "Chapter 1",
+        "question": "Which is NOT one of the ways insurers combat anti-selection?",
+        "options": [
+          "Underwriting and selection of risks",
+          "Offering policies with different excesses",
+          "Applying pre-existing condition exclusions",
+          "Guaranteeing acceptance with no health questions"
+        ],
+        "chosenIndex": 3,
+        "correctIndex": 3,
+        "correct": true,
+        "explanation": "Guaranteed acceptance INVITES anti-selection, it doesn't combat it. Underwriting, excesses and pre-existing exclusions are the three defences.",
+        "reference": "M9 e-textbook Ch 1, anti-selection"
+      },
+      {
+        "chapter": "Chapter 1",
+        "question": "A key difference between insurance and gambling is that:",
+        "options": [
+          "Insurance creates a new risk; gambling transfers an existing one",
+          "Insurance transfers an existing pure risk; gambling creates a new speculative one",
+          "Both restore the loser financially",
+          "Both are socially unproductive"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Insurance handles a pre-existing pure risk and restores the insured; gambling manufactures a new speculative risk and is socially unproductive.",
+        "reference": "M9 e-textbook Ch 1, insurance vs gambling"
+      },
+      {
+        "chapter": "Chapter 1",
+        "question": "Under utmost good faith, which fact must a proposer disclose?",
+        "options": [
+          "A fact of law",
+          "A fact that reduces the risk",
+          "A previous serious illness that increases the risk",
+          "A fact the insurer already knows"
+        ],
+        "chosenIndex": 2,
+        "correctIndex": 2,
+        "correct": true,
+        "explanation": "Material facts that increase the risk must be disclosed. Facts of law, risk-reducing facts, and facts the insurer already knows are exempt from disclosure.",
+        "reference": "M9 e-textbook Ch 1, utmost good faith"
+      },
+      {
+        "chapter": "Chapter 1",
+        "question": "Being significantly overweight, which raises the chance of a health claim, is an example of:",
+        "options": [
+          "Moral hazard",
+          "Physical hazard",
+          "Anti-selection",
+          "A speculative risk"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "A bodily condition raising the chance of loss is a physical hazard. Moral hazard is about dishonesty; anti-selection is about who chooses to buy.",
+        "reference": "M9 e-textbook Ch 1, physical hazard"
+      },
+      {
+        "chapter": "Chapter 1",
+        "question": "A consumer is unhappy with how a claim was handled and mediation has failed. The next step within FIDReC is:",
+        "options": [
+          "Adjudication by FIDReC",
+          "A civil court suit only",
+          "Referral to MAS for a ruling",
+          "An SDIC payout"
+        ],
+        "chosenIndex": 0,
+        "correctIndex": 0,
+        "correct": true,
+        "explanation": "FIDReC's process is mediation first, then adjudication if unresolved. MAS regulates but does not adjudicate individual disputes; SDIC handles insurer insolvency.",
+        "reference": "M9 e-textbook Ch 1, FIDReC"
+      },
+      {
+        "chapter": "Chapter 1",
+        "question": "The principle of indemnity means an insured:",
+        "options": [
+          "Can profit from a covered loss",
+          "Is restored to their financial position before the loss, no more",
+          "Must always accept a cash settlement",
+          "Loses the right to sue a negligent third party"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Indemnity restores the insured to their pre-loss position without profit. (Life policies are benefit policies, an exception to strict indemnity.)",
+        "reference": "M9 e-textbook Ch 1, indemnity"
+      },
+      {
+        "chapter": "Chapter 2",
+        "question": "An insurer expects claims of S$800 per policy, S$70 of investment income, and needs S$140 of expenses and profit. The net premium is:",
+        "options": [
+          "S$730",
+          "S$870",
+          "S$660",
+          "S$940"
+        ],
+        "chosenIndex": 0,
+        "correctIndex": 0,
+        "correct": true,
+        "explanation": "Net = claims minus investment income = 800 - 70 = S$730. (Gross would then be 730 + 140 = S$870, the tempting wrong answer.)",
+        "reference": "M9 e-textbook Ch 2, paras 1.10-1.13"
+      },
+      {
+        "chapter": "Chapter 2",
+        "question": "CPF savings may be used to buy which premium type(s)?",
+        "options": [
+          "Regular premium only",
+          "Single premium and recurrent single premium",
+          "Any premium type",
+          "Yearly renewable premium only"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "CPF monies can buy only single premium or recurrent single premium policies.",
+        "reference": "M9 e-textbook Ch 2, para 1.20(c)"
+      },
+      {
+        "chapter": "Chapter 2",
+        "question": "Which statement about a SINGLE premium policy is correct?",
+        "options": [
+          "It is paid in yearly instalments and can lapse",
+          "The entire premium is paid once, and it is cheaper than the sum of equivalent regular premiums",
+          "Payments recur but never lapse",
+          "It is only available for term insurance"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Single premium: one payment, cheaper overall because the insurer invests it all upfront. Recurring-but-never-lapsing describes recurrent single premium, a different mode.",
+        "reference": "M9 e-textbook Ch 2, Table 2.1"
+      },
+      {
+        "chapter": "Chapter 2",
+        "question": "All of the following usually reduce the premium rate EXCEPT:",
+        "options": [
+          "Being a non-smoker",
+          "A larger sum assured",
+          "Paying monthly rather than annually",
+          "Being female (for life cover)"
+        ],
+        "chosenIndex": 2,
+        "correctIndex": 2,
+        "correct": true,
+        "explanation": "Monthly payment costs about 2% MORE than annual, so it raises, not reduces, the effective premium. Non-smoker status, larger sum assured and being female all reduce the rate.",
+        "reference": "M9 e-textbook Ch 2, paras 1.14-1.19, Table 2.1"
+      },
+      {
+        "chapter": "Chapter 2",
+        "question": "For HEALTH insurance, which statement about gender is correct?",
+        "options": [
+          "Women always pay less than men",
+          "Women above 65 tend to pay more, reflecting higher hospitalisation",
+          "Gender is never used in health pricing",
+          "Men above 65 pay the most"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "The health flip: women above 65 tend to pay more due to higher hospitalisation rates, the reverse of the life-insurance pattern.",
+        "reference": "M9 e-textbook Ch 2, para 1.15"
+      },
+      {
+        "chapter": "Chapter 2",
+        "question": "Why do larger policies often get a discount on the premium rate per S$1,000 of cover?",
+        "options": [
+          "Larger policyholders are healthier",
+          "Fixed administration costs are spread over more cover",
+          "Larger policies carry lower mortality",
+          "MAS requires volume discounts"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Admin costs are largely fixed regardless of size, so spreading them over a bigger sum lowers the per-S$1,000 cost. Nothing to do with mortality or health.",
+        "reference": "M9 e-textbook Ch 2, para 1.19"
+      },
+      {
+        "chapter": "Chapter 3",
+        "question": "Which policy type is NOT a statutory insurance fund category under the Insurance Act?",
+        "options": [
+          "Participating",
+          "Non-participating",
+          "Investment-linked",
+          "Group"
+        ],
+        "chosenIndex": 3,
+        "correctIndex": 3,
+        "correct": true,
+        "explanation": "The three statutory fund categories are participating, non-participating and investment-linked. 'Group' is an ownership arrangement, not a fund category.",
+        "reference": "M9 e-textbook Ch 3, para 2.3"
+      },
+      {
+        "chapter": "Chapter 3",
+        "question": "A Universal Life policy is:",
+        "options": [
+          "A participating whole life paying guaranteed bonuses",
+          "A non-par, interest-sensitive plan with a declared crediting rate and flexible premiums",
+          "A term policy with a savings rider",
+          "Always sold on a group basis"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Universal Life is non-par, interest-sensitive, with a declared crediting rate (guaranteed minimum) and flexible premiums in amount, method and timing.",
+        "reference": "M9 e-textbook Ch 3, para 2.5"
+      },
+      {
+        "chapter": "Chapter 3",
+        "question": "A wealthy couple wants a policy paying out only on the death of the second spouse, to fund estate duties. This is:",
+        "options": [
+          "First-to-die joint life",
+          "Last survivor (second-to-die)",
+          "Third-party",
+          "Two single life policies"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Payment on the second death, for estate planning, is a last survivor / second-to-die policy. First-to-die pays on the first death.",
+        "reference": "M9 e-textbook Ch 3, para 5.4"
+      },
+      {
+        "chapter": "Chapter 3",
+        "question": "Which is an advantage of a voluntary (contributory) group plan over a contractual one?",
+        "options": [
+          "Lower administration cost",
+          "Automatic cover for all eligible employees",
+          "Employees share the cost, reducing the employer's outlay",
+          "No need for minimum participation"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 2,
+        "correct": false,
+        "explanation": "In a voluntary plan employees pay part of the cost. Low admin, auto-cover and no minimum-participation requirement are features of the contractual plan.",
+        "reference": "M9 e-textbook Ch 3, para 6.5"
+      },
+      {
+        "chapter": "Chapter 3",
+        "question": "Which of the following is NOT true of a third-party policy?",
+        "options": [
+          "The policy owner and life insured are different people",
+          "The roles of owner and life insured are unequal",
+          "A payor benefit rider may waive premiums if the owner dies",
+          "The owner and life insured are always spouses insured jointly"
+        ],
+        "chosenIndex": 3,
+        "correctIndex": 3,
+        "correct": true,
+        "explanation": "Two spouses insured jointly describes joint life, not third-party. Third-party = different owner and life insured with unequal roles, often with a payor benefit rider.",
+        "reference": "M9 e-textbook Ch 3, para 5.6"
+      },
+      {
+        "chapter": "Chapter 3",
+        "question": "Group insurance premiums are generally cheaper than individual cover mainly because:",
+        "options": [
+          "The government subsidises group schemes",
+          "Group underwriting and one master contract lower administration and selection costs",
+          "Group members are always younger",
+          "Bonuses are never paid"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "One master contract plus group underwriting/experience rating cuts admin and selection costs, making group cover cheaper. Not a subsidy or an age effect.",
+        "reference": "M9 e-textbook Ch 3, Table 3.2"
+      },
+      {
+        "chapter": "Chapter 3",
+        "question": "Whole Life and Endowment policies share which characteristic that Term does not?",
+        "options": [
+          "They can be issued as participating policies",
+          "They must be kept in a separate fund",
+          "They are non-par only",
+          "They pay only on death"
+        ],
+        "chosenIndex": 0,
+        "correctIndex": 0,
+        "correct": true,
+        "explanation": "Whole Life and Endowment can be participating; Term is non-par only. Separate funds apply to ILPs, and endowments also pay on survival.",
+        "reference": "M9 e-textbook Ch 3, para 2.5"
+      },
+      {
+        "chapter": "Chapter 4",
+        "question": "A homeowner wants cover that falls in step with a 20-year housing loan. The suitable term shape is:",
+        "options": [
+          "Level term",
+          "Decreasing term",
+          "Increasing term",
+          "Renewable term"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "A shrinking loan needs shrinking cover: decreasing term (mortgage reducing term). Draw the need as a falling line, match the falling shape.",
+        "reference": "M9 e-textbook Ch 4, paras 2.9-2.13"
+      },
+      {
+        "chapter": "Chapter 4",
+        "question": "Which statement about a mortgage decreasing term policy is correct?",
+        "options": [
+          "The sum assured always equals the exact outstanding loan",
+          "The sum assured follows a schedule fixed at outset using an assumed interest rate",
+          "The premium rises each year with the loan",
+          "It pays a maturity value if the borrower survives"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "The reducing schedule is fixed at outset on assumptions, so the payout tracks but need not exactly equal the actual loan. It is pure protection with no maturity value.",
+        "reference": "M9 e-textbook Ch 4, paras 2.12-2.13"
+      },
+      {
+        "chapter": "Chapter 4",
+        "question": "Which non-forfeiture choice provides the FULL original sum assured, but only for a limited period, with no further premiums?",
+        "options": [
+          "Reduced paid-up whole life",
+          "Extended term insurance",
+          "Cash surrender",
+          "Automatic premium loan"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Full sum, fixed period = extended term (tall-and-short). 'Extended TERM' contains term = fixed period. Reduced paid-up keeps lifetime cover but a smaller sum.",
+        "reference": "M9 e-textbook Ch 4, para 3.15"
+      },
+      {
+        "chapter": "Chapter 4",
+        "question": "A policyholder stops paying but makes no election. Under the automatic premium loan provision, the insurer will:",
+        "options": [
+          "Immediately surrender the policy for cash",
+          "Advance the cash value as a loan (with interest) to pay the premiums due",
+          "Convert the policy to extended term at once",
+          "Cancel the policy after 30 days"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "APL lends against the cash value, with interest, to keep premiums paid until the value is exhausted. Extended term is the later fallback if nothing is elected and the value runs out.",
+        "reference": "M9 e-textbook Ch 14, paras 8.42-8.44"
+      },
+      {
+        "chapter": "Chapter 4",
+        "question": "'Whole Life' in the product name refers to:",
+        "options": [
+          "The period over which premiums are paid",
+          "The duration of the insurance protection",
+          "The length of the free-look period",
+          "The time until the policy matures at 65"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "'Whole Life' describes lifelong PROTECTION, not the premium-paying period. Ordinary vs limited-payment whole life differ only in how long you pay.",
+        "reference": "M9 e-textbook Ch 4, para 3.1"
+      },
+      {
+        "chapter": "Chapter 4",
+        "question": "A Limited Premium Payment Whole Life policy 'paid-up at 65' means:",
+        "options": [
+          "Cover stops at age 65",
+          "Premiums stop at 65 but cover continues for life",
+          "The maturity value is paid at 65",
+          "The policy converts to term at 65"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Paid-up at 65 = premiums cease at 65; lifelong cover continues. Don't confuse premium term with coverage term.",
+        "reference": "M9 e-textbook Ch 4, paras 3.19-3.24"
+      },
+      {
+        "chapter": "Chapter 4",
+        "question": "Which need is best matched to an endowment policy?",
+        "options": [
+          "Clearing a decreasing home loan",
+          "Providing a lump sum for a child's university fees in 15 years",
+          "Cheapest possible protection for a fixed term",
+          "Lifelong cover for funeral costs"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "A dated savings goal with protection meanwhile = endowment. Decreasing loan = decreasing term; cheapest fixed-term = term; lifelong = whole life.",
+        "reference": "M9 e-textbook Ch 4, paras 4.11-4.15"
+      },
+      {
+        "chapter": "Chapter 4",
+        "question": "Among term, whole life and endowment, which typically has the HIGHEST premium for the same sum assured, and why?",
+        "options": [
+          "Term, because it renews yearly",
+          "Whole life, because it lasts a lifetime",
+          "Endowment, because a payout is almost certain (death or maturity)",
+          "They all cost the same"
+        ],
+        "chosenIndex": 2,
+        "correctIndex": 2,
+        "correct": true,
+        "explanation": "Endowment is dearest because someone is paid in every outcome, so the insurer will almost certainly pay. Term is cheapest (may pay nothing); whole life sits between.",
+        "reference": "M9 e-textbook Ch 4, para 4.7"
+      },
+      {
+        "chapter": "Chapter 4",
+        "question": "Which document originates from the LIA rather than a MAS notice?",
+        "options": [
+          "Product Summary",
+          "Policy Illustration",
+          "Your Guide To Life Insurance",
+          "Product Highlights Sheet"
+        ],
+        "chosenIndex": 2,
+        "correctIndex": 2,
+        "correct": true,
+        "explanation": "'Your Guide To Life Insurance' comes from the LIA. The Product Summary, Policy Illustration and Product Highlights Sheet are tied to MAS notices (FAA-N16 / Notice 307).",
+        "reference": "M9 e-textbook Ch 4, paras 5.1-5.3"
+      },
+      {
+        "chapter": "Chapter 4",
+        "question": "On an online no-advice platform, before purchase the client must acknowledge a self-assessment (Annex A) covering:",
+        "options": [
+          "The insurer's solvency ratio",
+          "Affordability, DPI comparison and suitability",
+          "The agent's commission rate",
+          "The fund's past performance"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "The Annex A self-check covers affordability (via the MoneySense budget calculator), whether a Direct Purchase Insurance product would suit, and general suitability.",
+        "reference": "M9 e-textbook Ch 4, Guideline ID01/17"
+      }
+    ]
+  },
+  {
+    "_type": "cmfas-quiz-attempt",
+    "_version": 2,
+    "tag": "M9 · Chapters 1–4 · Set 3",
+    "source": {
+      "mode": "set",
+      "exam": "M9",
+      "setId": "m9-ch1-4-set3"
+    },
+    "passMark": 75,
+    "date": "21/07/2026",
+    "time": "04:41",
+    "timeOfDay": null,
+    "device": null,
+    "score": 26,
+    "total": 30,
+    "percent": 87,
+    "byChapter": {
+      "Chapter 1": {
+        "c": 7,
+        "t": 7
+      },
+      "Chapter 2": {
+        "c": 4,
+        "t": 6
+      },
+      "Chapter 3": {
+        "c": 6,
+        "t": 7
+      },
+      "Chapter 4": {
+        "c": 9,
+        "t": 10
+      }
+    },
+    "detail": [
+      {
+        "chapter": "Chapter 1",
+        "question": "A factory owner insures his warehouse against fire. Six months later he sells the warehouse but keeps the policy running. It burns down the next week. Why is his claim likely to fail?",
+        "options": [
+          "He no longer has insurable interest at the time of loss",
+          "Fire is a speculative risk",
+          "He never had insurable interest",
+          "The policy lapsed automatically on sale"
+        ],
+        "chosenIndex": 0,
+        "correctIndex": 0,
+        "correct": true,
+        "explanation": "General insurance requires insurable interest at BOTH inception and the time of loss. He had it at inception but lost it when he sold, so at the moment of the fire he had none.",
+        "reference": "M9 e-textbook Ch 1, insurable interest timing (general)"
+      },
+      {
+        "chapter": "Chapter 1",
+        "question": "Which of the following is NOT a requirement of an insurable risk?",
+        "options": [
+          "The loss must be measurable in money",
+          "There must be a large number of similar exposure units",
+          "The loss must offer the chance of financial gain",
+          "The loss must be fortuitous (accidental)"
+        ],
+        "chosenIndex": 2,
+        "correctIndex": 2,
+        "correct": true,
+        "explanation": "A chance of gain makes a risk speculative and UNinsurable. Insurable risks are pure risks: measurable, numerous, fortuitous, not catastrophic to the insurer. Read 'NOT' carefully.",
+        "reference": "M9 e-textbook Ch 1, requirements of insurable risk"
+      },
+      {
+        "chapter": "Chapter 1",
+        "question": "An agent tells a client a minor detail is unimportant and not to bother disclosing it. The client relies on this. The doctrine that may stop the insurer denying the claim later is:",
+        "options": [
+          "Indemnity",
+          "Subrogation",
+          "Waiver",
+          "Contribution"
+        ],
+        "chosenIndex": 2,
+        "correctIndex": 2,
+        "correct": true,
+        "explanation": "Waiver: the insurer, through its agent, gave up the right to that information, so it cannot later rely on non-disclosure of it. Indemnity/subrogation/contribution are unrelated claim-settlement principles.",
+        "reference": "M9 e-textbook Ch 1, waiver"
+      },
+      {
+        "chapter": "Chapter 1",
+        "question": "SDIC's policy owners' protection scheme is designed to:",
+        "options": [
+          "Guarantee investment returns on ILPs",
+          "Protect policy owners if an insurer fails, within scheme limits",
+          "Reimburse mis-selling losses",
+          "Replace the need for FIDReC"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "The Policy Owners' Protection Scheme (run by SDIC) protects policyholders if an insurer becomes insolvent, subject to caps. It doesn't guarantee returns or cover mis-selling.",
+        "reference": "M9 e-textbook Ch 1, SDIC / PPF"
+      },
+      {
+        "chapter": "Chapter 1",
+        "question": "The likelihood that a policyholder will act dishonestly, such as staging a loss, is called:",
+        "options": [
+          "Physical hazard",
+          "Moral hazard",
+          "Anti-selection",
+          "Fundamental risk"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Moral hazard concerns dishonest conduct or intent. Physical hazard is a bodily/property characteristic; anti-selection is worse-than-average risks being keener to buy.",
+        "reference": "M9 e-textbook Ch 1, moral hazard"
+      },
+      {
+        "chapter": "Chapter 1",
+        "question": "Which pair correctly matches the market body to its role?",
+        "options": [
+          "LIA regulates insurers; MAS is an industry association",
+          "MAS is the regulator; LIA is the life insurers' industry association",
+          "FIDReC sets premium rates; SDIC mediates disputes",
+          "GIA regulates life insurance; LIA regulates general insurance"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "MAS is the statutory regulator; LIA is the Life Insurance Association (industry body). FIDReC resolves disputes, SDIC runs protection schemes, GIA is the general insurance association.",
+        "reference": "M9 e-textbook Ch 1, market structure"
+      },
+      {
+        "chapter": "Chapter 1",
+        "question": "A man buys a life policy on his business partner, on whom the business depends financially. At what point must insurable interest exist?",
+        "options": [
+          "At inception only",
+          "At the time of the partner's death only",
+          "At both inception and death",
+          "Insurable interest is not required between business partners"
+        ],
+        "chosenIndex": 0,
+        "correctIndex": 0,
+        "correct": true,
+        "explanation": "Life insurance requires insurable interest at inception only. A business partner with financial dependency is a recognised insurable-interest relationship.",
+        "reference": "M9 e-textbook Ch 1, insurable interest (life)"
+      },
+      {
+        "chapter": "Chapter 2",
+        "question": "The loading added to a net premium covers all EXCEPT:",
+        "options": [
+          "Management expenses and commission",
+          "An allowance for policies that lapse early",
+          "The mortality cost of the risk",
+          "The insurer's profit margin"
+        ],
+        "chosenIndex": 3,
+        "correctIndex": 2,
+        "correct": false,
+        "explanation": "Mortality cost is part of the NET premium, not the loading. Loading covers expenses, commission, lapse allowance and profit. This is your net-vs-gross distinction as a NOT-question.",
+        "reference": "M9 e-textbook Ch 2, paras 1.10-1.13"
+      },
+      {
+        "chapter": "Chapter 2",
+        "question": "A policy owner wants to pay for his whole life plan over just 15 years instead of for life, then stop. Compared with paying for life, each premium will be:",
+        "options": [
+          "Lower, because fewer years of cover",
+          "Higher, because the same cost is compressed into fewer payments",
+          "The same, because cover is identical",
+          "Zero after year 15 with no effect on cost"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Limited payment compresses the same lifetime cost into fewer instalments, so each premium is higher. Cover still runs for life.",
+        "reference": "M9 e-textbook Ch 2, payment modes / Ch 4 limited payment"
+      },
+      {
+        "chapter": "Chapter 2",
+        "question": "Which premium mode consists of a series of stand-alone single premiums, where stopping at any time leaves the policy fully paid-up rather than lapsed?",
+        "options": [
+          "Single premium",
+          "Recurrent single premium",
+          "Regular premium",
+          "Limited premium"
+        ],
+        "chosenIndex": 0,
+        "correctIndex": 1,
+        "correct": false,
+        "explanation": "Recurrent single premium: each payment is its own single premium buying a paid-up chunk, so stopping never causes a lapse. A single premium is ONE payment only; regular premium lapses if unpaid.",
+        "reference": "M9 e-textbook Ch 2, Table 2.1"
+      },
+      {
+        "chapter": "Chapter 2",
+        "question": "Which factor would NOT normally affect the premium an insurer charges for a life policy?",
+        "options": [
+          "Whether the applicant smokes",
+          "The sum assured",
+          "The applicant's occupation as a librarian versus an accountant, both low-risk",
+          "The frequency of premium payment"
+        ],
+        "chosenIndex": 2,
+        "correctIndex": 2,
+        "correct": true,
+        "explanation": "Between two equally low-risk desk occupations, occupation makes no rating difference. Smoking, sum assured and payment frequency are all listed pricing factors.",
+        "reference": "M9 e-textbook Ch 2, para 1.2"
+      },
+      {
+        "chapter": "Chapter 2",
+        "question": "An insurer assumes a 4% investment return when pricing. Actual returns come in at 2%. Who bears the shortfall on a guaranteed non-par policy?",
+        "options": [
+          "The policyholder, via a higher premium next year",
+          "The insurer",
+          "The shortfall is split equally",
+          "The policyholder's bonus is cut"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Premiums are priced on the assumed rate; the insurer carries the gap if actual returns fall short on guaranteed non-par business. Non-par has no bonus to cut.",
+        "reference": "M9 e-textbook Ch 2, para 1.9"
+      },
+      {
+        "chapter": "Chapter 2",
+        "question": "For a whole life policy, a woman aged 30 is typically charged a premium based on the mortality of:",
+        "options": [
+          "A man aged 30",
+          "A younger man (reduction in age)",
+          "An older man",
+          "A woman aged 65"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Women live longer, so 'reduction in age' prices a woman as a younger man for life cover. (Health insurance flips this above 65.)",
+        "reference": "M9 e-textbook Ch 2, para 1.14"
+      },
+      {
+        "chapter": "Chapter 3",
+        "question": "Which statement about statutory insurance funds is correct?",
+        "options": [
+          "All three fund types must be kept separate from each other",
+          "Participating and non-participating may share a fund; investment-linked must be separate",
+          "Investment-linked may share with participating; non-par must be separate",
+          "Funds may be freely combined at the insurer's discretion"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Par and non-par MAY share a fund; ILP MUST be separate. The must-versus-may line is the trap.",
+        "reference": "M9 e-textbook Ch 3, para 2.3"
+      },
+      {
+        "chapter": "Chapter 3",
+        "question": "Which of the following can NOT be issued as a participating policy?",
+        "options": [
+          "Whole Life",
+          "Endowment",
+          "Term",
+          "Anticipated Endowment"
+        ],
+        "chosenIndex": 0,
+        "correctIndex": 2,
+        "correct": false,
+        "explanation": "Term (and Universal Life) are non-par only, with no bonus-sharing surplus. Whole Life, Endowment and anticipated endowment can be participating.",
+        "reference": "M9 e-textbook Ch 3, para 2.5"
+      },
+      {
+        "chapter": "Chapter 3",
+        "question": "A married couple wants one policy that pays on the FIRST death, to clear their joint housing loan. This is a:",
+        "options": [
+          "Last survivor policy",
+          "First-to-die joint life policy",
+          "Two separate single life policies",
+          "Third-party policy"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Two lives, pays on the first death, cover then ends: first-to-die joint life, the classic joint-mortgage structure. Last survivor pays on the second death.",
+        "reference": "M9 e-textbook Ch 3, para 5.4"
+      },
+      {
+        "chapter": "Chapter 3",
+        "question": "Under a non-contributory (contractual) group scheme:",
+        "options": [
+          "Employees pay part of the premium and may opt out",
+          "The employer pays all premiums and all eligible employees are automatically covered",
+          "The insurer requires a minimum participation rate",
+          "Each employee is individually underwritten"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Non-contributory = employer pays everything, everyone eligible is auto-covered. Cost-sharing, opting out and minimum-participation belong to the voluntary/contributory plan.",
+        "reference": "M9 e-textbook Ch 3, para 6.5"
+      },
+      {
+        "chapter": "Chapter 3",
+        "question": "Which is NOT a typical feature of group insurance compared with individual insurance?",
+        "options": [
+          "One master contract covers many lives",
+          "Cover generally ceases when a member leaves the group",
+          "Each member selects their own sum assured and is individually underwritten",
+          "It is usually cheaper than equivalent individual cover"
+        ],
+        "chosenIndex": 2,
+        "correctIndex": 2,
+        "correct": true,
+        "explanation": "Group insurance uses group underwriting and employer-set cover, not individual selection and underwriting. The other three are genuine group features.",
+        "reference": "M9 e-textbook Ch 3, Table 3.2"
+      },
+      {
+        "chapter": "Chapter 3",
+        "question": "A grandmother takes out and owns an education endowment on her grandchild's life. This ownership type is:",
+        "options": [
+          "Joint life",
+          "Single life",
+          "Third-party",
+          "Group"
+        ],
+        "chosenIndex": 2,
+        "correctIndex": 2,
+        "correct": true,
+        "explanation": "Owner (grandmother) differs from the life insured (grandchild) with unequal roles: third-party. Single life would need owner and life insured to be the same person.",
+        "reference": "M9 e-textbook Ch 3, para 5.6"
+      },
+      {
+        "chapter": "Chapter 3",
+        "question": "Since 1 October 2001, when selling group insurance products, a representative must:",
+        "options": [
+          "Obtain MAS pre-approval for each policy",
+          "Conduct a fact-find",
+          "Offer a free-look period of 60 days",
+          "Provide a Product Highlights Sheet"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Since 1 Oct 2001 reps must complete a fact-find when selling group products. The other options are unrelated requirements.",
+        "reference": "M9 e-textbook Ch 3, para 6.4"
+      },
+      {
+        "chapter": "Chapter 4",
+        "question": "A company insures a key executive whose value to the firm is expected to stay level for 10 years. Best policy and beneficiary:",
+        "options": [
+          "Decreasing term; the executive's family",
+          "Level term; the company",
+          "Increasing term; the company",
+          "Whole life; the executive"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Level need = level term; the company suffers the financial loss so it is the beneficiary. Key-person insurance is level term with the company as beneficiary.",
+        "reference": "M9 e-textbook Ch 4, para 2.8"
+      },
+      {
+        "chapter": "Chapter 4",
+        "question": "Which statement about the renewable option on a term policy is FALSE?",
+        "options": [
+          "Renewal requires no evidence of insurability",
+          "The premium rises to reflect attained age",
+          "The sum assured is reduced at each renewal",
+          "Renewals are usually allowed only up to about age 60"
+        ],
+        "chosenIndex": 2,
+        "correctIndex": 2,
+        "correct": true,
+        "explanation": "The sum assured is NOT reduced; renewal keeps the same benefit and term, only the premium rises. The other three are true. This is a NOT/FALSE question, mark each one.",
+        "reference": "M9 e-textbook Ch 4, paras 2.19-2.29"
+      },
+      {
+        "chapter": "Chapter 4",
+        "question": "Mdm Lee, 60, stops paying her whole life premiums. She wants cover to continue for the rest of her life with no further payments, accepting a smaller sum. The right non-forfeiture option is:",
+        "options": [
+          "Extended term insurance",
+          "Reduced paid-up whole life",
+          "Surrender for cash",
+          "Automatic premium loan"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Lifelong cover, no further premiums, reduced amount = reduced paid-up (long-and-low). 'Lifelong' rules out extended term, which is a fixed period.",
+        "reference": "M9 e-textbook Ch 4, paras 3.10-3.18"
+      },
+      {
+        "chapter": "Chapter 4",
+        "question": "A policyholder wants to keep his FULL sum assured after stopping premiums, and doesn't mind that cover will run only for a fixed number of years. He should choose:",
+        "options": [
+          "Reduced paid-up whole life",
+          "Extended term insurance",
+          "Surrender for cash",
+          "Convertible term"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Full sum for a fixed period = extended term (tall-and-short). Reduced paid-up keeps lifetime cover but shrinks the sum. This is the mirror image of the reduced paid-up question.",
+        "reference": "M9 e-textbook Ch 4, para 3.15"
+      },
+      {
+        "chapter": "Chapter 4",
+        "question": "Which is NOT a condition of converting a term policy to a permanent one?",
+        "options": [
+          "A written request with the premium",
+          "New sum assured not exceeding the original",
+          "Satisfactory evidence of insurability",
+          "Original policy exclusions continue to apply"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 2,
+        "correct": false,
+        "explanation": "Evidence of insurability is NOT required, that waiver is the point of the option. The other three are genuine conditions.",
+        "reference": "M9 e-textbook Ch 4, para 2.36"
+      },
+      {
+        "chapter": "Chapter 4",
+        "question": "A whole life policy accumulates a cash value primarily because:",
+        "options": [
+          "The insurer adds an annual savings bonus",
+          "Level premiums exceed the true cost of risk in the early years, and the excess is invested",
+          "Policyholders pay a separate investment premium",
+          "MAS mandates a minimum cash value"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Level premium on a rising risk means early overpayment, which is banked and invested: that is the cash value. It's structural, not an added feature.",
+        "reference": "M9 e-textbook Ch 4, paras 3.6-3.9"
+      },
+      {
+        "chapter": "Chapter 4",
+        "question": "An endowment policy is best suited to a client who wants:",
+        "options": [
+          "The cheapest possible death-only cover",
+          "A lump sum at a specific future date, plus protection until then",
+          "Lifelong cover with no savings element",
+          "Cover that decreases with a loan"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Endowment matches a dated goal (education, retirement target) with protection meanwhile: maturity value on survival, sum assured on earlier death. Cheapest death-only = term; lifelong = whole life; loan-linked = decreasing term.",
+        "reference": "M9 e-textbook Ch 4, paras 4.11-4.15"
+      },
+      {
+        "chapter": "Chapter 4",
+        "question": "Mr Tan's anticipated endowment (sum assured S$40,000) has paid him S$12,000 in cashbacks. He dies before maturity. His beneficiaries receive:",
+        "options": [
+          "S$28,000",
+          "S$40,000",
+          "S$52,000",
+          "S$12,000"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Full S$40,000 sum assured. Cashbacks already received are not deducted from the death benefit.",
+        "reference": "M9 e-textbook Ch 4, para 4.10"
+      },
+      {
+        "chapter": "Chapter 4",
+        "question": "When recommending a plain participating whole life policy (not bundled, not an ILP), which document is NOT required?",
+        "options": [
+          "Cover Page",
+          "Product Summary",
+          "Product Highlights Sheet",
+          "Policy Illustration"
+        ],
+        "chosenIndex": 2,
+        "correctIndex": 2,
+        "correct": true,
+        "explanation": "The Product Highlights Sheet is required only for ILPs. A plain par whole life needs the Cover Page, Product Summary and Policy Illustration (plus the LIA Guide).",
+        "reference": "M9 e-textbook Ch 4, paras 5.1-5.3"
+      },
+      {
+        "chapter": "Chapter 4",
+        "question": "On an online no-advice platform, a term policy is issued with a pre-existing-condition exclusion added at underwriting. Before the client can buy, the platform must:",
+        "options": [
+          "Automatically remove the exclusion",
+          "Highlight the conditional acceptance and obtain the client's acknowledgement",
+          "Refer the client to a human adviser",
+          "Offer a 30% premium discount"
+        ],
+        "chosenIndex": 1,
+        "correctIndex": 1,
+        "correct": true,
+        "explanation": "Conditional acceptance (exclusions or loadings from underwriting) must be highlighted and acknowledged before purchase on a no-advice platform.",
+        "reference": "M9 e-textbook Ch 4, Guideline ID01/17"
+      }
+    ]
+  },
+  {
+    "_type": "cmfas-quiz-attempt",
+    "_version": 2,
+    "tag": "M9 · Chapters 1–4 · Set 2",
+    "source": null,
+    "passMark": 75,
+    "date": "21/07/2026",
+    "time": "02:42",
+    "timeOfDay": null,
+    "device": null,
+    "score": 28,
+    "total": 30,
+    "percent": 93,
+    "byChapter": {
+      "Chapter 1": {
+        "c": 7,
+        "t": 7
+      },
+      "Chapter 2": {
+        "c": 5,
+        "t": 6
+      },
+      "Chapter 3": {
+        "c": 8,
+        "t": 8
+      },
+      "Chapter 4": {
+        "c": 8,
+        "t": 9
+      }
+    },
+    "detail": []
   }
 ]
