@@ -7,23 +7,47 @@
       "chapterMap": [
         {
           "chapters": "1–3",
-          "group": "Foundations"
+          "group": "Foundations",
+          "titles": [
+            "1 Risk and Life Insurance",
+            "2 Setting Life Insurance Premium",
+            "3 Classification of Life Insurance Products"
+          ]
         },
         {
-          "chapters": "4–7",
-          "group": "Traditional products"
+          "chapters": "4–6",
+          "group": "Traditional products",
+          "titles": [
+            "4 Traditional Life Insurance Products",
+            "5 Riders (Or Supplementary Benefits)",
+            "6 Participating Life Insurance Policies"
+          ]
         },
         {
-          "chapters": "8–9",
-          "group": "ILPs"
+          "chapters": "7–9",
+          "group": "ILPs",
+          "titles": [
+            "7 ILPs: Types, Features, Benefits and Risks",
+            "8 Investment-linked Sub-Funds",
+            "9 ILPs: Computational Aspects"
+          ]
         },
         {
           "chapters": "10",
-          "group": "Annuities and CPF"
+          "group": "Annuities and CPF",
+          "titles": [
+            "10 Annuities and Other Life Insurance Products"
+          ]
         },
         {
           "chapters": "11–14",
-          "group": "Policy lifecycles"
+          "group": "Policy lifecycles",
+          "titles": [
+            "11 Application and Underwriting",
+            "12 Policy Services",
+            "13 Life Insurance Claims",
+            "14 The Insurance Contract"
+          ]
         }
       ],
       "sets": [

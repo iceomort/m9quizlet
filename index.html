@@ -131,9 +131,22 @@
   .modal-x { position: absolute; top: 12px; right: 14px; border: none; background: none;
     font-size: 24px; line-height: 1; color: var(--muted); cursor: pointer; }
   .modal h2 { margin: 0 0 14px; font-size: 18px; padding-right: 24px; }
-  .cmap-table { width: 100%; border-collapse: collapse; font-size: 14px; }
-  .cmap-table th, .cmap-table td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+  .cmap-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .cmap-table { width: 100%; border-collapse: collapse; font-size: 14px; table-layout: fixed; }
+  .cmap-table th, .cmap-table td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); word-wrap: break-word; }
   .cmap-table th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: .03em; }
+  .cmap-table th:nth-child(1), .cmap-table td:nth-child(1) { width: 15%; }
+  .cmap-table th:nth-child(2), .cmap-table td:nth-child(2) { width: 27%; }
+  .cmap-table th:nth-child(3), .cmap-table td:nth-child(3) { width: 58%; }
+  .cmap-titles div { margin-bottom: 3px; }
+  .cmap-titles div:last-child { margin-bottom: 0; }
+  @media (max-width: 560px) {
+    .cmap-table { font-size: 12.5px; }
+    .cmap-table th, .cmap-table td { padding: 7px 6px; }
+    .cmap-table th:nth-child(1), .cmap-table td:nth-child(1) { width: 13%; }
+    .cmap-table th:nth-child(2), .cmap-table td:nth-child(2) { width: 24%; }
+    .cmap-table th:nth-child(3), .cmap-table td:nth-child(3) { width: 63%; }
+  }
   .as-q { border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; margin-bottom: 10px; background: #fbfcfd; }
   .as-qhead { font-size: 12px; color: var(--muted); margin-bottom: 4px; }
   .as-qtext { font-size: 14px; font-weight: 600; margin-bottom: 8px; }
@@ -623,11 +636,14 @@ function openChapterMap(examCode) {
   if (!map.length) {
     html += '<p class="empty">No chapter map defined for this exam yet.</p>';
   } else {
-    html += '<table class="cmap-table"><tr><th>Chapters</th><th>Group</th></tr>';
+    html += '<div class="cmap-wrap"><table class="cmap-table"><tr><th>Chapters</th><th>Group</th><th>Chapters included</th></tr>';
     map.forEach(r => {
-      html += '<tr><td>' + escapeHtml(r.chapters) + '</td><td>' + escapeHtml(r.group) + '</td></tr>';
+      const titles = Array.isArray(r.titles) ? r.titles : [];
+      const titlesHtml = titles.map(t => '<div>' + escapeHtml(t) + '</div>').join('');
+      html += '<tr><td>' + escapeHtml(r.chapters) + '</td><td>' + escapeHtml(r.group) + '</td>' +
+        '<td class="cmap-titles">' + titlesHtml + '</td></tr>';
     });
-    html += '</table>';
+    html += '</table></div>';
   }
   document.getElementById("chapterMapBody").innerHTML = html;
   document.getElementById("chapterMapOverlay").classList.add("on");
