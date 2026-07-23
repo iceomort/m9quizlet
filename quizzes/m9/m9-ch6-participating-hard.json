@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "chapter": "Chapter 6",
+    "question": "A participating policy differs from an investment-linked policy primarily because in a participating policy:",
+    "options": [
+      "Assets are held in identifiable units for each policy owner",
+      "Assets are not separately maintained for each policy owner",
+      "The policy owner directly selects the underlying funds",
+      "There are no guaranteed benefits"
+    ],
+    "correctIndex": 1,
+    "explanation": "In an ILP, each owner's assets are identifiable as units held. In a par policy, assets are pooled and not separately maintained per owner. Options A and C describe ILPs; D is wrong because par policies do carry guaranteed benefits.",
+    "reference": "M9 e-textbook Ch 6, para 1.11"
+  },
+  {
+    "id": 2,
+    "chapter": "Chapter 6",
+    "question": "In the extreme event that the participating fund has insufficient assets to meet guaranteed benefits, the insurer must:",
+    "options": [
+      "Reduce the guaranteed benefits proportionally",
+      "Convert guaranteed benefits into non-guaranteed bonuses",
+      "Inject additional capital into the participating fund",
+      "Cease writing new participating business"
+    ],
+    "correctIndex": 2,
+    "explanation": "The insurer is obliged to make good any shortfall on guaranteed benefits by injecting additional capital. A and B would breach the guarantee; D is not the prescribed mechanism.",
+    "reference": "M9 e-textbook Ch 6, para 1.4"
+  },
+  {
+    "id": 3,
+    "chapter": "Chapter 6",
+    "question": "Which statement about reversionary bonuses is correct?",
+    "options": [
+      "They are added only on termination of the policy",
+      "Once declared and vested, they cannot later be reduced or removed",
+      "They fluctuate more than terminal bonuses",
+      "They are always paid as immediate cash"
+    ],
+    "correctIndex": 1,
+    "explanation": "Once a reversionary bonus is declared and vested it becomes guaranteed and cannot be taken away. A describes the terminal bonus; C is reversed (TB fluctuates more than RB); D describes cash dividends.",
+    "reference": "M9 e-textbook Ch 6, paras 2.5, 2.11"
+  },
+  {
+    "id": 4,
+    "chapter": "Chapter 6",
+    "question": "Mr Lim has a S$80,000 whole life policy paying a simple reversionary bonus of S$10 per S$1,000 sum assured. What is his total sum assured at the end of year 4?",
+    "options": [
+      "S$83,200",
+      "S$82,400",
+      "S$83,000",
+      "S$84,000"
+    ],
+    "correctIndex": 0,
+    "explanation": "SRB per year = S$10 x 80 = S$800. Over 4 years = S$3,200. 80,000 + 3,200 = S$83,200. The other options use the wrong multiplier or miscount the years.",
+    "reference": "M9 e-textbook Ch 6, Example 6.1"
+  },
+  {
+    "id": 5,
+    "chapter": "Chapter 6",
+    "question": "The key difference between simple and compound reversionary bonus is that CRB is calculated on:",
+    "options": [
+      "The sum assured only",
+      "The sum assured plus any existing attached bonuses",
+      "The terminal bonus only",
+      "The total premiums paid to date"
+    ],
+    "correctIndex": 1,
+    "explanation": "Compound reversionary bonus is allocated on the sum assured plus existing attached bonuses, producing a compounding effect. Option A describes the simple reversionary bonus.",
+    "reference": "M9 e-textbook Ch 6, para 2.14"
+  },
+  {
+    "id": 6,
+    "chapter": "Chapter 6",
+    "question": "Terminal bonus is best described as:",
+    "options": [
+      "Added to the sum assured every anniversary",
+      "Guaranteed once the policy is two years in force",
+      "Added only on termination, usually after a minimum in-force period",
+      "Paid only on surrender, never on death"
+    ],
+    "correctIndex": 2,
+    "explanation": "Terminal bonus is added only on termination (maturity, death or sometimes surrender), typically after a minimum in-force period. A describes the reversionary bonus; B is false; D is false because TB can be paid on maturity or death.",
+    "reference": "M9 e-textbook Ch 6, paras 2.17-2.20"
+  },
+  {
+    "id": 7,
+    "chapter": "Chapter 6",
+    "question": "Which bonus is given to a participating policy that terminates early in the year, before the annual bonus declaration is finalised?",
+    "options": [
+      "Terminal bonus",
+      "Interim bonus",
+      "Compound reversionary bonus",
+      "Cash dividend"
+    ],
+    "correctIndex": 1,
+    "explanation": "Interim bonuses bridge policies that terminate before the annual bonus declaration is finalised, based on prevailing or reserve bonus rates.",
+    "reference": "M9 e-textbook Ch 6, para 2.25"
+  },
+  {
+    "id": 8,
+    "chapter": "Chapter 6",
+    "question": "In Singapore, the actual bonus declaration typically takes place:",
+    "options": [
+      "On each policy's anniversary date",
+      "In January of each calendar year",
+      "In March/April following the end of the financial year, after audited statements are complete",
+      "Immediately after each Board meeting, regardless of audit status"
+    ],
+    "correctIndex": 2,
+    "explanation": "Declaration typically occurs in March/April after the audited financial statements of the participating fund are complete and the Board has approved the bonuses.",
+    "reference": "M9 e-textbook Ch 6, para 2.23"
+  },
+  {
+    "id": 9,
+    "chapter": "Chapter 6",
+    "question": "Under the 90:10 rule, the profit the insurer may take from the participating fund in any year is limited to:",
+    "options": [
+      "10% of total premiums received",
+      "1/9 of the amount allocated to policy owners as bonus",
+      "10% of the participating fund's total assets",
+      "1/10 of the sum assured"
+    ],
+    "correctIndex": 1,
+    "explanation": "The insurer's profit is limited to 1/9 of the amount allocated to policy owners as bonus, meaning 90% of distributable surplus goes to policy owners and 10% to the insurer. The other options use the wrong base.",
+    "reference": "M9 e-textbook Ch 6, para 3.28"
+  },
+  {
+    "id": 10,
+    "chapter": "Chapter 6",
+    "question": "The 90:10 rule is set out in which piece of legislation?",
+    "options": [
+      "Financial Advisers Act",
+      "MAS Notice 320",
+      "Insurance Act",
+      "LIA Disclosure Guidelines"
+    ],
+    "correctIndex": 2,
+    "explanation": "The 90:10 rule is set out in the Insurance Act. MAS Notice 320 governs the management and disclosure of participating business but is not where the 90:10 rule is stated.",
+    "reference": "M9 e-textbook Ch 6, para 3.28"
+  },
+  {
+    "id": 11,
+    "chapter": "Chapter 6",
+    "question": "Which of the following is NOT one of the three considerations the insurer must balance when determining bonuses?",
+    "options": [
+      "Maintaining fairness and equity between policy generations",
+      "Maintaining solvency of the participating fund",
+      "Maximising shareholder profit each year",
+      "Ensuring stable medium-to-long-term returns"
+    ],
+    "correctIndex": 2,
+    "explanation": "The three considerations are fairness/equity, solvency, and stability of returns. Maximising shareholder profit is the opposite of what the 90:10 rule constrains.",
+    "reference": "M9 e-textbook Ch 6, para 3.4"
+  },
+  {
+    "id": 12,
+    "chapter": "Chapter 6",
+    "question": "At year-end, the Appointed Actuary's role is to:",
+    "options": [
+      "Approve the bonuses to be declared",
+      "Recommend the bonus amount and reserves for future bonuses",
+      "Guarantee the terminal bonus rate",
+      "Set the investment mix of the fund"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Appointed Actuary recommends the bonus amount and the reserves to be set aside; the Board of Directors approves. Option A is the Board's role, not the actuary's.",
+    "reference": "M9 e-textbook Ch 6, paras 3.2-3.3"
+  },
+  {
+    "id": 13,
+    "chapter": "Chapter 6",
+    "question": "The requirement for an Appointed Actuary arises under the:",
+    "options": [
+      "Insurance Act 1966",
+      "MAS Notice FAA-N16",
+      "Companies Act",
+      "Financial Advisers Act"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Appointed Actuary is required under the Insurance Act 1966.",
+    "reference": "M9 e-textbook Ch 6, para 3.2"
+  },
+  {
+    "id": 14,
+    "chapter": "Chapter 6",
+    "question": "\"Smoothing\" of bonuses means that:",
+    "options": [
+      "Bonuses always rise each year regardless of performance",
+      "Bonuses closely track investment market movements",
+      "Bonuses may be held back in good years to maintain them in poor years",
+      "Bonuses are fixed at policy inception"
+    ],
+    "correctIndex": 2,
+    "explanation": "Smoothing holds back bonuses in strong years so they can be maintained in weaker years, so bonuses do not necessarily follow market rises and falls. A, B and D all contradict smoothing.",
+    "reference": "M9 e-textbook Ch 6, para 2.6"
+  },
+  {
+    "id": 15,
+    "chapter": "Chapter 6",
+    "question": "Which document is company-specific and describes how a particular insurer actually carries out risk sharing, investment and smoothing?",
+    "options": [
+      "Your Guide to Participating Policies",
+      "Product Summary",
+      "Annual Bonus Update",
+      "Internal Governance Policy"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Product Summary provides company-specific information about how the insurer carries out risk sharing, investment and smoothing. Option A is the generic, non-company-specific consumer guide.",
+    "reference": "M9 e-textbook Ch 6, paras 4.6, 5.4"
+  },
+  {
+    "id": 16,
+    "chapter": "Chapter 6",
+    "question": "\"Your Guide to Participating Policies\" is:",
+    "options": [
+      "A compulsory point-of-sale document",
+      "A company-specific disclosure under MAS Notice 320",
+      "An LIA consumer guide under the MoneySENSE banner, provided on request",
+      "A document both client and representative must sign"
+    ],
+    "correctIndex": 2,
+    "explanation": "It is an LIA consumer guide issued under the MoneySENSE banner, non-company-specific, not compulsory at point of sale but provided on request. B and D describe the Product Summary and Policy Illustration.",
+    "reference": "M9 e-textbook Ch 6, paras 5.1-5.3"
+  },
+  {
+    "id": 17,
+    "chapter": "Chapter 6",
+    "question": "Under the LIA Disclosure Guidelines, the Policy Illustration must be:",
+    "options": [
+      "Signed by the representative only",
+      "Signed by the client only",
+      "Signed by both client and representative on every page",
+      "Signed by the Appointed Actuary"
+    ],
+    "correctIndex": 2,
+    "explanation": "Both the client and the representative are required to sign on every page of the policy illustration.",
+    "reference": "M9 e-textbook Ch 6, para 4.10"
+  },
+  {
+    "id": 18,
+    "chapter": "Chapter 6",
+    "question": "Disclosure requirements for participating policies at point-of-sale and post-sales are set out primarily under:",
+    "options": [
+      "MAS Notice FAA-N16",
+      "MAS Notice 320",
+      "The Insurance Act",
+      "Your Guide to Life Insurance"
+    ],
+    "correctIndex": 1,
+    "explanation": "MAS Notice 320 on Management of Participating Life Insurance Business sets out point-of-sale (Product Summary) and post-sales (Annual Bonus Update) disclosure. FAA-N16 relates specifically to furnishing the Policy Illustration.",
+    "reference": "M9 e-textbook Ch 6, para 4.5"
+  },
+  {
+    "id": 19,
+    "chapter": "Chapter 6",
+    "question": "Which is a valid statement about terminal bonuses versus reversionary bonuses?",
+    "options": [
+      "Terminal bonuses are added to the in-force sum assured; reversionary bonuses are not",
+      "Reversionary bonuses fluctuate more than terminal bonuses",
+      "A product with higher terminal bonuses tends to have greater deferment in bonus allocation",
+      "Terminal bonuses vest on each policy anniversary"
+    ],
+    "correctIndex": 2,
+    "explanation": "Products with higher terminal bonuses defer more of the bonus allocation to later years, allowing support by longer-duration, more volatile assets. A is reversed, B is reversed, and D is false because TB does not vest annually.",
+    "reference": "M9 e-textbook Ch 6, paras 2.20, 2.28"
+  },
+  {
+    "id": 20,
+    "chapter": "Chapter 6",
+    "question": "Death benefit under a participating policy equals:",
+    "options": [
+      "Guaranteed death benefit only",
+      "Guaranteed death benefit + bonuses credited",
+      "Surrender value of bonuses only",
+      "Total premiums paid + terminal bonus"
+    ],
+    "correctIndex": 1,
+    "explanation": "Death benefit = guaranteed death benefit + bonuses credited to the policy.",
+    "reference": "M9 e-textbook Ch 6, para 2.30"
+  },
+  {
+    "id": 21,
+    "chapter": "Chapter 6",
+    "question": "Annual bonuses are typically allocated to all in-force participating policies EXCEPT in some cases such as:",
+    "options": [
+      "Policies in force for less than two years",
+      "Policies with attached riders",
+      "Policies owned by males over 55",
+      "Policies written in the non-participating fund"
+    ],
+    "correctIndex": 0,
+    "explanation": "Annual bonuses go to all in-force participating policies except in some cases, such as policies in force for less than two years.",
+    "reference": "M9 e-textbook Ch 6, para 3.19"
+  },
+  {
+    "id": 22,
+    "chapter": "Chapter 6",
+    "question": "Why does not allocating higher annual bonuses in a good year NOT mean policy owners are short-changed?",
+    "options": [
+      "Because guaranteed benefits are increased instead",
+      "Because unused assets are set aside as reserves for future annual and/or terminal bonuses",
+      "Because the insurer refunds the difference in cash",
+      "Because the premium is reduced the following year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Assets built up in a good year but not used for that year's annual bonus are set aside as reserves for future annual and/or terminal bonuses.",
+    "reference": "M9 e-textbook Ch 6, para 3.22"
+  },
+  {
+    "id": 23,
+    "chapter": "Chapter 6",
+    "question": "Which of the following is a common approach to determining terminal bonuses upon maturity?",
+    "options": [
+      "Set them so total benefits approximately equal the share of fund assets backing those policies over the long run",
+      "Set them equal to the total reversionary bonuses declared",
+      "Fix them at 10% of premiums paid",
+      "Match them exactly to the current year's investment return"
+    ],
+    "correctIndex": 0,
+    "explanation": "A common approach sets terminal bonuses so that total guaranteed plus non-guaranteed benefits approximately equal the share of participating fund assets backing those policies over the long run.",
+    "reference": "M9 e-textbook Ch 6, para 3.25"
+  },
+  {
+    "id": 24,
+    "chapter": "Chapter 6",
+    "question": "Under the Risk-Based Capital framework (effective 1 January 2005), the Appointed Actuary must reserve for all of the following EXCEPT:",
+    "options": [
+      "Guaranteed benefits",
+      "Future non-guaranteed bonuses",
+      "Provision for adverse deviation",
+      "Shareholders' guaranteed dividends"
+    ],
+    "correctIndex": 3,
+    "explanation": "The RBC framework requires reserving for guaranteed benefits, future non-guaranteed bonuses, and provision for adverse deviation. \"Shareholders' guaranteed dividends\" is not a reserving category.",
+    "reference": "M9 e-textbook Ch 6, para 3.32"
+  },
+  {
+    "id": 25,
+    "chapter": "Chapter 6",
+    "question": "Regarding the Internal Governance Policy under MAS Notice 320, which is correct?",
+    "options": [
+      "It must be disclosed to all prospective customers",
+      "It must be approved by the Board and reviewed annually by the Board",
+      "It is reviewed by the Appointed Actuary every three years",
+      "It replaces the need for a Product Summary"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Internal Governance Policy must be approved by the Board and reviewed annually by the Board. It is not required to be disclosed to customers, though insurers may do so voluntarily.",
+    "reference": "M9 e-textbook Ch 6, paras 6.4-6.5"
+  },
+  {
+    "id": 26,
+    "chapter": "Chapter 6",
+    "question": "A policy owner surrenders their compound reversionary bonuses while keeping the policy in force. What is the main disadvantage?",
+    "options": [
+      "The policy immediately lapses",
+      "The value of compounding on past bonuses is lost",
+      "The guaranteed sum assured is reduced to zero",
+      "The terminal bonus doubles"
+    ],
+    "correctIndex": 1,
+    "explanation": "Surrendering compound reversionary bonuses loses the compounding value on past bonuses, reducing future benefits.",
+    "reference": "M9 e-textbook Ch 6, para 2.16"
+  },
+  {
+    "id": 27,
+    "chapter": "Chapter 6",
+    "question": "Which risk is described as \"often the largest, but by no means the only\" risk affecting participating fund performance?",
+    "options": [
+      "Expense risk",
+      "Mortality risk",
+      "Investment risk",
+      "Lapse/surrender risk"
+    ],
+    "correctIndex": 2,
+    "explanation": "Investment risk is often the largest risk, but expense, mortality and other risks also affect fund performance.",
+    "reference": "M9 e-textbook Ch 6, para 3.9"
+  },
+  {
+    "id": 28,
+    "chapter": "Chapter 6",
+    "question": "A participating policy with a higher proportion of guaranteed benefits will typically have:",
+    "options": [
+      "A more aggressive, equity-heavy investment mandate",
+      "A more conservative investment mandate with more government bonds",
+      "No terminal bonus at all",
+      "Higher volatility of returns"
+    ],
+    "correctIndex": 1,
+    "explanation": "A higher proportion of guaranteed benefits calls for a more conservative investment mandate, such as more government bonds, where low risk is the key characteristic.",
+    "reference": "M9 e-textbook Ch 6, para 2.8"
+  },
+  {
+    "id": 29,
+    "chapter": "Chapter 6",
+    "question": "Which clause allows insurers to reduce surrender values when markets fall sharply, and why does it exist?",
+    "options": [
+      "To increase shareholder profit beyond the 90:10 limit",
+      "To ensure those who surrender don't take an unfair share of assets at the expense of remaining policy owners",
+      "To eliminate the free-look period",
+      "To convert the policy to non-participating"
+    ],
+    "correctIndex": 1,
+    "explanation": "Some policies allow surrender values to be reduced when markets fall sharply, so that those surrendering do not take an unfair share of assets at the expense of remaining policy owners.",
+    "reference": "M9 e-textbook Ch 6, para 2.33"
+  },
+  {
+    "id": 30,
+    "chapter": "Chapter 6",
+    "question": "Which set of documents must a representative furnish when recommending a participating life policy (per MAS/LIA guidelines)?",
+    "options": [
+      "Only the Policy Illustration",
+      "Cover Page, Product Summary, Policy Illustration, Bundled Product Disclosure Document, Product Highlights Sheet, and \"Your Guide to Life Insurance\"",
+      "Only the Annual Bonus Update",
+      "Internal Governance Policy and Your Guide to Participating Policies"
+    ],
+    "correctIndex": 1,
+    "explanation": "When recommending a life policy, the representative must furnish the Cover Page, Product Summary, Policy Illustration, Bundled Product Disclosure Document and Product Highlights Sheet, plus \"Your Guide to Life Insurance\".",
+    "reference": "M9 e-textbook Ch 6, para 4.2"
+  }
+]

@@ -28,6 +28,22 @@
       ],
       "sets": [
         {
+          "id": "m9-ch6-par-hard",
+          "title": "Chapter 6 · Participating Policies · Hard (30Q)",
+          "file": "quizzes/m9/m9-ch6-participating-hard.json",
+          "group": "Traditional products",
+          "detail": "Hard",
+          "maxChapter": 6
+        },
+        {
+          "id": "m9-ch6-par-hard-2",
+          "title": "Chapter 6 · Participating Policies · Hard Set 2 (30Q)",
+          "file": "quizzes/m9/m9-ch6-participating-hard-set2.json",
+          "group": "Traditional products",
+          "detail": "Hard",
+          "maxChapter": 6
+        },
+        {
           "id": "m9-ch1-5-mega",
           "title": "Chapters 1–5 · Mega Set (50Q)",
           "file": "quizzes/m9/m9-ch1-5-mega-50q.json",
