@@ -1,0 +1,426 @@
+{
+  "title": "Chapter 7 · ILPs: Types, Features, Benefits and Risks · Set 1",
+  "passMark": 75,
+  "questions": [
+    {
+      "id": "m9-ch7-s1-001",
+      "chapter": "Chapter 7",
+      "question": "Under the Insurance Act 1966, an investment-linked policy is defined as a policy which provides benefits calculated by reference to which of the following?",
+      "options": [
+        "Units, whose value is related to the market value of the underlying assets",
+        "Bonuses declared each year out of the surplus of the insurer's participating sub-fund",
+        "A guaranteed minimum surrender value fixed at the inception of the policy contract",
+        "The sum assured, adjusted annually by the prevailing rate of consumer price inflation"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Insurance Act 1966 defines an investment-linked policy as any policy providing benefits calculated by reference to units, the value of which is related to the market value of the underlying assets. Bonuses and a guaranteed minimum surrender value belong to traditional participating policies. Inflation adjustment of the sum assured is not part of the statutory definition.",
+      "reference": "M9 e-textbook Ch 7, s2.2"
+    },
+    {
+      "id": "m9-ch7-s1-002",
+      "chapter": "Chapter 7",
+      "question": "Fees, expenses and insurance charges associated with an ILP are usually paid for in which way?",
+      "options": [
+        "Exclusively from the insurer's shareholder fund at no cost to the policy owner",
+        "Only by an annual invoice issued separately to the policy owner each year",
+        "Through a deduction of the premium and / or sale of purchased units",
+        "By a compulsory reduction in the sum assured at each policy anniversary"
+      ],
+      "correctIndex": 2,
+      "explanation": "The textbook states these are usually paid either through a deduction of the premium and / or the sale of purchased units. The insurer does not absorb them at no cost, there is no separate annual invoice, and the sum assured is not automatically cut to fund charges.",
+      "reference": "M9 e-textbook Ch 7, s2.3"
+    },
+    {
+      "id": "m9-ch7-s1-003",
+      "chapter": "Chapter 7",
+      "question": "An investment-linked sub-fund pools together the premiums paid by policy owners who share which characteristic?",
+      "options": [
+        "The same date of policy inception within that calendar year",
+        "Similar investment objectives across the pool of policy owners",
+        "An identical attained age at the point of purchase",
+        "Membership of the same CPF Investment Scheme account type"
+      ],
+      "correctIndex": 1,
+      "explanation": "A sub-fund pools the premiums of policy owners with similar investment objectives, and the aggregate sum builds a diversified portfolio according to the fund's objective. Inception date, attained age and CPF account type play no part in how a sub-fund pools money.",
+      "reference": "M9 e-textbook Ch 7, s3.1"
+    },
+    {
+      "id": "m9-ch7-s1-004",
+      "chapter": "Chapter 7",
+      "question": "Which statement about the purpose of an ILP as an investment is correct?",
+      "options": [
+        "Returns are enhanced because the insurer shares its annual operating profit with unit holders",
+        "Returns are smoothed by the insurer to reduce year-on-year volatility for the policy owner",
+        "Potentially higher returns arise because investment risks are fully borne by the policy owner",
+        "Returns are required to exceed those of a comparable traditional life insurance plan"
+      ],
+      "correctIndex": 2,
+      "explanation": "The textbook links the potential for higher returns directly to the fact that investment risks are now fully borne by the policy owner. Profit sharing and smoothing are participating-policy mechanisms. Nothing requires an ILP to outperform a traditional plan, and it may underperform.",
+      "reference": "M9 e-textbook Ch 7, s4.1"
+    },
+    {
+      "id": "m9-ch7-s1-005",
+      "chapter": "Chapter 7",
+      "question": "What are the two ways of classifying the different types of ILPs?",
+      "options": [
+        "By insurer size and by the currency in which units are denominated",
+        "By frequency of premium payment and by product features",
+        "By risk category assigned and by the minimum recommended time horizon",
+        "By whether the sub-fund accumulates income and by the fund manager appointed"
+      ],
+      "correctIndex": 1,
+      "explanation": "Section 5.1 states ILPs may be classified by frequency of premium payment and / or by product features. Risk category and time horizon classify sub-funds in Chapter 8, not ILPs. Insurer size, currency, income treatment and fund manager are not classification methods given in the syllabus.",
+      "reference": "M9 e-textbook Ch 7, s5.1"
+    },
+    {
+      "id": "m9-ch7-s1-006",
+      "chapter": "Chapter 7",
+      "question": "Under classification by product features, which two types of ILP does the textbook identify?",
+      "options": [
+        "Investment-linked whole life policy and investment-linked annuity policy",
+        "Front-end loaded policy and back-end loaded policy, by premium allocation structure",
+        "Accumulation structure policy and distribution structure policy, by income treatment",
+        "Single premium policy and regular premium policy, by how often premiums fall due"
+      ],
+      "correctIndex": 0,
+      "explanation": "Classification by product features gives the investment-linked whole life insurance policy and the investment-linked annuity policy. Single and regular premium is the other classification method, by frequency of premium payment. Front-end and back-end loading describe premium allocation structure, and accumulation versus distribution describes sub-fund structure in Chapter 8.",
+      "reference": "M9 e-textbook Ch 7, s5.7-5.8"
+    },
+    {
+      "id": "m9-ch7-s1-007",
+      "chapter": "Chapter 7",
+      "question": "An investment-linked annuity policy generates a regular stream of income for the policy owner for how long?",
+      "options": [
+        "For a fixed term of exactly 20 years, regardless of how long he survives",
+        "Until the policy owner reaches the statutory retirement age in Singapore",
+        "For as long as he is alive, or until the policy's units are exhausted",
+        "Until the income payments received equal the total premiums originally paid"
+      ],
+      "correctIndex": 2,
+      "explanation": "Section 5.8 states the income continues for as long as he is alive, or till all units in the policy have been cashed out. The second limb matters: units can be exhausted before death, which is why the textbook warns there may not be enough sub-funds left to cover the lifetime of the insured. The other options invent terms and thresholds not in the text.",
+      "reference": "M9 e-textbook Ch 7, s5.8"
+    },
+    {
+      "id": "m9-ch7-s1-008",
+      "chapter": "Chapter 7",
+      "question": "What premium allocation do most insurers apply to top-up premiums?",
+      "options": [
+        "A full 100% premium allocation",
+        "95% premium allocation, mirroring the usual bid-offer spread",
+        "An allocation rising from 50% in year one to 100% by year five",
+        "The same allocation rate as applies to the basic regular premium"
+      ],
+      "correctIndex": 0,
+      "explanation": "Section 6.4 states most insurers have a 100% premium allocation for top-up premiums. This is why a top-up is efficient relative to regular premium in the early years of a front-end loaded plan. The graduated and matched-rate options describe regular premium front-end loading, not top-ups.",
+      "reference": "M9 e-textbook Ch 7, s6.4"
+    },
+    {
+      "id": "m9-ch7-s1-009",
+      "chapter": "Chapter 7",
+      "question": "Most sub-fund switches are transacted on which basis?",
+      "options": [
+        "Offer-to-offer, so that the spread is charged on the purchase leg of the switch only",
+        "Bid-to-bid, selling one sub-fund at bid and buying the other at bid",
+        "Offer-to-bid, exactly replicating the pricing applied to an ordinary purchase transaction",
+        "At the single price applicable on the valuation date preceding the switch instruction"
+      ],
+      "correctIndex": 1,
+      "explanation": "Section 6.7 states most sub-fund switches are done bid-to-bid: sell from one sub-fund at the bid price and buy into another also at the bid price. Because the same price basis applies on both legs, the bid-offer spread is not levied a second time. On a normal buy transaction the policy owner buys at the offer price, which is the contrast being tested.",
+      "reference": "M9 e-textbook Ch 7, s6.6-6.7"
+    },
+    {
+      "id": "m9-ch7-s1-010",
+      "chapter": "Chapter 7",
+      "question": "What is another name for regular sub-fund switches?",
+      "options": [
+        "Recurring single premium switch",
+        "Dollar cost averaging switch",
+        "An automatic sub-fund switch",
+        "Forward-priced sub-fund switch"
+      ],
+      "correctIndex": 2,
+      "explanation": "Section 6.7 names regular sub-fund switches as automatic sub-fund switches, done on a specified regular date with a fixed amount specified by the policy owner. Recurring single premium describes top-up options at specific intervals. Dollar cost averaging is a benefit of regular investing and forward pricing is a unit pricing method.",
+      "reference": "M9 e-textbook Ch 7, s6.7"
+    },
+    {
+      "id": "m9-ch7-s1-011",
+      "chapter": "Chapter 7",
+      "question": "During a premium holiday, how does the insurer meet the benefit charges falling due on the policy?",
+      "options": [
+        "The charges are always waived in full for the duration of the holiday period",
+        "The charges accrue as a debt, repayable once premium payments resume",
+        "The charges are met entirely by the insurer from its management fee income",
+        "Existing units are sold from the policy to pay the benefit charges"
+      ],
+      "correctIndex": 3,
+      "explanation": "Section 6.9 states that since no premium is paid, the insurer will sell away the existing units from the policy to pay for all the benefit charges. How long the holiday lasts depends on how many units are available to meet those charges. The charges are neither waived nor accrued as a debt, and the insurer does not absorb them.",
+      "reference": "M9 e-textbook Ch 7, s6.9"
+    },
+    {
+      "id": "m9-ch7-s1-012",
+      "chapter": "Chapter 7",
+      "question": "Which of the following is one of the four key factors to consider before purchasing an ILP?",
+      "options": [
+        "The client's total net worth and accumulated liquid assets",
+        "The client's time horizon before he expects to cash out his investment",
+        "The client's occupational class as assessed by the insurer's underwriters",
+        "The client's marital status and number of financial dependants"
+      ],
+      "correctIndex": 1,
+      "explanation": "The four factors are insurance protection needs, risk profile, personal investment objective and time horizon. Time horizon matters because regular premium ILPs carry significant charges in the early policy years. Net worth, occupational class and marital status are not among the four, and wealth in particular is a recurring distractor.",
+      "reference": "M9 e-textbook Ch 7, s7.1-7.4"
+    },
+    {
+      "id": "m9-ch7-s1-013",
+      "chapter": "Chapter 7",
+      "question": "A policy owner's risk profile refers to which of the following?",
+      "options": [
+        "The volatility rating that the CPF Board assigns to the chosen sub-fund",
+        "The proportion of his premium that is allocated to purchase units",
+        "The likelihood that the insurer will decline his application on medical grounds",
+        "How much investment risk he is willing to bear personally"
+      ],
+      "correctIndex": 3,
+      "explanation": "Section 7.2 defines risk profile as how much investment risk the policy owner is willing to bear, varying between individuals and changing with age and circumstances. The CPF risk classification attaches to the sub-fund, not the person. Premium allocation and underwriting outcome are unrelated concepts.",
+      "reference": "M9 e-textbook Ch 7, s7.2"
+    },
+    {
+      "id": "m9-ch7-s1-014",
+      "chapter": "Chapter 7",
+      "question": "According to the textbook, why is a regular premium ILP generally unsuitable for an older person whose primary aim is investment and who is unlikely to sustain premiums beyond retirement?",
+      "options": [
+        "Initial costs and the short investment horizon seriously limit potential returns",
+        "Insurers are prohibited from issuing regular premium ILPs to any applicant above age 65",
+        "CPF savings may never be used to fund an ILP once the member has reached age 55",
+        "Regular premium ILPs provide no death benefit at all once the life insured has retired"
+      ],
+      "correctIndex": 0,
+      "explanation": "Section 8.2 states that for such a person the initial costs and the short-term investment horizon will seriously limit the potential returns, and other investment options will better suit his needs. There is no age ban on ILP sales, no age 55 CPF prohibition of this kind, and the death benefit does not cease on retirement. Invented rules of this shape are a standard distractor family.",
+      "reference": "M9 e-textbook Ch 7, s8.2"
+    },
+    {
+      "id": "m9-ch7-s1-015",
+      "chapter": "Chapter 7",
+      "question": "Since January 2001, which ILPs have been allowed under the CPF Investment Scheme?",
+      "options": [
+        "All ILPs, provided the sub-fund always carries a low CPF risk classification",
+        "Regular premium plans, since these must build retirement savings steadily",
+        "Single premium plans and recurrent single premium plans",
+        "Investment-linked annuity policies, and only those bought at or after age 55"
+      ],
+      "correctIndex": 2,
+      "explanation": "Section 9.1 states that since January 2001 only single premium plans and recurrent single premium plans, meaning top-ups in single premium payments, have been allowed under CPFIS. CPF members who bought regular premium plans before 2001 may continue paying those premiums from CPF savings, which is the grandfathering detail that makes the reversed option tempting.",
+      "reference": "M9 e-textbook Ch 7, s9.1"
+    },
+    {
+      "id": "m9-ch7-s1-016",
+      "chapter": "Chapter 7",
+      "question": "How does the premium breakdown of an ILP differ from that of a traditional life insurance policy?",
+      "options": [
+        "Both are fully itemised, but the ILP breakdown is updated daily rather than annually",
+        "The ILP breakdown is bundled, while the traditional policy breakdown is unbundled and disclosed",
+        "The ILP breakdown is unbundled and transparent; the traditional one is bundled up",
+        "Neither is disclosed, since premium composition is treated as commercially confidential"
+      ],
+      "correctIndex": 2,
+      "explanation": "Under an ILP the amounts used for insurance coverage, other charges and the purchase of units are unbundled and transparent, disclosed in the Product Summary and Policy Contract. Under traditional policies these amounts are bundled up and not separately identified. Option B reverses the two, which is the trap.",
+      "reference": "M9 e-textbook Ch 7, s10.5-10.6"
+    },
+    {
+      "id": "m9-ch7-s1-017",
+      "chapter": "Chapter 7",
+      "question": "Under a traditional participating policy, into what are the premiums collected pooled?",
+      "options": [
+        "The insurer's Life Sub-fund, invested by reference to its liabilities",
+        "A segregated sub-fund chosen by each policy owner from the insurer's available range",
+        "A statutory reserve fund administered directly by the Monetary Authority of Singapore",
+        "A trust account maintained by an independent trustee on behalf of all policy owners"
+      ],
+      "correctIndex": 0,
+      "explanation": "Section 10.7 states premiums are pooled into the insurer's Life Sub-fund, invested taking into account the nature, term and currency of the insurer's liabilities, and typically holding mainly fixed income instruments with a relatively smaller proportion in equities. Policy owner selection of the sub-fund is the ILP arrangement, and neither MAS nor an independent trustee holds these premiums.",
+      "reference": "M9 e-textbook Ch 7, s10.7"
+    },
+    {
+      "id": "m9-ch7-s1-018",
+      "chapter": "Chapter 7",
+      "question": "The offer price of an ILP unit is best described as which of the following?",
+      "options": [
+        "The price at which the policy owner sells units back when he cashes in the policy",
+        "The net asset value of the sub-fund divided by the number of units in issue",
+        "The average of the highest and lowest unit prices recorded on the valuation date",
+        "The price the insurer uses to allocate units to a policy when premiums are paid"
+      ],
+      "correctIndex": 3,
+      "explanation": "The offer price is the price the insurer uses to allocate units when premiums are paid, being the price of a unit sold to a policy owner. The bid price is what the policy owner receives on cashing in, and is always lower than the offer price. Net asset value divided by units is a step in computing the unit price, not the definition of offer price.",
+      "reference": "M9 e-textbook Ch 7, s11 A(a)"
+    },
+    {
+      "id": "m9-ch7-s1-019",
+      "chapter": "Chapter 7",
+      "question": "The bid-offer spread is usually what percentage difference between bid and offer prices?",
+      "options": [
+        "5% of the offer price",
+        "2%",
+        "10%",
+        "15%"
+      ],
+      "correctIndex": 0,
+      "explanation": "The textbook states there is usually a 5% difference between bid and offer prices, although some insurers charge less than this rate. The bid-offer spread is an initial charge covering the insurer's expenses in setting up the policy and is sometimes called the initial sales charge. Memorise this figure: 5%.",
+      "reference": "M9 e-textbook Ch 7, s11 A(c)"
+    },
+    {
+      "id": "m9-ch7-s1-020",
+      "chapter": "Chapter 7",
+      "question": "The bid-offer spread on a sub-fund is 5% and the offer price is S$2.45. A policy owner invests S$100 and immediately sells his units. Approximately how much does he receive?",
+      "options": [
+        "S$100.00",
+        "S$95.11",
+        "S$97.55",
+        "S$90.25"
+      ],
+      "correctIndex": 1,
+      "explanation": "The bid price is S$2.45 x 95% = S$2.33. Investing S$100 at the offer price buys 100 / 2.45 = 40.82 units. Selling immediately at bid gives S$2.33 x 40.82 = S$95.11. Check: the loss of roughly S$4.89 on S$100 is close to the 5% spread, as expected. S$100 assumes no spread, and the other figures apply the percentage to the wrong base.",
+      "reference": "M9 e-textbook Ch 7, s11 A(c)"
+    },
+    {
+      "id": "m9-ch7-s1-021",
+      "chapter": "Chapter 7",
+      "question": "Under a single pricing model, how are units bought and sold?",
+      "options": [
+        "Bought at the offer price and sold at the bid price, exactly as under bid-offer pricing",
+        "Bought and sold on a single price applying to both transactions",
+        "Bought at the previous day's closing price and sold at the next valuation date's price",
+        "Bought and sold at a price the fund manager may always set at his own discretion"
+      ],
+      "correctIndex": 1,
+      "explanation": "Under single pricing, policy owners buy and sell units based only on that one particular price, and the initial sales charge is clearly and precisely stated, with only the net premium after deducting the sales charge used to purchase units. Buying at offer and selling at bid is the bid-offer model, remembered as BOSB: Buy at Offer, Sell at Bid.",
+      "reference": "M9 e-textbook Ch 7, s11.1"
+    },
+    {
+      "id": "m9-ch7-s1-022",
+      "chapter": "Chapter 7",
+      "question": "Which statement correctly describes a back-end loaded ILP?",
+      "options": [
+        "Less than 100% of premiums buy units initially, with the allocation rising over the years",
+        "Charges are levied annually against the sub-fund's net asset value before units are priced",
+        "100% of premiums buy units from the start, with charges on early surrender",
+        "No charges arise at any stage, as the insurer recovers all its costs from the management fee"
+      ],
+      "correctIndex": 2,
+      "explanation": "Under a back-end loaded plan 100% of premiums are allocated to purchase units from the start, and back-end charges are imposed if the policy owner surrenders in whole or in part within a certain time. Option A describes front-end loading. The textbook notes that although the allocation structures differ, the overall effect of the charges will be similar.",
+      "reference": "M9 e-textbook Ch 7, s12.5-12.6"
+    },
+    {
+      "id": "m9-ch7-s1-023",
+      "chapter": "Chapter 7",
+      "question": "Under forward pricing, the number of units purchased is determined by reference to which price?",
+      "options": [
+        "The offer price established on the next valuation date",
+        "The bid price prevailing at the close of the previous valuation date",
+        "The average offer price over the preceding five valuation dates",
+        "The offer price on the date the application form was signed by the client"
+      ],
+      "correctIndex": 0,
+      "explanation": "Forward pricing determines units purchased by reference to the offer price established on the next valuation date, meaning the next available offer price after the premium has been paid. Units sold are determined using the next available bid price. All three wrong options look backwards to a historical price, which is precisely what forward pricing avoids.",
+      "reference": "M9 e-textbook Ch 7, s13.3"
+    },
+    {
+      "id": "m9-ch7-s1-024",
+      "chapter": "Chapter 7",
+      "question": "For most regular premium ILPs, what happens to the premium the policy owner pays as he ages?",
+      "options": [
+        "It rises each year in step with the increasing scale of insurance coverage charges",
+        "It is recalculated at every policy anniversary by reference to his attained age",
+        "It falls over time as accumulated units subsidise a growing share of the charges",
+        "It stays level throughout the policy, while coverage charges rise yearly"
+      ],
+      "correctIndex": 3,
+      "explanation": "Section 14.5 states most regular premium ILPs are designed so the premium remains level throughout the life of the policy. The insurance coverage charges nonetheless increase year by year and are met by selling units. If the sub-fund performs poorly the units may become inadequate, and the policy owner may then need to increase premiums or reduce the level of protection.",
+      "reference": "M9 e-textbook Ch 7, s14.5-14.6"
+    },
+    {
+      "id": "m9-ch7-s1-025",
+      "chapter": "Chapter 7",
+      "question": "For a given regular premium, what is the effect of selecting a higher level of insurance coverage?",
+      "options": [
+        "More units are absorbed to pay insurance charges, so fewer remain to accumulate cash values",
+        "The premium allocation rate is increased to compensate for the additional cover",
+        "The sub-fund management fee is reduced in proportion to the higher benefit charges",
+        "Cash values are unaffected, since insurance charges are met from the insurer's expense loading"
+      ],
+      "correctIndex": 0,
+      "explanation": "Section 14.8 states there is a trade off between the amount of insurance coverage provided and the amount available for investment: the higher the level of coverage, the more units absorbed to pay insurance charges and the fewer units left to accumulate cash values. Nothing about the allocation rate or the management fee adjusts in response.",
+      "reference": "M9 e-textbook Ch 7, s14.8"
+    },
+    {
+      "id": "m9-ch7-s1-026",
+      "chapter": "Chapter 7",
+      "question": "Within what range does a sub-fund management charge normally fall?",
+      "options": [
+        "0.2% to 0.4% per annum",
+        "3% to 5% per annum",
+        "From 0.5% to 2% per annum",
+        "5% to 7% per annum"
+      ],
+      "correctIndex": 2,
+      "explanation": "The sub-fund management charge normally ranges from 0.5% to 2% per annum, with the level depending on competition, type of assets under management and the insurer's profit requirements. A sub-fund investing in government securities normally attracts a lower charge than an equity sub-fund. The range 0.2% to 0.4% is administrative charges, and 3% or 5% is the typical initial sales charge.",
+      "reference": "M9 e-textbook Ch 7, s16.5"
+    },
+    {
+      "id": "m9-ch7-s1-027",
+      "chapter": "Chapter 7",
+      "question": "The textbook illustrates the charge for S$1,000 of basic insurance cover for a male at ages 30, 40, 50 and 60. Which pattern do these figures demonstrate?",
+      "options": [
+        "The charge stays broadly flat until age 50 and then rises sharply thereafter",
+        "The charge rises with age, accelerating markedly at older ages",
+        "The charge falls with age as the remaining term of the policy grows shorter",
+        "The charge varies with the sub-fund's investment performance rather than with age"
+      ],
+      "correctIndex": 1,
+      "explanation": "The illustrative charges are S$0.78, S$1.29, S$3.12 and S$11.64 at ages 30, 40, 50 and 60, so the charge rises with age and accelerates sharply at older ages. The textbook warns that should charges outstrip the annual premiums paid, investment gains would be used to pay them, raising the possibility of the policy lapsing or having a low surrender value at claim.",
+      "reference": "M9 e-textbook Ch 7, s16.7-16.9"
+    },
+    {
+      "id": "m9-ch7-s1-028",
+      "chapter": "Chapter 7",
+      "question": "Which statement about diversification as a benefit of investing in ILPs is correct?",
+      "options": [
+        "It shields the policy owner from adverse moves across the broad investment market",
+        "It removes any need to consider the policy owner's risk profile before recommending a fund",
+        "It guarantees a positive return provided units are always held for the full policy term",
+        "It protects against the risk of putting too much money into one company's securities"
+      ],
+      "correctIndex": 3,
+      "explanation": "Section 17.2 is explicit that diversification does not and cannot protect policy owners against adverse moves in the broad investment market. It protects only against the risk of putting too many eggs in one basket, meaning too much money in one company's securities. Diversification neither guarantees returns nor displaces the suitability assessment.",
+      "reference": "M9 e-textbook Ch 7, s17.1-17.2"
+    },
+    {
+      "id": "m9-ch7-s1-029",
+      "chapter": "Chapter 7",
+      "question": "If an increase in the scale of insurance coverage charges on regular premium ILPs becomes necessary, how would it be applied?",
+      "options": [
+        "To an entire class of policies, and not in isolation to an individual policy",
+        "Only to policies whose sub-funds have underperformed their stated benchmark",
+        "To each policy individually, according to that life insured's own claims record",
+        "Only to policies issued after the date on which the revised scale takes effect"
+      ],
+      "correctIndex": 0,
+      "explanation": "Section 18.4 states such an increase would be applied to an entire class of policies and not in isolation to an individual policy, and would arise only if there were a general and sustained worsening of claims experience. The scale is subject to any maximum limits stated in the policy. Individual claims records and sub-fund performance do not drive the scale of charges.",
+      "reference": "M9 e-textbook Ch 7, s18.4"
+    },
+    {
+      "id": "m9-ch7-s1-030",
+      "chapter": "Chapter 7",
+      "question": "What is the key distinction between an ILP and a unit trust?",
+      "options": [
+        "ILPs are always taxed more favourably than the distributions made by unit trusts",
+        "ILPs must appoint a trustee and a registrar, whereas unit trusts never need either",
+        "ILPs may hold equities and bonds, whereas unit trusts can hold nothing but equities",
+        "ILPs provide insurance coverage as well as investment returns; unit trusts provide investment returns alone"
+      ],
+      "correctIndex": 3,
+      "explanation": "The key distinction is that ILPs provide insurance coverage, meaning a death benefit, as well as investment returns, whereas unit trusts provide only investment returns. On death, an ILP pays the value of the units and the death benefit, or the higher of the two. Broadly there are no differences in tax treatment or investment bases, and it is ILPs that do not need trustees or registrars, which reverses option B.",
+      "reference": "M9 e-textbook Ch 7, s19.1-19.2"
+    }
+  ]
+}

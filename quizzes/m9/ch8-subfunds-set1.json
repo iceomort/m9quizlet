@@ -1,0 +1,426 @@
+{
+  "title": "Chapter 8 · Investment-linked Sub-Funds · Set 1",
+  "passMark": 75,
+  "questions": [
+    {
+      "id": "m9-ch8-s1-001",
+      "chapter": "Chapter 8",
+      "question": "Which of the following is listed as a benefit of investing in investment-linked sub-funds?",
+      "options": [
+        "A guaranteed minimum return payable at the maturity of the sub-fund",
+        "Diversification of the investment portfolio",
+        "Exemption from all sub-fund management charges in the early policy years",
+        "Complete protection against every adverse movement in the broad market"
+      ],
+      "correctIndex": 1,
+      "explanation": "The six benefits are diversification of investment portfolio, different investment fund options, professional expertise, ease of transactions, liquidity and flexibility. No guaranteed return is offered, management charges are not waived, and diversification protects only against concentration in one holding, never against broad market falls.",
+      "reference": "M9 e-textbook Ch 8, s1.1"
+    },
+    {
+      "id": "m9-ch8-s1-002",
+      "chapter": "Chapter 8",
+      "question": "The comments made about investment-linked sub-fund structures also apply to which other product?",
+      "options": [
+        "Endowment policies, which are always another form of collective scheme",
+        "Participating whole life policies issued from the insurer's Life Sub-fund",
+        "Unit trusts, another form of collective investment scheme",
+        "Annuities purchased solely with monies from a CPF Retirement Account"
+      ],
+      "correctIndex": 2,
+      "explanation": "Section 2.1 states the comments also apply to unit trusts, which are another form of collective investment scheme. Endowment and participating whole life policies are traditional products drawing on the insurer's Life Sub-fund, and annuities are covered separately in Chapter 10.",
+      "reference": "M9 e-textbook Ch 8, s2.1"
+    },
+    {
+      "id": "m9-ch8-s1-003",
+      "chapter": "Chapter 8",
+      "question": "Under an accumulation structure, what happens to the investment income of the sub-fund?",
+      "options": [
+        "It is ploughed back into the fund, so unit prices are enhanced",
+        "It is paid to policy owners as a dividend at each policy anniversary",
+        "It is always transferred to the insurer's shareholder fund as a management charge",
+        "It is held in a separate cash reserve and never reinvested in the sub-fund"
+      ],
+      "correctIndex": 0,
+      "explanation": "Under an accumulation structure the investment income is ploughed back into the fund, and hence unit prices will be enhanced. Payment to policy owners describes a distribution structure. The income is neither diverted to the shareholder fund nor held in an idle reserve.",
+      "reference": "M9 e-textbook Ch 8, s2.2"
+    },
+    {
+      "id": "m9-ch8-s1-004",
+      "chapter": "Chapter 8",
+      "question": "Under a distribution structure, which statement about unit prices is correct?",
+      "options": [
+        "Unit prices are fixed, since all investment income is paid out to policy owners",
+        "Unit prices still vary as a result of capital gains or losses",
+        "Unit prices can never fall below the price at which the units were first issued",
+        "Unit prices are reset to their original issue price at each distribution date"
+      ],
+      "correctIndex": 1,
+      "explanation": "Section 2.3 states that under a distribution structure unit prices will still vary as a result of capital gains or losses, even though income is paid out as additional units or dividend payments. Paying out income affects where income goes; it does not fix, floor or reset the unit price.",
+      "reference": "M9 e-textbook Ch 8, s2.3"
+    },
+    {
+      "id": "m9-ch8-s1-005",
+      "chapter": "Chapter 8",
+      "question": "How do the benefits and risks of an ILP pass to the policy owner under the two sub-fund structures?",
+      "options": [
+        "Risk is shared with the insurer under an accumulation structure but not a distribution one",
+        "Risk passes in full under a distribution structure but is smoothed under accumulation",
+        "The full benefits and risks pass to the policy owner regardless of the structure used",
+        "Risk passes only once the policy has been in force beyond its third anniversary"
+      ],
+      "correctIndex": 2,
+      "explanation": "Section 2.4 states the full benefits and risks of ILPs are passed on to policy owners regardless of whether units are applied on an accumulation or distribution basis. Structure determines where income goes, not who bears investment risk. Smoothing and risk sharing are participating-policy concepts.",
+      "reference": "M9 e-textbook Ch 8, s2.4"
+    },
+    {
+      "id": "m9-ch8-s1-006",
+      "chapter": "Chapter 8",
+      "question": "A mother fund is best described as which of the following?",
+      "options": [
+        "The largest sub-fund in an insurer's range, measured by total assets under management",
+        "A fund that duplicates the asset and sector allocation of another established fund",
+        "The sub-fund into which all CPF-approved monies must by law be channelled",
+        "An existing fund incepted earlier, which may be tapped into by subsequent funds"
+      ],
+      "correctIndex": 3,
+      "explanation": "A mother fund is an existing fund incepted at an earlier point in time which may eventually be tapped into by subsequent funds. Size is not part of the definition, duplicating allocation describes a mirror fund, and no rule channels CPF monies into a designated mother fund.",
+      "reference": "M9 e-textbook Ch 8, s3.2"
+    },
+    {
+      "id": "m9-ch8-s1-007",
+      "chapter": "Chapter 8",
+      "question": "A fund taps directly into an existing earlier fund and consequently experiences the same level of fluctuation in unit price movements. What is it?",
+      "options": [
+        "A mirror fund",
+        "A feeder fund",
+        "A managed portfolio",
+        "A capital guaranteed fund"
+      ],
+      "correctIndex": 1,
+      "explanation": "A feeder fund feeds into an existing fund, the mother fund, tapping directly into it, and as a result experiences the same level of fluctuation in unit price movements. A mirror fund follows closely by duplicating composition, which is a weaker relationship than tapping directly in. Managed portfolios and capital guaranteed funds are fund types, not relationships between funds.",
+      "reference": "M9 e-textbook Ch 8, s3.3-3.4"
+    },
+    {
+      "id": "m9-ch8-s1-008",
+      "chapter": "Chapter 8",
+      "question": "A mirror fund attempts to duplicate an existing fund in terms of which characteristics?",
+      "options": [
+        "Its charging structure, allocation rate and free-switching entitlement",
+        "Its total fund size, number of units in issue and unit price",
+        "Its asset, geographical and sector allocation, and its investment selection",
+        "Its risk classification, minimum time horizon and stated benchmark index"
+      ],
+      "correctIndex": 2,
+      "explanation": "Section 3.5 states a mirror fund follows closely the composition of an existing fund, attempting to duplicate it in terms of asset, geographical and sector allocation as well as investment selection. It copies what the fund holds, not its charges, its size or its published risk rating. Composition language is the tell that separates mirror from feeder.",
+      "reference": "M9 e-textbook Ch 8, s3.5"
+    },
+    {
+      "id": "m9-ch8-s1-009",
+      "chapter": "Chapter 8",
+      "question": "Insurers sometimes offer investors a preset mix of funds based on the investor's risk profile. What is this called?",
+      "options": [
+        "A portfolio",
+        "A feeder fund",
+        "A mother fund",
+        "A balanced fund"
+      ],
+      "correctIndex": 0,
+      "explanation": "A preset mix of funds offered to help investors overcome the complexities of investment selection, based on the investor's risk profile, is referred to as a portfolio. A balanced fund is a single managed fund apportioned between equity and fixed income, not a mix of separate funds. Feeder and mother funds describe how one fund relates to another.",
+      "reference": "M9 e-textbook Ch 8, s3.6"
+    },
+    {
+      "id": "m9-ch8-s1-010",
+      "chapter": "Chapter 8",
+      "question": "Investment-linked sub-funds can be invested in most financial instruments up to what limit?",
+      "options": [
+        "A ceiling of 70% in equities and 30% in fixed income instruments",
+        "The maximum as allowed by the MAS",
+        "The limits stated in the Code on Collective Investment Schemes alone",
+        "A ceiling set annually by the CPF Board for every participating sub-fund"
+      ],
+      "correctIndex": 1,
+      "explanation": "Section 4.1 states sub-funds can be invested in most financial instruments up to the maximum as allowed by the MAS. The 70/30 split is a sample managed fund investment strategy, not a regulatory cap. The Code on Collective Investment Schemes governs unit trusts, and the CPF Board assigns risk classifications rather than setting investment ceilings.",
+      "reference": "M9 e-textbook Ch 8, s4.1"
+    },
+    {
+      "id": "m9-ch8-s1-011",
+      "chapter": "Chapter 8",
+      "question": "On what basis are the assets of a fixed income or bond fund chosen?",
+      "options": [
+        "Their potential for rapid capital appreciation over a short holding period",
+        "Their correlation with the performance of the Singapore equity market",
+        "Their eligibility for inclusion under the CPF Investment Scheme",
+        "Their income producing characteristics"
+      ],
+      "correctIndex": 3,
+      "explanation": "Section 4.3 states the assets of fixed income or bond funds are chosen on the basis of their income producing characteristics. Capital appreciation is the general aim of equity funds. Equity market correlation and CPFIS eligibility play no part in how a bond fund selects its holdings.",
+      "reference": "M9 e-textbook Ch 8, s4.3"
+    },
+    {
+      "id": "m9-ch8-s1-012",
+      "chapter": "Chapter 8",
+      "question": "Which three risks does the textbook identify as the main risks of fixed income funds?",
+      "options": [
+        "Interest rate risk, credit risk and reinvestment risk",
+        "Currency risk, liquidity risk and counterparty risk",
+        "Market risk, inflation risk and political risk",
+        "Concentration risk, settlement risk and regulatory risk"
+      ],
+      "correctIndex": 0,
+      "explanation": "Section 4.4 identifies interest rate risk, credit risk and reinvestment risk as the main risks of fixed income funds. These same three are repeated in the switching section as the reason a switch into fixed income does not eliminate risk. The other groupings are plausible investment risks but are not the set named in the chapter.",
+      "reference": "M9 e-textbook Ch 8, s4.4"
+    },
+    {
+      "id": "m9-ch8-s1-013",
+      "chapter": "Chapter 8",
+      "question": "Cash funds are also known by which other name?",
+      "options": [
+        "Sector funds, because they concentrate on the banking sector",
+        "Balanced funds, because they hold both cash and short-dated bonds",
+        "Money market funds",
+        "Lifestyle funds, because they suit investors nearing retirement"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cash funds are also known as money market funds, investing only in cash and its equivalents, so their capital values are unlikely to fall. Sector fund is the alternative name for specialised unit funds, balanced fund is the alternative name for a managed fund, and lifestyle fund is an alternative name for a managed portfolio.",
+      "reference": "M9 e-textbook Ch 8, s4.5"
+    },
+    {
+      "id": "m9-ch8-s1-014",
+      "chapter": "Chapter 8",
+      "question": "A managed fund is also known as a balanced fund in which circumstance?",
+      "options": [
+        "Whenever it holds property assets in addition to equities and bonds",
+        "When investments are apportioned between equity and fixed income within a pre-determined range",
+        "Whenever its equity weighting is always held at exactly 50% of the portfolio",
+        "When it is managed by two or more fund managers acting jointly"
+      ],
+      "correctIndex": 1,
+      "explanation": "Section 4.6 states managed funds are also known as balanced funds when there is an apportionment of investments between equity and fixed income instruments within a pre-determined range. A managed fund typically holds a higher proportion of equities and a lower proportion of fixed income, and may include property, but neither a fixed 50% weighting nor joint management is part of the definition.",
+      "reference": "M9 e-textbook Ch 8, s4.6"
+    },
+    {
+      "id": "m9-ch8-s1-015",
+      "chapter": "Chapter 8",
+      "question": "Property funds normally include a provision allowing the fund manager to defer unit redemptions. For how long, and with what exception?",
+      "options": [
+        "Up to six months, with no exception permitted in any circumstances",
+        "Up to 24 months, with an exception for critical illness claims",
+        "Up to three months, with an exception where the policy is surrendered in full",
+        "Typically up to 12 months, except on death"
+      ],
+      "correctIndex": 3,
+      "explanation": "Because property is an illiquid asset that cannot always be sold quickly, property funds normally allow the fund manager to defer unit redemptions, except on death, typically up to 12 months. Memorise both elements: the 12 month period and the death carve-out, which exists because paying a death claim is the purpose of a life policy.",
+      "reference": "M9 e-textbook Ch 8, s4.7"
+    },
+    {
+      "id": "m9-ch8-s1-016",
+      "chapter": "Chapter 8",
+      "question": "A sub-fund restricts its investments to gold, technology and commodities. How is such a fund described?",
+      "options": [
+        "A specialised unit fund, also known as a sector fund",
+        "A geographically specialised unit fund",
+        "A managed portfolio, also known as a risk rated fund",
+        "A mirror fund tracking a commodities index"
+      ],
+      "correctIndex": 0,
+      "explanation": "Funds restricting investments to particular industries or sectors, such as gold, finance, technology, commodities and small capitalisation companies, are specialised unit funds, also known as sector funds. Geographically specialised unit funds restrict by country or region instead, such as ASEAN Growth, Japan and European.",
+      "reference": "M9 e-textbook Ch 8, s4.9-4.10"
+    },
+    {
+      "id": "m9-ch8-s1-017",
+      "chapter": "Chapter 8",
+      "question": "In a capital guaranteed fund, what is the purpose of investing a significant amount into fixed income instruments?",
+      "options": [
+        "To generate the potential investment growth promised to the policy owner",
+        "To satisfy the minimum bond holding that MAS imposes on all guaranteed products",
+        "To preserve a portion of the capital of the policy owners",
+        "To ensure the fund can meet redemption requests during the subscription period"
+      ],
+      "correctIndex": 2,
+      "explanation": "In most structures a significant amount of the funds collected is invested into fixed income instruments, usually bonds, in order to preserve a portion of the capital of the policy owners. The balance buys derivatives, usually options, to give potential investment growth. Reversing the roles of the bonds and the options is the standard distractor here.",
+      "reference": "M9 e-textbook Ch 8, s4.12"
+    },
+    {
+      "id": "m9-ch8-s1-018",
+      "chapter": "Chapter 8",
+      "question": "An option is best defined as a standardised contract giving the buyer which of the following?",
+      "options": [
+        "An obligation to buy or sell an asset at a price set on the exercise date",
+        "The right to receive a fixed coupon payment at regular intervals until maturity",
+        "A proportionate ownership interest in the underlying assets of the sub-fund",
+        "The right, but not the obligation, to buy or sell an asset at a specified time and pre-set price"
+      ],
+      "correctIndex": 3,
+      "explanation": "The textbook defines an option as a standardised contract giving the buyer the right, but not the obligation, to buy or sell an asset at a specified time and at a pre-set price. The phrase right but not the obligation is the keyed wording. A fixed coupon describes a bond and a proportionate ownership interest describes a unit.",
+      "reference": "M9 e-textbook Ch 8, s4.12"
+    },
+    {
+      "id": "m9-ch8-s1-019",
+      "chapter": "Chapter 8",
+      "question": "Capital guaranteed funds are commonly closed-end funds. What does this mean?",
+      "options": [
+        "They have a limited subscription period and a fixed maturity date",
+        "They are closed to new policy owners but always open to top-up premiums",
+        "They may never be surrendered by the policy owner before the guarantee date",
+        "They are closed to CPF monies and can only be funded with cash premiums"
+      ],
+      "correctIndex": 0,
+      "explanation": "Closed-end means the fund has a limited subscription period as well as a fixed maturity date. The fixed end date is what allows the bond allocation to mature back to the guaranteed minimum. These funds are commonly issued with a tenure of around four to seven years.",
+      "reference": "M9 e-textbook Ch 8, s4.12"
+    },
+    {
+      "id": "m9-ch8-s1-020",
+      "chapter": "Chapter 8",
+      "question": "Capital guaranteed funds are commonly issued with a tenure of approximately what length?",
+      "options": [
+        "One to two years",
+        "Four to seven years",
+        "Ten to fifteen years",
+        "Twenty years or more"
+      ],
+      "correctIndex": 1,
+      "explanation": "Capital guaranteed funds are commonly issued with a tenure, or holding period, of around four to seven years. The term must be long enough for the fixed income allocation to mature back towards the guaranteed minimum amount. Memorise this range: four to seven years.",
+      "reference": "M9 e-textbook Ch 8, s4.12"
+    },
+    {
+      "id": "m9-ch8-s1-021",
+      "chapter": "Chapter 8",
+      "question": "What distinguishes a managed portfolio from a managed fund?",
+      "options": [
+        "A managed portfolio holds only equities, whereas a managed fund must hold bonds too",
+        "A managed portfolio is always closed-end, whereas a managed fund is open-ended",
+        "A managed portfolio guarantees capital, whereas a managed fund never does",
+        "A managed portfolio has potentially multiple funds, with the investment manager deciding which funds to invest in"
+      ],
+      "correctIndex": 3,
+      "explanation": "In a managed fund there is only one fund and one fund manager, who decides which asset to invest in. With managed portfolios there are potentially multiple funds and one investment manager, who decides which fund or funds to invest in. The separator to hold is that a fund manager picks assets while an investment manager picks funds.",
+      "reference": "M9 e-textbook Ch 8, s4.13-4.14"
+    },
+    {
+      "id": "m9-ch8-s1-022",
+      "chapter": "Chapter 8",
+      "question": "Managed portfolios are also known by which other names?",
+      "options": [
+        "Feeder or mirror funds",
+        "Balanced or money market funds",
+        "Risk rated or lifestyle funds",
+        "Sector or geographically specialised funds"
+      ],
+      "correctIndex": 2,
+      "explanation": "Managed portfolios are also known as risk rated or lifestyle funds, coming with a pre-set mix of funds. Balanced fund is the alternative name for a managed fund, money market fund for a cash fund, and sector fund for a specialised unit fund. Feeder and mirror describe relationships between funds rather than fund types.",
+      "reference": "M9 e-textbook Ch 8, s4.13"
+    },
+    {
+      "id": "m9-ch8-s1-023",
+      "chapter": "Chapter 8",
+      "question": "According to Table 8.1, which fund type carries a High risk category and a minimum time horizon of ten years plus?",
+      "options": [
+        "Equity funds",
+        "Balanced funds",
+        "Income, fixed interest and bond funds",
+        "Geographically specialised funds"
+      ],
+      "correctIndex": 3,
+      "explanation": "Geographically specialised funds are the only type in Table 8.1 rated High risk, with a minimum time horizon of ten years plus. Equity funds share the ten years plus horizon but are rated Medium to High, not High, and that gap is exactly what this question tests. Bond and balanced funds are both Medium risk with a four years plus horizon.",
+      "reference": "M9 e-textbook Ch 8, Table 8.1"
+    },
+    {
+      "id": "m9-ch8-s1-024",
+      "chapter": "Chapter 8",
+      "question": "According to Table 8.1, what is the risk category of equity funds?",
+      "options": [
+        "Medium to High",
+        "High",
+        "Medium",
+        "Low to Medium"
+      ],
+      "correctIndex": 0,
+      "explanation": "Table 8.1 rates equity funds as Medium to High risk, with a minimum time horizon of ten years plus. The single rating of High belongs to geographically specialised funds, whose concentration in one country or region removes the diversification that keeps broad equity funds at Medium to High.",
+      "reference": "M9 e-textbook Ch 8, Table 8.1"
+    },
+    {
+      "id": "m9-ch8-s1-025",
+      "chapter": "Chapter 8",
+      "question": "According to Table 8.1, which pairing of risk category and minimum time horizon applies to cash funds?",
+      "options": [
+        "Medium risk, four years plus",
+        "Low risk, up to three years",
+        "Low risk, ten years plus",
+        "Medium risk, up to three years"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cash funds are rated Low risk with a minimum time horizon of up to three years. Risk and horizon move together throughout Table 8.1: Low pairs with up to three years, Medium with four years plus and High with ten years plus. Medium with four years plus applies to both bond funds and balanced funds.",
+      "reference": "M9 e-textbook Ch 8, Table 8.1"
+    },
+    {
+      "id": "m9-ch8-s1-026",
+      "chapter": "Chapter 8",
+      "question": "The textbook cautions that the risk classification in Table 8.1 can only be a very broad guide. Which example is given to illustrate this?",
+      "options": [
+        "A cash fund holding foreign currency deposits will be a medium risk investment",
+        "An equity fund restricted to blue chip stocks will be a low risk investment",
+        "A balanced fund weighted towards property will always be a high risk investment",
+        "A bond fund specialising in low investment grade bonds will be a high risk investment"
+      ],
+      "correctIndex": 3,
+      "explanation": "Section 4.15 gives the example that a bond fund specialising in low investment grade bonds will be a high risk investment, even though bond funds sit at Medium in the table. The point is that risk depends on how a fund is precisely invested, so where a question describes actual holdings, answer from the holdings rather than the category label.",
+      "reference": "M9 e-textbook Ch 8, s4.15"
+    },
+    {
+      "id": "m9-ch8-s1-027",
+      "chapter": "Chapter 8",
+      "question": "A sample managed fund investment strategy states an objective of maximising returns consistent with a portfolio in what proportions?",
+      "options": [
+        "50% equities and 50% corporate bonds",
+        "60% equities and 40% government securities",
+        "70% equities and 30% corporate bonds",
+        "80% equities and 20% cash and equivalents"
+      ],
+      "correctIndex": 2,
+      "explanation": "The sample managed fund strategy in section 5.2 states an objective of maximising returns consistent with a portfolio of 70% equities and 30% corporate bonds, with the fund expected to outperform the fixed deposit savings rate in the medium to long term. Note the benchmark named is fixed deposits, whereas the sample bond fund benchmarks against cash deposits.",
+      "reference": "M9 e-textbook Ch 8, s5.2"
+    },
+    {
+      "id": "m9-ch8-s1-028",
+      "chapter": "Chapter 8",
+      "question": "At what price basis are units transacted when a policy owner uses the switching facility?",
+      "options": [
+        "Bid to bid price",
+        "Offer to bid price",
+        "Offer to offer price",
+        "The single price ruling at the previous valuation date"
+      ],
+      "correctIndex": 0,
+      "explanation": "Section 6.1 states switching usually does not incur any cost and the units are transacted at bid to bid price. Because the same price basis applies to both the sale and the purchase, the bid-offer spread is not charged a second time. Buy at offer and sell at bid, remembered as BOSB, applies to ordinary purchases and redemptions instead.",
+      "reference": "M9 e-textbook Ch 8, s6.1"
+    },
+    {
+      "id": "m9-ch8-s1-029",
+      "chapter": "Chapter 8",
+      "question": "A client approaching the date on which he needs his money switches from equity funds into a fixed income fund. What should he be told about the risk position?",
+      "options": [
+        "His capital is now fully protected against loss for the remainder of the term",
+        "His capital remains subject to interest rate risk, credit risk and reinvestment risk",
+        "His capital is guaranteed by the insurer once the switch has been completed",
+        "His capital value can no longer fall, since fixed income assets have a fixed value"
+      ],
+      "correctIndex": 1,
+      "explanation": "The textbook advises switching from equity type funds into cash or fixed income funds as the date money is required approaches, because capital values are more stable there. It then adds that the capital value of a fixed income fund remains subject to interest rate risk, credit risk and reinvestment risk. Switching lowers risk from Medium to High down to Medium; it does not remove it.",
+      "reference": "M9 e-textbook Ch 8, s6.3"
+    },
+    {
+      "id": "m9-ch8-s1-030",
+      "chapter": "Chapter 8",
+      "question": "What distinguishes improper product switching from a legitimate sub-fund switch?",
+      "options": [
+        "The client is charged a fee, whereas legitimate sub-fund switches are free of charge",
+        "The switch is made between insurers, whereas sub-fund switches stay with one insurer",
+        "The client surrenders one product to buy another and the switch produces no real benefit to him",
+        "The switch moves the client from a lower risk fund into a fund of higher risk"
+      ],
+      "correctIndex": 2,
+      "explanation": "Improper product switching means the client is advised to surrender one product and buy another where such a switch produces no real benefit to the client, done by errant advisers to churn extra commissions, and representatives are prohibited from such misconduct. The absence of real benefit is the keyed element. Charging a fee, changing insurer or moving up the risk scale are not by themselves improper.",
+      "reference": "M9 e-textbook Ch 8, s6.4"
+    }
+  ]
+}

@@ -52,6 +52,22 @@
       ],
       "sets": [
         {
+          "id": "ch8-subfunds-set1",
+          "title": "Investment-linked Sub-Funds · Set 1",
+          "file": "quizzes/m9/ch8-subfunds-set1.json",
+          "group": "ILPs",
+          "detail": "",
+          "maxChapter": 8
+        },
+        {
+          "id": "ch7-ilp-set1",
+          "title": "ILPs: Types, Features, Benefits and Risks · Set 1",
+          "file": "quizzes/m9/ch7-ilp-set1.json",
+          "group": "ILPs",
+          "detail": "",
+          "maxChapter": 7
+        },
+        {
           "id": "m9-ch7-ilp-set1",
           "title": "Chapter 7 · ILPs · Set 1 (20Q)",
           "file": "quizzes/m9/m9-ch7-ilp-set1.json",
