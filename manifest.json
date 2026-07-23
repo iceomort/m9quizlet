@@ -52,6 +52,14 @@
       ],
       "sets": [
         {
+          "id": "m9-ch7-ilp-set1",
+          "title": "Chapter 7 · ILPs · Set 1 (20Q)",
+          "file": "quizzes/m9/m9-ch7-ilp-set1.json",
+          "group": "ILPs",
+          "detail": "",
+          "maxChapter": 7
+        },
+        {
           "id": "m9-ch6-par-hard-2",
           "title": "Chapter 6 · Participating Policies · Hard Set 2 (30Q)",
           "file": "quizzes/m9/m9-ch6-participating-hard-set2.json",

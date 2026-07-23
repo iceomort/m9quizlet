@@ -1,0 +1,286 @@
+{
+  "title": "Chapter 7 · ILPs · Set 1",
+  "passMark": 75,
+  "questions": [
+    {
+      "id": 1,
+      "chapter": "Chapter 7",
+      "question": "In an investment-linked policy, the cost of insurance coverage is met by:",
+      "options": [
+        "Cancelling units from the policy",
+        "A separate premium billed to the owner each month",
+        "Deduction from bonuses declared on the fund",
+        "The insurer, at no cost to the policy owner"
+      ],
+      "correctIndex": 0,
+      "explanation": "Insurance charges in an ILP are recovered by cancelling units held under the policy. B is wrong because no separate billing occurs. C imports par-fund language: ILPs declare no bonuses. D is wrong because the cover is never free; the policy owner's own units fund it.",
+      "reference": "M9 e-textbook Ch 7, s2"
+    },
+    {
+      "id": 2,
+      "chapter": "Chapter 7",
+      "question": "A policy owner holding an ILP owns:",
+      "options": [
+        "The securities held within the sub-fund itself",
+        "A guaranteed minimum value payable on maturity",
+        "Units representing a share of the sub-fund",
+        "An entitlement to bonuses declared each year"
+      ],
+      "correctIndex": 2,
+      "explanation": "The owner holds units; the fund manager holds the underlying securities. A confuses units with direct ownership. B is wrong as ILP values are not guaranteed. D describes a participating policy.",
+      "reference": "M9 e-textbook Ch 7, s3"
+    },
+    {
+      "id": 3,
+      "chapter": "Chapter 7",
+      "question": "Which is NOT one of the stated purposes of an ILP?",
+      "options": [
+        "Investment",
+        "Savings",
+        "Protection",
+        "Smoothing"
+      ],
+      "correctIndex": 3,
+      "explanation": "The three purposes are investment, savings and protection. Smoothing is a participating-fund mechanism and has no application to ILPs, where the owner receives actual unit performance.",
+      "reference": "M9 e-textbook Ch 7, s4"
+    },
+    {
+      "id": 4,
+      "chapter": "Chapter 7",
+      "question": "Compared with a traditional life policy of the same premium, an ILP generally provides:",
+      "options": [
+        "Higher cover, because the charges applied are lower",
+        "Lower cover, as most of the premium is invested",
+        "Identical cover, since cover is fixed by regulation",
+        "Cover that is guaranteed to increase every year"
+      ],
+      "correctIndex": 1,
+      "explanation": "Protection is secondary in an ILP; the bulk of the premium purchases units, so cover per dollar is lower than a traditional policy. A reverses the position. C invents a regulatory standard. D describes no ILP feature.",
+      "reference": "M9 e-textbook Ch 7, s4"
+    },
+    {
+      "id": 5,
+      "chapter": "Chapter 7",
+      "question": "ILPs are classified in two ways. These are by:",
+      "options": [
+        "Sub-fund risk rating and by currency",
+        "Frequency of premium payment and by product features",
+        "Distribution channel and by pricing basis",
+        "Age of entry and by sum assured"
+      ],
+      "correctIndex": 1,
+      "explanation": "The two classification methods are by frequency of premium payment (single or regular) and by product features (investment-focused or protection-focused). The remaining options list groupings the textbook does not use for this purpose.",
+      "reference": "M9 e-textbook Ch 7, s5"
+    },
+    {
+      "id": 6,
+      "chapter": "Chapter 7",
+      "question": "A single-premium ILP is best described as:",
+      "options": [
+        "Mainly an investment product, with low cover",
+        "Mainly a protection product, with high cover",
+        "A savings product with a guaranteed maturity value",
+        "A product requiring monthly contributions for life"
+      ],
+      "correctIndex": 0,
+      "explanation": "A lump-sum ILP carries only a thin insurance layer, making it mainly an investment vehicle. B reverses it. C wrongly asserts a guarantee. D describes regular-premium payment.",
+      "reference": "M9 e-textbook Ch 7, s5"
+    },
+    {
+      "id": 7,
+      "chapter": "Chapter 7",
+      "question": "Ravi stops paying premiums on his regular-premium ILP and takes a premium holiday. During this period:",
+      "options": [
+        "All deductions are suspended until premiums resume",
+        "Cover ceases at once, though units are preserved",
+        "Insurance charges continue to be deducted",
+        "The insurer credits interest to offset lost premiums"
+      ],
+      "correctIndex": 2,
+      "explanation": "Premiums pause; charges do not. Units continue to be cancelled to meet insurance charges, so the policy value falls and the policy may lapse if it becomes insufficient. A is the common misreading of the word 'holiday'. B is wrong because cover continues. D is fabricated.",
+      "reference": "M9 e-textbook Ch 7, s6"
+    },
+    {
+      "id": 8,
+      "chapter": "Chapter 7",
+      "question": "Mei Ling moves the value of her holdings from an equity sub-fund into a bond sub-fund without paying in any additional money. She has made a:",
+      "options": [
+        "Top-up",
+        "Partial surrender",
+        "Premium holiday",
+        "Sub-fund switch"
+      ],
+      "correctIndex": 3,
+      "explanation": "Moving existing value between sub-funds is a switch. A top-up involves new money being paid in. A partial surrender withdraws value from the policy. A premium holiday pauses premium payment.",
+      "reference": "M9 e-textbook Ch 7, s6"
+    },
+    {
+      "id": 9,
+      "chapter": "Chapter 7",
+      "question": "Which correctly distinguishes a partial surrender from a full surrender?",
+      "options": [
+        "A partial surrender ends the policy; a full surrender does not",
+        "A partial surrender keeps the policy in force; a full one ends it",
+        "Both terminate the policy, differing only in the charges applied",
+        "Neither has any effect on the insurance cover provided"
+      ],
+      "correctIndex": 1,
+      "explanation": "A partial surrender withdraws some value while the policy continues; a full surrender cashes out and ends both the policy and the cover. A reverses the two. C and D misstate the effect on the contract.",
+      "reference": "M9 e-textbook Ch 7, s6"
+    },
+    {
+      "id": 10,
+      "chapter": "Chapter 7",
+      "question": "The four factors to consider before recommending an ILP are insurance protection needs, risk profile, personal investment objective and:",
+      "options": [
+        "Time horizon",
+        "Net worth",
+        "Marital status",
+        "Nationality"
+      ],
+      "correctIndex": 0,
+      "explanation": "Time horizon completes the four factors. Net worth is not a listed factor, and options citing a client's wealth as the reason an ILP suits them are distractors. Marital status and nationality do not appear among the four.",
+      "reference": "M9 e-textbook Ch 7, s7"
+    },
+    {
+      "id": 11,
+      "chapter": "Chapter 7",
+      "question": "A client with a low risk profile is one who:",
+      "options": [
+        "Is willing to accept large fluctuations for higher returns",
+        "Is elderly, irrespective of their investment attitude",
+        "Seeks capital preservation and dislikes losses",
+        "Holds a portfolio concentrated wholly in equities"
+      ],
+      "correctIndex": 2,
+      "explanation": "Risk profile describes appetite for, and ability to absorb, investment loss. A low profile means wanting safety. A describes a high profile. B confuses age with attitude: an older client usually has a low risk profile, but age itself does not define it. D describes holdings rather than appetite.",
+      "reference": "M9 e-textbook Ch 7, s7"
+    },
+    {
+      "id": 12,
+      "chapter": "Chapter 7",
+      "question": "A representative recommends an ILP to a client solely on the basis that the client is wealthy and can afford the premiums. This reasoning is:",
+      "options": [
+        "Sound, as affordability is the primary consideration",
+        "Sound, provided premiums stay within 10% of income",
+        "Unsound, as wealth is not a factor to be assessed",
+        "Unsound, though permitted for single-premium products"
+      ],
+      "correctIndex": 2,
+      "explanation": "Wealth is not one of the four factors. Suitability turns on protection needs, risk profile, investment objective and time horizon. A wealthy client with low risk tolerance remains unsuitable. B invents a threshold; D invents an exemption.",
+      "reference": "M9 e-textbook Ch 7, s7"
+    },
+    {
+      "id": 13,
+      "chapter": "Chapter 7",
+      "question": "Regarding the suitability of ILPs for older people, which is correct?",
+      "options": [
+        "ILPs may not be sold to any client above the age of 65",
+        "ILPs are suitable regardless, as charges fall with age",
+        "ILPs are always unsuitable once a client has retired",
+        "Shorter time horizon and lower risk tolerance are the concern"
+      ],
+      "correctIndex": 3,
+      "explanation": "There is no age bar. The concern is what age typically brings: less time to recover from a fall, usually lower risk tolerance, and a rising cost of insurance. A and C invent prohibitions. B reverses the effect of age on insurance charges.",
+      "reference": "M9 e-textbook Ch 7, s8"
+    },
+    {
+      "id": 14,
+      "chapter": "Chapter 7",
+      "question": "As a policy owner ages, the effect on an ILP is that:",
+      "options": [
+        "More units must be cancelled to meet the charges",
+        "Fewer units are cancelled as the fund matures over time",
+        "The sum assured reduces to hold the charges level",
+        "Charges are frozen at the rate set at inception"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mortality charges rise with age, so a greater number of units must be cancelled each period to fund the same cover. B reverses this. C and D describe mechanisms that do not apply.",
+      "reference": "M9 e-textbook Ch 7, s2"
+    },
+    {
+      "id": 15,
+      "chapter": "Chapter 7",
+      "question": "Which statement about CPF monies used to purchase ILPs is correct?",
+      "options": [
+        "Special Account savings may be invested in higher-risk products",
+        "Ordinary Account savings permit a wider product range",
+        "Only Special Account savings may be used to buy ILPs",
+        "CPF savings may not be used to purchase ILPs at all"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Special Account sits closer to core retirement savings and is the more restricted of the two, admitting only lower-risk products; the Ordinary Account is the more flexible. A reverses the relationship, which is the most frequently set trap. C and D contradict the existence of CPFIS-OA.",
+      "reference": "M9 e-textbook Ch 7, s9"
+    },
+    {
+      "id": 16,
+      "chapter": "Chapter 7",
+      "question": "An ILP purchased with CPF savings may generally provide cover for:",
+      "options": [
+        "Any benefit the insurer offers, including all riders",
+        "Hospitalisation and outpatient expenses only",
+        "Death, total permanent disability and terminal illness",
+        "Death only, with no disability benefit permitted"
+      ],
+      "correctIndex": 2,
+      "explanation": "CPF-funded ILPs are confined to death, TPD and terminal illness cover. A ignores the restriction entirely. B describes health insurance. D understates the permitted scope by excluding TPD and terminal illness.",
+      "reference": "M9 e-textbook Ch 7, s9"
+    },
+    {
+      "id": 17,
+      "chapter": "Chapter 7",
+      "question": "Which is a distinguishing feature of an ILP when compared with a participating policy?",
+      "options": [
+        "Surplus is shared between owners and shareholders in set proportions",
+        "Returns are smoothed across good years and poor years alike",
+        "A minimum benefit is guaranteed whatever the fund returns",
+        "The policy owner bears the investment risk directly"
+      ],
+      "correctIndex": 3,
+      "explanation": "The defining shift is that investment risk passes to the policy owner. The other three describe participating policies: the 90:10 sharing rule, smoothing, and guaranteed benefits. None applies to an ILP.",
+      "reference": "M9 e-textbook Ch 7, s10"
+    },
+    {
+      "id": 18,
+      "chapter": "Chapter 7",
+      "question": "Siew Hoon pays an additional S$8,000 into her existing ILP to acquire further units. This is termed a:",
+      "options": [
+        "Top-up",
+        "Switch",
+        "Reinstatement",
+        "Paid-up conversion"
+      ],
+      "correctIndex": 0,
+      "explanation": "Paying in additional money to buy more units is a top-up. A switch moves existing value between sub-funds without new money. Reinstatement revives a lapsed policy; paid-up conversion is a traditional-policy non-forfeiture option.",
+      "reference": "M9 e-textbook Ch 7, s6"
+    },
+    {
+      "id": 19,
+      "chapter": "Chapter 7",
+      "question": "Which of the following does NOT apply to investment-linked policies?",
+      "options": [
+        "Sub-fund switching",
+        "The 90:10 surplus sharing rule",
+        "Premium holidays",
+        "Riders"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 90:10 rule governs the distribution of surplus in a participating fund and has no application to ILPs, which pay actual unit performance. Switching, premium holidays and riders are all ILP features.",
+      "reference": "M9 e-textbook Ch 7, s6"
+    },
+    {
+      "id": 20,
+      "chapter": "Chapter 7",
+      "question": "Which client is most likely to be suitably matched to a regular-premium ILP?",
+      "options": [
+        "A retiree needing maximum cover at the lowest possible cost",
+        "A client needing the full sum in two years for a property",
+        "A client seeking a guaranteed return with no risk of loss",
+        "A working adult seeking growth who accepts fluctuation"
+      ],
+      "correctIndex": 3,
+      "explanation": "The match requires a growth objective, tolerance of fluctuation and a long horizon. A needs a term policy, which gives far more cover per dollar. B fails on time horizon. C seeks a guarantee an ILP cannot give.",
+      "reference": "M9 e-textbook Ch 7, s7"
+    }
+  ]
+}
