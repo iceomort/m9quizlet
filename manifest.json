@@ -28,17 +28,17 @@
       ],
       "sets": [
         {
-          "id": "m9-ch6-par-hard",
-          "title": "Chapter 6 · Participating Policies · Hard (30Q)",
-          "file": "quizzes/m9/m9-ch6-participating-hard.json",
+          "id": "m9-ch6-par-hard-2",
+          "title": "Chapter 6 · Participating Policies · Hard Set 2 (30Q)",
+          "file": "quizzes/m9/m9-ch6-participating-hard-set2.json",
           "group": "Traditional products",
           "detail": "Hard",
           "maxChapter": 6
         },
         {
-          "id": "m9-ch6-par-hard-2",
-          "title": "Chapter 6 · Participating Policies · Hard Set 2 (30Q)",
-          "file": "quizzes/m9/m9-ch6-participating-hard-set2.json",
+          "id": "m9-ch6-par-hard",
+          "title": "Chapter 6 · Participating Policies · Hard Set 1 (30Q)",
+          "file": "quizzes/m9/m9-ch6-participating-hard.json",
           "group": "Traditional products",
           "detail": "Hard",
           "maxChapter": 6
