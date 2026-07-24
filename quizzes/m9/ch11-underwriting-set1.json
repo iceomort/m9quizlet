@@ -1,0 +1,426 @@
+{
+  "title": "Chapter 11 · Application and Underwriting · Set 1",
+  "passMark": 75,
+  "questions": [
+    {
+      "id": "m9-ch11-s1-001",
+      "chapter": "Chapter 11",
+      "question": "Whose requirements must a life insurance proposal form used in Singapore meet?",
+      "options": [
+        "The Monetary Authority of Singapore and the Life Insurance Association of Singapore",
+        "The Monetary Authority of Singapore acting alone as the sole industry regulator",
+        "The Inland Revenue Authority of Singapore and the Central Provident Fund Board acting jointly",
+        "The Singapore College of Insurance and the Ministry of Manpower jointly"
+      ],
+      "correctIndex": 0,
+      "explanation": "In Singapore the proposal form used by insurers must meet the requirements of the Monetary Authority of Singapore (MAS) and the Life Insurance Association of Singapore (LIA). Both bodies are named, so an option citing MAS alone is incomplete.",
+      "reference": "M9 e-textbook Ch 11, s1.2"
+    },
+    {
+      "id": "m9-ch11-s1-002",
+      "chapter": "Chapter 11",
+      "question": "Under which provision are insurers required to display a warning statement prominently in the proposal form?",
+      "options": [
+        "Section 146(1) of the Insurance Act 1966",
+        "Section 23(5) of the Insurance Act 1966",
+        "Notice No. MAS 318 issued to direct life insurers",
+        "MAS Notice 314 on anti-money laundering measures"
+      ],
+      "correctIndex": 1,
+      "explanation": "Section 23(5) of the Insurance Act 1966 requires insurers to display a warning statement prominently in the proposal form, highlighting the importance of disclosing accurately all facts the proposer knows or ought to know. Section 146 deals with insurable interest, Notice MAS 318 with replacement of policies, and MAS Notice 314 with AML/CFT.",
+      "reference": "M9 e-textbook Ch 11, s1.9"
+    },
+    {
+      "id": "m9-ch11-s1-003",
+      "chapter": "Chapter 11",
+      "question": "What is the consequence of a proposer failing to disclose material facts in the proposal form?",
+      "options": [
+        "The insurer may reduce the sum assured in proportion to the undisclosed risk",
+        "The insurer may charge an additional premium retrospectively from inception",
+        "The insurer may void the policy, and nothing is payable on a claim",
+        "The insurer must still pay the claim but may decline future renewals"
+      ],
+      "correctIndex": 2,
+      "explanation": "Failure to disclose accurately may give the insurer the right to void the policy, meaning cancel it from inception, and nothing is payable to the policy owner should he make a claim. The outcome is not a reduced payout or a retrospective premium adjustment, which is what makes those options tempting.",
+      "reference": "M9 e-textbook Ch 11, s1.9"
+    },
+    {
+      "id": "m9-ch11-s1-004",
+      "chapter": "Chapter 11",
+      "question": "Under Section 146 of the Insurance Act 1966, a policy insuring the life of another is void unless what condition is satisfied?",
+      "options": [
+        "The proposed life insured has given his written consent to the policy being effected",
+        "The policy is issued by an insurer licensed to carry on life business in Singapore",
+        "The proposer has undergone a full medical examination before issue",
+        "The person effecting the insurance has insurable interest at the time it is effected"
+      ],
+      "correctIndex": 3,
+      "explanation": "Section 146(1) and (2) provides that a policy insuring the life of another, other than a connected person, is void unless the person effecting the insurance has an insurable interest in that life at the time the insurance is effected. It further provides that policy monies paid shall not exceed the amount of that insurable interest at that time.",
+      "reference": "M9 e-textbook Ch 11, s1.18"
+    },
+    {
+      "id": "m9-ch11-s1-005",
+      "chapter": "Chapter 11",
+      "question": "Under Section 146, what is the age of majority below which a child or ward is treated as a connected person?",
+      "options": [
+        "18 years old",
+        "16 years old",
+        "21 years old",
+        "17 years old"
+      ],
+      "correctIndex": 0,
+      "explanation": "A connected person includes a person's wife or husband, and a child or ward being under the age of majority, which is 18 years old, at the time the insurance is effected, together with anyone on whom that person is wholly or partly dependent. The figure of 16 appears elsewhere in the chapter as the age in the textbook's example of parents insuring their children, which is why it is a tempting distractor.",
+      "reference": "M9 e-textbook Ch 11, s1.18"
+    },
+    {
+      "id": "m9-ch11-s1-006",
+      "chapter": "Chapter 11",
+      "question": "What is the maximum period for which most insurers allow a policy to be backdated, and on what basis are premiums charged?",
+      "options": [
+        "Twelve months, with premiums charged on a last birthday basis",
+        "Three months, with premiums charged on an attained age basis",
+        "Six months, with premiums charged on a next birthday basis",
+        "Two years, with premiums charged on a nearest birthday basis"
+      ],
+      "correctIndex": 2,
+      "explanation": "Most insurers allow backdating of a maximum of six months and charge their premiums on a next birthday basis. People usually backdate to just before their last birthday so as to enjoy lower premium rates. Backdating may not be available for certain types of policies, for example an ILP.",
+      "reference": "M9 e-textbook Ch 11, s1.16"
+    },
+    {
+      "id": "m9-ch11-s1-007",
+      "chapter": "Chapter 11",
+      "question": "A policy owner returns his policy within the 14-day free-look period. What refund does he receive?",
+      "options": [
+        "The full premium paid, with no deduction of any kind being made",
+        "The premium paid, less any cost incurred by the insurer in assessing the risk",
+        "The premium paid, less a fixed administrative charge levied by the insurer",
+        "Half the premium paid, with the balance retained as a cancellation fee"
+      ],
+      "correctIndex": 1,
+      "explanation": "Within the 14 days free-look period the policy owner receives a refund of the premium paid, less any cost incurred by the insurer in assessing the risk. He gets a full premium refund only where the proposal form is rejected by the insurer, which is the distinction being tested.",
+      "reference": "M9 e-textbook Ch 11, s1.39"
+    },
+    {
+      "id": "m9-ch11-s1-008",
+      "chapter": "Chapter 11",
+      "question": "Under which legislation are undischarged bankrupts prevented from purchasing new life insurance policies without prior consent?",
+      "options": [
+        "The Insurance Act 1966, which governs the conduct of licensed insurers",
+        "The Financial Advisers Act 2001, which regulates advisory conduct",
+        "The Securities and Futures Act 2001, which covers capital markets products",
+        "The Insolvency, Restructuring and Dissolution Act 2018"
+      ],
+      "correctIndex": 3,
+      "explanation": "Undischarged bankrupts are not allowed to purchase new life insurance policies under the Insolvency, Restructuring and Dissolution Act 2018 without the prior consent of the Official Assignee. Some proposal forms accordingly require a declaration that the applicant is not an undischarged bankrupt.",
+      "reference": "M9 e-textbook Ch 11, s1.39"
+    },
+    {
+      "id": "m9-ch11-s1-009",
+      "chapter": "Chapter 11",
+      "question": "May an adviser sign the proposal form on behalf of his client if the client has given express authorisation?",
+      "options": [
+        "No, neither the adviser nor any other person should sign on the proposer's behalf",
+        "Yes, provided the authorisation is recorded in writing and retained on the adviser's file",
+        "Yes, provided the client countersigns the form at the next opportunity",
+        "Yes, but only where the client is physically unable to sign the form for himself"
+      ],
+      "correctIndex": 0,
+      "explanation": "Neither the adviser nor any other person should sign the proposal form on behalf of the proposer, even if the client has given authorisation or consent. No exception exists, so options offering conditional permission are wrong however reasonable the condition sounds.",
+      "reference": "M9 e-textbook Ch 11, s1.40"
+    },
+    {
+      "id": "m9-ch11-s1-010",
+      "chapter": "Chapter 11",
+      "question": "What is required when a change is made to a completed proposal form?",
+      "options": [
+        "A fresh proposal form must be completed by the proposer from the beginning",
+        "The adviser must record the change in his own file notes only",
+        "The proposer's written approval, with the client countersigning the change",
+        "The insurer's underwriter must approve the change in writing before it takes effect"
+      ],
+      "correctIndex": 2,
+      "explanation": "Any changes in a completed proposal form have to be done with the proposer's written approval, and the client must countersign against the changes he makes. The same practice applies where the insurer discovers an error or omission, in which case the adviser must return to the client to have the changes made and initialled.",
+      "reference": "M9 e-textbook Ch 11, s1.41-1.42"
+    },
+    {
+      "id": "m9-ch11-s1-011",
+      "chapter": "Chapter 11",
+      "question": "What is the main purpose of underwriting?",
+      "options": [
+        "To ensure that premiums charged correspond closely with the risk each proposer presents",
+        "To maximise the total number of policies issued within each underwriting cycle",
+        "To verify that the adviser has complied with every applicable disclosure requirement",
+        "To determine the level of commission payable to the intermediary concerned"
+      ],
+      "correctIndex": 0,
+      "explanation": "The main purpose of underwriting is to ensure that the premiums charged correspond closely with the risk that each proposer presents, and proper underwriting helps ensure the insurer has sufficient funds to pay claims. The underwriter also checks that insurable interest exists in third-party policies, since a policy issued without it is not valid.",
+      "reference": "M9 e-textbook Ch 11, s2.2-2.3"
+    },
+    {
+      "id": "m9-ch11-s1-012",
+      "chapter": "Chapter 11",
+      "question": "Which of the seven factors affecting risk does the textbook describe as a secondary factor in underwriting?",
+      "options": [
+        "Occupation",
+        "Financial condition",
+        "Place of residence",
+        "Lifestyle"
+      ],
+      "correctIndex": 2,
+      "explanation": "Where the proposed life insured lives is described as a secondary factor in underwriting, because living condition, healthcare, climate, sanitation and political instability may increase the risk to be insured. The other six factors, being age, occupation, physical condition, medical history, financial condition and lifestyle, are not so qualified.",
+      "reference": "M9 e-textbook Ch 11, s2.13"
+    },
+    {
+      "id": "m9-ch11-s1-013",
+      "chapter": "Chapter 11",
+      "question": "What distinguishes physical condition from medical history as underwriting factors?",
+      "options": [
+        "Physical condition is assessed by a doctor whereas medical history is entirely self-declared",
+        "Physical condition covers hereditary illness whereas medical history covers acquired illness",
+        "Physical condition applies to medical cases whereas medical history applies to non-medical ones",
+        "Physical condition is the current health status whereas medical history is the past health record"
+      ],
+      "correctIndex": 3,
+      "explanation": "Physical condition refers to the proposed life insured's current health status, which the insurer needs in order to determine terms of acceptance. Medical history is the past health record, which matters because certain ailments tend to recur, asthma being the textbook's example. Hereditary illness is captured under family history rather than either of these.",
+      "reference": "M9 e-textbook Ch 11, s2.9-2.10"
+    },
+    {
+      "id": "m9-ch11-s1-014",
+      "chapter": "Chapter 11",
+      "question": "Why is a proposer's financial condition an important underwriting consideration?",
+      "options": [
+        "It is a good indicator of whether moral hazard exists, and of likely persistency",
+        "It determines the maximum commission the insurer is permitted to pay to the adviser",
+        "It establishes whether the proposer has any insurable interest in his own life",
+        "It fixes the frequency at which premiums must be paid under the policy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Financial condition or affordability is a good indicator of whether moral hazard exists, and the burden to prevent over-insurance rests with the insurer. Separately, a proposer who cannot pay renewal premiums is likely to lapse before the insurer recovers its acquisition expenses. A person already has unlimited insurable interest in his own life, so option C is not the reason.",
+      "reference": "M9 e-textbook Ch 11, s2.11-2.12"
+    },
+    {
+      "id": "m9-ch11-s1-015",
+      "chapter": "Chapter 11",
+      "question": "On what basis is the majority of life insurance proposal forms underwritten?",
+      "options": [
+        "On a medical basis, with a full examination required in every case",
+        "On a non-medical basis, with no medical examination required",
+        "On a provisional basis pending receipt of an Attending Physician's Report",
+        "On a group basis, with individual assessment reserved for large sums assured"
+      ],
+      "correctIndex": 1,
+      "explanation": "The majority of life insurance proposal forms are underwritten on a non-medical basis, meaning no medical examination is required. Whether a proposed life insured must undergo an examination is determined by factors such as age, the amount of insurance applied for, and medical history.",
+      "reference": "M9 e-textbook Ch 11, s3.1"
+    },
+    {
+      "id": "m9-ch11-s1-016",
+      "chapter": "Chapter 11",
+      "question": "The medical examination form provided by the insurer usually consists of how many parts?",
+      "options": [
+        "Two parts, being history and examination",
+        "Four parts, including a follow-up review",
+        "Three parts",
+        "Five parts, including a specialist referral"
+      ],
+      "correctIndex": 2,
+      "explanation": "The prescribed medical examination form usually consists of three parts: questions on the proposed life insured's past medical history and habits, the examiner's physical examination covering build, blood pressure, heart and respiratory sounds and a dipstick urine test, and finally the examiner's opinion and overall assessment.",
+      "reference": "M9 e-textbook Ch 11, s3.2"
+    },
+    {
+      "id": "m9-ch11-s1-017",
+      "chapter": "Chapter 11",
+      "question": "Who completes the Attending Physician's Report?",
+      "options": [
+        "The insurer's appointed medical examiner at the time of the medical",
+        "The underwriter, using the information disclosed in the proposal form",
+        "The proposed life insured, describing his own medical treatment",
+        "The attending doctor who has treated the proposed life insured"
+      ],
+      "correctIndex": 3,
+      "explanation": "An Attending Physician's Report gives the history of the illnesses the proposed life insured has suffered or is still suffering from, and is completed by the attending doctor who has treated him. The doctor provides details on severity, whether the condition is well controlled, compliance with treatment, and his opinion on the prognosis.",
+      "reference": "M9 e-textbook Ch 11, s4.2"
+    },
+    {
+      "id": "m9-ch11-s1-018",
+      "chapter": "Chapter 11",
+      "question": "Which specialist medical test is required where there is a known history of chronic respiratory disease?",
+      "options": [
+        "Chest X-Ray",
+        "Electrocardiogram",
+        "Micro-urinalysis",
+        "Blood Profile Analysis"
+      ],
+      "correctIndex": 0,
+      "explanation": "A Chest X-Ray shows the skeletal frame and internal organs in the chest and is required when there is a known history of chronic respiratory disease. An Electrocardiogram is required where a cardiac problem has been disclosed or discovered, and a Micro-urinalysis substantiates a random abnormal urine dipstick result.",
+      "reference": "M9 e-textbook Ch 11, s4.4"
+    },
+    {
+      "id": "m9-ch11-s1-019",
+      "chapter": "Chapter 11",
+      "question": "What information does the Adviser's Report provide to the underwriter?",
+      "options": [
+        "The adviser's own recommendation on whether the risk should be accepted or declined outright",
+        "A summary of the proposed life insured's full medical treatment history",
+        "The means and sources of income, physical appearance, and whether the adviser is related to the proposer",
+        "The commission structure and the expected persistency of the policy being applied for"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Adviser's Report gives information about the means and sources of income of the proposer, his physical appearance, and whether the adviser is related to the proposer in any way. It helps the insurer detect the presence of any moral and physical hazards. The relationship question matters because a family connection creates a conflict of interest.",
+      "reference": "M9 e-textbook Ch 11, s4.5"
+    },
+    {
+      "id": "m9-ch11-s1-020",
+      "chapter": "Chapter 11",
+      "question": "For what purpose is the Lifestyle Questionnaire used?",
+      "options": [
+        "To record the proposed life insured's drinking and smoking habits in detail",
+        "To assess the risk arising from dangerous hobbies such as diving and mountain climbing",
+        "To establish the proposed life insured's tax residency status for reporting purposes",
+        "Solely for the purpose of assessing AIDS risk"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Lifestyle Questionnaire is used solely for the purpose of assessing AIDS risk, and is sometimes requested when the sum assured reaches a certain limit such as S$1,000,000, or where medical history indicates higher AIDS risk, or for certain occupations. Dangerous hobbies are covered by the Occupation and Pastime questionnaire, despite lifestyle also being a general risk factor.",
+      "reference": "M9 e-textbook Ch 11, s4.11"
+    },
+    {
+      "id": "m9-ch11-s1-021",
+      "chapter": "Chapter 11",
+      "question": "At approximately what level of sum assured does the HIV Antibody Test become a compulsory requirement for all ages?",
+      "options": [
+        "S$1,000,000 and above",
+        "S$100,000 and above, for all ages",
+        "S$500,000 and above, for all ages",
+        "S$250,000 and above, for all ages"
+      ],
+      "correctIndex": 0,
+      "explanation": "The HIV Antibody Test has become a compulsory requirement for certain types of occupation and at pre-determined levels of sum assured, say S$1,000,000 and above for all ages. The same S$1,000,000 figure appears as the trigger level for the Lifestyle Questionnaire, since both relate to AIDS risk at high sums assured.",
+      "reference": "M9 e-textbook Ch 11, s4.4"
+    },
+    {
+      "id": "m9-ch11-s1-022",
+      "chapter": "Chapter 11",
+      "question": "What does it mean for an underwriter to accept a risk with a lien imposed?",
+      "options": [
+        "The policy excludes any claim arising from a specified impairment or particular hazard",
+        "On death within the lien period, the amount payable is the sum assured less the amount of the lien",
+        "The premium is increased by a specified percentage for the entire full term of the policy",
+        "The policy is issued only after a waiting period of twelve months has elapsed"
+      ],
+      "correctIndex": 1,
+      "explanation": "When an underwriter accepts a case with a lien, in the event of death of the life insured within the lien period the amount payable is the sum assured less the amount of lien, often expressed as a percentage of the sum assured. The lien reduces the liability of the insurer and is common for juvenile policies covering very young children. Option A describes an exclusion instead.",
+      "reference": "M9 e-textbook Ch 11, s5.3"
+    },
+    {
+      "id": "m9-ch11-s1-023",
+      "chapter": "Chapter 11",
+      "question": "For which type of policy is the imposition of a lien described as common?",
+      "options": [
+        "Policies issued to applicants at or beyond the insurer's stated last entry age",
+        "Group life policies covering employees engaged in hazardous occupations",
+        "Investment-linked policies where the sum assured is varied over time",
+        "Juvenile policies covering very young children, for example below age five"
+      ],
+      "correctIndex": 3,
+      "explanation": "Imposing a lien is common for juvenile policies covering very young children, for example below the age of five years. A lien reduces the insurer's liability during the lien period, which suits the elevated mortality risk in very early childhood.",
+      "reference": "M9 e-textbook Ch 11, s5.3"
+    },
+    {
+      "id": "m9-ch11-s1-024",
+      "chapter": "Chapter 11",
+      "question": "What is meant by a sub-standard risk?",
+      "options": [
+        "A risk that has been deferred or declined by the underwriter as uninsurable",
+        "A risk accepted only after a full medical examination has been completed",
+        "A risk on which additional terms or premiums have been imposed",
+        "A risk accepted at ordinary rate with no modification to the standard terms"
+      ],
+      "correctIndex": 2,
+      "explanation": "Risks with additional terms or premiums imposed are said to be sub-standard risks, and they are accepted. Where the risk is so high that the underwriter must defer or decline the case, such risks are said to be uninsurable. Treating sub-standard as equivalent to declined is the trap.",
+      "reference": "M9 e-textbook Ch 11, s5.7-5.8"
+    },
+    {
+      "id": "m9-ch11-s1-025",
+      "chapter": "Chapter 11",
+      "question": "A case is accepted on standard terms and the premium was not paid with the application. When does cover commence?",
+      "options": [
+        "On the date the underwriter reaches his final decision on the proposal received",
+        "On receipt of the first premium within a certain time frame, such as 30 days",
+        "On the date the policy document is despatched by post to the policy owner",
+        "On the expiry of the 14-day free-look period following policy receipt"
+      ],
+      "correctIndex": 1,
+      "explanation": "The insurer sends a letter of acceptance stating that cover will be effected upon receipt of the first premium within a certain time frame, such as 30 days, and that a policy will be issued. Where the premium was paid with the application form, cover starts immediately upon acceptance and the policy is issued.",
+      "reference": "M9 e-textbook Ch 11, s6.1"
+    },
+    {
+      "id": "m9-ch11-s1-026",
+      "chapter": "Chapter 11",
+      "question": "What must a proposer do on receiving a letter of conditional acceptance?",
+      "options": [
+        "Sign and return the letter and pay the premium within a limited time frame",
+        "Undergo a further medical examination before the policy can properly be issued",
+        "Simply pay the additional premium, since silence will constitute acceptance",
+        "Obtain independent advice before the sub-standard terms may take effect"
+      ],
+      "correctIndex": 0,
+      "explanation": "Where the underwriter proposes to accept on terms other than standard, the proposer is required to sign and return the letter and pay the premium or additional premium within a limited time frame, in order for cover to be effected and the policy issued. Two acts are needed, not one, and the policy will contain an endorsement or appendix specifying the additional terms.",
+      "reference": "M9 e-textbook Ch 11, s6.2"
+    },
+    {
+      "id": "m9-ch11-s1-027",
+      "chapter": "Chapter 11",
+      "question": "What happens to pre-paid premiums where a proposal is deferred or declined?",
+      "options": [
+        "They are retained by the insurer to cover the cost of assessing the risk",
+        "They are returned with interest calculated at the prevailing policy loan rate",
+        "They are held on account against any future application by the same proposer",
+        "They are returned without interest, together with a letter of declination"
+      ],
+      "correctIndex": 3,
+      "explanation": "For cases that are deferred or declined, the insurer returns any pre-paid premiums without interest, together with a letter of declination to the proposer. Note the contrast with the free-look refund, where the deduction of assessment costs applies only when the policy owner himself cancels.",
+      "reference": "M9 e-textbook Ch 11, s6.3"
+    },
+    {
+      "id": "m9-ch11-s1-028",
+      "chapter": "Chapter 11",
+      "question": "Why must a group applying for Group Life Insurance exist for some purpose other than purchasing insurance?",
+      "options": [
+        "To satisfy the minimum group size requirement imposed by the insurer",
+        "To reduce any anti-selection arising from the group",
+        "To ensure the group qualifies for a discount on the standard premium rate",
+        "To allow the insurer to recover its acquisition costs over a longer period"
+      ],
+      "correctIndex": 1,
+      "explanation": "The underwriter first checks that the reason for the group's existence is some purpose other than purchasing insurance, in order to reduce any anti-selection from the group. A group formed to buy insurance would attract precisely those members who expect to claim. Members must also be actively at work on a full-time regular basis with fairly predictable incomes.",
+      "reference": "M9 e-textbook Ch 11, s7.2"
+    },
+    {
+      "id": "m9-ch11-s1-029",
+      "chapter": "Chapter 11",
+      "question": "What minimum participation level does an underwriter normally specify for a contributory group plan?",
+      "options": [
+        "Between 70% and 90% of eligible group members",
+        "Between 25% and 50% of eligible group members",
+        "100% of eligible group members without exception",
+        "Between 40% and 60% of eligible group members"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a contributory plan members participate on a voluntary basis, so to guard against anti-selection and spread risk and administrative costs across a wide range of expected mortality, the underwriter normally specifies a minimum participation level of between 70% and 90% of eligible group members.",
+      "reference": "M9 e-textbook Ch 11, s7.11"
+    },
+    {
+      "id": "m9-ch11-s1-030",
+      "chapter": "Chapter 11",
+      "question": "Why is a group with almost no change in membership over a period of years a concern to the underwriter?",
+      "options": [
+        "Administrative costs rise sharply because all records must be verified annually",
+        "The insurer cannot verify continued insurable interest across a static group",
+        "The members become older without new and presumably younger members being added",
+        "A static group is far more likely to change insurer at each renewal date"
+      ],
+      "correctIndex": 2,
+      "explanation": "A group may become a greater underwriting risk each year if it has almost no change in membership over a period such as five years, because the members grow older without any new and presumably younger members being added. High turnover is the opposite problem, producing high administrative costs. The ideal is a steady flow of new members without a massive influx or outflow.",
+      "reference": "M9 e-textbook Ch 11, s7.5-7.6"
+    }
+  ]
+}

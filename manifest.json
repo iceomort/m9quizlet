@@ -52,6 +52,22 @@
       ],
       "sets": [
         {
+          "id": "ch11-underwriting-set1",
+          "title": "Chapter 11 · Application and Underwriting · Set 1 (30Q)",
+          "file": "quizzes/m9/ch11-underwriting-set1.json",
+          "group": "Policy lifecycles",
+          "detail": "",
+          "maxChapter": 11
+        },
+        {
+          "id": "ch10-annuities-set1",
+          "title": "Chapter 10 · Annuities and Other Life Insurance Products · Set 1 (30Q)",
+          "file": "quizzes/m9/ch10-annuities-set1.json",
+          "group": "Annuities and CPF",
+          "detail": "",
+          "maxChapter": 10
+        },
+        {
           "id": "ch9-computational-set1",
           "title": "Chapter 9 · ILPs: Computational Aspects · Set 1 (30Q)",
           "file": "quizzes/m9/ch9-computational-set1.json",

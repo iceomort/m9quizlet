@@ -1,0 +1,426 @@
+{
+  "title": "Chapter 10 · Annuities and Other Life Insurance Products · Set 1",
+  "passMark": 75,
+  "questions": [
+    {
+      "id": "m9-ch10-s1-001",
+      "chapter": "Chapter 10",
+      "question": "What is the Payout Eligibility Age under CPF LIFE, and from what account are the savings drawn to purchase the annuity?",
+      "options": [
+        "Age 55, drawn from the member's Ordinary Account balance",
+        "Age 65, drawn from the member's Retirement Account",
+        "Age 62, drawn from the member's Special Account balance",
+        "Age 70, drawn from the member's MediSave Account balance"
+      ],
+      "correctIndex": 1,
+      "explanation": "CPF LIFE provides a monthly payout from the Payout Eligibility Age, currently 65, and the member's savings in his Retirement Account are used to purchase the CPF LIFE annuity. Age 55 is when a member sets aside his retirement sum, and age 70 is the latest point at which payouts start.",
+      "reference": "M9 e-textbook Ch 10, s1.1"
+    },
+    {
+      "id": "m9-ch10-s1-002",
+      "chapter": "Chapter 10",
+      "question": "Which CPF LIFE plan applies by default to a member who does not choose one?",
+      "options": [
+        "The LIFE Standard Plan",
+        "The LIFE Escalating Plan",
+        "The LIFE Basic Plan",
+        "No plan applies until the member makes an active choice"
+      ],
+      "correctIndex": 0,
+      "explanation": "Members who do not choose a plan are placed on the CPF Standard Plan, which is the default and provides level payouts. The Escalating Plan starts lower and rises 2% yearly, while the Basic Plan is a legacy plan from 2009 giving lower and progressively declining payouts.",
+      "reference": "M9 e-textbook Ch 10, s1.5"
+    },
+    {
+      "id": "m9-ch10-s1-003",
+      "chapter": "Chapter 10",
+      "question": "By what percentage do monthly payouts rise each year under the CPF LIFE Escalating Plan?",
+      "options": [
+        "7%",
+        "5%",
+        "2%",
+        "1%"
+      ],
+      "correctIndex": 2,
+      "explanation": "CPF LIFE Escalating Plan monthly payouts increase by 2% every year to protect against inflation. The 7% figure relates to something different: monthly payouts increase by up to 7% for every year that a member defers the start of his payouts.",
+      "reference": "M9 e-textbook Ch 10, s1.5"
+    },
+    {
+      "id": "m9-ch10-s1-004",
+      "chapter": "Chapter 10",
+      "question": "Why do monthly payouts under the CPF LIFE Basic Plan get progressively lower over time?",
+      "options": [
+        "The insurer progressively reduces the payout in order to recover its acquisition costs over the payout period",
+        "Payouts are indexed downwards each year to reflect the falling life expectancy observed within the member's cohort",
+        "The Basic Plan pays a fixed percentage of the balance, which naturally declines",
+        "Extra interest on the first S$60,000 of combined balances forms part of the payout, and that interest falls as balances fall"
+      ],
+      "correctIndex": 3,
+      "explanation": "The extra interest earned on the first S$60,000 of a member's combined CPF balances is credited to the Retirement Account and paid as part of the monthly payouts. As balances fall due to payouts, the extra interest earned and subsequent payouts decline as well. The decline is a mechanical consequence of the balance falling, not a charge or an index adjustment.",
+      "reference": "M9 e-textbook Ch 10, s1.7"
+    },
+    {
+      "id": "m9-ch10-s1-005",
+      "chapter": "Chapter 10",
+      "question": "By how much do CPF LIFE monthly payouts increase for each year that a member defers the start of his payouts?",
+      "options": [
+        "By up to 7%",
+        "By up to 2%",
+        "By up to 12%",
+        "By up to 4%"
+      ],
+      "correctIndex": 0,
+      "explanation": "For every year of deferred payouts, CPF LIFE monthly payouts increase by up to 7%. Members can defer to age 70, after which CPF Board automatically starts payouts because CPF savings are meant to fund retirement rather than be kept indefinitely. The 2% figure belongs to the Escalating Plan's annual increase.",
+      "reference": "M9 e-textbook Ch 10, s1.12"
+    },
+    {
+      "id": "m9-ch10-s1-006",
+      "chapter": "Chapter 10",
+      "question": "Which statement about CPF LIFE monthly payouts is correct?",
+      "options": [
+        "They are fixed at commencement and cannot be varied afterwards",
+        "They are reviewed annually and may be adjusted by the CPF Board",
+        "They are reviewed monthly in line with prevailing CPF interest rates",
+        "They may be adjusted only with the written consent of the member"
+      ],
+      "correctIndex": 1,
+      "explanation": "While CPF LIFE payouts are designed to be stable, they are not fixed. The payout amount is reviewed annually, and the CPF Board may adjust it owing to changes in mortality experience, interest rate and transactions in the member's Retirement Account balance, ensuring the annuity fund remains sustainable.",
+      "reference": "M9 e-textbook Ch 10, s1.12"
+    },
+    {
+      "id": "m9-ch10-s1-007",
+      "chapter": "Chapter 10",
+      "question": "The period of time between the first premium being paid and the commencement of payments to the annuitant is known as what?",
+      "options": [
+        "The deferment period, running to the annuity starting date",
+        "The payout period, during which income benefits are paid",
+        "The accumulation period",
+        "The guarantee period, during which payments are assured"
+      ],
+      "correctIndex": 2,
+      "explanation": "The accumulation period runs from the first (or single) premium being paid until payments to the annuitant start. The payout period is the time during which the income benefits are paid. A guarantee period is a variation under which a minimum number of payments is assured.",
+      "reference": "M9 e-textbook Ch 10, s2.1"
+    },
+    {
+      "id": "m9-ch10-s1-008",
+      "chapter": "Chapter 10",
+      "question": "How may an Immediate Annuity be paid for?",
+      "options": [
+        "By regular premiums spread across the annuitant's working years",
+        "By either a single premium or regular premiums, at the owner's choice",
+        "By a single premium, with an option to convert to instalments after one year",
+        "By one lump sum single premium paid upfront"
+      ],
+      "correctIndex": 3,
+      "explanation": "Because annuity payments under an Immediate Annuity start immediately, the purchaser must pay for the entire contract at once, so it must be paid in one lump sum single premium upfront. There is no accumulation period during which instalments could be collected. A Deferred Annuity, by contrast, can be paid by single premium or regular premiums.",
+      "reference": "M9 e-textbook Ch 10, s3.3"
+    },
+    {
+      "id": "m9-ch10-s1-009",
+      "chapter": "Chapter 10",
+      "question": "When do income payments begin under an Immediate Annuity?",
+      "options": [
+        "One payment period after the annuity is purchased",
+        "On the annuitant's next policy anniversary",
+        "On the first day of the calendar year following purchase",
+        "Once the accumulation period of at least one year has elapsed"
+      ],
+      "correctIndex": 0,
+      "explanation": "The income stream starts immediately one payment period after the annuity is purchased. If payments are monthly, they begin one month after purchase. A Deferred Annuity is the one where payments begin on a certain date, usually at least a few years in the future.",
+      "reference": "M9 e-textbook Ch 10, s3.2"
+    },
+    {
+      "id": "m9-ch10-s1-010",
+      "chapter": "Chapter 10",
+      "question": "Which type of annuity may CPF members purchase with their CPF Minimum Sum?",
+      "options": [
+        "Immediate annuities, so that income begins without delay",
+        "Deferred annuities, since immediate annuities are not allowed",
+        "Either type, at the member's discretion",
+        "Only participating immediate annuities approved by the CPF Board"
+      ],
+      "correctIndex": 1,
+      "explanation": "The CPF Board allows members to withdraw their Minimum Sum to buy Deferred Annuities, and immediate annuities are not allowed. They are bought at age 55 for income stream payments to begin from age 65, the applicable draw-down age.",
+      "reference": "M9 e-textbook Ch 10, s3.7"
+    },
+    {
+      "id": "m9-ch10-s1-011",
+      "chapter": "Chapter 10",
+      "question": "Under a Pure Life Annuity, what happens when the annuitant dies?",
+      "options": [
+        "The beneficiary receives a refund of the unused portion of the original purchase price",
+        "Payments continue to the named beneficiary until the end of the specified period certain",
+        "The insurer pays no further benefits and has no further liability under the contract",
+        "The insurer pays a reduced income of 50% to the surviving beneficiary"
+      ],
+      "correctIndex": 2,
+      "explanation": "Under a Pure Life Annuity the insurer pays income benefits until the annuitant dies, whatever age that may be, and upon death pays no further benefits and has no further liability. Refunds belong to the Life Income With Refund Annuity, continued payments to a Life Annuity With Period Certain, and the 50% reduction to certain Joint and Survivor Annuities.",
+      "reference": "M9 e-textbook Ch 10, s4.6"
+    },
+    {
+      "id": "m9-ch10-s1-012",
+      "chapter": "Chapter 10",
+      "question": "How does the periodic income payment under a Guaranteed Minimum Payout Annuity compare with that of a Pure Life Annuity?",
+      "options": [
+        "It is higher, reflecting the substantially greater popularity of the guaranteed product",
+        "It is lower, because part of the premium meets the cost of the guarantee",
+        "It is identical, since both are funded from the same mortality pool",
+        "It is higher for the first ten policy years and lower in every year thereafter"
+      ],
+      "correctIndex": 1,
+      "explanation": "Because part of the premium paid is applied towards meeting the cost of guaranteeing a minimum amount of benefits, the periodic income payment will be lower than that of a Pure Life Annuity. It is nonetheless far more popular than the Pure Life Annuity, which is why assuming the popular option also pays more is a tempting error.",
+      "reference": "M9 e-textbook Ch 10, s4.8"
+    },
+    {
+      "id": "m9-ch10-s1-013",
+      "chapter": "Chapter 10",
+      "question": "An annuitant pays S$100,000 for an immediate Pure Life Annuity paying S$500 monthly and dies after receiving two years of payments. By how much do his payments fall short of the purchase price?",
+      "options": [
+        "S$12,000",
+        "S$94,000",
+        "S$88,000",
+        "S$76,000"
+      ],
+      "correctIndex": 2,
+      "explanation": "Two years of monthly payments is S$500 x 24 = S$12,000, so the annuitant has paid S$100,000 - S$12,000 = S$88,000 more than he received. The textbook uses this example to explain why insurers offer guaranteed minimum payout options, since this possible loss could dissuade many people from buying an annuity.",
+      "reference": "M9 e-textbook Ch 10, s4.7"
+    },
+    {
+      "id": "m9-ch10-s1-014",
+      "chapter": "Chapter 10",
+      "question": "Under a Life Income With Refund Annuity, how is the refund to the beneficiary calculated?",
+      "options": [
+        "The remaining instalments falling due up to the end of the specified period certain",
+        "The purchase price plus all interest accrued during the accumulation period",
+        "A fixed percentage of the purchase price set out in the policy",
+        "The difference between the purchase price and the amount paid out to the annuitant"
+      ],
+      "correctIndex": 3,
+      "explanation": "If the annuitant dies before the total payments made exceed the purchase price, the insurer pays a refund equal to the difference between the purchase price of the annuity and the amount paid out to the annuitant. Remaining instalments to the end of a specified period describes the Life Annuity With Period Certain instead.",
+      "reference": "M9 e-textbook Ch 10, s4.8"
+    },
+    {
+      "id": "m9-ch10-s1-015",
+      "chapter": "Chapter 10",
+      "question": "What distinguishes a Life Annuity With Period Certain from a Life Income With Refund Annuity?",
+      "options": [
+        "Period certain guarantees payments for a specified time; refund guarantees recovery of the purchase price",
+        "Period certain is available only on deferred annuities, whereas refund applies only to immediate annuities",
+        "Period certain pays the beneficiary a single lump sum, whereas refund pays a continuing income stream",
+        "Period certain applies to joint lives; refund applies only to single lives"
+      ],
+      "correctIndex": 0,
+      "explanation": "A Life Annuity With Period Certain continues benefits to the beneficiary until the end of a specified period if the annuitant dies before it expires, so the guarantee is measured in time. A Life Income With Refund Annuity refunds the shortfall between the purchase price and payments made, so the guarantee is measured in money. Option C also reverses which one pays a lump sum.",
+      "reference": "M9 e-textbook Ch 10, s4.8"
+    },
+    {
+      "id": "m9-ch10-s1-016",
+      "chapter": "Chapter 10",
+      "question": "Under a Fixed Amount Payment annuity, payments continue until which point?",
+      "options": [
+        "The expiry of a specified period, or the annuitant dies, whichever of the two occurs first",
+        "The annuitant dies, regardless of the total amount paid",
+        "The total payments exceed a specified maximum amount, or the annuitant dies, whichever occurs first",
+        "The purchase price has been fully repaid together with all interest accrued on it"
+      ],
+      "correctIndex": 2,
+      "explanation": "A Fixed Amount Payment annuity provides payments until the total payments exceed a specified maximum amount or the annuitant dies, whichever occurs first. Option A describes the Fixed Period Payment annuity, where the cap is time rather than money. Both are temporary annuities and both may carry a guarantee period or refund option.",
+      "reference": "M9 e-textbook Ch 10, s4.12"
+    },
+    {
+      "id": "m9-ch10-s1-017",
+      "chapter": "Chapter 10",
+      "question": "Under a participating annuity, what happens to the monthly payment if the insurer declares no bonus in a given year?",
+      "options": [
+        "The payment falls to the level of a comparable non-participating annuity",
+        "The payment is suspended until bonuses resume",
+        "The payment is reduced in proportion to the shortfall in the insurer's profits",
+        "The payment does not fall below the minimum guaranteed amount"
+      ],
+      "correctIndex": 3,
+      "explanation": "Monthly payments under a participating annuity fluctuate each year depending on the bonuses declared, but at no time will they be less than the minimum guaranteed, which is S$552 in the textbook's example. The guarantee acts as a floor, so payments cannot be suspended or reduced below it.",
+      "reference": "M9 e-textbook Ch 10, s4.15"
+    },
+    {
+      "id": "m9-ch10-s1-018",
+      "chapter": "Chapter 10",
+      "question": "Under a Joint Life Annuity, what does the surviving annuitant receive when one of the two annuitants dies?",
+      "options": [
+        "Nothing, as payment ends on that death",
+        "The full periodic benefit for the remainder of his life",
+        "Half of the original periodic benefit for the remainder of his life",
+        "A lump sum equal to the unused portion of the purchase price"
+      ],
+      "correctIndex": 0,
+      "explanation": "A Joint Life Annuity pays periodic benefits only for as long as both of two designated annuitants are alive, and the payment ends when one of the joint annuitants dies, so the surviving annuitant receives nothing. Continuing benefits, whether in full or at a reduced percentage, describe a Joint and Survivor Annuity instead.",
+      "reference": "M9 e-textbook Ch 10, s4.19"
+    },
+    {
+      "id": "m9-ch10-s1-019",
+      "chapter": "Chapter 10",
+      "question": "A Joint and Survivor Annuity pays S$800 monthly while both annuitants are alive, reducing to 50% on the first death. What is payable after the second annuitant dies?",
+      "options": [
+        "S$400 monthly to the estate of the second annuitant",
+        "Nothing",
+        "S$800 monthly to the named beneficiary",
+        "A lump sum equal to the total payments already made"
+      ],
+      "correctIndex": 1,
+      "explanation": "Benefits under a Joint and Survivor Annuity continue until both or all the individuals die. In the textbook's example the survivor receives S$400 per month until he dies, and nothing is payable after the death of the second annuitant. This form of annuity is very rarely offered in Singapore.",
+      "reference": "M9 e-textbook Ch 10, s4.21"
+    },
+    {
+      "id": "m9-ch10-s1-020",
+      "chapter": "Chapter 10",
+      "question": "From which of the following sources are annuity payouts NOT free from income tax?",
+      "options": [
+        "A single premium annuity purchased with the annuitant's own cash savings",
+        "A deferred annuity purchased using the annuitant's CPF Retirement Account",
+        "A participating annuity issued by a licensed Singapore life insurer",
+        "The Supplementary Retirement Scheme"
+      ],
+      "correctIndex": 3,
+      "explanation": "Annuity payouts are free from income tax unless received from a Partnership, the Supplementary Retirement Scheme (SRS), or an annuity policy bought by the employer of the employee in place of a pension or other employment benefits. Annuities bought with the annuitant's own cash or CPF savings do not fall within the three exceptions.",
+      "reference": "M9 e-textbook Ch 10, s5.1"
+    },
+    {
+      "id": "m9-ch10-s1-021",
+      "chapter": "Chapter 10",
+      "question": "Which of the following is listed as a limitation of annuities?",
+      "options": [
+        "They cannot be used to provide for major illness protection",
+        "Investment returns during the accumulation period are subject to tax",
+        "They must be surrendered once the annuitant reaches age 80",
+        "They cannot be purchased using CPF savings under any circumstances"
+      ],
+      "correctIndex": 0,
+      "explanation": "The four limitations are that annuities cannot be used for death protection, cannot provide major illness protection, mostly have no feature to counter inflation, and usually have no attaching benefit rider. Investment returns earned during the accumulation period are in fact tax-free, which is listed as a benefit rather than a limitation.",
+      "reference": "M9 e-textbook Ch 10, s5.2"
+    },
+    {
+      "id": "m9-ch10-s1-022",
+      "chapter": "Chapter 10",
+      "question": "According to the textbook, when should an annuity be purchased relative to a client's other protection needs?",
+      "options": [
+        "Before any other policy, since retirement income is the priority need",
+        "At the same time as death cover, so that both commence together",
+        "Only after provision for premature death is already in place",
+        "Only after the client has reached the CPF Payout Eligibility Age"
+      ],
+      "correctIndex": 2,
+      "explanation": "Because annuities cannot be used for death protection, the textbook states they should be purchased only after provision for premature death is in place. This is a sequencing rule for advice: an annuity insures against living too long, so it is the wrong first purchase where dependants remain exposed to premature death.",
+      "reference": "M9 e-textbook Ch 10, s5.2"
+    },
+    {
+      "id": "m9-ch10-s1-023",
+      "chapter": "Chapter 10",
+      "question": "Which statement about Universal Life insurance is correct?",
+      "options": [
+        "Premiums are level throughout the life of the policy",
+        "It is a participating policy sharing in the insurer's participative fund earnings",
+        "The cash value is guaranteed by the insurer once declared",
+        "It does not provide minimum cash value guarantees"
+      ],
+      "correctIndex": 3,
+      "explanation": "Universal Life policies do not have minimum cash value guarantees, their premiums are not level, and they are not participating policies, so the insured has no right to benefit from the insurer's participative fund earnings. Level premiums and cash value guaranteed once declared describe a whole life contract instead.",
+      "reference": "M9 e-textbook Ch 10, s6.5-6.6"
+    },
+    {
+      "id": "m9-ch10-s1-024",
+      "chapter": "Chapter 10",
+      "question": "What does the Minimum Credit Interest feature of a Universal Life policy guarantee?",
+      "options": [
+        "An interest rate on amounts held in the cash value account",
+        "That the cash value will never fall below the total premiums paid",
+        "A minimum death benefit regardless of the cash value account balance",
+        "That the cost of insurance will not increase as the insured ages"
+      ],
+      "correctIndex": 0,
+      "explanation": "Under the Minimum Credit Interest feature the insurer guarantees an interest rate to the insured for amounts in the cash value account. Guaranteeing a rate on whatever sits in the account is not the same as guaranteeing a balance, and ULs expressly do not have minimum cash value guarantees.",
+      "reference": "M9 e-textbook Ch 10, s6.6"
+    },
+    {
+      "id": "m9-ch10-s1-025",
+      "chapter": "Chapter 10",
+      "question": "What does the No-Lapse feature of a Universal Life policy allow?",
+      "options": [
+        "The insured to skip premium payments for up to two full years without any consequence",
+        "The policy to remain in force even if the cash value is zero, with no top-up required",
+        "The insurer to waive all future cost of insurance charges once the insured attains age 65",
+        "The insured to reinstate the policy at any time without evidence of health"
+      ],
+      "correctIndex": 1,
+      "explanation": "The No-Lapse feature allows the UL to be in force even if the cash value of the UL is zero and the insured is not required to top up any money at all. It does not waive the cost of insurance nor create an unconditional right of reinstatement.",
+      "reference": "M9 e-textbook Ch 10, s6.6"
+    },
+    {
+      "id": "m9-ch10-s1-026",
+      "chapter": "Chapter 10",
+      "question": "In a Universal Life policy, how are insurance charges met?",
+      "options": [
+        "They are billed separately to the insured at the end of each policy year",
+        "They are deducted from the premium before any of it reaches the cash value account",
+        "They are taken from the cash value account, into which all payments first go",
+        "They are met by the insurer out of its own participative fund earnings"
+      ],
+      "correctIndex": 2,
+      "explanation": "All payments technically first go to the cash value account, and all insurance charges are taken from the cash value account. Any excess premium gains interest there. As long as the minimum cost of insurance is covered, either by paying premiums or by deducting from accumulated cash value, the policy stays in force.",
+      "reference": "M9 e-textbook Ch 10, s6.7"
+    },
+    {
+      "id": "m9-ch10-s1-027",
+      "chapter": "Chapter 10",
+      "question": "Why must a Universal Life policy be funded sufficiently early in the contract?",
+      "options": [
+        "So that earnings accumulate at greater rates than the increasing costs of insurance",
+        "Because the insurer prohibits any further premium payments after the tenth policy year",
+        "Because the No-Lapse feature automatically expires once the insured reaches age 70",
+        "So that the policy qualifies for participating status in later years"
+      ],
+      "correctIndex": 0,
+      "explanation": "For a UL product to be viable it has to be funded sufficiently early in the contract such that earnings accumulate at greater rates than increasing costs of insurance. If the insured does not consistently pay more in premium than the cost of insurance, mainly owing to higher mortality costs as he ages, maintenance of coverage will eventually not be feasible.",
+      "reference": "M9 e-textbook Ch 10, s6.8"
+    },
+    {
+      "id": "m9-ch10-s1-028",
+      "chapter": "Chapter 10",
+      "question": "What makes premium financing possible for a Universal Life policy?",
+      "options": [
+        "The insurer's contractual guarantee to repay the loan should the insured default",
+        "The Day One cash value arising from the upfront lump sum, which provides collateral",
+        "The statutory assignment of policy proceeds required under the Insurance Act 1966",
+        "The participating status of the policy, which secures the lender's interest in it"
+      ],
+      "correctIndex": 1,
+      "explanation": "Most ULs have cash value from Day One of the policy owing to the lump sum payment received upfront, and this Day One cash value provides a collateral which allows premium financing to be carried out. ULs are not participating policies, and no insurer guarantee or statutory assignment underpins the lending.",
+      "reference": "M9 e-textbook Ch 10, s6.9"
+    },
+    {
+      "id": "m9-ch10-s1-029",
+      "chapter": "Chapter 10",
+      "question": "A Universal Life policy has a premium of USD 1.1 million and a first day cash value of USD 1 million. If the financial institution finances 70% of the first day cash value, how much must the insured pay in cash?",
+      "options": [
+        "USD 700,000",
+        "USD 330,000",
+        "USD 400,000",
+        "USD 100,000"
+      ],
+      "correctIndex": 2,
+      "explanation": "The institution finances 70% x USD 1 million = USD 700,000, so the insured pays the remaining USD 1.1 million - USD 700,000 = USD 400,000 and frees up USD 700,000 of his own cash for other uses. Check: USD 700,000 + USD 400,000 = USD 1.1 million. USD 330,000 wrongly takes 30% of the premium rather than the balance after financing.",
+      "reference": "M9 e-textbook Ch 10, Example 10.2"
+    },
+    {
+      "id": "m9-ch10-s1-030",
+      "chapter": "Chapter 10",
+      "question": "What is the consequence if an insured with a premium financed Universal Life policy fails to pay the interest due?",
+      "options": [
+        "The financial institution may recover the outstanding balance from the assigned policy, possibly terminating it",
+        "The insurer automatically converts the policy to a paid-up basis at a reduced sum assured",
+        "The outstanding loan is written off against the policy's cash value with no further liability",
+        "The financial institution must first obtain a court order before it can take any action"
+      ],
+      "correctIndex": 0,
+      "explanation": "As the policy is held by the financial institution, failing to make the interest payment allows it to recover the outstanding balance of the premium financing from the policy assigned, which may result in termination of the UL policy. The insured remains obliged to repay the total outstanding balance, which is why the textbook calls a premium financed UL a dual edged sword.",
+      "reference": "M9 e-textbook Ch 10, s6.11-6.12"
+    }
+  ]
+}
