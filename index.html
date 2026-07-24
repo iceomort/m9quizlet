@@ -216,6 +216,8 @@
   .autosave-note { font-size: 12.5px; color: #0f6e56; background: #e6f6ec; border: 1px solid #b7e0cb;
     border-radius: 8px; padding: 9px 12px; margin: 4px 0 12px; }
   .autosave-note code { background: rgba(15,110,86,.12); padding: 1px 5px; border-radius: 4px; }
+  .banner { font-size: 13px; padding: 10px 14px; border-radius: 8px; margin-bottom: 14px; display: none; }
+  .banner.offline { background: #fdf3e3; border: 1px solid #f0d9a8; color: #8a5a00; }
   @media (max-width: 560px) {
     .setrow { gap: 10px; padding: 12px 13px; }
     .setrow-rail { gap: 8px; }
@@ -247,6 +249,7 @@
     </div>
     <div class="stopwatch hidden" id="stopwatch">00:00</div>
   </div>
+  <div class="banner offline" id="offlineBanner">Offline &mdash; showing local history only.</div>
   <div id="app"></div>
 
   <!-- Chapter Map modal -->
@@ -267,8 +270,13 @@
 
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase-client.js"></script>
 <script>
-const STORAGE_KEY = "cmfas-quiz-history";
+const STORAGE_KEY = "cmfas-quiz-history";      // local-only overlay: imported / folder-linked attempts
+const PENDING_KEY = "cmfas-pending-attempts";  // write buffer: attempts not yet synced to Supabase
+let supaAttempts = [];                         // bare attempt objects fetched from Supabase (ascending by created_at)
+let offline = false;                           // true when the initial Supabase fetch failed
 let manifest = null;
 let questions = [];      // active quiz order
 let current = 0;
@@ -310,8 +318,97 @@ function detectDevice() {
   return [os, browser].filter(Boolean).join(" · ") || "Unknown device";
 }
 
-function loadHistory() { try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || []; } catch { return []; } }
-function saveAttempt(a) { const h = loadHistory(); h.unshift(a); localStorage.setItem(STORAGE_KEY, JSON.stringify(h.slice(0, 100))); }
+function loadLocalOverlay() { try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || []; } catch { return []; } }
+function saveLocalOverlay(h) { localStorage.setItem(STORAGE_KEY, JSON.stringify(h.slice(0, 200))); }
+function loadPending() { try { return JSON.parse(localStorage.getItem(PENDING_KEY)) || []; } catch { return []; } }
+function savePending(p) { localStorage.setItem(PENDING_KEY, JSON.stringify(p)); }
+
+// Supabase is the source of truth for display; the local overlay (imports /
+// linked folder) and any not-yet-synced pending attempts are merged in too,
+// newest first.
+function loadHistory() {
+  const combined = loadPending().concat(loadLocalOverlay(), supaAttempts);
+  return combined.sort((a, b) => attemptTime(b) - attemptTime(a));
+}
+
+function buildAttemptRecord(a) {
+  return {
+    _type: "cmfas-quiz-attempt",
+    _version: 2,
+    tag: a.tag || null,
+    source: a.source || null,
+    passMark: a.passMark || 75,
+    date: a.date,
+    time: a.time,
+    timeOfDay: a.timeOfDay || null,
+    device: a.device || null,
+    score: a.score,
+    total: a.total,
+    percent: Math.round(a.score / a.total * 100),
+    byChapter: a.byChapter || {},
+    detail: a.detail || [],
+    missed: (a.detail || []).filter(d => !d.correct).map(d => ({
+      chapter: d.chapter,
+      question: d.question,
+      yourAnswer: d.options[d.chosenIndex],
+      correctAnswer: d.options[d.correctIndex],
+      reference: d.reference || null
+    }))
+  };
+}
+
+// Insert a completed attempt into Supabase. On success it's appended to the
+// in-memory display array; on failure it's queued in the local write buffer.
+async function submitAttempt(attemptObj) {
+  try {
+    const { error } = await supabaseClient.from("attempts").insert({ attempt: attemptObj });
+    if (error) throw error;
+    supaAttempts.push(attemptObj);
+    return true;
+  } catch (e) {
+    const pending = loadPending();
+    pending.push(attemptObj);
+    savePending(pending);
+    return false;
+  }
+}
+
+// Flush any attempts queued while offline. Runs before the main fetch so
+// that fetch reflects them once they succeed.
+async function flushPendingAttempts() {
+  const pending = loadPending();
+  if (!pending.length) return;
+  const remaining = [];
+  for (const a of pending) {
+    try {
+      const { error } = await supabaseClient.from("attempts").insert({ attempt: a });
+      if (error) throw error;
+    } catch (e) {
+      remaining.push(a);
+    }
+  }
+  savePending(remaining);
+}
+
+// Fetch all attempts from Supabase, oldest first, and map to bare attempt
+// objects. Falls back to whatever's in localStorage (via loadHistory's
+// overlay/pending sources) and shows a non-blocking banner on failure.
+async function loadSupabaseHistory() {
+  const banner = document.getElementById("offlineBanner");
+  try {
+    const { data, error } = await supabaseClient
+      .from("attempts")
+      .select("attempt, created_at")
+      .order("created_at", { ascending: true });
+    if (error) throw error;
+    supaAttempts = (data || []).map(r => r.attempt).filter(Boolean);
+    offline = false;
+  } catch (e) {
+    supaAttempts = [];
+    offline = true;
+  }
+  if (banner) banner.style.display = offline ? "block" : "none";
+}
 
 function shuffled(arr) {
   const a = arr.slice();
@@ -334,61 +431,10 @@ async function init() {
       '<br><br>Run through a local server: <code>python3 -m http.server 8000</code> then open <code>http://localhost:8000</code>.</div>';
     return;
   }
-  oneTimeSeedReset();
-  await seedResults();
+  await flushPendingAttempts();
+  await loadSupabaseHistory();
   renderMenu();
   tryAutoLoadFolder();
-}
-
-// One-time cleanup: on this deploy, drop previously-seeded attempts from
-// localStorage so the current seed-results.json is the single source of truth.
-// Bump SEED_RESET_VERSION whenever the seed is edited to re-run this.
-const SEED_RESET_VERSION = "2026-07-22d";
-function oneTimeSeedReset() {
-  try {
-    if (localStorage.getItem("cmfas-seed-reset") === SEED_RESET_VERSION) return;
-    const h = loadHistory().filter(a => !a.seeded);   // keep only real local attempts
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(h));
-    localStorage.setItem("cmfas-seed-reset", SEED_RESET_VERSION);
-  } catch (e) { /* ignore */ }
-}
-
-// Merge bundled seed-results.json into history so shared attempts appear
-// automatically on any device, no import needed. Deduped by attemptKey.
-async function seedResults() {
-  try {
-    const res = await fetch("seed-results.json");
-    if (!res.ok) return;                       // no seed file bundled; skip silently
-    const seed = await res.json();
-    if (!Array.isArray(seed) || seed.length === 0) return;
-    // Build the set of keys the current seed defines.
-    const seedKeys = new Set(seed
-      .filter(a => a && typeof a.score === "number" && typeof a.total === "number")
-      .map(a => attemptKey({ tag: a.tag || "Shared", source: a.source || null,
-        score: a.score, total: a.total, time: a.time || "—", date: a.date || "",
-        timeOfDay: a.timeOfDay || null })));
-    // Drop previously-seeded attempts that are no longer in the seed file,
-    // so edits/removals in seed-results.json actually take effect.
-    const history = loadHistory().filter(a => !a.seeded || seedKeys.has(attemptKey(a)));
-    const seen = new Set(history.map(attemptKey));
-    let added = 0;
-    seed.forEach(a => {
-      if (!a || typeof a.score !== "number" || typeof a.total !== "number") return;
-      const norm = {
-        tag: a.tag || "Shared", source: a.source || null, passMark: a.passMark || 75,
-        score: a.score, total: a.total, time: a.time || "—",
-        date: a.date || "", timeOfDay: a.timeOfDay || null, device: a.device || null,
-        byChapter: a.byChapter || {}, detail: Array.isArray(a.detail) ? a.detail : [],
-        seeded: true
-      };
-      const k = attemptKey(norm);
-      if (seen.has(k)) return;
-      seen.add(k);
-      history.push(norm);
-      added++;
-    });
-    if (added > 0) localStorage.setItem(STORAGE_KEY, JSON.stringify(history.slice(0, 200)));
-  } catch (e) { /* seed is best-effort; ignore failures */ }
 }
 
 function totalSets() { return manifest.exams.reduce((n, ex) => n + ex.sets.length, 0); }
@@ -932,7 +978,7 @@ function next() {
   else { current++; renderQuestion(); }
 }
 
-function finish() {
+async function finish() {
   inQuiz = false;
   stopStopwatch();
   const answered = answers.filter(a => a);
@@ -964,7 +1010,7 @@ function finish() {
   const now = new Date();
   const byChapterStore = {}; Object.keys(by).forEach(ch => { byChapterStore[ch] = { c: by[ch].c, t: by[ch].t }; });
 
-  saveAttempt({
+  const attemptObj = buildAttemptRecord({
     tag: activeMeta ? activeMeta.tag : null,
     source: activeMeta ? activeMeta.source : null,
     passMark: passMark,
@@ -975,9 +1021,11 @@ function finish() {
     byChapter: byChapterStore,
     detail: detail.map(a => ({ chapter: a.chapter, question: a.question, options: a.options, chosenIndex: a.chosenIndex, correctIndex: a.correctIndex, correct: a.correct, explanation: a.explanation, reference: a.reference }))
   });
+  const synced = await submitAttempt(attemptObj);
 
   app.innerHTML = '<div class="card">' +
     '<div class="progress">Quiz complete' + (activeMeta ? ' &middot; ' + activeMeta.label : '') + '</div>' +
+    (synced ? '' : '<div class="autosave-note">Saved locally, will sync.</div>') +
     '<div class="score">' + score + '/' + total + ' <small>(' + pct + '%)</small></div>' +
     '<span class="pass-pill ' + (pass ? 'pass' : 'fail') + '">' + (pass ? 'Above' : 'Below') + ' the ' + passMark + '% pass mark</span>' +
     '<p class="empty">Time taken: ' + fmt(swSeconds) + (skipped ? ' &middot; ' + skipped + ' skipped' : '') + '</p>' +
@@ -1072,29 +1120,7 @@ function fileStamp() {
 }
 
 function downloadResults(attempt) {
-  const out = {
-    _type: "cmfas-quiz-attempt",
-    _version: 2,
-    tag: attempt.tag || null,
-    source: attempt.source || null,
-    passMark: attempt.passMark || 75,
-    date: attempt.date,
-    time: attempt.time,
-    timeOfDay: attempt.timeOfDay || null,
-    device: attempt.device || null,
-    score: attempt.score,
-    total: attempt.total,
-    percent: Math.round(attempt.score / attempt.total * 100),
-    byChapter: attempt.byChapter || {},
-    detail: attempt.detail || [],
-    missed: (attempt.detail || []).filter(d => !d.correct).map(d => ({
-      chapter: d.chapter,
-      question: d.question,
-      yourAnswer: d.options[d.chosenIndex],
-      correctAnswer: d.options[d.correctIndex],
-      reference: d.reference || null
-    }))
-  };
+  const out = buildAttemptRecord(attempt);
   const blob = new Blob([JSON.stringify(out, null, 2)], { type: "application/json" });
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
@@ -1161,8 +1187,8 @@ function importResultsFiles(fileList) {
       try {
         const data = JSON.parse(reader.result);
         const attempts = Array.isArray(data) ? data : [data];
-        const history = loadHistory();
-        const seen = new Set(history.map(attemptKey));
+        const history = loadLocalOverlay();
+        const seen = new Set(history.concat(supaAttempts).map(attemptKey));
         attempts.forEach(a => {
           if (!a || typeof a.score !== "number" || typeof a.total !== "number") { failed++; return; }
           const normalised = {
@@ -1185,8 +1211,7 @@ function importResultsFiles(fileList) {
           history.push(normalised);
           imported++;
         });
-        // keep newest first by not assuming order: sort isn't reliable on dd/mm; just unshift-style re-store
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(history.slice(0, 200)));
+        saveLocalOverlay(history);
       } catch (e) {
         failed++;
       }
@@ -1239,10 +1264,10 @@ async function verifyPermission(handle) {
   return false;
 }
 
-// merge an array of attempt objects into history, deduped
+// merge an array of attempt objects into the local overlay, deduped
 function mergeAttempts(attempts) {
-  const history = loadHistory();
-  const seen = new Set(history.map(attemptKey));
+  const history = loadLocalOverlay();
+  const seen = new Set(history.concat(supaAttempts).map(attemptKey));
   let added = 0;
   attempts.forEach(a => {
     if (!a || typeof a.score !== "number" || typeof a.total !== "number") return;
@@ -1258,7 +1283,7 @@ function mergeAttempts(attempts) {
     if (seen.has(key)) return;
     seen.add(key); history.push(normalised); added++;
   });
-  if (added) localStorage.setItem(STORAGE_KEY, JSON.stringify(history.slice(0, 500)));
+  if (added) saveLocalOverlay(history);
   return added;
 }
 
@@ -1306,11 +1331,12 @@ async function tryAutoLoadFolder() {
 }
 
 function clearLocalHistory() {
-  const n = loadHistory().length;
+  const n = loadLocalOverlay().length;
   const msg = "Clear local history?\n\n" +
-    "This deletes all " + n + " attempt(s) stored in THIS browser.\n\n" +
-    "Your exported result files are NOT touched. If a linked folder is set, those attempts will reload automatically next time.\n\n" +
-    "Attempts that were never exported to a file will be lost permanently.\n\nContinue?";
+    "This removes " + n + " imported/linked-folder attempt(s) stored in THIS browser.\n\n" +
+    "Quiz attempts already synced to Supabase are not affected — they stay on the server. " +
+    "Attempts still waiting to sync (see \"Saved locally, will sync\") are also kept.\n\n" +
+    "Your exported result files are NOT touched. If a linked folder is set, those attempts will reload automatically next time.\n\nContinue?";
   if (!confirm(msg)) return;
   if (!confirm("Are you sure? This cannot be undone.")) return;
   localStorage.removeItem(STORAGE_KEY);
