@@ -1,8 +1,6 @@
 .DS_Store
 ._*
 *.bak
-seed-results copy.json
-seed-results *.json
 .vscode/
 *.swp
 .claude/*
