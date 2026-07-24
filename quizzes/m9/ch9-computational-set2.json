@@ -1,0 +1,426 @@
+{
+  "title": "Chapter 9 · ILPs: Computational Aspects · Set 2",
+  "passMark": 75,
+  "questions": [
+    {
+      "id": "m9-ch9-s2-001",
+      "chapter": "Chapter 9",
+      "question": "Under Death Benefit Method 1 (DB1), what is the death benefit?",
+      "options": [
+        "The sum assured determined by the policy owner at inception",
+        "The value of the units remaining in the ILP sub-fund",
+        "The higher of the unit value or the sum assured",
+        "The total premiums paid, together with accrued investment income"
+      ],
+      "correctIndex": 1,
+      "explanation": "DB1 pays the value of the units remaining in the ILP sub-fund. DB2 pays the sum assured determined by the policy owner, DB3 pays the units plus the sum assured, and DB4 pays the higher of the two. The textbook covers DB3 and DB4 in detail because DB1 and DB2 are self-explanatory.",
+      "reference": "M9 e-textbook Ch 9, Table 9.1"
+    },
+    {
+      "id": "m9-ch9-s2-002",
+      "chapter": "Chapter 9",
+      "question": "Which death benefit method pays a benefit determined solely by the sum assured chosen by the policy owner?",
+      "options": [
+        "DB4",
+        "DB3",
+        "DB1",
+        "DB2"
+      ],
+      "correctIndex": 3,
+      "explanation": "DB2 pays the sum assured as determined by the policy owner, without regard to the value of the units. DB1 pays the unit value alone, DB3 adds the two together, and DB4 pays whichever of the two is higher.",
+      "reference": "M9 e-textbook Ch 9, Table 9.1"
+    },
+    {
+      "id": "m9-ch9-s2-003",
+      "chapter": "Chapter 9",
+      "question": "A policy holds 4,000 units at a bid price of S$2.50 and the sum assured is S$12,000. What is the death benefit under DB3?",
+      "options": [
+        "S$22,000",
+        "S$12,000",
+        "S$10,000",
+        "S$2,000"
+      ],
+      "correctIndex": 0,
+      "explanation": "Under DB3 the death benefit is the value of units plus the sum assured. Here u = S$2.50 x 4,000 = S$10,000 and v = S$12,000, so the benefit is S$22,000. S$12,000 would be the DB4 answer since v exceeds u, and S$10,000 is the unit value alone under DB1.",
+      "reference": "M9 e-textbook Ch 9, s3.1"
+    },
+    {
+      "id": "m9-ch9-s2-004",
+      "chapter": "Chapter 9",
+      "question": "A policy holds units worth S$18,000 and carries a sum assured of S$15,000. What is the death benefit under DB4?",
+      "options": [
+        "S$33,000",
+        "S$18,000",
+        "S$15,000",
+        "S$3,000"
+      ],
+      "correctIndex": 1,
+      "explanation": "DB4 pays the higher of the unit value or the sum assured, and here the units at S$18,000 exceed the sum assured of S$15,000, so the benefit is S$18,000. S$33,000 adds the two, which is the DB3 method. Note that because u now exceeds v, the DB4 mortality charge would be zero.",
+      "reference": "M9 e-textbook Ch 9, s3.1"
+    },
+    {
+      "id": "m9-ch9-s2-005",
+      "chapter": "Chapter 9",
+      "question": "Under DB3, what is the amount at risk on which the mortality charge is levied?",
+      "options": [
+        "The value of the units alone",
+        "The excess of the units over the sum assured",
+        "The whole of the sum assured",
+        "The total of the units and the sum assured"
+      ],
+      "correctIndex": 2,
+      "explanation": "Under DB3 the death benefit is u + v, and the amount at risk is (u + v) less u, which equals v, the whole of the sum assured. The units cover only their own value, so nothing offsets the sum assured. Under DB4 the amount at risk is v less u instead.",
+      "reference": "M9 e-textbook Ch 9, s5.3"
+    },
+    {
+      "id": "m9-ch9-s2-006",
+      "chapter": "Chapter 9",
+      "question": "Why is the mortality charge under DB4 lower than under DB3 for the same sum assured?",
+      "options": [
+        "DB4 policies attract a discounted scale of mortality rates from the insurer",
+        "DB4 charges are levied annually whereas DB3 charges are levied monthly",
+        "DB4 spreads the charge across the whole policy term rather than each year",
+        "Under DB4 part of the death benefit is already met by the value of the units"
+      ],
+      "correctIndex": 3,
+      "explanation": "Under DB4 a portion of the death benefit is already met by the value of the units, so the insurer charges only for the gap it must fund, being v less u. Under DB3 the sum assured is paid on top of the units, so the whole of v remains at risk. Both charges are levied monthly on the same rate scale.",
+      "reference": "M9 e-textbook Ch 9, s5.4"
+    },
+    {
+      "id": "m9-ch9-s2-007",
+      "chapter": "Chapter 9",
+      "question": "The annual cost of life cover is S$2.40 per S$1,000 and the sum assured is S$50,000. Under DB3, what is the monthly mortality charge?",
+      "options": [
+        "S$120.00",
+        "S$24.00",
+        "S$10.00",
+        "S$2.40"
+      ],
+      "correctIndex": 2,
+      "explanation": "Under DB3 the charge is (q divided by 12) multiplied by v. The annual cost is S$2.40 x 50 = S$120, and dividing by 12 gives S$10.00 monthly. S$120 is the annual figure with the division by 12 omitted, which is the most common slip on this calculation.",
+      "reference": "M9 e-textbook Ch 9, s5.3"
+    },
+    {
+      "id": "m9-ch9-s2-008",
+      "chapter": "Chapter 9",
+      "question": "On what does the annual cost of life cover used in the mortality charge calculation largely depend?",
+      "options": [
+        "The age of the life insured",
+        "The performance of the chosen sub-fund",
+        "The allocation rate applied in that policy year",
+        "The number of units held at the start of the year"
+      ],
+      "correctIndex": 0,
+      "explanation": "The mortality charge is the annual cost of life cover multiplied by the sum assured, expressed as a rate per S$1,000, and the annual cost depends largely on the age of the life insured. This is why the illustrative charge rises from S$0.78 at age 30 to S$11.64 at age 60.",
+      "reference": "M9 e-textbook Ch 9, s5.1"
+    },
+    {
+      "id": "m9-ch9-s2-009",
+      "chapter": "Chapter 9",
+      "question": "Besides mortality charges, which other benefit charges are calculated in the same way?",
+      "options": [
+        "Fund management charges and policy administration fees",
+        "Critical illness, total and permanent disability, and accidental benefit charges",
+        "Surrender charges and partial withdrawal charges",
+        "Bid-offer spread and premium allocation deductions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Charges for critical illness, total and permanent disability and accidental benefits are calculated in the same way as mortality charges, being a rate applied to the relevant sum assured. Fund management charges and spreads are structured differently and are covered in Chapter 7.",
+      "reference": "M9 e-textbook Ch 9, s5.5"
+    },
+    {
+      "id": "m9-ch9-s2-010",
+      "chapter": "Chapter 9",
+      "question": "A policy owner wishes to vary the sum assured on his ILP over time. What condition applies?",
+      "options": [
+        "The variation takes effect only from the next policy anniversary",
+        "The variation requires the consent of any nominated beneficiary",
+        "The variation is permitted subject to underwriting",
+        "The variation is permitted only once during the policy term"
+      ],
+      "correctIndex": 2,
+      "explanation": "Insurers allow the policy owner to vary the sum assured over time, subject to underwriting. Since the mortality charge is recalculated from the current sum assured, changing v changes the charge from the next period, but the gating condition stated by the textbook is underwriting.",
+      "reference": "M9 e-textbook Ch 9, s5.6"
+    },
+    {
+      "id": "m9-ch9-s2-011",
+      "chapter": "Chapter 9",
+      "question": "The offer price at inception is S$2.00 and the fund grows at 5% per annum. What is the offer price at the beginning of the third policy year?",
+      "options": [
+        "S$2.10",
+        "S$2.21",
+        "S$2.32",
+        "S$2.05"
+      ],
+      "correctIndex": 1,
+      "explanation": "The beginning of the third year means two years have elapsed, so the price compounds twice: S$2.00 x 1.05 squared = S$2.00 x 1.1025 = S$2.21. S$2.10 compounds only once and S$2.32 compounds three times. Beginning of year three and end of year two are the same instant, both meaning n = 2.",
+      "reference": "M9 e-textbook Ch 9, s6.4"
+    },
+    {
+      "id": "m9-ch9-s2-012",
+      "chapter": "Chapter 9",
+      "question": "Which formula converts an offer price into the corresponding bid price?",
+      "options": [
+        "Bid price = offer price divided by the allocation rate",
+        "Bid price = offer price multiplied by (1 plus the spread)",
+        "Bid price = offer price less the monthly policy fee",
+        "Bid price = offer price multiplied by (1 less the spread)"
+      ],
+      "correctIndex": 3,
+      "explanation": "The bid price is the offer price multiplied by one less the bid-offer spread, so at the standard 5% spread the bid price is 95% of the offer price. Multiplying by one plus the spread would produce a bid price above the offer price, which contradicts the rule that bid is always the lower of the two.",
+      "reference": "M9 e-textbook Ch 9, s6.4"
+    },
+    {
+      "id": "m9-ch9-s2-013",
+      "chapter": "Chapter 9",
+      "question": "The offer price is S$2.00 and the bid-offer spread is 5%. What is the bid price?",
+      "options": [
+        "S$1.90",
+        "S$2.10",
+        "S$1.80",
+        "S$1.95"
+      ],
+      "correctIndex": 0,
+      "explanation": "The bid price is S$2.00 x 0.95 = S$1.90. S$2.10 wrongly adds the spread, S$1.80 applies a 10% spread, and S$1.95 deducts 5 cents rather than 5%. Check: the S$0.10 gap is 5% of the S$2.00 offer price.",
+      "reference": "M9 e-textbook Ch 9, s6.4"
+    },
+    {
+      "id": "m9-ch9-s2-014",
+      "chapter": "Chapter 9",
+      "question": "A single premium of S$20,000 buys units at an offer price of S$2.00. How many units are purchased?",
+      "options": [
+        "9,500 units",
+        "10,000 units",
+        "10,526 units",
+        "40,000 units"
+      ],
+      "correctIndex": 1,
+      "explanation": "Units purchased equal the premium divided by the offer price: S$20,000 divided by S$2.00 = 10,000 units. Check: 10,000 x S$2.00 = S$20,000. The figure 10,526 divides by a bid price of S$1.90, which is the classic error of buying at bid instead of offer.",
+      "reference": "M9 e-textbook Ch 9, s6.4"
+    },
+    {
+      "id": "m9-ch9-s2-015",
+      "chapter": "Chapter 9",
+      "question": "Total fees and charges of S$570 are met by cancelling units when the bid price is S$1.90. How many units are cancelled?",
+      "options": [
+        "285 units",
+        "1,083 units",
+        "300 units",
+        "570 units"
+      ],
+      "correctIndex": 2,
+      "explanation": "Units cancelled equal the charges divided by the bid price: S$570 divided by S$1.90 = 300 units. Check: 300 x S$1.90 = S$570. The figure 285 divides by an offer price of S$2.00 rather than bid, and 1,083 multiplies instead of dividing.",
+      "reference": "M9 e-textbook Ch 9, s6.4"
+    },
+    {
+      "id": "m9-ch9-s2-016",
+      "chapter": "Chapter 9",
+      "question": "A single premium of S$20,000 buys 10,000 units, and 300 units are then cancelled to meet charges. How many units remain?",
+      "options": [
+        "9,700 units",
+        "10,300 units",
+        "9,430 units",
+        "10,000 units"
+      ],
+      "correctIndex": 0,
+      "explanation": "Units remaining are those purchased less those cancelled: 10,000 less 300 = 9,700 units. The figure 10,300 adds rather than subtracts, and 10,000 ignores the cancellation entirely. Where a policy already holds opening units, those must also be added back.",
+      "reference": "M9 e-textbook Ch 9, s6.4"
+    },
+    {
+      "id": "m9-ch9-s2-017",
+      "chapter": "Chapter 9",
+      "question": "In the textbook's allocation rate example, what allocation rate applies during the second policy year?",
+      "options": [
+        "15%",
+        "50%",
+        "100%",
+        "30%"
+      ],
+      "correctIndex": 3,
+      "explanation": "The example schedule runs 15% in year one, 30% in year two, 50% in year three, 100% in years four to nine and 102% from year ten onwards. Only a small amount buys units in the initial three years, which reflects the front-end loading described in Chapter 7.",
+      "reference": "M9 e-textbook Ch 9, Example 9.3"
+    },
+    {
+      "id": "m9-ch9-s2-018",
+      "chapter": "Chapter 9",
+      "question": "A monthly premium of S$100 is subject to the textbook's example allocation schedule. How much is allocated to buy units each month during the first policy year?",
+      "options": [
+        "S$15",
+        "S$30",
+        "S$50",
+        "S$100"
+      ],
+      "correctIndex": 0,
+      "explanation": "The first year allocation rate in the example is 15%, so 15% x S$100 = S$15 is allocated monthly to purchase units. S$30 corresponds to year two at 30% and S$50 to year three at 50%. The remaining S$85 in year one meets the insurer's front-end charges.",
+      "reference": "M9 e-textbook Ch 9, Example 9.3"
+    },
+    {
+      "id": "m9-ch9-s2-019",
+      "chapter": "Chapter 9",
+      "question": "Why do some insurers provide bonus units in the later years of a regular premium ILP?",
+      "options": [
+        "To compensate policy owners for poor sub-fund investment performance",
+        "To encourage policy owners to continue with their premium payments",
+        "To offset the mortality charges that rise sharply at older ages",
+        "To satisfy a MAS requirement that allocation reaches 100% by year ten"
+      ],
+      "correctIndex": 1,
+      "explanation": "Some insurers provide bonus units in the later years to encourage policy owners to continue with their premium payments, which is why the example schedule reaches 102% from year ten. The bonus is a persistency incentive rather than compensation for performance or a regulatory requirement.",
+      "reference": "M9 e-textbook Ch 9, Example 9.3"
+    },
+    {
+      "id": "m9-ch9-s2-020",
+      "chapter": "Chapter 9",
+      "question": "A regular premium of S$3,000 is subject to a 50% allocation rate and the offer price is S$2.50. How many units are purchased?",
+      "options": [
+        "1,200 units",
+        "1,500 units",
+        "600 units",
+        "750 units"
+      ],
+      "correctIndex": 2,
+      "explanation": "Apply the allocation rate first, then divide by the offer price: (50% x S$3,000) divided by S$2.50 = S$1,500 divided by S$2.50 = 600 units. The figure 1,200 divides the full S$3,000 without applying the rate, and 1,500 is the allocated amount in dollars rather than a unit count.",
+      "reference": "M9 e-textbook Ch 9, s6.4"
+    },
+    {
+      "id": "m9-ch9-s2-021",
+      "chapter": "Chapter 9",
+      "question": "A top-up premium of S$8,000 is applied when the offer price is S$1.60. Ignoring charges, how many units does the top-up buy?",
+      "options": [
+        "12,800 units",
+        "4,000 units",
+        "5,263 units",
+        "5,000 units"
+      ],
+      "correctIndex": 3,
+      "explanation": "Units purchased equal the top-up divided by the offer price: S$8,000 divided by S$1.60 = 5,000 units. Check: 5,000 x S$1.60 = S$8,000. The figure 5,263 divides by a bid price of S$1.52, and 12,800 multiplies instead of dividing.",
+      "reference": "M9 e-textbook Ch 9, s6.5"
+    },
+    {
+      "id": "m9-ch9-s2-022",
+      "chapter": "Chapter 9",
+      "question": "A policy owner withdraws S$4,500 when the bid price is S$1.50. How many units are cancelled?",
+      "options": [
+        "6,750 units",
+        "3,000 units",
+        "2,850 units",
+        "4,500 units"
+      ],
+      "correctIndex": 1,
+      "explanation": "Units cancelled equal the withdrawal amount divided by the bid price: S$4,500 divided by S$1.50 = 3,000 units. Money leaving the policy is always converted at the bid price, the same rule that applies to charges. The figure 6,750 multiplies rather than dividing.",
+      "reference": "M9 e-textbook Ch 9, s7.2"
+    },
+    {
+      "id": "m9-ch9-s2-023",
+      "chapter": "Chapter 9",
+      "question": "A policy holds 7,200 units and the bid price at surrender is S$1.75, with no surrender charges. What is the surrender value?",
+      "options": [
+        "S$14,400",
+        "S$4,114",
+        "S$12,600",
+        "S$13,255"
+      ],
+      "correctIndex": 2,
+      "explanation": "Surrender value equals the number of units multiplied by the current bid price: 7,200 x S$1.75 = S$12,600. Note that surrender multiplies whereas withdrawal divides. S$4,114 divides rather than multiplying, and S$13,255 uses a corresponding offer price instead of bid.",
+      "reference": "M9 e-textbook Ch 9, s8.2"
+    },
+    {
+      "id": "m9-ch9-s2-024",
+      "chapter": "Chapter 9",
+      "question": "Which two computations does the textbook state are needed to determine the surrender value of an ILP?",
+      "options": [
+        "The number of units in the account and the current bid price",
+        "The total premiums paid and the cumulative allocation rate applied",
+        "The offer price at inception and the compound growth rate achieved",
+        "The sum assured and the accumulated mortality charges deducted"
+      ],
+      "correctIndex": 0,
+      "explanation": "The surrender value is the number of units in the policy owner's account multiplied by the current bid price. Premiums paid, allocation rates and mortality charges affect how many units remain but do not enter the surrender value formula itself.",
+      "reference": "M9 e-textbook Ch 9, s8.2"
+    },
+    {
+      "id": "m9-ch9-s2-025",
+      "chapter": "Chapter 9",
+      "question": "On what basis is the return on gross premium measured?",
+      "options": [
+        "Simple interest applied to the original single premium",
+        "Compound interest",
+        "The internal rate of return net of all charges deducted",
+        "The arithmetic average of annual unit price movements"
+      ],
+      "correctIndex": 1,
+      "explanation": "Return on gross premium is the growth rate of the initial single premium over a period producing the surrender value at the end, measured on a compound interest basis. The formula applied is initial single premium multiplied by (1 plus i) to the power of n, equalling the cash value in n years.",
+      "reference": "M9 e-textbook Ch 9, s9.1-9.2"
+    },
+    {
+      "id": "m9-ch9-s2-026",
+      "chapter": "Chapter 9",
+      "question": "A single premium of S$20,000 grows to a cash value of S$35,816 after 10 years. What factor must be located in the future value interest factor table?",
+      "options": [
+        "0.5584",
+        "1.7908",
+        "15,816",
+        "2.7908"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dividing the cash value by the initial premium gives S$35,816 divided by S$20,000 = 1.7908, which is the factor to locate at n = 10. That factor corresponds to 6% per annum. The figure 0.5584 inverts the division, and 15,816 is the money gain rather than a factor.",
+      "reference": "M9 e-textbook Ch 9, s9.3"
+    },
+    {
+      "id": "m9-ch9-s2-027",
+      "chapter": "Chapter 9",
+      "question": "What does the time value of money describe?",
+      "options": [
+        "The rate at which inflation erodes the purchasing power of a fixed sum",
+        "The difference between the bid and offer prices of a unit over time",
+        "The increase in a sum of money over time as a result of earning a return",
+        "The reduction in a policy's surrender value during the early policy years"
+      ],
+      "correctIndex": 2,
+      "explanation": "The time value of money describes how a sum of money increases over time as a result of earning a return while being held. Inflation erosion is a related but distinct concept, and the bid-offer spread and early surrender values belong to Chapter 7.",
+      "reference": "M9 e-textbook Ch 9, Appendix 9A s1.1"
+    },
+    {
+      "id": "m9-ch9-s2-028",
+      "chapter": "Chapter 9",
+      "question": "In discounting, how does the present value move as the number of periods or the interest rate increases?",
+      "options": [
+        "It moves in the opposite direction, decreasing as they increase",
+        "It moves in the same direction, increasing as they increase",
+        "It remains unchanged, since discounting removes the effect of both",
+        "It increases with the number of periods but falls as the rate rises"
+      ],
+      "correctIndex": 0,
+      "explanation": "In discounting, present value moves in the opposite direction from n and i, decreasing as they increase. The reasoning is that if a fixed future sum is needed and the rate is higher, less money is required today to reach it. In compounding, by contrast, future value moves in the same direction as n and i.",
+      "reference": "M9 e-textbook Ch 9, Appendix 9A s1.2"
+    },
+    {
+      "id": "m9-ch9-s2-029",
+      "chapter": "Chapter 9",
+      "question": "S$1,000 is invested at 8% for two years. Which compounding frequency produces the largest future value?",
+      "options": [
+        "Annual compounding, producing S$1,166.40",
+        "Semi-annual compounding, producing S$1,169.86",
+        "Monthly compounding, producing S$1,172.89",
+        "All three produce an identical future value of S$1,160.00"
+      ],
+      "correctIndex": 2,
+      "explanation": "Greater compounding frequency produces a greater future value, so monthly compounding at S$1,172.89 exceeds semi-annual at S$1,169.86 and annual at S$1,166.40. Each additional compounding period allows interest to be earned on interest sooner.",
+      "reference": "M9 e-textbook Ch 9, Appendix 9A s1.3"
+    },
+    {
+      "id": "m9-ch9-s2-030",
+      "chapter": "Chapter 9",
+      "question": "What is a future value interest factor?",
+      "options": [
+        "The rate of return required to double an invested sum over a stated period",
+        "The proportion of a premium allocated to purchase units in a given year",
+        "The discount applied to a future sum to express it in present value terms",
+        "A factor equal to the future value of a S$1 sum after a given number of periods"
+      ],
+      "correctIndex": 3,
+      "explanation": "A future value interest factor is a factor equal to the future value of a S$1 sum after a given number of periods at a given rate, and a present value is multiplied by the factor to obtain the future value. Applying a discount to a future sum works in the opposite direction and describes present value calculation instead.",
+      "reference": "M9 e-textbook Ch 9, Appendix 9A s2.1"
+    }
+  ]
+}

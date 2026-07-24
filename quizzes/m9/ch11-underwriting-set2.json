@@ -1,0 +1,426 @@
+{
+  "title": "Chapter 11 · Application and Underwriting · Set 2",
+  "passMark": 75,
+  "questions": [
+    {
+      "id": "m9-ch11-s2-001",
+      "chapter": "Chapter 11",
+      "question": "By what other name is the life insurance proposal form known?",
+      "options": [
+        "The application form",
+        "The policy schedule",
+        "The declaration of interest",
+        "The cover note"
+      ],
+      "correctIndex": 0,
+      "explanation": "To apply for a life insurance policy the proposer, also known as the applicant, must complete a life insurance proposal form, which some insurers refer to as the application form. The policy schedule and cover note are documents issued after acceptance rather than at application stage.",
+      "reference": "M9 e-textbook Ch 11, s1.1"
+    },
+    {
+      "id": "m9-ch11-s2-002",
+      "chapter": "Chapter 11",
+      "question": "Why do most insurers use different proposal forms for different types of insurance?",
+      "options": [
+        "Because each product line is underwritten by a separately licensed corporate entity",
+        "Because the MAS expressly prohibits use of a single form across multiple product types",
+        "Because different risks are involved, and one merged form would be extensively long and confusing",
+        "Because each form must be individually approved by the Life Insurance Association annually"
+      ],
+      "correctIndex": 2,
+      "explanation": "Different forms may be necessary because of the different risks involved and for administrative or procedural reasons. Merging all the information into one form would result in an extensively long form and could confuse both the proposer and the representative of the insurer. The reason is practical rather than a regulatory prohibition.",
+      "reference": "M9 e-textbook Ch 11, s1.2"
+    },
+    {
+      "id": "m9-ch11-s2-003",
+      "chapter": "Chapter 11",
+      "question": "What does the textbook describe the proposal form as providing to the insurer?",
+      "options": [
+        "A binding offer of cover that the insurer may accept or reject",
+        "The primary source of information about the risk to be insured",
+        "Conditional cover from the date the form is signed by the proposer",
+        "A summary of the adviser's suitability analysis for the recommendation"
+      ],
+      "correctIndex": 1,
+      "explanation": "The proposal form provides the insurer with the primary source of information about the risk to be insured. It is incorporated in the policy, forms part of the insurance contract, and forms the basis for when a claim is filed. It does not itself provide cover.",
+      "reference": "M9 e-textbook Ch 11, s1.3-1.4"
+    },
+    {
+      "id": "m9-ch11-s2-004",
+      "chapter": "Chapter 11",
+      "question": "A proposed life insured wishes his policy to commence before the date of the proposal form. Which section of the form deals with this?",
+      "options": [
+        "The remarks section, in which any special requests of this kind are recorded",
+        "The declaration section signed by the proposer and life insured",
+        "The particulars of the policy applied for, including plan and sum assured",
+        "The backdated to section under particulars of the proposed life insured"
+      ],
+      "correctIndex": 3,
+      "explanation": "The backdated to section, which forms part of the particulars of the proposed life insured, needs to be completed only if the proposed life insured wishes to backdate his policy so that it commences on an earlier date than the proposal form date. Backdating may not be available for certain policies such as an ILP.",
+      "reference": "M9 e-textbook Ch 11, s1.16"
+    },
+    {
+      "id": "m9-ch11-s2-005",
+      "chapter": "Chapter 11",
+      "question": "Why does the proposal form ask for the nationality and place of birth of the proposed life insured?",
+      "options": [
+        "They affect the underwriting decision in terms of geographical risk",
+        "They determine the currency in which the policy must be denominated",
+        "They establish whether CPF savings may be used to pay the premium",
+        "They fix the maximum sum assured available under the plan applied for"
+      ],
+      "correctIndex": 0,
+      "explanation": "The nationality and place of birth will have an impact on the insurer's underwriting decision in terms of geographical risk. Gender and age, by contrast, are used to determine the premiums to be charged and are also considered in risk assessment.",
+      "reference": "M9 e-textbook Ch 11, s1.12"
+    },
+    {
+      "id": "m9-ch11-s2-006",
+      "chapter": "Chapter 11",
+      "question": "Why does the proposal form ask for the exact nature of the proposed life insured's duties at work?",
+      "options": [
+        "To confirm that the proposer can afford the premiums out of his employment income",
+        "To determine the frequency at which premiums should be collected",
+        "Because the risk posed by some jobs may warrant a higher premium or be uninsurable",
+        "To establish whether the employer will be contributing towards the premium cost"
+      ],
+      "correctIndex": 2,
+      "explanation": "The name and address of the company and the exact nature of duties involved are important underwriting information, as the risk posed by some jobs may warrant a higher premium to be charged or may even be uninsurable. Affordability is assessed separately through employment status and estimated annual income.",
+      "reference": "M9 e-textbook Ch 11, s1.15"
+    },
+    {
+      "id": "m9-ch11-s2-007",
+      "chapter": "Chapter 11",
+      "question": "A proposer earning a nominal salary applies for a very large sum assured. What does this suggest to the underwriter?",
+      "options": [
+        "That the proposed life insured is likely to be in poor physical condition",
+        "That the likelihood of moral hazard should be considered",
+        "That the policy should be issued on a non-medical basis",
+        "That insurable interest is automatically absent from the application"
+      ],
+      "correctIndex": 1,
+      "explanation": "Where a proposer who earns a nominal salary applies for a large sum assured policy, this may present the likelihood of moral hazard. A person has unlimited insurable interest in his own life, so insurable interest is not absent, but the burden to prevent over-insurance rests with the insurer.",
+      "reference": "M9 e-textbook Ch 11, s1.14"
+    },
+    {
+      "id": "m9-ch11-s2-008",
+      "chapter": "Chapter 11",
+      "question": "In which circumstance must the Particulars of the Proposer section of the proposal form be completed?",
+      "options": [
+        "In every case, whether the policy is first-party or third-party",
+        "Only where the sum assured applied for exceeds S$1,000,000",
+        "Only where the proposed life insured is undergoing a medical examination",
+        "Only where the policy applied for is a third-party policy"
+      ],
+      "correctIndex": 3,
+      "explanation": "This section only needs to be completed if the policy applied for is a third-party policy. For first-party policies only the particulars of the proposed life insured need to be filled up. Typical third-party examples are parents insuring children below 16 years of age, or one spouse insuring the other.",
+      "reference": "M9 e-textbook Ch 11, s1.17"
+    },
+    {
+      "id": "m9-ch11-s2-009",
+      "chapter": "Chapter 11",
+      "question": "Why is the relationship between the proposer and the proposed life insured an important piece of information?",
+      "options": [
+        "It helps the underwriter determine and ensure that insurable interest exists",
+        "It determines which of the two parties is liable to pay the premiums falling due",
+        "It establishes the order in which the policy proceeds are distributed on death",
+        "It fixes the commission rate payable to the intermediary concerned"
+      ],
+      "correctIndex": 0,
+      "explanation": "Relationship to the proposed life insured is an important piece of information that helps the underwriter determine and ensure that insurable interest exists before the issuance of the policy. A policy issued without insurable interest is not a valid policy.",
+      "reference": "M9 e-textbook Ch 11, s1.20"
+    },
+    {
+      "id": "m9-ch11-s2-010",
+      "chapter": "Chapter 11",
+      "question": "Under which MAS Notice must the proposal form include a section on the declaration and replacement of existing policies?",
+      "options": [
+        "MAS Notice 314",
+        "Notice No. MAS 318",
+        "Section 23(5) of the Insurance Act 1966",
+        "Notice No. MAS 306"
+      ],
+      "correctIndex": 1,
+      "explanation": "The declaration of and replacement of existing policies section is a requirement stipulated in Notice No. MAS 318, under which the insurer has to state clearly the disadvantages of replacing a current policy with a new one. MAS Notice 314 deals with anti-money laundering and countering the financing of terrorism.",
+      "reference": "M9 e-textbook Ch 11, s1.23"
+    },
+    {
+      "id": "m9-ch11-s2-011",
+      "chapter": "Chapter 11",
+      "question": "Where a policy is being replaced, what must the insurer of the new policy do?",
+      "options": [
+        "Obtain the prior written consent of the insurer that issued the existing policy",
+        "Decline the application outright until the existing policy has been surrendered",
+        "Write to the policy owner about the disadvantages of lapsing his existing policy, and offer to return premiums",
+        "Report the replacement to the Life Insurance Association within thirty days"
+      ],
+      "correctIndex": 2,
+      "explanation": "Where it is a case of replacement of policy, the insurer of the new policy shall write to the policy owner informing him of the disadvantages of lapsing his existing policy, and offering to return premiums paid on the new policy if he decides not to replace the existing one.",
+      "reference": "M9 e-textbook Ch 11, s1.25"
+    },
+    {
+      "id": "m9-ch11-s2-012",
+      "chapter": "Chapter 11",
+      "question": "Why does the proposal form request the family history of the proposed life insured?",
+      "options": [
+        "To confirm the existence of insurable interest among the wider family members",
+        "To identify the potential beneficiaries for policy nomination purposes",
+        "To establish whether any family member holds a policy with the same insurer",
+        "Because some illnesses are hereditary and the life insured may contract them too"
+      ],
+      "correctIndex": 3,
+      "explanation": "The proposed life insured provides information on his parents and siblings' state of health, age at onset of illness, current age and age at death, because some illnesses are hereditary and the proposed life insured may contract the illness too. Family history is an important underwriting factor, especially for Critical Illness Insurance.",
+      "reference": "M9 e-textbook Ch 11, s1.26"
+    },
+    {
+      "id": "m9-ch11-s2-013",
+      "chapter": "Chapter 11",
+      "question": "Which of the following is one of the compulsory documents whose receipt the client confirms on the proposal form?",
+      "options": [
+        "The Product Summary",
+        "The medical examination report",
+        "The Attending Physician's Report",
+        "A copy of the completed proposal form"
+      ],
+      "correctIndex": 0,
+      "explanation": "The five compulsory documents are the Cover Page, Policy Illustration, Product Summary, Bundled Product Disclosure, and Your Guide To Life Insurance or Your Guide to Health Insurance. Medical reports are underwriting documents rather than compulsory sales documents.",
+      "reference": "M9 e-textbook Ch 11, s1.33"
+    },
+    {
+      "id": "m9-ch11-s2-014",
+      "chapter": "Chapter 11",
+      "question": "Under the Common Reporting Standard, what must Singapore-based financial institutions establish about their account holders?",
+      "options": [
+        "Their source of wealth and expected transaction volumes",
+        "Their tax residency status, for reporting to IRAS",
+        "Their politically exposed person status under MAS Notice 314",
+        "Their beneficial ownership of any corporate policy holdings"
+      ],
+      "correctIndex": 1,
+      "explanation": "Under the Common Reporting Standard, in effect since 1 January 2017, Singapore-based financial institutions must establish the tax residency status of all their account holders and report to IRAS the financial account information of holders who are tax residents of jurisdictions with which Singapore has a Competent Authority Agreement.",
+      "reference": "M9 e-textbook Ch 11, s1.37"
+    },
+    {
+      "id": "m9-ch11-s2-015",
+      "chapter": "Chapter 11",
+      "question": "From what date has the Common Reporting Standard been in effect in Singapore?",
+      "options": [
+        "1 January 2015",
+        "1 April 2018",
+        "1 January 2017",
+        "1 July 2019"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Common Reporting Standard has been in effect since 1 January 2017. For accounts opened before that date insurers may contact policyholders to confirm tax residency where they hold indicative information, and for new accounts opened on or after that date a self-certification form is used.",
+      "reference": "M9 e-textbook Ch 11, s1.37"
+    },
+    {
+      "id": "m9-ch11-s2-016",
+      "chapter": "Chapter 11",
+      "question": "Whose consent must an undischarged bankrupt obtain before purchasing a new life insurance policy?",
+      "options": [
+        "The Monetary Authority of Singapore",
+        "The Official Assignee",
+        "The insurer's chief underwriter",
+        "The Registrar of Companies"
+      ],
+      "correctIndex": 1,
+      "explanation": "Undischarged bankrupts are not allowed to purchase new life insurance policies under the Insolvency, Restructuring and Dissolution Act 2018 without the prior consent of the Official Assignee. Some proposal forms accordingly require a declaration that the applicant is not an undischarged bankrupt.",
+      "reference": "M9 e-textbook Ch 11, s1.39"
+    },
+    {
+      "id": "m9-ch11-s2-017",
+      "chapter": "Chapter 11",
+      "question": "An adviser completes a proposal form on behalf of a client who cannot fill it in himself. What is the principal risk?",
+      "options": [
+        "The insurer may refuse to accept a form not completed in the client's own handwriting",
+        "The policy will be treated as a third-party policy requiring insurable interest",
+        "The adviser becomes personally liable for the premiums payable under that policy",
+        "At claims stage there may be a dispute about whether the adviser entered the correct information"
+      ],
+      "correctIndex": 3,
+      "explanation": "Although the practice is not encouraged, some advisers complete proposal forms as a service. The risk is that at claims stage there may be a dispute about whether the adviser entered the correct information, even if the form has been signed by the client. Once the client signs, he has confirmed the information is correct, and a mistake discovered at claim may give the insurer a right not to pay.",
+      "reference": "M9 e-textbook Ch 11, s1.43"
+    },
+    {
+      "id": "m9-ch11-s2-018",
+      "chapter": "Chapter 11",
+      "question": "What does the underwriter check in relation to third-party policies specifically?",
+      "options": [
+        "That insurable interest exists, since a policy issued without it is not valid",
+        "That the proposer holds no existing policies with any other licensed insurer",
+        "That the proposed life insured has already undergone a full medical examination",
+        "That the sum assured does not exceed ten times the proposer's annual income"
+      ],
+      "correctIndex": 0,
+      "explanation": "The underwriter checks to make sure that insurable interest exists in third-party policies, which is a very important factor as a policy issued without any insurable interest is not a valid policy. This complements the main purpose of underwriting, which is matching premiums to risk.",
+      "reference": "M9 e-textbook Ch 11, s2.3"
+    },
+    {
+      "id": "m9-ch11-s2-019",
+      "chapter": "Chapter 11",
+      "question": "What does the mortality table used in underwriting show?",
+      "options": [
+        "The average claims experience of the insurer over the preceding three years",
+        "The premium rates chargeable for each class of occupational risk",
+        "The probability of a person dying at a particular age",
+        "The reserves an insurer must hold against each policy in force"
+      ],
+      "correctIndex": 2,
+      "explanation": "Life insurance underwriting is concerned with assessing the risks associated with mortality, and the mortality table shows the probability of a person dying at a particular age. Age is described as a significant measure of the likelihood of death and the point of departure in classifying the proposed life insured.",
+      "reference": "M9 e-textbook Ch 11, s2.6"
+    },
+    {
+      "id": "m9-ch11-s2-020",
+      "chapter": "Chapter 11",
+      "question": "What is the typical range of last entry ages for Whole Life Insurance policies offered in Singapore?",
+      "options": [
+        "45 to 55 years next birthday",
+        "55 to 65 years next birthday",
+        "70 to 80 years next birthday",
+        "65 to 75 years next birthday"
+      ],
+      "correctIndex": 3,
+      "explanation": "Most Whole Life Insurance policies offered in Singapore have last entry age ranging from 65 to 75 years next birthday. This illustrates the point that age alone, regardless of other factors, may render a person uninsurable because the insurer has an upper age limit.",
+      "reference": "M9 e-textbook Ch 11, s2.6"
+    },
+    {
+      "id": "m9-ch11-s2-021",
+      "chapter": "Chapter 11",
+      "question": "How is the age of a proposed life insured normally established for underwriting purposes?",
+      "options": [
+        "It is customary to accept the proposer's statement of age unless there is reason to doubt it",
+        "A certified copy of the birth certificate must accompany every proposal form submitted",
+        "The insurer obtains confirmation directly from the Immigration and Checkpoints Authority",
+        "Age is presumed from the date of the proposal form unless the proposer objects"
+      ],
+      "correctIndex": 0,
+      "explanation": "It is customary to accept the proposer's statement of age unless there is reason to believe it is a mis-statement. The adviser must nonetheless verify the age of the proposer and the proposed life insured when conducting mandatory verification of personal particulars via NRIC or passport for foreign nationals.",
+      "reference": "M9 e-textbook Ch 11, s2.7"
+    },
+    {
+      "id": "m9-ch11-s2-022",
+      "chapter": "Chapter 11",
+      "question": "Which specialist medical test is used to substantiate a random finding of an abnormal urine dipstick result?",
+      "options": [
+        "Blood Profile Analysis",
+        "Micro-urinalysis",
+        "Electrocardiogram",
+        "HIV Antibody Test"
+      ],
+      "correctIndex": 1,
+      "explanation": "A Micro-urinalysis is an analysis of the constituents of urine and is used to substantiate a random finding of an abnormal urine dipstick result. A Blood Profile Analysis gives information on blood composition, liver function, kidney function and lipid concentration.",
+      "reference": "M9 e-textbook Ch 11, s4.4"
+    },
+    {
+      "id": "m9-ch11-s2-023",
+      "chapter": "Chapter 11",
+      "question": "What information does a Blood Profile Analysis provide?",
+      "options": [
+        "A tracing of the heart's rhythms recorded over a defined period of observation",
+        "An image of the skeletal frame and the internal organs in the chest",
+        "Blood composition, liver function, kidney function and lipid concentration",
+        "The presence of antibodies indicating prior exposure to a particular infection"
+      ],
+      "correctIndex": 2,
+      "explanation": "A Blood Profile Analysis gives information on blood composition, liver function, kidney function and lipid concentration. A tracing of heart rhythms is produced by an Electrocardiogram, and the skeletal frame and chest organs are shown by a Chest X-Ray.",
+      "reference": "M9 e-textbook Ch 11, s4.4"
+    },
+    {
+      "id": "m9-ch11-s2-024",
+      "chapter": "Chapter 11",
+      "question": "Who normally bears the fees associated with medical examinations and additional medical tests?",
+      "options": [
+        "The insurers, though there may be exceptions depending on their practices",
+        "The proposer, in every case and without any exception being made",
+        "The adviser, out of the commission earned on the policy",
+        "The attending physician's own practice, which absorbs the cost involved"
+      ],
+      "correctIndex": 0,
+      "explanation": "The fees associated with medical examinations and additional medical tests are normally borne by the insurers, but there may be exceptions depending on the insurers' practices. The hedged wording matters, since an option asserting that the proposer always pays is wrong.",
+      "reference": "M9 e-textbook Ch 11, s4.1"
+    },
+    {
+      "id": "m9-ch11-s2-025",
+      "chapter": "Chapter 11",
+      "question": "A medical questionnaire is required for a proposed life insured with diabetes. Who typically completes this type of questionnaire?",
+      "options": [
+        "The insurer's appointed medical examiner at the time of the examination",
+        "The underwriter, drawing on the Attending Physician's Report",
+        "The adviser, based on his discussions with the client",
+        "The proposed life insured himself"
+      ],
+      "correctIndex": 3,
+      "explanation": "The type of medical questionnaire completed by the proposed life insured is often used for illnesses such as diabetes or gastritis, which require strict medical treatment adherence by the proposed life insured. The other type of medical questionnaire is completed by the attending doctor, for conditions such as hypertension or asthma.",
+      "reference": "M9 e-textbook Ch 11, s4.7"
+    },
+    {
+      "id": "m9-ch11-s2-026",
+      "chapter": "Chapter 11",
+      "question": "When does an underwriter usually require a Financial Questionnaire?",
+      "options": [
+        "Whenever the proposed life insured is self-employed or owns his own business",
+        "Where the sum assured applied for, or the aggregate sum assured held, is large",
+        "Where the proposer intends to fund premiums from CPF savings",
+        "Where the proposed life insured has declared an adverse medical history"
+      ],
+      "correctIndex": 1,
+      "explanation": "The underwriter usually requires a Financial Questionnaire when the sum assured applied for, or the aggregate sum assured that the proposer has with the insurer, is large. It may be completed by the proposer and his other advisers such as a lawyer or accountant, with supporting documents such as income tax returns or company accounts.",
+      "reference": "M9 e-textbook Ch 11, s4.10"
+    },
+    {
+      "id": "m9-ch11-s2-027",
+      "chapter": "Chapter 11",
+      "question": "A proposed life insured is qualified for an ordinary rate except for his diving activities, which markedly increase his mortality. Which underwriting decision fits this case?",
+      "options": [
+        "Acceptance at ordinary rate subject to an exclusion to the cover",
+        "Acceptance at ordinary rate subject to a lien over the sum assured",
+        "Deferment of the application until the activity has ceased",
+        "Acceptance with extra premiums for the full term of the policy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Acceptance with an exclusion is normally used when the proposed life insured is qualified for an ordinary rate except for a specific impairment or hazard that markedly increases his mortality, and diving is the textbook's example. By excluding that hazard the insurer need not pay any claim arising from the excluded risk.",
+      "reference": "M9 e-textbook Ch 11, s5.5"
+    },
+    {
+      "id": "m9-ch11-s2-028",
+      "chapter": "Chapter 11",
+      "question": "How may an extra premium charged on a sub-standard risk be expressed?",
+      "options": [
+        "Only as a fixed percentage of the total sum assured applied for",
+        "Only as a flat amount payable in the first policy year",
+        "As a specified percentage of the ordinary premium rate or a flat amount",
+        "As an increase in the allocation rate applied to each premium received"
+      ],
+      "correctIndex": 2,
+      "explanation": "The additional premium to be charged may be a specified percentage of the ordinary premium rate or a flat amount, and it may be for the full term of the policy or only for a specified period of time. Risks with additional terms or premiums imposed are said to be sub-standard risks.",
+      "reference": "M9 e-textbook Ch 11, s5.6"
+    },
+    {
+      "id": "m9-ch11-s2-029",
+      "chapter": "Chapter 11",
+      "question": "Which of the following is given as an example of a group eligible for Group Life Insurance?",
+      "options": [
+        "A group of individuals who have jointly applied for identical policies",
+        "Residents of a single housing estate organised for the purpose",
+        "A debtor-creditor group, such as a bank and its debtors",
+        "Any association formed principally to obtain group insurance cover"
+      ],
+      "correctIndex": 2,
+      "explanation": "Eligible groups include employer-employee groups, multiple-employer groups such as trade associations and labour unions, members of professional associations or affinity groups such as social recreation clubs, and debtor-creditor groups which generally consist of a credit granting institution such as a bank and its debtors. A group formed to obtain insurance fails the reason for existence test.",
+      "reference": "M9 e-textbook Ch 11, s7.4"
+    },
+    {
+      "id": "m9-ch11-s2-030",
+      "chapter": "Chapter 11",
+      "question": "Why does the underwriter consider the employee classes within a group?",
+      "options": [
+        "Because employees in different classes require separately issued policy documents",
+        "Because over-representation by a low-income class can produce a higher than desired turnover rate",
+        "Because each class must contribute an equal share of the total premium",
+        "Because the employee classes determine the minimum participation level required"
+      ],
+      "correctIndex": 1,
+      "explanation": "The underwriter considers employee classes because over-representation by a class in which employees earn low incomes can result in a higher than desired rate of turnover, which increases the administrative work required to update the changes in employees covered by the policy.",
+      "reference": "M9 e-textbook Ch 11, s7.10"
+    }
+  ]
+}

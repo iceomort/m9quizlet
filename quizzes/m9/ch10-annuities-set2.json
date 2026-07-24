@@ -1,0 +1,426 @@
+{
+  "title": "Chapter 10 · Annuities and Other Life Insurance Products · Set 2",
+  "passMark": 75,
+  "questions": [
+    {
+      "id": "m9-ch10-s2-001",
+      "chapter": "Chapter 10",
+      "question": "In which year was CPF LIFE started by the government?",
+      "options": [
+        "2013",
+        "2009",
+        "2018",
+        "2021"
+      ],
+      "correctIndex": 1,
+      "explanation": "CPF LIFE, the CPF Lifelong Income For the Elderly scheme, was started in 2009 by the government. 2013 relates to earlier auto-inclusion arrangements, 2018 to the introduction of the Escalating Plan, and 2021 to the automatic annuitisation of Retirement Account inflows.",
+      "reference": "M9 e-textbook Ch 10, s1.1"
+    },
+    {
+      "id": "m9-ch10-s2-002",
+      "chapter": "Chapter 10",
+      "question": "Which CPF members are automatically included in CPF LIFE?",
+      "options": [
+        "All Singapore Citizens, regardless of their birth year or the retirement savings they hold",
+        "Members who have completed at least twenty years of continuous CPF contributions to date",
+        "Singapore Citizens or Permanent Residents born in 1958 or after with at least S$60,000 in retirement savings",
+        "Members who have reached age 55 and elected to defer their payouts to age 70"
+      ],
+      "correctIndex": 2,
+      "explanation": "CPF members are automatically included if they are Singapore Citizens or Permanent Residents born in 1958 or after and have at least S$60,000 in their retirement savings when they start their monthly payouts. Auto-inclusion turns on birth year and a balance threshold, not on contribution history or a deferral election.",
+      "reference": "M9 e-textbook Ch 10, s1.2"
+    },
+    {
+      "id": "m9-ch10-s2-003",
+      "chapter": "Chapter 10",
+      "question": "A member who is not automatically included wishes to join CPF LIFE. Up to what point may he apply?",
+      "options": [
+        "Up to one month before he turns 80 years old",
+        "Up to the day before his 70th birthday",
+        "Up to five years after reaching his Payout Eligibility Age",
+        "Up to one month before he turns 75 years old"
+      ],
+      "correctIndex": 0,
+      "explanation": "A CPF member who is not automatically included can apply to join CPF LIFE anytime between his Payout Eligibility Age and one month before he turns 80 years old. Age 70 is a different limit, being the point at which CPF Board automatically starts payouts for those already in the scheme.",
+      "reference": "M9 e-textbook Ch 10, s1.3"
+    },
+    {
+      "id": "m9-ch10-s2-004",
+      "chapter": "Chapter 10",
+      "question": "From when has the CPF LIFE Escalating Plan been available?",
+      "options": [
+        "January 2013",
+        "November 2021",
+        "January 2018",
+        "July 2022"
+      ],
+      "correctIndex": 2,
+      "explanation": "The LIFE Escalating Plan has been available from January 2018, alongside the longer-established Standard and Basic Plans. November 2021 and July 2022 relate to the automatic increase in payouts arising from Retirement Account inflows.",
+      "reference": "M9 e-textbook Ch 10, s1.4"
+    },
+    {
+      "id": "m9-ch10-s2-005",
+      "chapter": "Chapter 10",
+      "question": "Up to what age may a CPF member choose his CPF LIFE plan?",
+      "options": [
+        "Up to age 65, being the Payout Eligibility Age itself",
+        "Up to age 80, matching the deadline for voluntary application",
+        "Up to age 70",
+        "Up to age 75, after which the default plan is imposed"
+      ],
+      "correctIndex": 2,
+      "explanation": "Members can choose their CPF LIFE plan any time they are ready to start their payouts, from their Payout Eligibility Age to age 70. Age 70 is also the point at which CPF Board automatically starts payouts. Age 80 relates to the deadline for a member not automatically included to apply to join the scheme.",
+      "reference": "M9 e-textbook Ch 10, s1.5"
+    },
+    {
+      "id": "m9-ch10-s2-006",
+      "chapter": "Chapter 10",
+      "question": "Which factors determine CPF LIFE premium and payout levels, as set by an independent actuarial consultant?",
+      "options": [
+        "Gender, age, CPF interest rates and mortality rates",
+        "Employment status, housing type, income bracket and household size",
+        "Contribution history, Ordinary Account balance and investment returns achieved",
+        "Nationality, marital status, number of dependants and health condition"
+      ],
+      "correctIndex": 0,
+      "explanation": "CPF LIFE premium and payout levels are determined by an independent actuarial consultant and depend on gender, age, CPF interest rates and mortality rates. Health, housing and household circumstances play no part, since CPF LIFE is a universal scheme rather than an underwritten product.",
+      "reference": "M9 e-textbook Ch 10, s1.11"
+    },
+    {
+      "id": "m9-ch10-s2-007",
+      "chapter": "Chapter 10",
+      "question": "What happens to any remaining CPF LIFE premium balance when a member dies?",
+      "options": [
+        "It is retained by the CPF Board to support the sustainability of the annuity fund",
+        "It is paid to his beneficiaries according to his CPF nomination",
+        "It is transferred to the Retirement Accounts of his surviving immediate family",
+        "It is forfeited once monthly payouts have commenced under the scheme"
+      ],
+      "correctIndex": 1,
+      "explanation": "Any remaining CPF LIFE premium balance together with any remaining savings in the member's CPF accounts is paid to his beneficiaries according to his CPF nomination. Nothing is forfeited or retained by the Board on death.",
+      "reference": "M9 e-textbook Ch 10, s1.14"
+    },
+    {
+      "id": "m9-ch10-s2-008",
+      "chapter": "Chapter 10",
+      "question": "A member needs S$288,900 at age 65 for a given monthly payout, but only S$192,000 if he sets the sum aside at age 55. What accounts for the difference?",
+      "options": [
+        "The CPF Board applies a discount to sums committed at an earlier age",
+        "The shorter payout period expected for members who commit earlier",
+        "Compound interest, with CPF interest rates of up to 6% growing the savings",
+        "The reduction in mortality risk assumed over the additional ten-year period"
+      ],
+      "correctIndex": 2,
+      "explanation": "The textbook explains that a lesser sum is required at 55 because CPF interest rates of up to 6% help grow savings through compound interest over the intervening ten years. No discount is applied and the expected payout period is unchanged, since payouts still begin at 65 either way.",
+      "reference": "M9 e-textbook Ch 10, s1.10"
+    },
+    {
+      "id": "m9-ch10-s2-009",
+      "chapter": "Chapter 10",
+      "question": "In an annuity contract, who is the annuitant?",
+      "options": [
+        "The financial institution that administers the annuity fund",
+        "The beneficiary nominated to receive any refund on death",
+        "The person who underwrites the mortality risk assumed",
+        "The recipient of the periodic benefit payout"
+      ],
+      "correctIndex": 3,
+      "explanation": "The annuitant is the recipient of the periodic benefit payout, and is usually also the annuity owner who makes the premium payments. The two roles are usually held by the same person but need not be, which is a distinction questions can exploit.",
+      "reference": "M9 e-textbook Ch 10, s2.1"
+    },
+    {
+      "id": "m9-ch10-s2-010",
+      "chapter": "Chapter 10",
+      "question": "What is the single premium paid for an annuity commonly called?",
+      "options": [
+        "The consideration or purchase price",
+        "The accumulation deposit held by the insurer",
+        "The annuity reserve established at inception",
+        "The commutation value of the contract"
+      ],
+      "correctIndex": 0,
+      "explanation": "Where a single premium is paid it is often referred to as the purchase price or consideration. The insurer invests the premiums collected to earn interest, and later pays annuity income benefits during the payout period.",
+      "reference": "M9 e-textbook Ch 10, s2.1"
+    },
+    {
+      "id": "m9-ch10-s2-011",
+      "chapter": "Chapter 10",
+      "question": "What are the two main categories of annuity based on when payments begin?",
+      "options": [
+        "Participating and non-participating annuities",
+        "Immediate and deferred annuities",
+        "Single life and joint life annuities",
+        "Life annuities and temporary annuities"
+      ],
+      "correctIndex": 1,
+      "explanation": "There are two main categories of annuities based on when the annuity payments begin, being Immediate and Deferred Annuities. Participating versus non-participating is a classification by bonus entitlement, single versus joint by number of lives, and life versus temporary by payout option.",
+      "reference": "M9 e-textbook Ch 10, s3.1"
+    },
+    {
+      "id": "m9-ch10-s2-012",
+      "chapter": "Chapter 10",
+      "question": "An annuitant under an immediate annuity dies before the annuity payments have commenced. What does the insurer usually do?",
+      "options": [
+        "Pay the full annuity income to the named beneficiary for a fixed period of ten years",
+        "Retain the consideration, as the contract has already come into force",
+        "Refund the purchase price with or without interest, depending on policy terms",
+        "Convert the contract into a deferred annuity for the benefit of the named beneficiary"
+      ],
+      "correctIndex": 2,
+      "explanation": "Where the annuitant dies before payments commence, the insurer will usually refund the purchase price with or without interest, depending on the policy terms. The same outcome applies where the annuity owner wishes to cancel the policy before payments begin.",
+      "reference": "M9 e-textbook Ch 10, s3.4"
+    },
+    {
+      "id": "m9-ch10-s2-013",
+      "chapter": "Chapter 10",
+      "question": "When may an annuity owner surrender an immediate annuity after payments have commenced?",
+      "options": [
+        "At any time, with the surrender value calculated on the remaining instalments",
+        "Only during the guarantee period, if one exists",
+        "Only with the written consent of the named beneficiary",
+        "Only after the total payments received exceed the purchase price"
+      ],
+      "correctIndex": 1,
+      "explanation": "Most insurers will usually pay a surrender value if the owner surrenders during the guarantee period, and no surrender is allowed after the guarantee period or if there is no guarantee period. Surrender is therefore a restricted right, not an unrestricted one.",
+      "reference": "M9 e-textbook Ch 10, s3.4"
+    },
+    {
+      "id": "m9-ch10-s2-014",
+      "chapter": "Chapter 10",
+      "question": "How may a deferred annuity be paid for?",
+      "options": [
+        "By a single premium only, since the accumulation period is fixed at inception",
+        "By regular premiums only, spread across the accumulation period",
+        "By instalments payable after the annuity starting date has passed",
+        "By single premium or regular premiums, with single premium the most common"
+      ],
+      "correctIndex": 3,
+      "explanation": "Unlike an Immediate Annuity which can be purchased only by way of a single premium, a Deferred Annuity can be paid by single premium or regular premiums. Single premium is the most common way of payment, with the insurer usually specifying a minimum amount so that the resulting annuity is useful.",
+      "reference": "M9 e-textbook Ch 10, s3.9"
+    },
+    {
+      "id": "m9-ch10-s2-015",
+      "chapter": "Chapter 10",
+      "question": "For whom are regular premiums a suitable way of purchasing a deferred annuity?",
+      "options": [
+        "Those who do not have a lump sum, or who wish to pay over their working years",
+        "Those who require the annuity income to commence within the next twelve months",
+        "Those whose annuity is being purchased using CPF Retirement Account savings",
+        "Those who wish to secure a participating annuity with bonus entitlement"
+      ],
+      "correctIndex": 0,
+      "explanation": "Regular premiums are suitable for those who do not have a lump sum of money for purchasing an annuity, or who wish to pay the premium over their working years. The annuity owner may pay on a yearly, half-yearly, quarterly or monthly basis.",
+      "reference": "M9 e-textbook Ch 10, s3.9"
+    },
+    {
+      "id": "m9-ch10-s2-016",
+      "chapter": "Chapter 10",
+      "question": "An annuity owner stops paying premiums during the accumulation period of a deferred annuity. What will the insurer do?",
+      "options": [
+        "Terminate the contract immediately, with no value at all payable to the owner",
+        "Continue the contract and recover arrears from the first annuity payments",
+        "Either refund the premiums paid, or pay a reduced annuity income on the starting date",
+        "Convert the contract to an immediate annuity commencing at once from that date"
+      ],
+      "correctIndex": 2,
+      "explanation": "Where the annuity owner stops paying premiums, the insurer will either refund the premiums paid, with or without interest, or pay a reduced annuity income to the annuitant on the annuity starting date. Nothing is forfeited outright.",
+      "reference": "M9 e-textbook Ch 10, s3.10"
+    },
+    {
+      "id": "m9-ch10-s2-017",
+      "chapter": "Chapter 10",
+      "question": "Which of the following is NOT one of the four bases on which annuity policies vary according to their contract provisions?",
+      "options": [
+        "Payout options available under the contract",
+        "Number of lives covered under the annuity policy",
+        "The underwriting class assigned to the annuitant",
+        "Bonus entitlement attaching to the policy"
+      ],
+      "correctIndex": 2,
+      "explanation": "The four variations are payout options, bonus entitlement meaning participating or non-participating, number of lives covered, and increasing rate annuity. Underwriting class is not among them, since annuities are not classified in that way.",
+      "reference": "M9 e-textbook Ch 10, s4.1"
+    },
+    {
+      "id": "m9-ch10-s2-018",
+      "chapter": "Chapter 10",
+      "question": "Into which two main classes is a Life Annuity sub-divided?",
+      "options": [
+        "Fixed Period Payments and Fixed Amount Payments",
+        "Pure Life Annuity and Guaranteed Minimum Payout Annuity",
+        "Single Life Annuity and Joint Life Annuity policies",
+        "Participating Annuity and Non-participating Annuity"
+      ],
+      "correctIndex": 1,
+      "explanation": "Under a Life Annuity the payout is guaranteed for life, and it sub-divides into the Pure Life Annuity and the Guaranteed Minimum Payout Annuity. Fixed Period and Fixed Amount Payments are the two forms of temporary annuity, which do not guarantee a lifetime income.",
+      "reference": "M9 e-textbook Ch 10, s4.5"
+    },
+    {
+      "id": "m9-ch10-s2-019",
+      "chapter": "Chapter 10",
+      "question": "Which type of annuity is described as the most common type sold?",
+      "options": [
+        "The temporary annuity, chiefly because of its markedly lower cost",
+        "The joint and survivor annuity, because couples predominate as buyers",
+        "The increasing rate annuity, because it hedges inflation",
+        "The life annuity, under which the payout is guaranteed for life"
+      ],
+      "correctIndex": 3,
+      "explanation": "Under a Life Annuity the payout is guaranteed for life, and this is the most common type of annuity sold. Separately, within the number of lives classification, the Single Life Annuity is described as the most common form, and the Joint and Survivor Annuity is very rarely offered in Singapore.",
+      "reference": "M9 e-textbook Ch 10, s4.5"
+    },
+    {
+      "id": "m9-ch10-s2-020",
+      "chapter": "Chapter 10",
+      "question": "Under a Life Annuity With Period Certain, what happens if the annuitant dies after the period certain has expired?",
+      "options": [
+        "Benefit payments cease",
+        "The beneficiary receives payments for a further equivalent period",
+        "The beneficiary receives a refund of the unused purchase price",
+        "Payments continue at 50% to the named beneficiary for life"
+      ],
+      "correctIndex": 0,
+      "explanation": "Where the period certain has expired and the annuitant then dies, benefit payments cease. The guarantee only bites where death occurs before the end of the specified period, in which case benefits continue to the beneficiary until that period ends.",
+      "reference": "M9 e-textbook Ch 10, s4.8"
+    },
+    {
+      "id": "m9-ch10-s2-021",
+      "chapter": "Chapter 10",
+      "question": "Under a Life Income With Refund Annuity, what happens if the annuitant dies after the purchase price has been fully used up?",
+      "options": [
+        "The beneficiary receives a lump sum equal to one year of payments",
+        "Benefit payments cease with nothing further payable",
+        "The insurer refunds the difference between payments made and the purchase price",
+        "The insurer continues payments to the beneficiary for a period certain"
+      ],
+      "correctIndex": 1,
+      "explanation": "Where the purchase price has been fully used up and the annuitant dies, benefit payments cease. A refund arises only where the annuitant dies before the total payments made exceed the purchase price, in which case the beneficiary receives the difference.",
+      "reference": "M9 e-textbook Ch 10, s4.8"
+    },
+    {
+      "id": "m9-ch10-s2-022",
+      "chapter": "Chapter 10",
+      "question": "Under a Fixed Period Payment annuity, when do payments cease?",
+      "options": [
+        "On the expiry of the specified period, or the annuitant's death, whichever occurs first",
+        "Only on the death of the annuitant, however long he happens to survive",
+        "When the total payments made equal the original purchase price paid",
+        "On the expiry of the specified period, regardless of whether the annuitant survives"
+      ],
+      "correctIndex": 0,
+      "explanation": "A Fixed Period Payment annuity provides payments until the expiry of a specified period or the annuitant dies, whichever occurs first. Both conditions apply, so option D is wrong for omitting death. Where total payments are capped by an amount instead, the product is a Fixed Amount Payment annuity.",
+      "reference": "M9 e-textbook Ch 10, s4.10"
+    },
+    {
+      "id": "m9-ch10-s2-023",
+      "chapter": "Chapter 10",
+      "question": "When do bonuses usually start under a participating annuity?",
+      "options": [
+        "Immediately upon commencement of the annuity payments",
+        "After one year of benefits has been paid",
+        "Only once the purchase price has been fully recovered",
+        "At the end of the fifth policy year, in line with the insurer's valuation cycle"
+      ],
+      "correctIndex": 1,
+      "explanation": "Participating annuities share in the insurer's profits in the form of bonuses, which may be credited to the policy yearly and paid out in the same year, and the bonuses usually start after one year of benefits has been paid. In the textbook's example the annuitant receives S$552 at age 62 before any bonus applies.",
+      "reference": "M9 e-textbook Ch 10, s4.14"
+    },
+    {
+      "id": "m9-ch10-s2-024",
+      "chapter": "Chapter 10",
+      "question": "Which type of annuity is the most common in respect of bonus entitlement?",
+      "options": [
+        "Participating annuities, since annuitants generally prefer a share of profits",
+        "Annuities with a hybrid participating and non-participating structure",
+        "Increasing rate annuities, which substitute for bonus entitlement",
+        "Non-participating annuities, under which the annuity payments remain fixed"
+      ],
+      "correctIndex": 3,
+      "explanation": "Non-participating annuities are the most common. They do not share in the profits of the insurer and the annuity payments remain fixed, in contrast to participating annuities whose payments fluctuate with declared bonuses subject to a guaranteed minimum.",
+      "reference": "M9 e-textbook Ch 10, s4.16"
+    },
+    {
+      "id": "m9-ch10-s2-025",
+      "chapter": "Chapter 10",
+      "question": "Which form of annuity is described as the most common in respect of the number of lives covered?",
+      "options": [
+        "The Single Life Annuity, dependent on one life",
+        "The Joint Life Annuity, covering two designated annuitants",
+        "The Joint and Survivor Annuity, covering two or more individuals",
+        "The Joint and Last Survivor Annuity purchased by couples"
+      ],
+      "correctIndex": 0,
+      "explanation": "Under a Single Life Annuity the payment of annuities is dependent on one life, and this is the most common form of annuity. The Joint and Survivor Annuity, also called the Joint and Last Survivor Annuity, is very rarely offered in Singapore.",
+      "reference": "M9 e-textbook Ch 10, s4.18"
+    },
+    {
+      "id": "m9-ch10-s2-026",
+      "chapter": "Chapter 10",
+      "question": "For whom is a Joint and Survivor Annuity designed?",
+      "options": [
+        "Two annuitants of identical age and gender, so as to equalise the mortality risk",
+        "Two or more individuals with financial relationships, such as parents and a disabled child",
+        "A group of employees insured together under a single employer-sponsored contract",
+        "An annuitant and his appointed trustee acting jointly under the policy"
+      ],
+      "correctIndex": 1,
+      "explanation": "A Joint and Survivor Annuity provides periodic benefits to two or more individuals with financial relationships, for example parents plus a disabled child, though very often they are purchased by couples. Benefits continue until both or all the individuals die.",
+      "reference": "M9 e-textbook Ch 10, s4.20"
+    },
+    {
+      "id": "m9-ch10-s2-027",
+      "chapter": "Chapter 10",
+      "question": "At what rate does an increasing rate annuity typically increase each year, and what is its purpose?",
+      "options": [
+        "By 5% compound, to match long-term equity market returns",
+        "By 7% simple, matching the CPF LIFE deferral bonus",
+        "By 1% or 2% simple interest, useful for hedging against inflation",
+        "By the prevailing CPF interest rate, to preserve real purchasing power"
+      ],
+      "correctIndex": 2,
+      "explanation": "An increasing rate annuity increases each year at a certain percentage, for example 1% or 2% simple interest, and is useful for hedging against inflation, although it is rarely offered. This addresses the stated limitation that most annuities have no feature to counter inflation.",
+      "reference": "M9 e-textbook Ch 10, s4.23"
+    },
+    {
+      "id": "m9-ch10-s2-028",
+      "chapter": "Chapter 10",
+      "question": "An adviser tells a client that his annuity will keep pace with rising living costs. Why is this statement problematic?",
+      "options": [
+        "Annuity payouts are reduced each year by the prevailing rate of inflation",
+        "The insurer may vary the annuity payment whenever price levels change",
+        "Annuity income becomes taxable once it exceeds the original purchase price",
+        "Most annuities have no feature to counter the effect of inflation"
+      ],
+      "correctIndex": 3,
+      "explanation": "One of the stated limitations of annuities is that most do not have any feature to counter the effect of inflation. The exceptions are the increasing rate annuity, which rises by around 1% or 2% simple interest but is rarely offered, and the CPF LIFE Escalating Plan. Payouts are not reduced by inflation, nor varied by the insurer with price levels.",
+      "reference": "M9 e-textbook Ch 10, s5.2"
+    },
+    {
+      "id": "m9-ch10-s2-029",
+      "chapter": "Chapter 10",
+      "question": "Under a guaranteed income plan, over what period does the insured pay premiums?",
+      "options": [
+        "Throughout the whole of the payout period as well",
+        "For a limited period, being the accumulation period",
+        "Until the total premiums equal the guaranteed lifetime income promised",
+        "For a single year only, after which the plan becomes fully paid up"
+      ],
+      "correctIndex": 1,
+      "explanation": "Under a guaranteed income plan the insured pays a premium for a limited period, being the accumulation period, and is then guaranteed a lifetime payout of income. Some plans also offer a payout for a certain period and or a lump sum cash at the end of the payout period.",
+      "reference": "M9 e-textbook Ch 10, s6.1"
+    },
+    {
+      "id": "m9-ch10-s2-030",
+      "chapter": "Chapter 10",
+      "question": "What proportion of the first day cash value do financial institutions typically finance under a premium financing arrangement?",
+      "options": [
+        "Around 90% to 95%",
+        "Around 50% to 60%",
+        "Around 30% to 40%",
+        "Around 70% to 80%"
+      ],
+      "correctIndex": 3,
+      "explanation": "Premium financing allows the financial institution to offer loans for the premium payment, typically up to 70% to 80% of the first day cash value. In the textbook's example a 70% advance against a USD 1 million first day cash value produces a loan of USD 700,000.",
+      "reference": "M9 e-textbook Ch 10, s6.10"
+    }
+  ]
+}
