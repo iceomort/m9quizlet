@@ -275,6 +275,7 @@
 <script>
 const STORAGE_KEY = "cmfas-quiz-history";      // local-only overlay: imported / folder-linked attempts
 const PENDING_KEY = "cmfas-pending-attempts";  // write buffer: attempts not yet synced to Supabase
+const MIGRATION_KEY = "supabaseMigrated";      // set once the pre-Supabase local history has been cleared
 let supaAttempts = [];                         // bare attempt objects fetched from Supabase (ascending by created_at)
 let offline = false;                           // true when the initial Supabase fetch failed
 let manifest = null;
@@ -329,6 +330,17 @@ function savePending(p) { localStorage.setItem(PENDING_KEY, JSON.stringify(p)); 
 function loadHistory() {
   const combined = loadPending().concat(loadLocalOverlay(), supaAttempts);
   return combined.sort((a, b) => attemptTime(b) - attemptTime(a));
+}
+
+// One-time cleanup: attempts already synced to Supabase are still sitting in
+// the pre-Supabase local overlay (and the old seed-reset flag), which double-
+// counted them in loadHistory(). Runs once per browser; leaves PENDING_KEY
+// (not-yet-synced attempts) untouched.
+function runSupabaseMigration() {
+  if (localStorage.getItem(MIGRATION_KEY)) return;
+  localStorage.removeItem(STORAGE_KEY);
+  localStorage.removeItem("cmfas-seed-reset");
+  localStorage.setItem(MIGRATION_KEY, "1");
 }
 
 function buildAttemptRecord(a) {
@@ -422,6 +434,7 @@ function tallyByChapter(ans) {
 }
 
 async function init() {
+  runSupabaseMigration();
   try {
     const res = await fetch("manifest.json");
     if (!res.ok) throw new Error("Could not load manifest.json (status " + res.status + ")");
